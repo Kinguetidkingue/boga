@@ -74,6 +74,6 @@ html {
     display: block;
 }
 body{
-        --bs-body-font-family: var(--bs-font-monospace)!important;
+    font-family: "Noto Sans Mono", monospace !important;
 
 }
