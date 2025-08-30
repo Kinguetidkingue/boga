@@ -1,0 +1,4 @@
+
+function addNumber(){
+    return 2+2;
+}
