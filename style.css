@@ -79,7 +79,7 @@ head {
 body{
     --bs-font-size: var(--bs-body-font-size)!important;
     --bs-font-weight: var(--bs-body-font-weight);
-     --bs-body-font-family: "Noto Sans Mono", monospace!important;
+     font-family: "Noto Sans Mono", monospace;
     --bs-body-line-height: 1.5!important;
 }
 .row {
