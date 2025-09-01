@@ -85,7 +85,7 @@ body{
 }
 ul{
     display: block;
-    margin-left: 60px;
+    margin:0;
     padding: 0;
     list-style: none;
     }
