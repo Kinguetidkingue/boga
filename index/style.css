@@ -85,12 +85,19 @@ body{
 }
 ul{
     display: block;
-    margin: 0;
+    margin: 22px;
     padding: 0;
-}
+    list-style: none;
+    }
 li{
     display: inline-block;
-    list-style: none;   
+    list-style: none;  
+    margin-left: 24px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
 }
 .HOVER{
     text-decoration: none;
@@ -107,7 +114,7 @@ li{
     padding-top: 0.5rem;
 }
 #Btn{
-    border: 0.15rem solid;
+    border: 0.11rem solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border-radius: 10px;
