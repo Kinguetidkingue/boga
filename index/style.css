@@ -1,4 +1,20 @@
-
+/*Functions first*/
+@import "../node_modules/bootstrap/scss/functions";
+/* Some required and optional imports*/
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/navbar";
+/*Custom styles*/
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -113,14 +129,22 @@ a{
     height: auto;
     padding-top: 0.5rem;
 }
-#Btn{
-    border: 0.11rem solid;
+#Bo{
+    border: 1px solid;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-#Btn:hover{
+#Bo:hover{
     font-family: inherit;
     font-weight: bolder;
     transition: background-color all 0.3s ease-in-out;
+}
+#Date{
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 200%;
+    height: auto;
 }
