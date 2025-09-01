@@ -80,7 +80,7 @@ body{
     --bs-body-line-height: 1.5!important;
 }
 .row {
-    --bs-gutter-x: 1rem;
+    --bs-gutter-x: 0.375rem;
     --bs-gutter-y: 0;
 }
 ul{
