@@ -122,12 +122,13 @@ a{
     text-decoration: underline;
     transition: background-color 0.3s ease-in-out;
 }
-#footer{
+.footer{
     display: block;
     width: 100%;
-    justify-self: center;
-    height: auto;
-    padding-top: 0.5rem;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    
 }
 #Bo{
     border: 0.75px solid;
