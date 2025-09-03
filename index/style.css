@@ -172,7 +172,7 @@ a{
     font-family: var(--bs-font-monospace)!important;
     font-size: 30px!important;
     padding: 20px!important;
-    background-color: var(--bs-bgab-green)!important;
+    background-color: var(--bs-red)!important;
     color: #000!important;
     line-height: 1.5!important;
     border-radius: 10px!important;
@@ -199,7 +199,7 @@ a{
 }
 #Topa:hover{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 28px!important;
+    font-size: 25.26px!important;
     padding: 20px!important;
     background-color: var(--bs-bb-lack)!important;
     color: #fff!important;
