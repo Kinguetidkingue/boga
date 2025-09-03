@@ -24,6 +24,7 @@
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
+    --bs-r-red: #f95e6ef1;
     --bs-orange: #ff8827; 
     --bs-coorange: #fca056; 
     --bs-yellow: #ffc107;
@@ -157,22 +158,21 @@ a{
     display: flex;
     width: 100%;
     height: auto;
-    font-size: 30px!important;
+    font-size: 28px!important;
     justify-content: center;
     align-items: center;
     display: flex;
     padding: 20px!important;
     font-family: var(--bs-sans-serif)!important;
     color: #fff!important;
-    background-color: rgba(18, 56, 195, 0.919)!important;
+    background-color: rgba(24, 62, 199, 0.946)!important;
     line-height: 1.5!important;
-    padding: 40px!important;
 }
 #Pato:hover{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 30px!important;
+    font-size: 24px!important;
     padding: 20px!important;
-    background-color: var(--bs-red)!important;
+    background-color: var( --bs-r-red)!important;
     color: #000!important;
     line-height: 1.5!important;
     border-radius: 10px!important;
