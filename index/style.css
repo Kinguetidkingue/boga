@@ -165,13 +165,13 @@ a{
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     padding: 20px!important;
-    color: #ff0!important;
+    color: #fff!important;
     background-color: rgba(148, 16, 140, 0.955)!important;
 }
 #Pati:hover{
     font-size: 24px!important;
     padding: 20px!important;
-    color: #fff!important;
+    color: #ff0!important;
     line-height: 1.5!important;
     border-radius: 10px!important;
     box-shadow: 3px 3px 6px 1.5px;
@@ -179,6 +179,8 @@ a{
     cursor: pointer;
 }
 #Topa{
+    margin-top: 10px!important;
+    margin-bottom: 40px!important;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +192,7 @@ a{
     background-color: var(--bs-bgab-green)!important;
     line-height: 1.5!important;
     margin-top: 10px!important;
-    margin-bottom: 40px!important;
+    margin-bottom: 30px!important;
     font-weight: light!important;
 }
 #Topa:hover{
