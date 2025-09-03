@@ -154,6 +154,7 @@ a{
     height: auto;
 }
 #Pato{
+    display: flex;
     width: 100%;
     height: auto;
     font-size: 30px!important;
@@ -161,9 +162,9 @@ a{
     align-items: center;
     display: flex;
     padding: 20px!important;
-    font-family: var(--bs-font-monospace)!important;
+    font-family: var(--bs-sans-serif)!important;
     color: #fff!important;
-    background-color: rgba(30, 67, 200, 0.919)!important;
+    background-color: rgba(18, 56, 195, 0.919)!important;
     line-height: 1.5!important;
     padding: 40px!important;
 }
@@ -180,10 +181,14 @@ a{
     cursor: pointer;
 }
 #Topa{
-    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+    height: auto;
     background-position: right;
     font-family: var(--bs-font-monospace)!important;
-    font-size: 30px!important;
+    font-size: 25px!important;
     color: #fff!important;
     padding: 25px!important;
     background-color: var(--bs-bgab-green)!important;
