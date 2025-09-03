@@ -162,14 +162,14 @@ a{
     display: flex;
     padding: 20px!important;
     font-family: var(--bs-font-monospace)!important;
-    color:var(--bs-white)!important;
-    background-color: rgba(27, 60, 182, 0.884)!important;
-    line-height: 1.6!important;
+    color: #fff!important;
+    background-color: rgba(30, 67, 200, 0.919)!important;
+    line-height: 1.5!important;
     padding: 40px!important;
 }
 #Pato:hover{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 25px!important;
+    font-size: 30px!important;
     padding: 20px!important;
     background-color: var(--bs-bgab-green)!important;
     color: #000!important;
@@ -183,7 +183,7 @@ a{
     width: 100%;
     background-position: right;
     font-family: var(--bs-font-monospace)!important;
-    font-size: 25px!important;
+    font-size: 30px!important;
     color: #fff!important;
     padding: 25px!important;
     background-color: var(--bs-bgab-green)!important;
@@ -194,10 +194,10 @@ a{
 }
 #Topa:hover{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 20px!important;
+    font-size: 28px!important;
     padding: 20px!important;
     background-color: var(--bs-bb-lack)!important;
-    color: #000!important;
+    color: #fff!important;
     line-height: 1.5!important;
     border-radius: 10px!important;
     box-shadow: 3px 4px 8px 1.5px;
