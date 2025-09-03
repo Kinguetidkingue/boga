@@ -27,6 +27,7 @@
     --bs-orange: #fd7e14; 
     --bs-yellow: #ffc107;
     --bs-green: #198754;
+    --bs-bgab-green: #b4e521f7;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
     --bs-black: #000;
@@ -151,7 +152,25 @@ a{
     height: auto;
 }
 #Pato{
-    font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 21.25px!important;
+    font-family: var(--bs-font-monospace)!important;
+    font-size: 20px!important;
+    color: #000!important;
     padding: 20px!important;
+    background-color: rgba(246, 197, 75, 0.953)!important;
+    line-height: 1.5!important;
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+}
+#Pato:hover{
+    font-family: var(--bs-font-monospace)!important;
+    font-size: 20px!important;
+    padding: 20px!important;
+    background-color: var(--bs-bgab-green)!important;
+    color: #000!important;
+    line-height: 1.5!important;
+    border-radius: 10px!important;
+    box-shadow: 3px 4px 8px 1.5px;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+
 }
