@@ -24,16 +24,16 @@
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
-    --bs-r-red: #f95e6ef1;
+    --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff8827; 
     --bs-coorange: #fca056; 
     --bs-yellow: #ffc107;
     --bs-green: #198754;
-    --bs-bgab-green: #13ad20f7;
+    --bs-bgab-green: #12871cf7;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
     --bs-black: #000;
-    --bs-bb-lack: #1a48bef7;
+    --bs-bb-lack: #1449cef7;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
@@ -154,29 +154,27 @@ a{
     width: 200%;
     height: auto;
 }
-#Pato{
+#Pati{
     display: flex;
     width: 100%;
     height: auto;
-    font-size: 28px!important;
+    font-size: 24px!important;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 10px!important;
+    margin-bottom: 40px!important;
     padding: 20px!important;
-    font-family: var(--bs-sans-serif)!important;
-    color: #fff!important;
-    background-color: rgba(24, 62, 199, 0.946)!important;
-    line-height: 1.5!important;
+    color: #ff0!important;
+    background-color: rgba(148, 16, 140, 0.955)!important;
 }
-#Pato:hover{
-    font-family: var(--bs-font-monospace)!important;
+#Pati:hover{
     font-size: 24px!important;
     padding: 20px!important;
-    background-color: var( --bs-r-red)!important;
-    color: #000!important;
+    color: #fff!important;
     line-height: 1.5!important;
     border-radius: 10px!important;
-    box-shadow: 3px 4px 8px 1.5px;
+    box-shadow: 3px 3px 6px 1.5px;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -186,11 +184,9 @@ a{
     align-items: center;
      width: 100%;
     height: auto;
-    background-position: right;
-    font-family: var(--bs-font-monospace)!important;
-    font-size: 25px!important;
-    color: #fff!important;
-    padding: 25px!important;
+    font-size: 24px!important;
+    color: #ff0!important;
+    padding: 20px!important;
     background-color: var(--bs-bgab-green)!important;
     line-height: 1.5!important;
     margin-top: 10px!important;
@@ -198,8 +194,9 @@ a{
     font-weight: light!important;
 }
 #Topa:hover{
-    font-family: var(--bs-font-monospace)!important;
-    font-size: 25.26px!important;
+    width: 100%;
+    height: auto;
+    font-size: 24px!important;
     padding: 20px!important;
     background-color: var(--bs-bb-lack)!important;
     color: #fff!important;
