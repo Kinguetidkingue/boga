@@ -24,13 +24,15 @@
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
-    --bs-orange: #fd7e14; 
+    --bs-orange: #ff8827; 
+    --bs-coorange: #fca056; 
     --bs-yellow: #ffc107;
     --bs-green: #198754;
-    --bs-bgab-green: #b4e521f7;
+    --bs-bgab-green: #13ad20f7;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
     --bs-black: #000;
+    --bs-bb-lack: #1a48bef7;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
@@ -152,18 +154,22 @@ a{
     height: auto;
 }
 #Pato{
-    font-family: var(--bs-font-monospace)!important;
-    font-size: 20px!important;
-    color: #000!important;
+    width: 100%;
+    height: auto;
+    font-size: 30px!important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     padding: 20px!important;
-    background-color: rgba(255, 209, 91, 0.953)!important;
-    line-height: 1.5!important;
-    margin-top: 40px!important;
-    margin-bottom: 40px!important;
+    font-family: var(--bs-font-monospace)!important;
+    color:var(--bs-white)!important;
+    background-color: rgba(27, 60, 182, 0.884)!important;
+    line-height: 1.6!important;
+    padding: 40px!important;
 }
 #Pato:hover{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 20px!important;
+    font-size: 25px!important;
     padding: 20px!important;
     background-color: var(--bs-bgab-green)!important;
     color: #000!important;
@@ -172,5 +178,40 @@ a{
     box-shadow: 3px 4px 8px 1.5px;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
-
 }
+#Topa{
+    width: 100%;
+    background-position: right;
+    font-family: var(--bs-font-monospace)!important;
+    font-size: 25px!important;
+    color: #fff!important;
+    padding: 25px!important;
+    background-color: var(--bs-bgab-green)!important;
+    line-height: 1.5!important;
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+    font-weight: light!important;
+}
+#Topa:hover{
+    font-family: var(--bs-font-monospace)!important;
+    font-size: 20px!important;
+    padding: 20px!important;
+    background-color: var(--bs-bb-lack)!important;
+    color: #000!important;
+    line-height: 1.5!important;
+    border-radius: 10px!important;
+    box-shadow: 3px 4px 8px 1.5px;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.Atop{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/*End of custom styles*/
+@import "../node_modules/bootstrap/scss/utilities";
