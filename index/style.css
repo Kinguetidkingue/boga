@@ -29,6 +29,7 @@
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffb254f9; 
     --bs-yellow: #ffc107;
+    --bs-ye-purple: #d5f0ff;
     --bs-green: #198754;
     --bs-bgab-green: #4dd6ff;
     --bs-teal: #20c997;
@@ -306,7 +307,7 @@ a{
     margin-bottom: 40px!important;
     padding: 20px!important;
     color: #000!important;
-    background-color: var(--bs-white)!important;
+    background-color: var(--bs-ye-purple)!important;
 }
 .sisi{
     width: 100%!important;
