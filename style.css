@@ -182,7 +182,7 @@ a{
     border-radius: 10px!important;
     padding: 20px!important;
     color: #fff!important;
-    background-color: rgb(214, 18, 18)!important;
+    background-color: rgba(231, 21, 21, 0.976)!important;
 }
 #Pati:hover{
     width: 100%;
@@ -254,14 +254,14 @@ a{
     width: 100%;
     height: auto;
     font-size: 24px!important;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    display: flex!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     padding: 20px!important;
-    color: #fff!important;
-    background-color: rgba(217, 17, 164, 0.969)!important;
+    color: #000!important;
+    background-color: var(--bs-white)!important;
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
