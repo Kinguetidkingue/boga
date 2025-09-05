@@ -226,7 +226,7 @@ a{
     border-radius: 20px!important;
     padding: 25px!important;
     color: #000!important;
-    background-color: var(--bs-orange)!important;
+    background-color: rgba(41, 246, 26, 0.974)!important;
 }
 #Pat:hover{
     width: 100%!important;
@@ -237,7 +237,7 @@ a{
     padding: 25px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
-    background-color: rgba(41, 246, 26, 0.974)!important;
+    background-color: var(--bs-orange)!important;
     color: #000!important;
     line-height: 1.35!important;
     border-radius: 20px!important;
