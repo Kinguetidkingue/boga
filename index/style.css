@@ -27,7 +27,7 @@
     --bs-red: #dc3545;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
-    --bs-coorange: #ffb254f9; 
+    --bs-coorange: #ffb65ef9; 
     --bs-yellow: #ffc107;
     --bs-ye-purple: #d5f0ff;
     --bs-green: #198754;
@@ -237,7 +237,7 @@ a{
     border-radius: 20px!important;
     padding: 25px!important;
     color: #000!important;
-    background-color: rgba(38, 244, 23, 0.983)!important;
+    background-color: var(--bs-coorange)!important;
 }
 #Pat:hover{
     width: 100%!important;
@@ -248,7 +248,7 @@ a{
     padding: 25px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
-    background-color: var(--bs-orange)!important;
+    background-color: rgb(95, 244, 69)!important;
     color: #000!important;
     line-height: 1.6!important;
     border-radius: 20px!important;
