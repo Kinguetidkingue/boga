@@ -121,14 +121,15 @@ body{
     width: 100%!important;
     display: flex!important;
     position: relative!important;
+    flex-direction: column!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-size: 5px!important;
     background-color: var(--bs-primary)!important;
     border-bottom: 0.3rem solid var(--bs-white)!important;
-    justify-content: center!important;
-    align-items: center!important;
+    padding: 10px!important;
 }
 #WelKom{
+    display: block!important;
     color: var( --bs-white)!important;
     font-size: 15px!important;
 }
@@ -225,7 +226,7 @@ a{
     display: flex!important;
     width: 100%!important;
     height: auto!important;
-    font-size: 19px!important;
+    font-size: 19.5px!important;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -236,14 +237,14 @@ a{
     border-radius: 20px!important;
     padding: 25px!important;
     color: #000!important;
-    background-color: rgba(41, 246, 26, 0.974)!important;
+    background-color: rgba(38, 244, 23, 0.983)!important;
 }
 #Pat:hover{
     width: 100%!important;
     height: auto!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
-    font-size: 19px!important;
+    font-size: 19.5px!important;
     padding: 25px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
