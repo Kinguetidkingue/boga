@@ -48,8 +48,9 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #113d80f7;
-    --bs-secondary: #6c757d;
+    --bs-primary: #1c4b91;
+    --bs-gb-primary: #1353a5f9;
+    --bs-secondary: #136ba2;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -111,9 +112,9 @@ body{
     display: flex!important;
     position: relative!important;
     flex-direction: column!important;
+    background-color: var(--bs-gb-primary)!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-size: 5px!important;
-    background-color: var(--bs-primary)!important;
     border-bottom: 0.2rem solid var(--bs-white)!important;
     padding: 10px!important;
 }
