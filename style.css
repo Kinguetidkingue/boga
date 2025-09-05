@@ -48,9 +48,9 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #1c4b91f7;
-    --bs-gb-primary: #225cb2f7;
-    --bs-secondary: #4683b8;
+    --bs-primary: #1c4b91;
+    --bs-gb-primary: #1352a5fd;
+    --bs-secondary: #136ba2;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -122,6 +122,7 @@ body{
     display: block!important;
     color: var( --bs-white)!important;
     font-size: 15px!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 .navbar-brand{
     font-family: Arial, Helvetica, sans-serif!important;
@@ -238,7 +239,7 @@ a{
     padding: 25px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
-    background-color: rgb(95, 244, 69)!important;
+    background-color: rgb(98, 241, 73)!important;
     color: #000!important;
     line-height: 1.6!important;
     border-radius: 20px!important;
