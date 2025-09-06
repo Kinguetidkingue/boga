@@ -187,6 +187,14 @@ a{
     font-weight: bolder;
     transition: background-color all 0.3s ease-in-out;
 }
+#Block-wrapper{
+    width: 100%!important;
+    height: auto!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: #f2f2f2!important;
+    padding: 50px!important;
+}
 #Block{
     display: block!important;
     width: 100%;
