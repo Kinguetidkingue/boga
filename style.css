@@ -52,6 +52,7 @@
     --bs-gb-primary: #1352a5fd;
     --bs-secondary: #136ba2;
     --bs-success: #198754;
+    --bs-sc-success: #12a15eb3;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -78,7 +79,7 @@
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
-    --bs-body-bg: #fff;
+    --bs-body: #f9f9f9;
     --bs-border-width: 1px;
     --bs-border-style: solid;
     --bs-border-color: #dee2e6;
@@ -115,7 +116,6 @@ body{
     background-color: var(--bs-primary)!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-size: 5px!important;
-    border-bottom: 0.2rem solid var(--bs-white)!important;
     padding: 10px!important;
 }
 #WelKom{
@@ -123,6 +123,15 @@ body{
     color: var( --bs-white)!important;
     font-size: 15px!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+#Navbar{
+    width: 100%!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: var(--bs-sc-success)!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-size: 15px!important;
+    padding: 10px!important;
 }
 .navbar-brand{
     font-family: Arial, Helvetica, sans-serif!important;
