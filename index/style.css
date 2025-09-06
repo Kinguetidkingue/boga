@@ -57,7 +57,7 @@
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
-    --bs-gab-light: #ccccccf5;
+    --bs-gab-light: #e8e8e8fa;
     --bs-dark: #212529;
     --bs-primary-rgb: 13,110,253;
     --bs-secondary-rgb: 108,117,125;
@@ -186,6 +186,22 @@ a{
     font-family: inherit;
     font-weight: bolder;
     transition: background-color all 0.3s ease-in-out;
+}
+#Block{
+    display: block!important;
+    width: 100%;
+    height: auto;
+    font-size: 20px!important;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace!important;
+    line-height: 1.5!important;
+    margin-top: 10px!important;
+    margin-bottom: 40px!important;
+    border-radius: 10px!important;
+    padding: 20px!important;
+    color: #000!important;
+    background-color: #e8e8e8fa!important
 }
  #Pati{
     display: flex;
