@@ -194,6 +194,8 @@ a{
     flex-direction: column!important;
     background-color: #f2f2f2!important;
     padding: 50px!important;
+    justify-content: center;
+    align-items:center;
 }
 #Block{
     display: block!important;
