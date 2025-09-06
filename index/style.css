@@ -115,7 +115,6 @@ body{
     background-color: var(--bs-primary)!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-size: 5px!important;
-    border-bottom: 0.2rem solid var(--bs-white)!important;
     padding: 10px!important;
 }
 #WelKom{
