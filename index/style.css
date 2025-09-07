@@ -204,7 +204,6 @@ a{
     justify-content: center;
     align-items: center;
     font-family: "Courier New", Courier, monospace!important;
-    line-height: 1.5!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     border-radius: 10px!important;
@@ -337,11 +336,10 @@ a{
     font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
-    display: block!important;
+    display: flex!important;
     position: relative!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
-    line-height: 1.5!important;
     padding: 20px!important;
     color: #000!important;
     background-color: var(--bs-white)!important;
