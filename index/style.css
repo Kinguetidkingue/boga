@@ -199,7 +199,6 @@ a{
     align-items:center!important;
 }
 #Block{
-    display: block!important;
     font-size: 20px!important;
     justify-content: center;
     align-items: center;

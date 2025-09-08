@@ -199,9 +199,8 @@ a{
     align-items:center!important;
 }
 #Block{
-    display: block!important;
     font-size: 20px!important;
-    justify-content: center;
+    width: 100%!important;
     align-items: center;
     font-family: "Courier New", Courier, monospace!important;
     margin-top: 10px!important;
@@ -332,7 +331,7 @@ a{
 }
 #Pate{
     width: 100%!important;
-    height: 150px!important;
+    height: auto!important;
     font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
