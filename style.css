@@ -28,7 +28,7 @@
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffdc96f3; 
-    --bs-yellow: #ffedcaf9;
+    --bs-yellow: #ffefcef1;
     --bs-ye-purple: #d5f0ff;
     --bs-green: #198754;
     --bs-bgab-green: #4dd6ff;
@@ -130,6 +130,9 @@ body{
     background-color: var(--bs-sc-success)!important;
     font-size: 20px!important;
     padding: 10px!important;
+}
+.navbar-toggler-icon{
+    background-color: var(--bs-white)!important;
 }
 .navbar-brand{
     font-family: Arial, Helvetica, sans-serif!important;
