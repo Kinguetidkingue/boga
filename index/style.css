@@ -125,7 +125,7 @@ body{
 }
 #Navbar{
     width: 100%!important;
-    height: 80px!important;
+    height: auto!important;
     flex-direction: column!important;
     background-color: var(--bs-sc-success)!important;
     font-size: 20px!important;
