@@ -27,8 +27,8 @@
     --bs-red: #dc3545;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
-    --bs-coorange: #ffe3aafb; 
-    --bs-yellow: #ffeebc;
+    --bs-coorange: #ffe0a1fb; 
+    --bs-yellow: #ffedcaf7;
     --bs-ye-purple: #d5f0ff;
     --bs-green: #198754;
     --bs-bgab-green: #4dd6ff;
@@ -167,6 +167,9 @@ a{
     text-decoration: underline;
     transition: background-color 0.3s ease-in-out;
 }
+.ROVER{
+    text-decoration: none;
+}
 .footer{
     display: block;
     width: 100%;
@@ -233,6 +236,7 @@ a{
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
 }
+
  #Pati{
     display: flex;
     width: 100%;
