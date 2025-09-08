@@ -332,7 +332,7 @@ a{
 }
 #Pate{
     width: 100%!important;
-    height: 150px!important;
+    height: auto!important;
     font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
