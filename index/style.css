@@ -254,8 +254,8 @@ a{
     margin-bottom: 40px!important;
     border-radius: 20px!important;
     padding: 20px!important;
-    color: #fff!important;
-    background-color: rgba(255, 58, 58, 0.989)!important;
+    color: #000!important;
+    border: 0.12rem dotted #000!important;
 }
 #Pati:hover{
     width: 100%;
@@ -266,8 +266,8 @@ a{
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
-    background-color: rgba(189, 23, 218, 0.976)!important;
-    color: #fff!important;
+    background-color: orange!important;
+    color: #000!important;
     line-height: 1.4!important;
     border-radius: 20px!important;
     transition: background-color all 0.3s ease-in-out;
@@ -288,8 +288,7 @@ a{
     border-radius: 20px!important;
     padding: 25px!important;
     color: #000!important;
-    border: 0.12rem dotted transparent!important;
-    background-color: var(--bs-coorange)!important;
+    border: 0.12rem dotted #000!important;
 }
 #Pat:hover{
     width: 100%!important;
@@ -318,7 +317,7 @@ a{
     color: #000 !important;
     padding: 20px!important;
     border-radius: 20px!important;
-    background-color: var(--bs-bgab-green)!important;
+    border: 0.12rem dotted #000!important;
     line-height: 1.5!important;
 }
 #Topa:hover{
@@ -329,8 +328,9 @@ a{
     height: auto;
     font-size: 25px!important;
     padding: 20px!important;
-    background-color: var(--bs-bb-lack)!important;
-    color: #fff!important;
+    border: 0.12rem solid #000!important;
+    background-color: var(--bs-bgab-green)!important;
+    color: #000!important;
     border-radius: 20px!important;
     line-height: 1.5!important;
     transition: background-color all 0.3s ease-in-out;
@@ -345,9 +345,11 @@ a{
     align-items: center;
     display: flex;
     border-radius: 20px!important;
+    border: 0.12rem dotted #000!important;
 }
 #Atop:hover{
     background-color: var(--bs-danger)!important;
+    border: 0.12rem solid #000!important;
     color:#fff!important;
     width: 100% !important;
     height: auto !important;
