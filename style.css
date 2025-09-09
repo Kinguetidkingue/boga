@@ -241,19 +241,18 @@ a{
 }
 
  #Pati{
-    display: flex;
+    display: block!important;
     width: 100%;
     height: auto;
     font-size: 20px!important;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block!important;
     font-weight: bold!important;
     font-family: "Courier New", Courier, monospace!important;
     line-height: 1.6!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
-    border-radius: 20px!important;
     padding: 20px!important;
     color: #000!important;
     border: 0.12rem dotted #000!important;
@@ -266,7 +265,7 @@ a{
     font-size: 20px!important;
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
-    display: flex!important;
+    display: block!important;
     background-color: orange!important;
     color: #000!important;
     line-height: 1.6!important;
@@ -275,18 +274,16 @@ a{
     cursor: pointer;
 }
 #Pat{
-    display: flex!important;
     width: 100%!important;
     height: auto!important;
     font-size: 20px!important;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block!important;
     font-family: "Courier New", Courier, monospace!important;
     line-height: 1.6!important;
     margin-top: 10px!important;
-    margin-bottom: 40px!important;
-    border-radius: 20px!important;
+    margin-bottom: 10px!important;
     padding: 20px!important;
     color: #000!important;
     border: 0.12rem dotted #000!important;
@@ -295,11 +292,11 @@ a{
     width: 100%!important;
     height: auto!important;
     margin-top: 10px!important;
-    margin-bottom: 40px!important;
+    margin-bottom: 10px!important;
     font-size: 20px!important;
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
-    display: flex!important;
+    display: block!important;
     border: 0.12rem solid var(--bs-black)!important;
     background-color: var(--bs-yellow)!important;
     color: #000!important;
@@ -308,8 +305,13 @@ a{
     transition: background-color all 0.35s ease-in-out;
     cursor: pointer;
 }
+#Static{
+    display: block!important;
+    justify-content: center;
+    align-items: center;
+}
 #Topa{
-    display:flex;
+    display:block!important;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -318,13 +320,12 @@ a{
     font-size: 20px!important;
     color: #000 !important;
     padding: 20px!important;
-    border-radius: 20px!important;
     border: 0.12rem dotted #000!important;
     line-height: 1.6!important;
     font-family: "Courier New", Courier, monospace!important;
 }
 #Topa:hover{
-    display:flex;
+    display:block!important;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -347,10 +348,9 @@ a{
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block!important;
     line-height: 1.6!important;
     font-family: "Courier New", Courier, monospace!important;
-    border-radius: 20px!important;
     border: 0.12rem dotted #000!important;
 }
 #Atop:hover{
@@ -365,7 +365,7 @@ a{
     line-height: 1.6!important;
     justify-content: center !important;
     align-items: center !important;
-    display: flex !important;
+    display: block!important;
     border-radius: 20px!important;
     transition: background-color all 0.3s ease-in-out !important;
     cursor: pointer !important;
