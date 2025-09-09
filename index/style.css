@@ -28,7 +28,7 @@
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffdc96f3; 
-    --bs-yellow: #ffefcef1;
+    --bs-yellow: #ffe8b5fa;
     --bs-ye-purple: #d5f0ff;
     --bs-green: #198754;
     --bs-bgab-green: #4dd6ff;
@@ -220,7 +220,7 @@ a{
     padding: 20px!important;
     color: #000!important;
     background-color: #fff!important;
-    box-shadow: 1px 0.5px 3px 1px rgba(0, 0, 0, 0.465)!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block:hover{
     width: 100%!important;
@@ -244,12 +244,13 @@ a{
     display: flex;
     width: 100%;
     height: auto;
-    font-size: 24.5px!important;
+    font-size: 20px!important;
     justify-content: center;
     align-items: center;
     display: flex;
+    font-weight: bold!important;
     font-family: "Courier New", Courier, monospace!important;
-    line-height: 1.4!important;
+    line-height: 1.6!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     border-radius: 20px!important;
@@ -262,13 +263,13 @@ a{
     height: auto;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
-    font-size: 24.5px!important;
+    font-size: 20px!important;
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
     background-color: orange!important;
     color: #000!important;
-    line-height: 1.4!important;
+    line-height: 1.6!important;
     border-radius: 20px!important;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
@@ -277,12 +278,12 @@ a{
     display: flex!important;
     width: 100%!important;
     height: auto!important;
-    font-size: 19.5px!important;
+    font-size: 20px!important;
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: "Courier New", Courier, monospace!important;
-    line-height: 1.7!important;
+    line-height: 1.6!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     border-radius: 20px!important;
@@ -311,14 +312,16 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
-     width: 100%;
+    width: 100%;
     height: auto;
-    font-size: 25px!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
     color: #000 !important;
     padding: 20px!important;
     border-radius: 20px!important;
     border: 0.12rem dotted #000!important;
-    line-height: 1.5!important;
+    line-height: 1.6!important;
+    font-family: "Courier New", Courier, monospace!important;
 }
 #Topa:hover{
     display:flex;
@@ -326,24 +329,27 @@ a{
     align-items: center;
     width: 100%;
     height: auto;
-    font-size: 25px!important;
+    font-size: 20px!important;
     padding: 20px!important;
     border: 0.12rem solid #000!important;
     background-color: var(--bs-bgab-green)!important;
     color: #000!important;
     border-radius: 20px!important;
-    line-height: 1.5!important;
+    line-height: 1.6!important;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
 }
 #Atop{
     width: 100%;
     height: auto;
+    font-size: 20px!important;
     margin-top: 20px;
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
+    line-height: 1.6!important;
+    font-family: "Courier New", Courier, monospace!important;
     border-radius: 20px!important;
     border: 0.12rem dotted #000!important;
 }
@@ -351,6 +357,7 @@ a{
     background-color: var(--bs-danger)!important;
     border: 0.12rem solid #000!important;
     color:#fff!important;
+    font-size: 23px!important;
     width: 100% !important;
     height: auto !important;
     margin-top: 20px;
