@@ -199,8 +199,8 @@ a{
     display: block!important;
     flex-direction: column!important;
     background-color: #f2f2f2!important;
-    padding-top: 150px!important;
-    padding-bottom: 100px!important;
+    padding-top: 50px!important;
+    padding-bottom: 5px!important;
     justify-content: center!important;
     align-items:center!important;
 }
@@ -252,7 +252,7 @@ a{
     font-family: "Courier New", Courier, monospace!important;
     line-height: 1.6!important;
     margin-top: 10px!important;
-    margin-bottom: 40px!important;
+    margin-bottom: 10px!important;
     border-radius: 20px!important;
     padding: 20px!important;
     color: #000!important;
@@ -262,7 +262,7 @@ a{
     width: 100%;
     height: auto;
     margin-top: 10px!important;
-    margin-bottom: 40px!important;
+    margin-bottom: 10px!important;
     font-size: 20px!important;
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
