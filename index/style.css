@@ -287,7 +287,7 @@ a{
     margin-top: 10px!important;
     margin-bottom: 40px!important;
     border-radius: 20px!important;
-    padding: 25px!important;
+    padding: 20px!important;
     color: #000!important;
     border: 0.12rem dotted #000!important;
 }
@@ -296,14 +296,14 @@ a{
     height: auto!important;
     margin-top: 10px!important;
     margin-bottom: 40px!important;
-    font-size: 19.5px!important;
-    padding: 25px!important;
+    font-size: 20px!important;
+    padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: flex!important;
     border: 0.12rem solid var(--bs-black)!important;
     background-color: var(--bs-yellow)!important;
     color: #000!important;
-    line-height: 1.7!important;
+    line-height: 1.6!important;
     border-radius: 20px!important;
     transition: background-color all 0.35s ease-in-out;
     cursor: pointer;

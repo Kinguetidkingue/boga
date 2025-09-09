@@ -303,7 +303,7 @@ a{
     border: 0.12rem solid var(--bs-black)!important;
     background-color: var(--bs-yellow)!important;
     color: #000!important;
-    line-height: 1.7!important;
+    line-height: 1.6!important;
     border-radius: 20px!important;
     transition: background-color all 0.35s ease-in-out;
     cursor: pointer;
