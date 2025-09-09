@@ -357,11 +357,12 @@ a{
     background-color: var(--bs-danger)!important;
     border: 0.12rem solid #000!important;
     color:#fff!important;
-    font-size: 23px!important;
+    font-size: 20px!important;
     width: 100% !important;
     height: auto !important;
     margin-top: 20px;
     margin-bottom: 30px;
+    line-height: 1.6!important;
     justify-content: center !important;
     align-items: center !important;
     display: flex !important;
