@@ -23,6 +23,7 @@
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
+    --bs-bf-purple:rgb(106, 26, 254)1;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
     --bs-r-red: #f9a0a9f1;
@@ -110,17 +111,32 @@ body{
 }
 #TopNav{
     width: 100%!important;
-    display: block!important;
-    position: relative!important;
-    flex-direction: column!important;
-    background-color: var(--bs-primary)!important;
+    display: grid!important;
+    grid-template-columns: 2fr 2fr!important;
+    height: 40px!important;
+    justify-content: center!important;
+    justify-items: center!important;
+    background-color: #2638fe!important;
+    color: #fff!important;
     font-size: 20px!important;
-    padding: 10px!important;
+    gap: 10px!important;
 }
 #WelKom{
-    display: block!important;
-    color: var(--bs-white)!important;
-    font-size: 13.5px!important;
+    display: inline-block!important;
+    justify-content: center!important;
+    align-items: center!important;
+    margin-top: -9px!important;
+    font-size: 14px!important;
+    color: #ff0!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+#demo{
+    display: inline-block!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 14px!important;
+    font-weight: bold;
+    color: #ff0!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #Navbar{
