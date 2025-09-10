@@ -113,11 +113,10 @@ body{
     width: 100%!important;
     display: grid!important;
     grid-template-columns: 2.25fr 2.25fr 0.5fr!important;
-    height: 40px!important;
+    height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
     background-color: #2638fe!important;
-    color: #fff!important;
 }
 #WelKom{
     display: inline-block!important;
