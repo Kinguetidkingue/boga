@@ -112,7 +112,7 @@ body{
 #TopNav{
     width: 100%!important;
     display: grid!important;
-    grid-template-columns: 2.25fr 2.25fr 0.5fr!important;
+    grid-template-columns: 2.35fr 2.15fr 0.5fr!important;
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
