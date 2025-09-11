@@ -51,10 +51,10 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
     --bs-primary: #1c4b91;
-    --bs-gb-primary:#2145fb!important;
+    --bs-gb-primary:#2145fb;
     --bs-secondary: #136ba2;
     --bs-success: #198754;
-    --bs-sc-success: #131c96;
+    --bs-sc-success: #18219d;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -153,13 +153,13 @@ body{
     font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bolder!important;
     font-size: 20px!important;
-    background-color: rgba(219, 156, 255, 0.988)!important;
+    background-color: var(--bs-bb-yellow)!important;
 }
 .navbar-brand:hover{
     font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bolder!important;
     font-size: 20px!important;
-    background-color: var(--bs-bb-yellow)!important;
+    background-color: rgba(219, 156, 255, 0.988)!important;
     transition: background-color 0.3s ease-in-out;   
 }
 ul{
