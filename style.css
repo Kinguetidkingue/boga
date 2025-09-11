@@ -26,6 +26,7 @@
     --bs-bf-purple:rgb(106, 26, 254)1;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
+    --bs-ps-red: #ee4152;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffdc96f3; 
@@ -112,11 +113,12 @@ body{
 #TopNav{
     width: 100%!important;
     display: grid!important;
-    grid-template-columns: 2.35fr 2.15fr 0.5fr!important;
+    grid-template-columns: 3fr 2.5fr!important;
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
     background-color: #2133fb!important;
+    padding: 5px!important;
 }
 #WelKom{
     display: inline-block!important;
