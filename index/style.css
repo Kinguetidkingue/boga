@@ -138,16 +138,6 @@ body{
     color: #fff!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
-#dictionary{
-    display: inline-block!important;
-    justify-content: center!important;
-    align-items: center!important;
-    font-size: 12px!important;
-    margin-bottom: 19px!important;
-    font-weight: bold!important;
-    color: #ff0!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-}
 #Navbar{
     width: 100%!important;
     height: auto!important;
