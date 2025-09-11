@@ -51,10 +51,10 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
     --bs-primary: #1c4b91;
-    --bs-gb-primary: #1352a5fd;
+    --bs-gb-primary:#2145fb!important;
     --bs-secondary: #136ba2;
     --bs-success: #198754;
-    --bs-sc-success: #111b75;
+    --bs-sc-success: #192b89;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -117,7 +117,7 @@ body{
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #2133fb!important;
+    background-color: #2145fb!important;
     padding: 5px!important;
 }
 #WelKom{
@@ -154,7 +154,7 @@ body{
     flex-direction: column!important;
     background-color: var(--bs-sc-success)!important;
     font-size: 20px!important;
-    padding: 10px!important;
+    padding: 5px!important;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
