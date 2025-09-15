@@ -149,7 +149,7 @@ body{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #000!important;
+    background-color: #333!important;
     font-size: 20px!important;
     padding: 5px!important;
 }
