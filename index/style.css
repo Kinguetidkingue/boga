@@ -125,10 +125,10 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: #f2f2f2!important;
+    background-color: #ffca2afb!important;
 }
 .Resources:hover{
-background-color: #ffca2afb!important;
+background-color: #f2f2f2!important;
 color: #000!important;
 transition: background-color all 0.3s ease-in-out!important;
 cursor: pointer!important;
@@ -203,6 +203,7 @@ a{
 .HOVER:hover{
     font-weight: bold;
     text-decoration: underline;
+    color: var(--bs-primary)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .ROVER{
