@@ -117,6 +117,12 @@ body{
     flex-direction: column!important;
     background-color: #f2f2f2!important;
 }
+.Resources:hover{
+background-color: var(--bs-warning)!important;
+color: #000!important;
+transition: background-color all 0.3s ease-in-out!important;
+cursor: pointer!important;
+}
 #TopNav{
     width: 100%!important;
     display: grid!important;
@@ -124,16 +130,16 @@ body{
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #183fff!important;
+    background-color: #3718ff!important;
     padding: 5px!important;
 }
 #WelKom{
     display: inline-block!important;
     justify-content: center!important;
     align-items: center!important;
-    margin-bottom: 1px!important;
+    margin-bottom: 17px!important;
     font-size: 14px!important;
-    color: #fff!important;
+    color: #ffe2e2!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #demo{
@@ -142,14 +148,14 @@ body{
     align-items: center!important;
     font-size: 14px!important;
     font-weight: bold;
-    color: #fff!important;
+    color: #ffe2e2!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #Navbar{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #333!important;
+    background-color: #363636f9!important;
     font-size: 20px!important;
     padding: 5px!important;
 }
