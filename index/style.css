@@ -265,7 +265,7 @@ a{
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: block!important;
-    background-color: #ffca2afb!important;
+    background-color: #ffcc35fb!important;
     color: var(--bs-white)!important;
     line-height: 1.7!important;
     border-radius: 10px!important;
@@ -331,7 +331,7 @@ a{
     font-family: "Courier New", Courier, monospace!important;
     display: block!important;
     border: 0.12rem solid var(--bs-black)!important;
-    background-color: var(--bs-yellow)!important;
+    background-color: #ffcc35fb!important;
     color: #000!important;
     line-height: 1.5!important;
     border-radius: 20px!important;
