@@ -57,6 +57,7 @@
     --bs-sc-success: #0f19a7fa;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
+    --bs-bb-warning: #ffca2afb;
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-gab-light: #e8e8e8fa;
@@ -114,7 +115,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
     font-size: 27px!important;
-    color: #9b28d9!important;
+    color: #a027e1f5!important;
 }
 .Resources{
     width: 100%!important;
@@ -124,7 +125,7 @@ body{
     background-color: #f2f2f2!important;
 }
 .Resources:hover{
-background-color: var(--bs-warning)!important;
+background-color: #ffca2afb!important;
 color: #000!important;
 transition: background-color all 0.3s ease-in-out!important;
 cursor: pointer!important;
@@ -132,36 +133,26 @@ cursor: pointer!important;
 #TopNav{
     width: 100%!important;
     display: grid!important;
-    grid-template-columns: 3fr 2.5fr!important;
+    grid-template-columns: 1fr!important;
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #3718ff!important;
-    padding: 5px!important;
-}
-#WelKom{
-    display: inline-block!important;
-    justify-content: center!important;
-    align-items: center!important;
-    margin-bottom: 17px!important;
-    font-size: 14px!important;
-    color: #ffe2e2!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    background-color: #1824ff!important;
 }
 #demo{
-    display: inline-block!important;
+    display: inline-grid!important;
     justify-content: center!important;
     align-items: center!important;
     font-size: 14px!important;
     font-weight: bold;
-    color: #ffe2e2!important;
+    color: #fff2f2!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #Navbar{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #363636f9!important;
+    background-color: #4e0660f3!important;
     font-size: 20px!important;
     padding: 5px!important;
 }
@@ -266,7 +257,7 @@ a{
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: block!important;
-    background-color: var(--bs-yellow)!important;
+    background-color: #ffca2afb!important;
     color: var(--bs-white)!important;
     line-height: 1.7!important;
     border-radius: 10px!important;
