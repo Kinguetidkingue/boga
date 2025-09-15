@@ -155,14 +155,14 @@ cursor: pointer!important;
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #5a097ffb!important;
+    background-color: #500a70fc!important;
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.1rem solid transparent!important;
-    box-shadow: 0 0.2rem 1rem 0.12rem #0d6dfd65!important;
+    box-shadow: 0 0.2rem 0.65rem 0.1rem #1270fd4d!important;
 }
 #Navbar:hover{
-    background-color: #f8f9fa!important;
+    background-color: #eef6ff!important;
     border-top: 0.1rem solid #a01adef2!important;
     transition: background-color 0.3s ease-in-out;
 }
