@@ -51,6 +51,7 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
     --bs-primary: #1c4b91;
+    --bs-primry: #0d6efd;
     --bs-gb-primary:#2145fb;
     --bs-secondary: #136ba2;
     --bs-success: #198754;
@@ -115,7 +116,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
     font-size: 27px!important;
-    color: #a027e1f5!important;
+    color: #b13cf0f9!important;
 }
 .Resources{
     width: 100%!important;
@@ -137,7 +138,7 @@ cursor: pointer!important;
     height: auto!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #1824ff!important;
+    background-color: #0d6efd!important;
 }
 #demo{
     display: inline-grid!important;
@@ -145,16 +146,23 @@ cursor: pointer!important;
     align-items: center!important;
     font-size: 14px!important;
     font-weight: bold;
-    color: #fff2f2!important;
+    color: #fff!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #Navbar{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #4e0660f3!important;
+    background-color: #4e0971f5!important;
     font-size: 20px!important;
     padding: 5px!important;
+    border-top: 0.1rem solid transparent!important;
+    box-shadow: 0 0.2rem 1rem 0.12rem #0d6dfd65!important;
+}
+#Navbar:hover{
+    background-color: var(--bs-light)!important;
+    border-top: 0.1rem solid #0d6dfd!important;
+    transition: background-color 0.3s ease-in-out;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
