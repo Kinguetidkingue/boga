@@ -160,7 +160,7 @@ cursor: pointer!important;
     box-shadow: 0 0.2rem 1rem 0.12rem #0d6dfd65!important;
 }
 #Navbar:hover{
-    background-color: var(--bs-light)!important;
+    background-color: #f8f9fa!important;
     border-top: 0.1rem solid #0d6dfd!important;
     transition: background-color 0.3s ease-in-out;
 }
