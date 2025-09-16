@@ -149,10 +149,10 @@ body{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #560d78fc!important;
+    background-color: light!important;
     font-size: 20px!important;
     padding: 5px!important;
-    border-top: 0.1rem solid transparent!important;
+    border-top: 0.1rem solid #a01adef2!important;
     box-shadow: 0 0.1rem 0.25rem 0.1rem #286cff72!important;
 }
 #Navbar:hover{
@@ -243,7 +243,7 @@ a{
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
-    background-color: #74beffe9!important;
+    background-color: #8dc8ffed!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 65px!important;
