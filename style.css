@@ -153,10 +153,10 @@ body{
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.1px solid #a01adef2!important;
-    box-shadow: 0 0.1rem 0.22rem 0.1rem #2a6bf953!important;
+    box-shadow: 0 0.1rem 0.45rem 0.1rem #4a84ff42!important;
 }
 #Navbar:hover{
-    background-color: #f1f1f1!important;
+    background-color: light!important;
     border-top: 0.1px solid #a01adef2!important;
     transition: background-color 0.3s ease-in-out;
 }
