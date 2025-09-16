@@ -141,27 +141,30 @@ cursor: pointer!important;
 }
 #TopNav{
     width: 100%!important;
-    display: grid!important;
-    grid-template-columns: 1fr!important;
-    height: auto!important;
-    justify-content: center!important;
-    justify-items: center!important;
-    background-color: #0d6efd!important;
-}
-#demo{
-    display: inline-grid!important;
+    display: block!important;
+    height: 40px!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 14px!important;
+    background-color: #0d6efd!important;
+    padding-left: 0.15rem!important;
+}
+#demo{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 13px!important;
     font-weight: bold;
     color: #fff!important;
+    margin-top: 5px!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #Navbar{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    background-color: #500a70fc!important;
+    background-color: #560d78fc!important;
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.1rem solid transparent!important;
