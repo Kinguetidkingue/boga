@@ -304,7 +304,7 @@ a{
     padding: 40px;
 }
 #Block{
-    width: 65%!important;
+    width: 66%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
@@ -319,6 +319,7 @@ a{
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Blacko{
+    display: block!important;
     width: 33%!important;
     height: 550px!important;
     background-color: #fff!important;
@@ -331,9 +332,9 @@ a{
     box-shadow: 0 0.1rem 0.45rem 0.1rem #4a84ff42!important;
 }
 #Bloc{
-    width: 65%!important;
+    width: 45%!important;
     height: auto!important;
-    display: block!important;
+    display: flex!important;
     font-size: 16px!important;
     justify-content: left!important;
     align-items: left!important;
@@ -345,6 +346,22 @@ a{
     padding: 10px!important;
     margin-right: 20px!important;
     color: #000!important;
+    background-color: #fff!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+}
+#Blo{
+    width: 45%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 16px!important;
+    justify-content: left!important;
+    align-items: left!important;
+    text-align: left!important;
+    font-family: "Courier New", Courier, monospace!important;
+    font-weight: bold!important;
+    line-height: 1.7!important;
+    padding: 10px!important;
+    margin-right: 20px!important;
     background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
