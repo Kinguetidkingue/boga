@@ -239,39 +239,41 @@ a{
 }
 #Block-wrappo{
     width: 100%!important;
-    height: 380px!important;
+    height: auto!important;
     display: block!important;
     flex-direction: column!important;
     background-color: #6bd0fffa!important;
     justify-content: center!important;
     align-items:center!important;
+    padding-top: 90px!important;
+    padding-bottom: 90px!important;
     margin-top: 3px!important;
 }
 #Block-wrapper{
     width: 100%!important;
-    height: 1000px!important;
+    height: auto!important;
     display: block!important;
     flex-direction: column!important;
     background-color: #fe5959dc!important;
     padding-top: 250px!important;
-    padding-bottom: 5px!important;
+    padding-bottom: 250px!important;
     justify-content: center!important;
     align-items:center!important;
 }
 #Block-wrap{
     width: 100%!important;
-    height: 1000px!important;
+    height: auto!important;
     display: block!important;
     flex-direction: column!important;
     background-color: #ffd042f7!important;
-    padding-top: 310px!important;
-    padding-bottom: 5px!important;
+    padding-top: 250px!important;
+    padding-bottom: 250px!important;
     justify-content: center!important;
     align-items:center!important;
 }
 #Block-wrapp{
     width: 100%!important;
-    height: 1000px!important;
+    height: auto!important;
     display: block!important;
     flex-direction: column!important;
     background-color: #071a5cef!important;
@@ -282,12 +284,12 @@ a{
 }
 #Block-wrappe{
     width: 100%!important;
-    height: 1000px!important;
+    height: auto!important;
     display: block!important;
     flex-direction: column!important;
     background-color: #e7deffef!important;
-    padding-top: 210px!important;
-    padding-bottom: 5px!important;
+    padding-top: 250px!important;
+    padding-bottom: 250px!important;
     justify-content: center!important;
     align-items:center!important;
 }
