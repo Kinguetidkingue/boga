@@ -156,7 +156,7 @@ body{
     box-shadow: 0 0.1rem 0.25rem 0.1rem #286cff72!important;
 }
 #Navbar:hover{
-    background-color: #dee9fffd!important;
+    background-color: #f2f2f2!important;
     border-top: 0.1rem solid #a01adef2!important;
     transition: background-color 0.3s ease-in-out;
 }
