@@ -229,6 +229,14 @@ a{
     font-weight: bolder!important;
     transition: background-color all 0.3s ease-in-out!important;
 }
+#Basic{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 35px!important;
+    width: 100%!important;
+    justify-content: center!important;
+    align-items: center;
+}
 #Block-wrappo{
     width: 100%!important;
     height: 380px!important;
