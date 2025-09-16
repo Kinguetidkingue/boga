@@ -113,10 +113,16 @@ body{
     --bs-gutter-y: 0;
 }
 #Begin{
+    display: inline-block!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
     font-size: 27px!important;
     color: #a21aecf9!important;
+    width: 100%!important;
+    height: 70px!important;
+    justify-content: center!important;
+    align-items: center;
+
 }
 .Resources{
     width: 100%!important;
@@ -159,10 +165,10 @@ cursor: pointer!important;
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.1rem solid transparent!important;
-    box-shadow: 0 0.2rem 0.65rem 0.1rem #1270fd4d!important;
+    box-shadow: 0 0.1rem 0.28rem 0.1rem #1f66ff52!important;
 }
 #Navbar:hover{
-    background-color: #eef6ff!important;
+    background-color: #dee9fffd!important;
     border-top: 0.1rem solid #a01adef2!important;
     transition: background-color 0.3s ease-in-out;
 }
@@ -203,11 +209,17 @@ a{
 .HOVER:hover{
     font-weight: bold;
     text-decoration: underline;
-    color: var(--bs-primary)!important;
+    color: var(--bs-bb-yellow)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .ROVER{
     text-decoration: none;
+}
+#Beauty{
+    align-items: center!important;
+    background-color: #4d88fffc!important;
+    padding: 20px!important;
+    height: auto!important;
 }
 .footer{
     display: block;
