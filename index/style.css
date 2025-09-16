@@ -152,12 +152,12 @@ body{
     background-color: light!important;
     font-size: 20px!important;
     padding: 5px!important;
-    border-top: 0.1rem solid #a01adef2!important;
-    box-shadow: 0 0.1rem 0.25rem 0.1rem #286cff72!important;
+    border-top: 0.1px solid #a01adef2!important;
+    box-shadow: 0 0.1rem 0.22rem 0.1rem #2a6bf953!important;
 }
 #Navbar:hover{
-    background-color: #f2f2f2!important;
-    border-top: 0.1rem solid #a01adef2!important;
+    background-color: #f1f1f1!important;
+    border-top: 0.1px solid #a01adef2!important;
     transition: background-color 0.3s ease-in-out;
 }
 .navbar-toggler-icon{
