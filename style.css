@@ -242,12 +242,11 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #6bd0fffa!important;
+    background-color: #7ecbfffa!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 90px!important;
     padding-bottom: 90px!important;
-    margin-top: 3px!important;
 }
 #Block-wrapper{
     width: 100%!important;
@@ -265,7 +264,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffd042f7!important;
+    background-color: #ffe188fb!important;
     padding-top: 250px!important;
     padding-bottom: 250px!important;
     justify-content: center!important;
@@ -277,8 +276,8 @@ a{
     display: block!important;
     flex-direction: column!important;
     background-color: #071a5cef!important;
-   padding-top: 230px!important;
-    padding-bottom: 5px!important;
+    padding-top: 250px!important;
+    padding-bottom: 250px!important;
     justify-content: center!important;
     align-items:center!important;
 }
@@ -287,7 +286,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #e7deffef!important;
+    background-color: #baa0fdcf!important;
     padding-top: 250px!important;
     padding-bottom: 250px!important;
     justify-content: center!important;
@@ -321,7 +320,7 @@ a{
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: block!important;
-    background-color: #ffcc35fb!important;
+    background-color: #f4ff95fb!important;
     color: var(--bs-white)!important;
     line-height: 1.7!important;
     border-radius: 10px!important;
