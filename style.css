@@ -153,7 +153,7 @@ body{
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.1rem solid transparent!important;
-    box-shadow: 0 0.1rem 0.28rem 0.1rem #1f66ff52!important;
+    box-shadow: 0 0.1rem 0.25rem 0.1rem #286cff72!important;
 }
 #Navbar:hover{
     background-color: #dee9fffd!important;
@@ -243,11 +243,11 @@ a{
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
-    background-color: #6abafbe4!important;
+    background-color: #74beffe9!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 80px!important;
-    padding-bottom: 90px!important;
+    padding-top: 65px!important;
+    padding-bottom: 115px!important;
 }
 #Block-wrapper{
     width: 100%!important;
@@ -287,7 +287,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #baa0fdcf!important;
+    background-color: #e3d7fff0!important;
     padding-top: 250px!important;
     padding-bottom: 250px!important;
     justify-content: center!important;
