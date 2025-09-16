@@ -233,6 +233,7 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
     font-size: 40px!important;
+    color:#000!important;
     width: 100%!important;
     justify-content: center!important;
     align-items: center;
@@ -240,12 +241,12 @@ a{
 #Block-wrappo{
     width: 100%!important;
     height: auto!important;
-    display: block!important;
+    display: flex!important;
     flex-direction: column!important;
-    background-color: #6acdfff9!important;
+    background-color: #6abafbe4!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 90px!important;
+    padding-top: 80px!important;
     padding-bottom: 90px!important;
 }
 #Block-wrapper{
