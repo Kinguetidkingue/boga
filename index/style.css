@@ -299,7 +299,8 @@ a{
     justify-content: space-between!important;
     align-items: center!important;
     padding: 40px!important;
-    margin-top: -2rem!important;
+    background-color: #87b7ff!important;
+    border-radius: 20px!important;
 }
 #Block{
     width: 45%!important;
