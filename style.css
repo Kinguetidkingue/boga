@@ -298,7 +298,6 @@ a{
     gap: 20px!important;
     justify-content: center!important;
     justify-items: center!important;
-    
     background-color: #94bffff5!important;
     border-radius: 20px!important;
     margin-top: 1rem!important;
@@ -313,9 +312,8 @@ a{
     align-items: center;
     font-family: "Courier New", Courier, monospace!important;
     font-weight: bold!important;
-    line-height: 1.7!important;
-    padding: 10px!important;
-    margin-left: -2rem;
+    line-height: 1.6!important;
+    padding: 5px!important;
     color: #000!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
     border-radius: 20px!important;
@@ -331,8 +329,8 @@ a{
     align-items: center;
     font-family: "Courier New", Courier, monospace!important;
     font-weight: bold!important;
-    line-height: 1.7!important;
-    padding: 10px!important;
+    line-height: 1.6!important;
+    padding: 5px!important;
     color: #000!important;
     background-color: rgba(255, 255, 116, 0.95)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
@@ -348,9 +346,8 @@ a{
     align-items: center!important;
     font-family: "Courier New", Courier, monospace!important;
     font-weight: bold!important;
-    line-height: 1.7!important;
-    padding: 10px!important;
-    margin-right: -2rem;
+    line-height: 1.6!important;
+    padding: 5px!important;
     color: #000!important;
     border-right: 0.5rem solid var(--bs-primary)!important;
     border-radius: 20px!important;
@@ -358,6 +355,7 @@ a{
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc:hover{
+    line-height: 1.6!important;
     background-color: rgba(255, 255, 116, 0.95)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
     transition: background-color all 0.3s ease-in-out;
