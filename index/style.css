@@ -254,7 +254,7 @@ a{
     flex-direction: column!important;
     background-color: #ff6161e5!important;
     padding-top: 200px!important;
-    padding-bottom: 200px!important;
+    padding-bottom: 150px!important;
     justify-content: space-between!important;
     align-items:center!important;
 }
@@ -301,6 +301,8 @@ a{
     padding: 40px!important;
     background-color: #94bffff7!important;
     border-radius: 20px!important;
+    margin-top: 1rem!important;
+    margin-bottom: 5rem!important;
 }
 #Block{
     width: 45%!important;
