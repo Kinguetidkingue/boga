@@ -296,16 +296,16 @@ a{
     height: 100%!important;
     display: flex!important;
     padding: 40px!important;
-    gap: 10px!important;
+    gap: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
     background-color: #93beffee!important;
-    border-radius: 20px!important;
+    border-radius: 10px!important;
     margin-top: 1rem!important;
     margin-bottom: 5rem!important;
 }
 #Block{
-    width: 53%!important;
+    width: 52%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
@@ -315,7 +315,7 @@ a{
     font-weight: bold!important;
     line-height: 1.6!important;
     padding: 5px!important;
-    margin-left: -1.25rem!important;
+    margin-left: -0.25rem!important;
     color: #000!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
     border-radius: 20px!important;
@@ -323,6 +323,7 @@ a{
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block:hover{
+    width: 52%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
@@ -339,7 +340,7 @@ a{
     cursor: pointer;
 }
 #Bloc{
-    width: 50%!important;
+    width: 52%!important;
     height: auto!important;
     display: block!important;
     font-size: 16px!important;
@@ -356,7 +357,7 @@ a{
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc:hover{
-    width:50%!important;
+    width:52%!important;
     height: auto!important;
     line-height: 1.6!important;
     background-color: rgba(255, 255, 116, 0.95)!important;
