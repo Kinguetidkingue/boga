@@ -205,9 +205,10 @@ a{
 }
 #Beauty{
     align-items: center!important;
-    background-color: #6296fffc!important;
+    background-image: linear-gradient(#102dae38, #102dae9b)!important;
     padding: 20px!important;
     height: auto!important;
+    border-radius: 1rem!important;
 }
 .footer{
     display: block;
@@ -299,13 +300,13 @@ a{
     gap: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #93beffee!important;
+    background-color: #6ba6fff2!important;
     border-radius: 10px!important;
     margin-top: 1rem!important;
     margin-bottom: 5rem!important;
 }
 #Block{
-    width: 52%!important;
+    width: 51%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
@@ -315,15 +316,15 @@ a{
     font-weight: bold!important;
     line-height: 1.6!important;
     padding: 5px!important;
-    margin-left: -0.25rem!important;
+    margin-left: -0.3rem!important;
     color: #000!important;
-    border-left: 0.5rem solid var(--bs-primary)!important;
+    border-left: 0.5rem solid var(--bs-dark)!important;
     border-radius: 20px!important;
     background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block:hover{
-    width: 52%!important;
+    width: 51%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
@@ -340,7 +341,7 @@ a{
     cursor: pointer;
 }
 #Bloc{
-    width: 52%!important;
+    width: 51%!important;
     height: auto!important;
     display: block!important;
     font-size: 16px!important;
@@ -351,13 +352,13 @@ a{
     line-height: 1.6!important;
     padding: 5px!important;
     color: #000!important;
-    border-right: 0.5rem solid var(--bs-primary)!important;
+    border-right: 0.5rem solid var(--bs-dark)!important;
     border-radius: 20px!important;
     background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc:hover{
-    width:52%!important;
+    width:51%!important;
     height: auto!important;
     line-height: 1.6!important;
     background-color: rgba(255, 255, 116, 0.95)!important;
