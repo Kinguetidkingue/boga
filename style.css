@@ -254,7 +254,7 @@ a{
     flex-direction: column!important;
     background-color: #ff6161e5!important;
     padding-top: 200px!important;
-    padding-bottom: 200px!important;
+    padding-bottom: 150px!important;
     justify-content: space-between!important;
     align-items:center!important;
 }
@@ -274,7 +274,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #07164bd9!important;
+    background-color: #091a57d9!important;
     padding-top: 200px!important;
     padding-bottom: 200px!important;
     justify-content: center!important;
@@ -293,13 +293,13 @@ a{
 }
 #Blockus{
     width: 100%!important;
-    height: auto!important;
+    height: 100%!important;
     display: flex!important;
-    flex-direction: row!important;
-    justify-content: space-between!important;
-    align-items: center!important;
-    padding: 40px!important;
-    background-color: #94bffff7!important;
+    gap: 20px!important;
+    justify-content: center!important;
+    justify-items: center!important;
+    
+    background-color: #94bffff5!important;
     border-radius: 20px!important;
     margin-top: 1rem!important;
     margin-bottom: 5rem!important;
@@ -315,6 +315,7 @@ a{
     font-weight: bold!important;
     line-height: 1.7!important;
     padding: 10px!important;
+    margin-left: -2rem;
     color: #000!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
     border-radius: 20px!important;
@@ -349,6 +350,7 @@ a{
     font-weight: bold!important;
     line-height: 1.7!important;
     padding: 10px!important;
+    margin-right: -2rem;
     color: #000!important;
     border-right: 0.5rem solid var(--bs-primary)!important;
     border-radius: 20px!important;
