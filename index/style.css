@@ -295,7 +295,7 @@ a{
     width: 100%!important;
     height: auto!important;
     display: flex!important;
-    flex-direction: column!important;
+    flex-direction: row!important;
     justify-content: space-between!important;
     align-items: center!important;
     padding: 40px!important;
