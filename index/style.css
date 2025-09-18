@@ -205,9 +205,10 @@ a{
 }
 #Beauty{
     align-items: center!important;
-    background-color: #6296fffc!important;
+    background-color: #102daeb8!important;
     padding: 20px!important;
     height: auto!important;
+    border-radius: 1rem!important;
 }
 .footer{
     display: block;
