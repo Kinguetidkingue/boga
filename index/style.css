@@ -191,13 +191,6 @@ a{
 .ROVER{
     text-decoration: none;
 }
-#Beauty{
-    align-items: center!important;
-    background-image: linear-gradient(#102dae2d, #102dae9b)!important;
-    padding: 20px!important;
-    height: auto!important;
-    border-radius: 1rem!important;
-}
 .footer{
     display: block;
     width: 100%;
@@ -224,6 +217,13 @@ a{
     width: 100%!important;
     justify-content: center!important;
     align-items: center;
+}
+#Beauty{
+    align-items: center!important;
+    background-image: linear-gradient(#102dae2a, #102daeb5)!important;
+    padding: 20px!important;
+    height: auto!important;
+    border-radius: 1rem!important;
 }
 #Begin{
     display: block!important;
