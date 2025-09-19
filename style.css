@@ -220,7 +220,7 @@ a{
 }
 #Beauty{
     align-items: center!important;
-    background-image: linear-gradient(#102dae36, #102daeb7)!important;
+    background-image: linear-gradient(#102dae2a, #102daeb5)!important;
     padding: 20px!important;
     height: auto!important;
     border-radius: 1rem!important;
@@ -272,7 +272,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #70a9ffb0!important;
+    background-color: #79afffb0!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 50px!important;
@@ -294,7 +294,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffde89f6!important;
+    background-color: #ffe195f6!important;
     padding-top: 200px!important;
     padding-bottom: 200px!important;
     justify-content: center!important;
