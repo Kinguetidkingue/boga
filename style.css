@@ -240,7 +240,7 @@ a{
 .Header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
-    font-size: 80px!important;
+    font-size: 61px!important;
     color:#ff0000!important;
     width: 100%!important;
     justify-content: center!important;
@@ -260,12 +260,12 @@ a{
 }
 #Blockos{
     width: 100%!important;
-    height: 430px!important;
+    height: auto!important;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 35px!important;
+    padding-top: 50px!important;
 }
 #Block-wrappo{
     width: 100%!important;
@@ -275,7 +275,7 @@ a{
     background-color: #70a9ffb0!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 30px!important;
+    padding-top: 50px!important;
     padding-bottom: 70px!important;
 }
 #Block-wrapper{
