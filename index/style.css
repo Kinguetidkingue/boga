@@ -257,14 +257,19 @@ a{
     font-size: 26px!important;
     color:#000!important;
     margin-top: 5px!important;
-    border-bottom: 0.12rem rgb(18, 72, 172) dashed!important;
+    border-bottom: 0.2rem blue dotted!important;
 }
 .Welcoming{
     font-family: var(--bs-font-monospace)!important;
-    font-size: 19.5px!important;
-    line-height: 1.45!important;
-    font-weight: lighter;
-    color:#0a58ca!important;
+    font-size: 19px!important;
+    line-height: 1.37!important;
+    font-weight: lighter!important;
+    color:#1152b4ec!important;
+    text-align: justify!important;
+    background-color: rgba(255, 224, 255, 0.469)!important;
+    padding: 17px!important;
+    border-radius: 20px!important;
+    border: 0.1rem solid red!important;
 }
 #Blockos{
     width: 100%!important;
