@@ -1,311 +1,559 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link to stylesheet (CSS) file-->
-    <link rel="stylesheet" type="text/css" href="./index/style.css">
-     <!--Link to the javascript file-->
-    <script type="module" src="./ja/script.js."></script>
-    <!--Link to bootstrap-5-css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-     <!--Link to bootstrap-5-js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-   <!--Link to google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<title>GaB & TecH Consulting</title>
-<!--The top of the page-->
-<a id="TOP"></a>
-</head>
-<!--The header of the page containing the date object-->
-<div class="navbar navbar-date p-1 mb-0" id="TopNav">
-    <div class="date">
-        <em>
-        <p id ="demo"></p>
-<script>            
-const d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
-</em>
-    </div>
-</div>
-<!--The navigation bar starts here-->
-<nav class=" navbar navbar-expand-lg bg-white position-sticky top-0" id="Navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand text-center text-danger border-top border-5 border-danger rounded-top rounded-4 shadow p-1 fs-5 py-0 fw-bolder" href="https://www.learnbasictech.org/" target="_blank"><b>GaB & TecH </b><br><h6 class="text-success fw-bolder">Get the Basics</h6></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="float-start me-5">
-      <ul class="navbar-nav me-auto mb-2">
-            <li class="nav-item"><a class="nav-link active float-start" href="https://kinguetidkingue.github.io/boga/" target="_blank"><button type="button" id="Bo" class="btn btn-outline-success border border-2 rounded-5 fs-6 fs-bolder ms-3">HOME</button></a></li>
-            <li class="nav-item"><a class="nav-link float-start" href="https://web.dev/learn/html" target="_blank"><button type="button" id="Bo" class="btn btn-outline-danger border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">HTML</button></a></li>
-            <li class="nav-item"> <a class="nav-link float-start" href="https://www.w3schools.com/css/css_intro.asp" target="_blank"><button type="button" id="Bo" class="btn btn-outline-warning border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">CSS</button></a></li>
-            <li class="nav-item"><a class="nav-link float-start" href="https://getbootstrap.com/" target="_blank"><button type="button" id="Bo" class="btn btn-outline-primary border border-2 rounded-5 btn fs-6 fs-bolder shadow-1 ms-3">BOOTSTRAP</button></a></li>
-            <li class="nav-item"> <a class="nav-link float-start" href="https://web.dev/learn/javascript" target="_blank"><button type="button" id="Bo" class="btn btn-outline-secondary border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">JAVASCRIPT</button></a></li>
-            <li class="nav-item"><a class="nav-link float-start" href="https://www.presidencedufaso.bf/" target="blank"><button type="button" id="Bo" class="btn btn-outline-danger border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">BURKINA-FASO</button></a></li>
-            <li class="nav-item"><a class="nav-link float-start" href="https://ameiph.com/" target="blank"><button type="button" id="Bo" class="btn btn-outline-primary border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">UTILITIES</button></a></li>
-            <!--<img src="https://www.zupimages.net/up/23/31/zxgr.jpg" alt="Soleil couchant au Burkina Faso">-->
-            <li class="nav-item"><a class="nav-link float-start" href="mailto: patoimboumboucompi76@gmail.com" target="_blank"><button type="button" id="Bo" class="btn btn-outline-info border border-2 rounded-5 fs-6 fw-bolder shadow-1 ms-3">SUPPORT</button></a></li>
-      </ul>
-      </div>
-    </div>
-</div>
-</nav>
-<!--End of the navigation bar-->
+/*Functions first*/
+@import "../node_modules/bootstrap/scss/functions";
+/* Some required and optional imports*/
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/navbar";
+/*Custom styles*/
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+:root {
+    --bs-bb-yellow:#ff0;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-bf-purple:rgba(207, 123, 255, 0.976);
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-ps-red: #ff6776e4;
+    --bs-r-red: #f9a0a9f1;
+    --bs-orange: #ff9d4dfb; 
+    --bs-coorange: #ffdc96f3; 
+    --bs-yellow: #ffe8b5fa;
+    --bs-ye-purple: #d5f0ff;
+    --bs-green: #198754;
+    --bs-bgab-green: #4dd6ff;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-bb-lack: #1449cef7;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #1c4b91;
+    --bs-primray: #0d6efd;
+    --bs-gb-primary:#2145fb;
+    --bs-secondary: #136ba2;
+    --bs-success: #198754;
+    --bs-sc-success: #0f19a7fa;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-bb-warning: #ffca2afb;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-gab-light: #e8e8e8fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body: #f9f9f9;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #dee2e6;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+    --bs-border-radius: 0.375rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 0.5rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-2xl: 2rem;
+    --bs-border-radius-pill: 50rem;
+    --bs-link-color: #0d6efd;
+    --bs-link-hover-color: #0a58ca;
+    --bs-code-color: #d63384;
+    --bs-highlight-bg: #fff3cd;
+}
+html {
+    display: block; 
+}
+body{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    font-family: Helvetica !important;
+    --bs-body-line-height: 1.5!important;
+}
+.row {
+    --bs-gutter-x: 0.375rem;
+    --bs-gutter-y: 0;
+}
+#TopNav{
+    width: 100%!important;
+    display: block!important;
+    height: 40px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: #0d6efd!important;
+    padding-left: 0.15rem!important;
+}
+#demo{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 13px!important;
+    font-weight: bold;
+    color: #fff!important;
+    margin-top: 5px!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+#Navbar{
+    width: 100%!important;
+    height: auto!important;
+    flex-direction: column!important;
+    background-color: light!important;
+    font-size: 20px!important;
+    padding: 5px!important;
+    border-top: 0.12rem solid #ff6161e5!important;
+    box-shadow: 0 0.1rem 0.22rem 0.1px #105bffa9!important;
+}
+#Navbar:hover{
+    background-color: light!important;
+    border-top: 0.12rem solid #ff6161e5!important;
+    transition: background-color 0.35s ease-in-out;
+}
+.navbar-toggler-icon{
+    background-color: var(--bs-white)!important;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 20px!important;
+    background-color: var(--bs-bb-yellow)!important;
+}
+.navbar-brand:hover{
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 20px!important;
+    background-color: rgba(199, 136, 235, 0.912)!important;
+    transition: background-color 0.3s ease-in-out;   
+}
+ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+li{
+    display: inline-block;
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+.HOVER{
+    text-decoration: none;
+}
+.HOVER:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--bs-bb-yellow)!important;
+    transition: background-color 0.3s ease-in-out;
+}
+.ROVER{
+    text-decoration: none;
+}
+.footer{
+    display: block;
+    width: 100%;
+    height:190px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Bo{
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 16px!important;
+}
+#Bo:hover{
+    font-family: inherit!important;
+    font-weight: bolder!important;
+    transition: background-color all 0.3s ease-in-out!important;
+}
+#Basic{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-weight: bold!important;
+    font-size: 30px!important;
+    color:#0f44d7!important;
+    width: 100%!important;
+    justify-content: center!important;
+    align-items: center;
+    margin-top: -5rem;
+}
+#Beauty{
+    align-items: center!important;
+    background-image: linear-gradient(#102dae2a, #102daeb5)!important;
+    padding: 20px!important;
+    height: auto!important;
+    border-radius: 1rem!important;
+}
+#Begin{
+    display: block!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 45px!important;
+    color: #393939!important;
+    width: 100%!important;
+    height: 100%!important;
+    justify-content: center!important;
+    align-items: center!important;
 
-<!--The body of the page-->
-<body>
-    <!--Here starts the Block-wrappo container-->
-    <div class="container-fluid" id="Block-wrappo">
-        <div class="container" id="Blockos">
-            <div class="col-md-5 text-center Welcome">
-                <h1 class="text-center text-success fw-bolder Header">WELCOME HERE!</h1>
-                <p class="text-start fw-bolder lh-sm"><em class="fs-5 text-secondary">Learning Web design is not only interesting but also fascinating and evolving.
-                    But over the dimension of fascination, web design is/can be - also a good way to start a career in technology field. So that, one thing is sure, learning the basics is the first step to take. 
-                    As a beginner who is still learning, I want to share resources that can help people who also want to learn the basics in technology. 
-                        The choice to share and/or helping people getting into tech makes me happy. So lets have it in the way that simplifies the learning. That is the purpose of this website. I am only a learner and passionate who needs to progress and achieve. </em></p>
-            </div>
-            <div class="col-md-5 mb-5 text-center Welcome">
-            <a class="ROVER" href="https://builtin.com/software-engineering-perspectives/web-development" target="_blank">
-                <h1 class="text-center p-3 fw-bolder"><em class="text-primary text-center" id="Basic">Resources for Web Development</em>
-                    <br>
-                    <b class="text-danger text-center fs-4 fw-bolder">HTML, CSS, JAVASCRIPT, BOOTSTRAP</b> 
-                        <br>
-                        <b class="text-center text-success fs-3 mb-5 fw-bolder">Create Your App</b>
-             </h1>
-       </a> </div>
-         </div>
-         </div>
-         <!--Here starts the Block-wrapper container-->
-    <div class="container-fluid p-5" id="Block-wrapper">
-        <div class="container" id="Blockus">
-            <a class="ROVER" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <div class="col-md-5 mt-5 mb-5 text-center bg-white" id="Block">
-               <h1 class="text-primary text-center fs-2 fw-bolder pt-4">WHAT IS HTML?</h1>
-                <p class="text-break text-dark fs-5 text-start pt-1 p-3 lh-sm-1">HTML is a markup language. It stands for <b class="text-danger fs-5 fw-bolder">HyperText Markup Language.</b></p> 
-                    <p class="text-dark text-start pt-2 p-3 fs-5">Learning well HTML can lead you to better understand how to procede with web development. You can interact with the increasing digital world. 
-                   HTML is the backbone of web development since its creation in 1994 by Tim Berners Lee. HTML has evolved trough many versions and is now replaced by HTML living Standard. 
-                   <br> This HTML version is maintained by WHATWG group
-                </p>
-                <a href="https://www.learn-html.org/" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn>
-                </a> 
-            </div>
-        </a>
-        <a class="ROVER" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <div class="col-md-6 mt-5 mb-5 text-center bg-white" id="Bloc">
-                <h1 class="text-danger text-center fs-2 fw-bolder pt-4">WHAT ARE HTML ELEMENTS?</h1>
-                <p class="text-break text-primary text-start p-3 fs-5 fw-bolder pt-4">HTML elements are made by enclosed tags. To putting it in context is to say that elements are fabricated with words supposedly to be their names in a DOM tree. After naming the element we take care of enclosing it with two (2) tags: 
-                    an openning tag &lt;
-                        and a closing tag &gt;
-                    </p>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn>
-                </a> 
-             </div></a>
-        </div>
-        <div class="container" id="Blockus">
-             <a class="ROVER" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <div class="col-md-5 p-2 mt-5 mb-5 text-center bg-white" id="Block">
-               <h1 class="text-primary text-center fs-5 fw-bolder p-4">WHAT ARE HTML ATTRIBUTES?</h1>
-                <p class="text-break text-secondary text-start p-3 fs-5">HTML attributes are special words used inside the opening tag to control the element's behavior or appearance. 
-                    They provide additional information about an element and are always included in the opening tag. 
-                    Attributes usually come in name/value pairs like: name="value". 
-                    <em clas="fs-5">
-                        <br>For example, in the tag &lt;div id="rectangle"&gt;, 
-                        id is the attribute name <br>
-                        and rectangle is the attribute value.</em>
-                </p>
-                <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn>
-                </a> 
-            </div>
-        </a>
-        <a class="ROVER" href="https://html.spec.whatwg.org/" target="_blank">
-                <div class="col-md-5 mt-5 mb-5 text-center bg-white" id="Bloc">
-                <h1 class="text-danger text-center fs-5 fw-bolder pt-4">RESOURCES</h1>
-                <p class="text-break text-success text-start fs-5 pt-1 p-3">HTML documentation is a comprehensive resource that provides detailed information about the HTML language, its elements, attributes, and best practices for web development. 
-                    It serves as a reference guide for developers, designers, and anyone interested in learning or working with HTML. 
-                    <br>HTML documentation typically includes explanations of various HTML tags, their usage, and examples of how to implement them in web pages. 
-                      </p>
-                    <a href="https://html.spec.whatwg.org/" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn>
-                </a>
-             </div></a>
-            </div>
-            </div>
-            <!--Here starts the Block-wrap container-->
-             <div class="container-fluid p-5" id="Block-wrap">
-        <div class="container column justify-content-center">
-             <a class="ROVER" href="https://www.w3schools.com/css/css_intro.asp" target="_blank">
-                <div class="col-md-6 mt-5 mb-5 text-center bg-white" id="Block">
-              <h1 class="text-primary text-center fs-2 fw-bolder pt-4">What is CSS?</h1>
-              <p class="text-break text-dark text-start pt-1 p-3 lh-sm-1">CSS stands for <em class="text-danger">Cascading Style Sheet.</em> It is a powerful tool to style your web pages with. 
-                You can call it a beautifier or something else you want but when CSS is paired with HTML, the layout of your web development will be aestetically presentable. 
-               <br> Using rightly CSS is very crucial in terms of how to making a user UX experience more pretty good.
-            </p>
-            <a href="https://www.codecademy.com/resources/docs/css" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn></a>
-      </div></a>
-</div>
-             </div>
-             <!--Here starts the Block-wrapp container-->
-<div class="container-fluid p-5" id="Block-wrapp">
-        <div class="container column justify-content-center">
-     <a class="ROVER" href="https://javascript.info/" target="_blank">
-        <div class="col-md-6 mt-5 mb-5 text-center bg-white" id="Block" style="width: auto; height: auto;">
-              <h1 class="text-primary text-center fs-2 fw-bolder pt-4">What is JAVASCRIPT?</h1>
-              <p class="text-dark text-start pt-1 p-3 lh-sm-1"><em class="text-danger">JavaScript is a versatile programming language</em> that provides countless possibilities and meets various needs in the programming universe and in the industry.
-                JavaScript synthaxe helps beginners to learn not only with a certain passion but also with a sonner-or-later focus to build good products for use. That is one of most reasons that is motivating developers, web-enthusiasts or beginners any way. And the pretty good thing about it is that you have a lot of resources that can sharpenning the learning. And this is the way I want you to step in and start learning the basics of JavaScript. JS is a comprehensive programmming language. 
-               <br>
-               <br> <b class="text-danger lh-sm-1 fs-6">Given its versality, JavaScript is used for front-end and back-end development. Otherwise JS is a full-stack development language combining the local and the server-side.</b>
-            </p>
-<a href="https://javascript.info/" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn></a>   
-      </div></a>
-        </div>
-</div>
-<!--Here starts the Block-wrappe container-->
-<div class="container-fluid p-5" id="Block-wrappe">
-        <div class="container column justify-content-center">
-      <a class="ROVER" href="https://getbootstrap.com/" target="_blank">
-        <div class="col-md-5 mt-5 mb-5 text-center" id="Block">
-             <h1 class="text-primary text-center fs-2 fw-bolder pt-4">What is BOOTSTRAP?</h1>
-              <p class="text-start pt-1 p-3">Some designers and web enthousiasts called it a huge tool with three (3) technologies together:
-                <ul class="text-danger fs-6 fw-bolder text-start">Bootstrap = HTML + CSS + JavaScript <br>
-                    <li class="text-danger">HTML for structure</li><br>
-                    <li class="text-danger">CSS for style</li><br>
-                    <li class="text-danger">JavaScript for interactivity</li>
-                </ul>
-                  <p class="text-start pt-1 p-3">That means if you need to be a good web developer you have to learn them all. The good new is that they are all <em class="text-danger">free and open-source.</em> 
-                 There are diverse resources and documentation online to help you learning them step by step. 
-                    There is also a huge community of developers ready to help you if you need some assistance.</p> 
-              </p>
-               <a href="https://getbootstrap.com/" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow ps-3 pe-3 mb-4"> 
-                    Learn More    
-                    </btn></a>
-      </div></a>
-      </div>
-    </div>
-    <div class="container bg-white">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-10 bg-white p-5" style="width: 85.5%; height: auto; justify-content: center; align-items: center;">
-                <h1 class="text-center text-success fw-bolder p-4 mb-4 bg-light"> 
-                    What Is Basic Tech?
-                </h1>
-           <a class="ROVER" href="https://www.sciencedirect.com/topics/social-sciences/basic-technology" target="_blank"> <p class="text-start" id="Pati">
-                Basic Tech is a term that refers to the fundamental technologies and skills that are essential for understanding and working with modern technology. 
-                    It encompasses a wide range of topics, including computer literacy, internet usage, software applications, digital communication, and basic programming concepts. 
-             </p>
-             </a>
-             <a href="https://www.sciencedirect.com/topics/social-sciences/basic-technology" target="_blank"><btn class="btn btn-outline-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow"> 
-                    Learn More...    
-                    </btn></a>
-            </div>
-            <div class="col-md-10 bg-white p-5" style="width: 85.5%; height: auto; justify-content: center; align-items: center;">
-                <h1 class="text-center text-primary fw-bolder p-4 mb-4 bg-light"> 
-                    How Important Is To Learn Basic Tech?
-                </h1>
-                <a class="ROVER" href="https://www.edsurfing.com/blog/why-you-should-learn-basic-computer-skills-178" target="_blank"><p class="text-start p-4" id="Topa">
-                  Basic Tech is important because it provides individuals with the foundational knowledge and skills needed to effectively navigate the digital world.
-                    It enables people to access information, communicate with others, and utilize various digital tools and platforms. 
-                    In today's technology-driven society, having a solid understanding of Basic Tech is crucial for personal and professional development. 
-                </p></a>
-                <a href="https://www.edsurfing.com/blog/why-you-should-learn-basic-computer-skills-178" target="_blank"><btn class="btn btn-outline-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow"href="#"> 
-                    Learn More...    
-                    </btn>
-                    </a>
-            </div>
-            <div class="col-md-10 bg-white p-5" style="width: 85.5%; height: auto; justify-content: center; align-items: center;">
-                <h1 class="text-center text-danger fw-bolder p-4 mb-2 bg-light"> 
-                    Which Technology Should I Learn First?
-                </h1>
-                <a class="ROVER" href="https://medium.com/globant/which-technology-programming-language-should-you-learn-first-c5bec08790f" target="_blank"><p class="text-start text-dark p-4 fw-bolder" id="Atop">
-                    The choice of technology to start learning depends on your interests, goals, and the specific field you want to pursue. 
-                    However, some popular and widely used technologies that are often recommended for beginners include:</p></a>
-                    <ul class="text-black-50 p-4 fs-5 lh-sm-5 bg-light">
-                        <li>HTML/CSS: These are the foundational languages for web development and are essential for creating and styling web pages.</li><br>
-                        <li>JavaScript: A versatile programming language used for web development, allowing you to create interactive and dynamic web applications.</li><br>
-                        <li>Python: A beginner-friendly programming language known for its simplicity and readability. It is widely used in various fields, including web development, data analysis, and machine learning.</li><br>
-                        <li>SQL: A language used for managing and manipulating databases. It is essential for working with data and is commonly used in web development and data analysis.</li><br>        
-                        <li>Git: A version control system that allows you to track changes in your code and collaborate with others. It is widely used in software development projects.</li>
-            <a href="https://medium.com/globant/which-technology-programming-language-should-you-learn-first-c5bec08790f" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mt-2 shadow"href="#"> 
-                    Learn More...    
-                    </btn>
-                    </a>
-                    </div>
-            <div class="col-md-10 bg-white p-5" style="width: 85.5%; height: auto; justify-content: center; align-items: center;">
-                <h1 class="text-center text-info fw-bolder p-3 mb-4 bg-light"> 
-                    How Long Does It Take To Create A Static Program?
-                     </h1>
-            <a class="ROVER" href="https://wcc.ca/blog/how-long-does-it-take-to-complete-an-it-program/" target="_blank"><p class="text-start text-dark bg-white fw-bolder p-4" id="Pat">
-                The time required to create a static program can vary depending on several factors including the complexity of the program, your prior programming experience, and the programming language you choose to use.
-                For beginners with little to no programming experience, it may take anywhere from hours to days or maybe to months to create a simple static program depending your ability to learn fast or not. 
-                This could involve learning the basics of the programming language, understanding the syntax, and writing the code for the program.
-                However, with consistent practice and dedication, you can gradually improve your programming skills and create more complex programs over time.
-             </p></a>
-             <a href="https://wcc.ca/blog/how-long-does-it-take-to-complete-an-it-program/" target="_blank"><btn class="btn btn-primary fs-5 fw-bolder rounded-5 p-2 mb-4 shadow"href="#"> 
-                    Learn More...    
-                    </btn>
-                    </a>
-            </div>
-        </div>
-    </div>
-        <div class="container lh-sm p-4 mt-5 mb-4">
-        <div class="row p-4" id="Beauty">
-            <div class="col-md-6 mt-1 border-2 rounded-4">
-                <h2 class="text-dark fs-3 fw-bolder">HTML Resources</h2>
-                <ul class="lh-lg">
-                    <li><a class="text-white fs-4 HOVER" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://html.com/" target="_blank">HTML.com - Learn HTML</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5" target="_blank">freeCodeCamp - Basic HTML & HTML5</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li><br>
-                </ul>
-            </div>
-            <div class="col-md-6 mt-1 border-2 rounded-4">
-                <h2 class="text-dark fs-3 fw-bolder border-2 rounded-4">CSS Resources</h2>
-                <ul class="text-black-50 lh-lg">
-                    <li><a class="text-white fs-4 HOVER" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS Tutorial</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-css" target="_blank">freeCodeCamp - Basic CSS</a></li><br>
-                    <li><a class="text-white fs-4 HOVER" href="https://www.codecademy.com/learn/learn-css" target="_blank">Learn CSS with codeacademy</a></li><br>
-                   </ul>  
-                </div>
-</div>
-</div>
-<!--End of the body of the page-->
-
-    <!--Button to go to the top of the page-->
-   <a href="#TOP" class="btn btn-warning fs-6 fw-bold rounded-5 position-fixed bottom-0 end-0 m-3" style="z-index: 1000;">GO TO TOP
-</a>
-<!--The body ends here-->
-</body>
-<div class="container-fluid text-center pt-3 pb-1" style="background-color: #dc354643; font-weight: lighter; color: #152fa3ef; font-size: 18px; font-family: helvetica;">
-Do you know how to get your learning skills more improved ? Honestly there is no secret. You only have to practice and still practice. Practice Makes Perfect.</p>
-</div>
-    <!--Here starts the footer of the page-->
-<div class="container-fluid footer text-white text-center bg-danger fs-4 pt-4 fw-bolder" id="footer" >
-        <p>Copyright  © GaB & TecH 2025</p>
-        <p class="text-white fs-4"> All Rights Reserved</p> 
-        <p class="text-white fs-5">* We Are Differently Able *</p>
-    </div>
-</html>
+}
+.Header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 61px!important;
+    color:#ff0000!important;
+    width: 100%!important;
+    justify-content: center!important;
+    align-items: center;
+}
+.Welcome{
+    width: 55%!important;
+    height: auto!important;
+    display: block!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-weight: bold!important;
+    font-size: 26px!important;
+    color:#000!important;
+    margin-top: 15px!important;
+    border-bottom: 0.24rem rgb(23, 88, 210) dashed!important;
+}
+#Blockos{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items:center!important;
+    padding-top: 5px!important;
+}
+#Block-wrappo{
+    width: 100%!important;
+    height: 100%!important;
+    display: flex!important;
+    flex-direction: row!important;
+    background-color: #ff5d6d4a!important;
+    justify-content: center!important;
+    align-items:center!important;
+    padding-top: 18px!important;
+    padding-bottom: 20px!important;
+}
+#Block-wrapper{
+    width: 100%!important;
+    height: auto!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: #ff6161e5!important;
+    padding-top: 60px!important;
+    padding-bottom: 90px!important;
+    justify-content: space-between!important;
+    align-items:center!important;
+}
+#Block-wrap{
+    width: 100%!important;
+    height: auto!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: #ffe195f6!important;
+    padding-top: 200px!important;
+    padding-bottom: 200px!important;
+    justify-content: center!important;
+    align-items:center!important;
+}
+#Block-wrapp{
+    width: 100%!important;
+    height: auto!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: #08174ed9!important;
+    padding-top: 200px!important;
+    padding-bottom: 200px!important;
+    justify-content: center!important;
+    align-items:center!important;
+}
+#Block-wrappe{
+   width: 100%!important;
+    height: auto!important;
+    display: block!important;
+    flex-direction: column!important;
+    background-color: #1f42cbcd!important;
+    padding-top: 200px!important;
+    padding-bottom: 200px!important;
+    justify-content: center!important;
+    align-items:center!important;
+}
+#Blockus{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    padding: 40px!important;
+    gap: 15px!important;
+    justify-content: center!important;
+    justify-items: center!important;
+    background-color: #6ba6fff2!important;
+    margin-top: 1rem!important;
+    margin-bottom: 5rem!important;
+}
+#Block{
+    width: 50%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 20px!important;
+    justify-content: center!important;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace!important;
+    font-weight: bold!important;
+    line-height: 1.6!important;
+    padding: 5px!important;
+    margin-left: -0.8rem!important;
+    color: #000!important;
+    border-left: 0.5rem solid var(--bs-dark)!important;
+    border-radius: 20px!important;
+    background-color: #fff!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+}
+#Block:hover{
+    width: 50%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 20px!important;
+    justify-content: center!important;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace!important;
+    font-weight: bold!important;
+    line-height: 1.6!important;
+    padding: px!important;
+    background-color: #fff987e4!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#Bloc{
+    width: 50%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 16px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-family: "Courier New", Courier, monospace!important;
+    font-weight: bold!important;
+    line-height: 1.6!important;
+    padding: 5px!important;
+    color: #000!important;
+    border-right: 0.5rem solid var(--bs-dark)!important;
+    border-radius: 20px!important;
+    background-color: rgba(255, 255, 116, 0.95)!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+}
+#Bloc:hover{
+    width:50%!important;
+    height: auto!important;
+    line-height: 1.6!important;
+    padding: 5px!important;
+    background-color: #fff!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+}
+ #Pati{
+    display: block!important;
+    width: 100%;
+    height: auto;
+    font-size: 20px!important;
+    justify-content: center;
+    align-items: center;
+    display: block!important;
+    font-weight: bold!important;
+    font-family: "Courier New", Courier, monospace!important;
+    line-height: 1.6!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    padding: 20px!important;
+    color: #000!important;
+    border: 0.12rem dotted #242424!important;
+}
+#Pati:hover{
+    width: 100%;
+    height: auto;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    font-size: 20px!important;
+    padding: 20px!important;
+    font-family: "Courier New", Courier, monospace!important;
+    display: block!important;
+    background-color: orange!important;
+    color: #000!important;
+    line-height: 1.6!important;
+    border-radius: 20px!important;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#Pat{
+    width: 100%!important;
+    height: auto!important;
+    font-size: 20px!important;
+    justify-content: center;
+    align-items: center;
+    display: block!important;
+    font-family: "Courier New", Courier, monospace!important;
+    line-height: 1.5!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    padding: 20px!important;
+    color: #000!important;
+    border: 0.12rem dotted #000!important;
+}
+#Pat:hover{
+    width: 100%!important;
+    height: auto!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    font-size: 20px!important;
+    padding: 20px!important;
+    font-family: "Courier New", Courier, monospace!important;
+    display: block!important;
+    border: 0.12rem solid var(--bs-black)!important;
+    background-color: #ffcc35fb!important;
+    color: #000!important;
+    line-height: 1.5!important;
+    border-radius: 20px!important;
+    transition: background-color all 0.35s ease-in-out;
+    cursor: pointer;
+}
+#Static{
+    display: block!important;
+    justify-content: center;
+    align-items: center;
+}
+#Topa{
+    display:block!important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    width: 100%;
+    height: auto;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    color: #000 !important;
+    padding: 20px!important;
+    border: 0.12rem dotted #000!important;
+    line-height: 1.6!important;
+    font-family: "Courier New", Courier, monospace!important;
+}
+#Topa:hover{
+    display:block!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 20px!important;
+    padding: 20px!important;
+    border: 0.12rem solid #000!important;
+    background-color: var(--bs-bgab-green)!important;
+    color: #000!important;
+    border-radius: 20px!important;
+    line-height: 1.6!important;
+    transition: background-color all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#Atop{
+    width: 100%;
+    height: auto;
+    font-size: 20px!important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: block!important;
+    line-height: 1.6!important;
+    font-family: "Courier New", Courier, monospace!important;
+    border: 0.12rem dotted #000!important;
+}
+#Atop:hover{
+    background-color: var(--bs-danger)!important;
+    border: 0.12rem solid #000!important;
+    color:#fff!important;
+    font-size: 20px!important;
+    width: 100%!important;
+    height: auto!important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.6!important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: block!important;
+    border-radius: 20px!important;
+    transition: background-color all 0.3s ease-in-out !important;
+    cursor: pointer !important;
+}
+#Pate{
+    width: 100%!important;
+    height: auto!important;
+    font-size: 20px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    display: block!important;
+    position: relative!important;
+    margin-top: 10px!important;
+    margin-bottom: 40px!important;
+    padding: 20px!important;
+    color: #000!important;
+    background-color: var(--bs-gradient)!important;
+}
+.sisi{
+    width: 100%!important;
+    height: auto!important;
+    font-size: 20px!important;
+    padding: 20px!important;
+    font-family: "Courier New", Courier, monospace!important;
+    display: flex!important;
+    background-color: var(--bs-white)!important;
+    color: #000!important;
+    line-height: 1.5!important;
+    border-radius: 20px!important;
+}
+/*End of custom styles*/
+@import "../node_modules/bootstrap/scss/utilities";
