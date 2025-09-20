@@ -263,14 +263,14 @@ a{
     font-size: 17px!important;
     line-height: 1.69!important;
     font-weight: bolder!important;
-    color:#000!important;
+    color:#1254b8f2!important;
     text-align: justify!important;
-    background-color: #ffdcdca4!important;
+    background-color: #ffd5d5a4!important;
     padding: 17px!important;
     border-radius: 5px!important;
     border: 2px solid rgb(90, 169, 254)!important;
     word-spacing: -1.5px!important;
-    box-shadow: 0 0.5px 5px 0.5px rgba(18, 77, 237, 0.931);
+    box-shadow: 0 0.5px 6px 0.5px rgba(18, 77, 237, 0.931);
 }
 .Welcoming:hover{
     background-color: #ffdc74fb!important;
