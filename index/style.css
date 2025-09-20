@@ -274,10 +274,10 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #dc354643!important;
+    background-color: #ff5d6d4a!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 30px!important;
+    padding-top: 18px!important;
     padding-bottom: 20px!important;
 }
 #Block-wrapper{
