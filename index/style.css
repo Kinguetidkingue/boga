@@ -246,7 +246,7 @@ a{
     justify-content: center!important;
     align-items: center;
 }
-.Welcome{
+#Welcome{
     width: 55%!important;
     height: auto!important;
     display: block!important;
@@ -254,22 +254,23 @@ a{
     align-items: center!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bold!important;
-    font-size: 26px!important;
+    font-size: 24px!important;
     color:#000!important;
-    margin-top: 5px!important;
-    border-bottom: 1.6px rgba(255, 72, 40, 0.973) dashed!important;
+    margin-top: 15px!important;
 }
 .Welcoming{
     font-family: var(--bs-font-monospace)!important;
     font-size: 17px!important;
     line-height: 1.69!important;
-    font-weight: lighter!important;
-    color:#154ea3f2!important;
+    font-weight: bolder!important;
+    color:#1254b8f2!important;
     text-align: justify!important;
-    background-color: rgba(255, 224, 255, 0.469)!important;
+    background-color: #ffd5d5a4!important;
     padding: 17px!important;
-    border-radius: 20px!important;
-    border: 1px solid red!important;
+    border-radius: 5px!important;
+    border: 2px solid rgb(90, 169, 254)!important;
+    word-spacing: -1.5px!important;
+    box-shadow: 0 0.5px 6px 0.5px rgba(18, 77, 237, 0.931);
 }
 #Blockos{
     width: 100%!important;
@@ -285,7 +286,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: light!important;
+    background-color: rgba(168, 201, 255, 0.842)!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 18px!important;
