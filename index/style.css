@@ -26,7 +26,7 @@
     --bs-bf-purple:rgba(207, 123, 255, 0.976);
     --bs-pink: #d63384;
     --bs-red: #dc3545;
-    --bs-ps-red: #ee4152;
+    --bs-ps-red: #ff6776e4;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffdc96f3; 
@@ -255,9 +255,10 @@ a{
     align-items: center!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bold!important;
-    font-size: 32px!important;
+    font-size: 25px!important;
     color:#000!important;
-    margin-top: 5px!important;
+    margin-top: 15px!important;
+    border-bottom: 0.24rem rgb(23, 88, 210) dashed!important;
 }
 #Blockos{
     width: 100%!important;
@@ -273,7 +274,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #79afffb0!important;
+    background-color: #dc354643!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 30px!important;
@@ -350,7 +351,7 @@ a{
     color: #000!important;
     border-left: 0.5rem solid var(--bs-dark)!important;
     border-radius: 20px!important;
-    background-color: rgba(255, 255, 116, 0.95)!important;
+    background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block:hover{
@@ -364,8 +365,7 @@ a{
     font-weight: bold!important;
     line-height: 1.6!important;
     padding: px!important;
-    color: #000!important;
-    background-color: #fff!important;
+    background-color: #fff987e4!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
