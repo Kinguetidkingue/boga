@@ -277,12 +277,12 @@ a{
     font-weight: bolder!important;
     color:#1254b8f2!important;
     text-align: justify!important;
-    background-color: #ffd5d5a4!important;
+    background-color: #ffe1e1e5!important;
     padding: 17px!important;
     border-radius: 5px!important;
-    border: 2px solid rgb(90, 169, 254)!important;
+    border: 2px solid rgb(70, 160, 255)!important;
     word-spacing: -2px!important;
-    box-shadow: 0 0.65px 4px 1px rgba(13, 68, 221, 0.976);
+    box-shadow: 0 0.65px 4px 1px rgba(12, 64, 208, 0.976);
 }
 .Welcoming:hover{
     background-color: #fee189fb!important;
