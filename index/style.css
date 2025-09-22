@@ -302,7 +302,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: rgba(168, 201, 255, 0.842)!important;
+    background-color: #85b2ffe9!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 18px!important;
@@ -346,7 +346,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #1f42cbcd!important;
+    background-color: #2347d7cf!important;
     padding-top: 200px!important;
     padding-bottom: 200px!important;
     justify-content: center!important;
