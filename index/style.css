@@ -273,16 +273,16 @@ a{
 .Welcoming{
     font-family: var(--bs-font-monospace)!important;
     font-size: 17px!important;
-    line-height: 1.69!important;
+    line-height: 1.65!important;
     font-weight: bolder!important;
     color:#1254b8f2!important;
     text-align: justify!important;
     background-color: #ffe1e1e5!important;
-    padding: 17px!important;
+    padding: 16.5px!important;
     border-radius: 5px!important;
     border: 2px solid rgb(70, 160, 255)!important;
     word-spacing: -2px!important;
-    box-shadow: 0 0.65px 4px 1px rgba(12, 64, 208, 0.976);
+    box-shadow: 0 0.65px 6px 1px rgba(12, 64, 208, 0.976);
 }
 .Welcoming:hover{
     background-color: #fee189fb!important;
