@@ -324,7 +324,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffe5ade9!important;
+    background-color: #affa9ad1!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -347,8 +347,8 @@ a{
     display: block!important;
     flex-direction: column!important;
     background-color: #2347d7cf!important;
-    padding-top: 200px!important;
-    padding-bottom: 200px!important;
+    padding-top: 100px!important;
+    padding-bottom: 100px!important;
     justify-content: center!important;
     align-items:center!important;
 }
