@@ -141,8 +141,8 @@ body{
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.12rem solid #ff6161e5!important;
-    border-bottom: #0d34a0e2 0.5rem solid;
-    box-shadow: 0 0.12rem 0.8rem 0.5px #3f7cffc2!important;
+    border-bottom: #1055b0ee 0.5rem solid;
+    box-shadow: 0 0.12rem 0.7rem 0.5px #437fffd8!important;
 }
 #Navbar:hover{
     background-color: light!important;
