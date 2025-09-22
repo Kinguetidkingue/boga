@@ -145,7 +145,6 @@ body{
 }
 #Navbar:hover{
     background-color: light!important;
-    border-top: 0.12rem solid #ff6161e5!important;
     transition: background-color 0.35s ease-in-out;
 }
 .navbar-toggler-icon{

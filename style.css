@@ -145,8 +145,7 @@ body{
 }
 #Navbar:hover{
     background-color: light!important;
-    border-top: 0.12rem solid #ff6161e5!important;
-    transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out!important;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
@@ -277,7 +276,7 @@ a{
     font-weight: bolder!important;
     color:#1254b8f2!important;
     text-align: justify!important;
-    background-color: #ffdddde5!important;
+    background-color: #ffe1e1e5!important;
     padding: 17px!important;
     border-radius: 5px!important;
     border: 2px solid rgb(70, 160, 255)!important;
