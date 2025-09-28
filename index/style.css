@@ -220,7 +220,7 @@ a{
     width: 100%!important;
     justify-content: center!important;
     align-items: center;
-    margin-top: -5rem;
+    margin-top: -8rem;
 }
 #Beauty{
     align-items: center!important;
@@ -249,9 +249,9 @@ a{
     align-items: center!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bold!important;
-    font-size: 20px!important;
+    font-size: 16px!important;
     color:#000!important;
-    margin-top: 15px!important;
+    margin-top: 5px!important;
 }
 #WelcomeA{
      width: 55%!important;
@@ -261,22 +261,22 @@ a{
     align-items: center!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bold!important;
-    font-size: 24px!important;
+    font-size: 23px!important;
     color:#000!important;
-    margin-top: 15px!important;
+    margin-top: 12px!important;
 }
 .Header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-weight: bolder!important;
-    font-size: 35px!important;
+    font-size: 30px!important;
     width: 100%!important;
     justify-content: center!important;
     align-items: center;
 }
 .Welcoming{
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 19px!important;
-    line-height: 1.65!important;
+    font-size: 17.75px!important;
+    line-height: 1.5!important;
     font-weight: bolder!important;
     color:#000!important;
     text-align: justify!important;
@@ -372,7 +372,7 @@ a{
     width: 58%!important;
     height: auto!important;
     display: block!important;
-    font-size: 20px!important;
+    font-size: 16px!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: "Courier New", Courier, monospace!important;
@@ -388,7 +388,6 @@ a{
 }
 #Block:hover{  
     display: block!important;
-    font-size: 20px!important;
     justify-content: center!important;
     align-items: center;
     font-family: "Courier New", Courier, monospace!important;
