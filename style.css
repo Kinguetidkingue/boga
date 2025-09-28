@@ -192,7 +192,7 @@ a{
     text-decoration: none;
 }
 .ROVER:hover{
-    text-decoration-line: dashed 1px #0a58ca!important;
+    text-decoration: solid 2px red!important;
 }
 .footer{
     display: block;
