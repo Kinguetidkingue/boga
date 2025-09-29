@@ -26,6 +26,7 @@
     --bs-bf-purple:rgba(207, 123, 255, 0.976);
     --bs-pink: #d63384;
     --bs-red: #dc3545;
+    --bs-redd:#7e0b39f6;
     --bs-ps-red: #ff6776e4;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
@@ -118,7 +119,7 @@ body{
     height: 40px!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #0d6efd!important;
+    background-color: #1634c7fa!important;
     padding-left: 0.15rem!important;
 }
 #demo{
@@ -141,8 +142,8 @@ body{
     font-size: 20px!important;
     padding: 5px!important;
     border-top: 0.12rem solid #ff6161e5!important;
-    border-bottom: #1160c7 0.5rem solid;
-    box-shadow: 0 0.5px 0.5rem 0.5px #3f7cfff9!important;
+    border-bottom: hsla(328, 85%, 45%, 0.981) 0.5rem solid;
+    box-shadow: 0 0.4px 0.35rem 0.45px hsla(208, 100%, 57%, 0.963)!important;
 }
 #Navbar:hover{
     background-color: light!important;
@@ -280,15 +281,16 @@ a{
     text-align: justify!important;
     background-color: #fff!important;
     padding: 18px!important;
-    border-radius: 15px!important;
+    border-radius: 10px!important;
     border: 2px solid rgb(34, 30, 251)!important;
     word-spacing: -2px!important;
     box-shadow: 0 0.65px 6px 1px rgba(12, 64, 208, 0.976);
 }
 .Welcoming:hover{
-    background-color: #ffdf7f!important;
+    background-color: lab(96.18% -11.6 50.13 / 0.959)!important;
     transition: background-color 0.3s ease-in-out!important;
     cursor: pointer!important;
+    color: rgba(28, 46, 177, 0.976)!important
 }
 #Blockos{
     width: 100%!important;
@@ -304,7 +306,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #85b2ffe6!important;
+    background-color: #abb8bffa!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 18px!important;
@@ -315,7 +317,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ff7575db!important;
+    background-color: #831199ef!important;
     padding-top: 60px!important;
     padding-bottom: 70px!important;
     justify-content: space-between!important;
@@ -326,7 +328,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #affa9ad1!important;
+    background-color: #1d6ed7e4!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -337,7 +339,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #091851d9!important;
+    background-color: #12246ff2!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -348,7 +350,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #2347d7cf!important;
+    background-color: #ff7755e3!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
