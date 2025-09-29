@@ -279,17 +279,17 @@ a{
     align-items: center;
 }
 .Welcoming{
-    width: 800px!important;
-    height: 650px!important;
+    width: 870px!important;
+    height: 700px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size: 23px!important;
+    font-size: 19px!important;
     line-height: auto!important;
-    color:#163984de!important;
+    color:#113688de!important;
     text-align: start!important;
     background-color: #fff!important;
     padding: 30px!important;
     word-spacing: normal!important;
-    border-left: 0.2rem solid#dfdfdff9!important;
+    border-left: 0.12rem solid#dfdfdff9!important;
 }
 
 #Wel{
