@@ -311,7 +311,7 @@ a{
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #fafafa!important;
+    background-color: #fafafafe!important;
     justify-content: center!important;
     align-items:center!important;
     padding-top: 18px!important;
@@ -322,7 +322,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ff9f22ec!important;
+    background-color: #ffa125e7!important;
     padding-top: 60px!important;
     padding-bottom: 70px!important;
     justify-content: space-between!important;
@@ -399,7 +399,7 @@ a{
     font-weight: bold!important;
     line-height: 1.6!important;
     padding: px!important;
-    background-color: rgba(255, 255, 116, 0.95)!important;
+    background-color: rgba(251, 241, 149, 0.926)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
