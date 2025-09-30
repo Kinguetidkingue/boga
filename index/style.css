@@ -141,8 +141,8 @@ body{
     font-size: 20px!important;
     padding: 8px!important;
     border-top: 1px solid #202af2ef!important;
-    border-bottom: hsla(0, 72%, 47%, 0.973) 0.35rem solid!important;
-    box-shadow: 0 0.51px 0.65rem 0.5px hwb(0 31% 66% / 0.842)!important;
+    border-bottom: hsla(315, 77%, 50%, 0.973) 0.3rem solid!important;
+    box-shadow: 0 0.51px 0.6rem 0.5px hwb(0 31% 66% / 0.842)!important;
 }
 #Navbar:hover{
     background-color: light!important;
@@ -244,32 +244,30 @@ a{
 
 }
 #Welcome{
-    width: 850px!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    font-size: 17.5px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-size: 19px!important;
     color:#000!important;
-    margin-top: 5px!important;
+    line-height: 1.68!important;
     padding: 20px!important;
 }
-#WelcomeA{
-     width: 100%!important;
+.WelcomeA{
+    width: 100%!important;
     height: auto!important;
     display: block!important;
-    justify-content: start!important;
-    align-items: start!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    justify-content: left!important;
+    align-items: left!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bold!important;
     font-size: 22px!important;
-    color:#000!important;
-    margin-top: 12px!important;
 }
 .Header{
     width: 850px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-family: 'arial black'!important;
     font-weight: bold!important;
     font-size: 32px!important;
     color: rgba(35, 52, 205, 0.922)!important;
@@ -296,10 +294,10 @@ a{
     width: 100%!important;
     height: auto!important;
     display: grid!important;
-    grid-template-columns: 300px 1fr 300px!important;
+    grid-template-columns: 0.25fr 0.5fr 0.25fr!important;
     justify-content: center!important;
     align-items:center!important;
-    padding-top: 20px!important;
+    gap: auto!important;
 }
 #Block-wrappo{
     width: 100%!important;
@@ -315,7 +313,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffb049d3!important;
+    background-color: #ffb34fed!important;
     padding-top: 60px!important;
     padding-bottom: 60px!important;
     justify-content: space-between!important;
