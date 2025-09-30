@@ -114,24 +114,25 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: auto!important;
+    height: 40px!important;
     width: 100%!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #1b44d8f7!important;
+    background-color: #1434a5e6!important;
 }
 #demo{
     width: 100%!important;
-    height: auto!important;
+    height: 100%!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 13px!important;
+    font-size: 14px!important;
     font-weight: bold;
-    color: #fff!important;
     margin-top: 8px!important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    color: #cad5ff!important;
+    
+    font-family: Arial, Helvetica, sans-serif!important;
 }
 #Navbar{
     width: 100%!important;
@@ -139,9 +140,9 @@ body{
     flex-direction: column!important;
     background-color: light!important;
     font-size: 20px!important;
-    border-top: 0.15rem solid #fa8117eb!important;
-    border-bottom: hsla(234, 70%, 36%, 0.964) 0.5rem solid!important;
-    box-shadow: 0 0.52px 0.8rem 1px hwb(234 5% 43% / 0.835)!important;
+    border-top: 0.15rem solid #ff6044fb!important;
+    border-bottom: hsla(234, 73%, 35%, 0.945) 0.48rem solid!important;
+    box-shadow: 0 0.5px 0.6rem 1px hwb(234 17% 7% / 0.971)!important;
 }
 #Navbar:hover{
     background-color: #eef5fff9!important;
@@ -243,14 +244,11 @@ a{
 
 }
 #Wel{
-    display: inline-block!important;
+    display: block!important;
     width: 80%!important;
-    height: 500px!important;
-    position: sticky!important;
-    color: rgba(241, 14, 158, 0.893)!important;
+    height: 750px!important;
+    color: rgba(254, 49, 233, 0.937)!important;
     padding: 20px!important;
-    top: 100px!important;
-    z-index: 1!important;
 }
 #Welcome{
     width: 100%!important;
@@ -259,8 +257,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 19px!important;
-    color:#000!important;
+    font-size: 20px!important;
     line-height: 1.68!important;
     border-right: 0.5px solid rgb(177, 177, 177)!important;
     border-left: 0.5px solid rgb(177, 177, 177)!important;
@@ -272,7 +269,7 @@ a{
 }
 .WelcomeA{
     width: 100%!important;
-    height: 700px!important;
+    height: 750px!important;
     display: block!important;
     justify-content: left!important;
     align-items: left!important;
