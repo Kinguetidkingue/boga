@@ -141,7 +141,7 @@ body{
     font-size: 20px!important;
     padding: 8px!important;
     border-top: 1px solid #202af2ef!important;
-    border-bottom: hsla(315, 77%, 50%, 0.973) 0.3rem solid!important;
+    border-bottom: hsla(229, 81%, 42%, 0.973) 0.5rem solid!important;
     box-shadow: 0 0.51px 0.6rem 0.5px hwb(0 31% 66% / 0.842)!important;
 }
 #Navbar:hover{
@@ -294,7 +294,7 @@ a{
     width: 100%!important;
     height: auto!important;
     display: grid!important;
-    grid-template-columns: 0.25fr 0.5fr 0.25fr!important;
+    grid-template-columns: 0.5fr 1fr 0.5fr!important;
     justify-content: center!important;
     align-items:center!important;
     gap: auto!important;
