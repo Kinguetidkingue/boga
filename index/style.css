@@ -139,13 +139,12 @@ body{
     flex-direction: column!important;
     background-color: light!important;
     font-size: 20px!important;
-    padding: 8px!important;
-    border-top: 1px solid #202af2ef!important;
-    border-bottom: hsla(229, 81%, 42%, 0.973) 0.5rem solid!important;
-    box-shadow: 0 0.51px 0.6rem 0.5px hwb(0 31% 66% / 0.842)!important;
+    border-top: 0.15rem solid #fa8117eb!important;
+    border-bottom: hsla(234, 70%, 36%, 0.964) 0.5rem solid!important;
+    box-shadow: 0 0.52px 0.8rem 1px hwb(234 5% 43% / 0.835)!important;
 }
 #Navbar:hover{
-    background-color: light!important;
+    background-color: #eef5fff9!important;
     transition: background-color 0.35s ease-in-out;
 }
 .navbar-toggler-icon{
@@ -243,6 +242,16 @@ a{
     align-items: center!important;
 
 }
+#Wel{
+    display: inline-block!important;
+    width: 80%!important;
+    height: 500px!important;
+    position: sticky!important;
+    color: rgba(241, 14, 158, 0.893)!important;
+    padding: 20px!important;
+    top: 100px!important;
+    z-index: 1!important;
+}
 #Welcome{
     width: 100%!important;
     height: auto!important;
@@ -253,17 +262,24 @@ a{
     font-size: 19px!important;
     color:#000!important;
     line-height: 1.68!important;
+    border-right: 0.5px solid rgb(177, 177, 177)!important;
+    border-left: 0.5px solid rgb(177, 177, 177)!important;
     padding: 20px!important;
+}
+.text-well{
+    width: 580px!important;
+    height: auto!important;
 }
 .WelcomeA{
     width: 100%!important;
-    height: auto!important;
+    height: 700px!important;
     display: block!important;
     justify-content: left!important;
     align-items: left!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bold!important;
     font-size: 22px!important;
+    padding: 20px!important;
 }
 .Header{
     width: 850px!important;
@@ -277,36 +293,27 @@ a{
     padding: 20px!important;
     margin-bottom: 0.4rem!important;
 }
-
-#Wel{
-    width: 100%!important;
-    height: auto!important;
-    display: grid!important;
-    position: sticky!important;
-    color: rgba(241, 14, 158, 0.893)!important;
-    padding: 20px!important;
-    top: 100px!important;
-}
 #RES{
-    color: #f5900ce1!important;
+    color: #dd810af7!important;
 }
 #Blockos{
     width: 100%!important;
     height: auto!important;
-    display: grid!important;
-    grid-template-columns: 0.5fr 1fr 0.5fr!important;
+    display: flex!important;
+    flex-direction: row!important;
     justify-content: center!important;
     align-items:center!important;
-    gap: auto!important;
+     padding-top: 20px!important;
 }
 #Block-wrappo{
     width: 100%!important;
     height: 100%!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #fcfcfcf2!important;
+    background-color: #f5f5f5f2!important;
     justify-content: center!important;
     align-items:center!important;
+     padding: 20px!important;
 }
 #Block-wrapper{
     width: 100%!important;
