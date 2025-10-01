@@ -145,8 +145,8 @@ body{
     background-color: #cbdcff!important;
     font-size: 20px!important;
     border-top: 0.15rem solid #ff6044fb!important;
-    border-bottom: hsla(234, 73%, 35%, 0.945) 0.47rem solid!important;
-    box-shadow: 0 0.5px 0.55rem 1.1px hwb(234 10% 9% / 0.971)!important;
+    border-bottom: hsla(234, 75%, 38%, 0.945) 0.45rem solid!important;
+    box-shadow: 0 0.5px 0.68rem 1.11px hwb(230 7% 9% / 0.982)!important;
 }
 #Navbar:hover{
     background-color: #fff!important;
@@ -250,7 +250,7 @@ a{
 #Wel{
     display: block!important;
     width: 80%!important;
-    height: 437px!important;
+    height: 435px!important;
     color: rgba(254, 49, 233, 0.937)!important;
     padding: 20px!important;
     position: sticky!important;
@@ -323,7 +323,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffac4ee7!important;
+    background-color: #fe9b2aeb!important;
     padding-top: 60px!important;
     padding-bottom: 60px!important;
     justify-content: space-between!important;
@@ -334,7 +334,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #60a5ffa4!important;
+    background-color: #7ea2fffc!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
