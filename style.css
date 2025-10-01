@@ -145,8 +145,8 @@ body{
     background-color: #cbdcff!important;
     font-size: 20px!important;
     border-top: 0.15rem solid #ff6044fb!important;
-    border-bottom: hsla(234, 75%, 38%, 0.945) 0.45rem solid!important;
-    box-shadow: 0 0.5px 0.68rem 1.11px hwb(230 7% 9% / 0.982)!important;
+    border-bottom: hsla(234, 71%, 37%, 0.979) 0.45rem solid!important;
+    box-shadow: 0 0.5px 0.68rem 1.5px hwb(230 10% 6% / 0.889)!important;
 }
 #Navbar:hover{
     background-color: #fff!important;
@@ -250,14 +250,13 @@ a{
 #Wel{
     display: block!important;
     width: 80%!important;
-    height: 435px!important;
+    height: 482px!important;
     color: rgba(254, 49, 233, 0.937)!important;
     padding: 20px!important;
     position: sticky!important;
-    top: 80px!important;
+    top: 75px!important;
 }
 #LuL{
-    color: rgba(16, 196, 16, 0.839)!important;
     font-size: 14px!important;
 }
 #Welcome{
@@ -334,7 +333,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #7ea2fffc!important;
+    background-color: #84a7fff3!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
