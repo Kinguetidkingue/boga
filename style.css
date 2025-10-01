@@ -142,14 +142,14 @@ body{
     width: 100%!important;
     height: 100%!important;
     flex-direction: column!important;
-    background-color: light!important;
+    background-color: #cbdcff!important;
     font-size: 20px!important;
     border-top: 0.15rem solid #ff6044fb!important;
     border-bottom: hsla(234, 73%, 35%, 0.945) 0.47rem solid!important;
     box-shadow: 0 0.5px 0.55rem 1.1px hwb(234 10% 9% / 0.971)!important;
 }
 #Navbar:hover{
-    background-color: #cbdcff!important;
+    background-color: #fff!important;
     transition: background-color 0.35s ease-in-out;
 }
 .navbar-toggler-icon{
@@ -250,11 +250,11 @@ a{
 #Wel{
     display: block!important;
     width: 80%!important;
-    height: 50px!important;
+    height: 88px!important;
     color: rgba(254, 49, 233, 0.937)!important;
     padding: 20px!important;
     position: sticky!important;
-    top: 100px!important;
+    top: 80px!important;
 }
 #Welcome{
     width: 100%!important;
@@ -319,7 +319,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffb34fed!important;
+    background-color: #ffac4ee7!important;
     padding-top: 60px!important;
     padding-bottom: 60px!important;
     justify-content: space-between!important;
