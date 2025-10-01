@@ -131,8 +131,12 @@ body{
     font-weight: bold;
     margin-top: 8px!important;
     color: #cad5ff!important;
-    
     font-family: Arial, Helvetica, sans-serif!important;
+}
+#NW{
+    position: sticky!important;
+    top: 0!important;
+    z-index: 1!important;
 }
 #Navbar{
     width: 100%!important;
@@ -141,11 +145,11 @@ body{
     background-color: light!important;
     font-size: 20px!important;
     border-top: 0.15rem solid #ff6044fb!important;
-    border-bottom: hsla(234, 73%, 35%, 0.945) 0.49rem solid!important;
-    box-shadow: 0 0.5px 0.59rem 1.15px hwb(234 10% 9% / 0.971)!important;
+    border-bottom: hsla(234, 73%, 35%, 0.945) 0.47rem solid!important;
+    box-shadow: 0 0.5px 0.55rem 1.1px hwb(234 10% 9% / 0.971)!important;
 }
 #Navbar:hover{
-    background-color: #eef5fff9!important;
+    background-color: #cbdcff!important;
     transition: background-color 0.35s ease-in-out;
 }
 .navbar-toggler-icon{
@@ -246,9 +250,11 @@ a{
 #Wel{
     display: block!important;
     width: 80%!important;
-    height: 750px!important;
+    height: 88px!important;
     color: rgba(254, 49, 233, 0.937)!important;
     padding: 20px!important;
+    position: sticky!important;
+    top: 80px!important;
 }
 #Welcome{
     width: 100%!important;
@@ -257,10 +263,8 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 20px!important;
-    line-height: 1.68!important;
-    border-right: 0.5px solid rgb(177, 177, 177)!important;
-    border-left: 0.5px solid rgb(177, 177, 177)!important;
+    font-size: 19px!important;
+    line-height: 1.6!important;
     padding: 20px!important;
 }
 .text-well{
@@ -269,7 +273,7 @@ a{
 }
 .WelcomeA{
     width: 100%!important;
-    height: 750px!important;
+    height: 760px!important;
     display: block!important;
     justify-content: left!important;
     align-items: left!important;
@@ -279,7 +283,7 @@ a{
     padding: 20px!important;
 }
 .Header{
-    width: 850px!important;
+    width: 100%!important;
     font-family: 'arial black'!important;
     font-weight: bold!important;
     font-size: 32px!important;
@@ -300,24 +304,22 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items:center!important;
-     padding-top: 20px!important;
+    padding-top: 20px!important;
 }
 #Block-wrappo{
     width: 100%!important;
     height: 100%!important;
-    display: flex!important;
-    flex-direction: row!important;
     background-color: #f5f5f5f2!important;
     justify-content: center!important;
     align-items:center!important;
-     padding: 20px!important;
+    padding: 20px!important;
 }
 #Block-wrapper{
     width: 100%!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffb34fed!important;
+    background-color: #ffac4ee7!important;
     padding-top: 60px!important;
     padding-bottom: 60px!important;
     justify-content: space-between!important;
