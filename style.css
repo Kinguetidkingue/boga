@@ -250,13 +250,10 @@ a{
 #Wel{
     display: flex!important;
     flex-direction: column!important;
-    width: 70%!important;
+    width: 45%!important;
     height: auto!important;
-    justify-content: center!important;
-    align-items: center!important;
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
-    border-bottom: 0.12rem solid rgb(255, 69, 69)!important;
+    padding: 40px!important;
+    border-bottom: 0.1rem solid rgb(255, 156, 156)!important;
 }
 #LuL{
     font-size: 14px!important;
@@ -264,24 +261,20 @@ a{
 #Welcome{
     display: flex!important;
     flex-direction: column!important;
-    width: 70%!important;
+    width: 53%!important;
     height: auto!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 21.5px!important;
-    color: #1549b3!important;
+    font-size: 21px!important;
+    color: #3b160cee!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    line-height: 1.65!important;
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
-    border-bottom: 0.12rem solid rgb(255, 69, 69)!important;
-}
-.text-well{
-    width: 580px!important;
-    height: auto!important;
+    line-height: 1.72!important;
+    padding: 20px!important;
+    border-right: 0.1rem solid rgb(255, 156, 156)!important;
+    border-bottom: 0.1rem solid rgb(255, 156, 156)!important;
 }
 #WelcomeA{
-    width: 70%!important;
+    width: 100%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
@@ -303,7 +296,7 @@ a{
     align-items: center!important;
     padding: 20px!important;
     margin-bottom: 0.4rem!important;
-    font-family: 'Courier New', Courier, monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
 }
 #RES{
     color: #dd810af7!important;
@@ -312,14 +305,12 @@ a{
     width: 100%!important;
     height: auto!important;
     display: flex!important;
-    flex-direction: column!important;
-    justify-content: center!important;
-    align-items:center!important;
     padding-top: 20px!important;
 }
 #Block-wrappo{
     width: 100%!important;
     height: 100%!important;
+    flex-direction: column!important;
     background-color: #f5f5f5f2!important;
     justify-content: center!important;
     align-items:center!important;
