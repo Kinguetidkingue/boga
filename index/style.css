@@ -142,6 +142,9 @@ body{
     border-top: 0.15rem solid #ff6044fb!important;
     border-bottom: hsla(234, 71%, 37%, 0.979) 0.45rem solid!important;
     box-shadow: 0 0.5px 0.68rem 1.5px hwb(230 10% 6% / 0.889)!important;
+    position: sticky!important;
+    top: 0!important;
+    z-index: 1!important;
 }
 #Navbar:hover{
     background-color: #cbdcff!important;
