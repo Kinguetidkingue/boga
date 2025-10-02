@@ -139,8 +139,8 @@ body{
     background-color: #cbdcff!important;
     font-size: 20px!important;
     border-top: 0.15rem solid #ff6044fb!important;
-    border-bottom: hsla(234, 71%, 37%, 0.979) 0.45rem solid!important;
-    box-shadow: 0 0.5px 0.68rem 1.5px hwb(230 10% 6% / 0.889)!important;
+    border-bottom: hsla(234, 72%, 34%, 0.979) 0.3rem solid!important;
+    box-shadow: 0 0.15px 0.25rem 1px hwb(230 12% 4% / 0.889)!important;
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
