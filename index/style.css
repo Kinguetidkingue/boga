@@ -265,11 +265,14 @@ a{
     height: auto!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 20px!important;
-    color: #3b160cee!important;
+    font-size: 19.45px!important;
+    color: #4c3a36ee!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    line-height: 1.65!important;
-    padding: 20px!important;
+    line-height: 1.69!important;
+    padding-right: 40px!important;
+    padding-left: 20px!important;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
     border-right: 0.1rem solid rgb(255, 156, 156)!important;
     border-bottom: 0.1rem solid rgb(255, 156, 156)!important;
 }
