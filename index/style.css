@@ -265,9 +265,9 @@ a{
     height: auto!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 19.45px!important;
-    color: #4c3a36ee!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-size: 19.5px!important;
+    color: #000!important;
+    font-family: "Podkova", serif!important;
     line-height: 1.69!important;
     padding-right: 40px!important;
     padding-left: 20px!important;
@@ -291,7 +291,7 @@ a{
 }
 .Header{
     width: 100%!important;
-    font-weight: bold!important;
+    font-weight: bolder!important;
     font-size: 35px!important;
     color: rgba(35, 52, 205, 0.922)!important;
     justify-content: center!important;
