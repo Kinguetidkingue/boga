@@ -259,7 +259,7 @@ a{
     width: 47.25%!important;
     height: 100%!important;
     padding: 40px!important;
-    border-radius: 1rem!important;
+    border-radius: 0.4rem!important;
     background-color: #fff!important;
 }
 #LuL{
@@ -280,7 +280,7 @@ a{
     padding-left: 20px!important;
     padding-top: 20px!important;
     padding-bottom: 20px!important;
-    border-radius: 1rem!important;
+    border-radius: 0.4rem!important;
     background-color: #fff!important;
 }
 .card-text{
@@ -307,7 +307,7 @@ a{
     font-size: 22px!important;
     padding-top: 20px!important;
     padding-bottom: 20px!important;
-    border-radius: 1rem!important;
+    border-radius: 0.4rem!important;
     background-color: #fff!important;
 }
 .Header{
