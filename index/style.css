@@ -21,6 +21,7 @@
 :root {
     --bs-bb-yellow:#ff0;
     --bs-blue: #0d6efd;
+    --bs-bb-blue: #184486;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-bf-purple:rgba(207, 123, 255, 0.976);
@@ -186,14 +187,17 @@ a{
 .HOVER:hover{
     font-weight: bold;
     text-decoration: underline;
-    color: var(--bs-bb-yellow)!important;
+    color: var(--bs-bb-blue)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .ROVER{
     text-decoration: none;
 }
 .ROVER:hover{
-    text-decoration: solid 2px red!important;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--bs-red)!important;
+    transition: background-color 0.3s ease-in-out;
 }
 .footer{
     display: block;
@@ -227,10 +231,10 @@ a{
 }
 #Beauty{
     align-items: center!important;
-    background-image: linear-gradient(#1130b931, #0e24b4a9)!important;
+    background-image: linear-gradient(#1435cc31, #142ccaa9)!important;
     padding: 20px!important;
     height: auto!important;
-    border-radius: 1rem!important;
+    border-radius: 0.5rem!important;
 }
 #Begin{
     display: block!important;
