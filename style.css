@@ -139,12 +139,12 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    border-top: 0.15rem solid salmon!important;
-    border-bottom: 2px solid #f2f2f2!important;
+    border-top: 0.15rem solid rgb(255, 115, 55)!important;
     position: sticky!important;
-    padding: 10px!important;
+    padding: 8.13px!important;
     top: 0!important;
     z-index: 1!important;
+    box-shadow: 0 0 1px 0.5px#a4acb8!important;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
