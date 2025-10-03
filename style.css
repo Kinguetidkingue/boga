@@ -263,16 +263,26 @@ a{
     height: 100%!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 19px!important;
+    font-size: 19.33px!important;
     color: #000!important;
     font-family: "Podkova", serif!important;
-    line-height: 1.65!important;
+    line-height: 1.69!important;
     padding-right: 40px!important;
     padding-left: 20px!important;
     padding-top: 20px!important;
     padding-bottom: 20px!important;
     border-radius: 1rem!important;
     background-color: #fff!important;
+}
+.card-text{
+    color: #4a4a4a!important;
+}
+.card:hover{
+    background-color: #4effac78!important;
+}
+.card-body, .card-text:hover{
+    font-weight: bold!important;
+    color: #000!important;
 }
 #WelcomeA{
     width: 96.5%!important;
@@ -307,7 +317,7 @@ a{
     width: 100%!important;
     height: 100%!important;
     display: flex!important;
-    padding-top: 150px!important;
+    padding-top: 146px!important;
     padding-bottom: 70px!important;
 }
 #Block-wrappo{
@@ -316,7 +326,7 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: #93b9ffbf!important;
+    background-color: #759efff0!important;
     margin-top: 0.1rem!important;
 }
 #Block-wrapper{
@@ -324,7 +334,7 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #fba23be0!important;
+    background-color: #ffa743e0!important;
     padding-top: 30px!important;
     padding-bottom: 50px!important;
     justify-content: space-between!important;
