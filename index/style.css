@@ -193,12 +193,6 @@ a{
 .ROVER{
     text-decoration: none;
 }
-.ROVER:hover{
-    font-weight: bold;
-    text-decoration: underline;
-    color: var(--bs-red)!important;
-    transition: background-color 0.3s ease-in-out;
-}
 .footer{
     display: block;
     width: 100%;
