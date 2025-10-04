@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 :root {
-    --bs-bb-yellow:#ff0;
+    --bs-bb-yellow:rgb(254, 254, 1);
     --bs-blue: #0d6efd;
     --bs-bb-blue: #184486;
     --bs-indigo: #6610f2;
@@ -127,10 +127,10 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 16px!important;
-    font-weight: bolder!important;
+    font-size: 15px!important;
+    font-weight: lighter!important;
     margin-top: 6px!important;
-    color: #ffe209!important;
+    color: #ff0!important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #Navbar{
@@ -139,7 +139,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-image: -webkit-linear-gradient(rgba(255, 229, 217, 0.988), rgba(255, 255, 255, 0.953));
+    background-image: linear-gradient(rgba(255, 234, 224, 0.959), rgba(255, 241, 234, 0.946));
     border-top: 0.15rem solid rgb(255, 115, 55)!important;
     position: sticky!important;
     padding: 8.13px!important;
@@ -160,7 +160,7 @@ body{
     font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bolder!important;
     font-size: 20px!important;
-    background-color: rgba(221, 162, 255, 0.893)!important;
+    background-color: rgba(214, 144, 255, 0.542)!important;
     transition: background-color 0.3s ease-in-out;   
 }
 ul{       
