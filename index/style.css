@@ -139,6 +139,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
+    background-image: -webkit-linear-gradient(rgb(255, 226, 213), rgba(255, 253, 253, 0.953));
     border-top: 0.15rem solid rgb(255, 115, 55)!important;
     position: sticky!important;
     padding: 8.13px!important;
