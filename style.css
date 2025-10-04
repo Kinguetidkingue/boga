@@ -139,13 +139,13 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-image: linear-gradient(rgba(255, 234, 224, 0.959), rgba(255, 241, 234, 0.935));
-    border-top: 0.15rem solid rgb(255, 115, 55)!important;
+    background-color: #fff!important;
+    border-top: 0.11rem solid rgb(225, 225, 225)!important;
+    border-bottom: #f2f2f2 solid!important;
     position: sticky!important;
     padding: 8.13px!important;
     top: 0!important;
     z-index: 1!important;
-    border-bottom: 0.5rem solid rgb(18, 59, 180)!important;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
@@ -206,7 +206,7 @@ a{
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 18px!important;
     color: rgb(17, 17, 176)!important;
-    border-bottom: 0.4rem solid transparent!important;
+    border-bottom: 0.55rem solid transparent!important;
     font-weight: bolder!important;
 }
 .Bo:hover{
@@ -216,7 +216,7 @@ a{
     width: 100%!important;
     height: 28px!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    border-bottom: 0.42rem solid rgb(87, 142, 253)!important;
+    border-bottom: 0.55rem solid rgb(69, 144, 249)!important;
     transition: background-color all 0.3s ease-in-out!important;
     color: rgb(255, 51, 0)!important;
     font-size: 18px!important; 
