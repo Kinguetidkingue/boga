@@ -119,7 +119,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #1434a5e6!important;
+    background-color: #183ec5e6!important;
 }
 #demo{
     width: 100%!important;
@@ -140,7 +140,7 @@ body{
     align-items: center!important;
     flex-direction: column!important;
     background-color: #fff!important;
-    border-top: 0.11rem solid rgb(225, 225, 225)!important;
+    border-top: 0.15rem solid #ff802be6!important;
     border-bottom: #f2f2f2 solid!important;
     position: sticky!important;
     padding: 8.13px!important;
