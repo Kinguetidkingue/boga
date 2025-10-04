@@ -258,6 +258,7 @@ a{
     border: 0.7px solid rgba(213, 213, 213, 0.951)!important;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
+    margin-bottom: 3rem!important;
 }
 #Wel:hover{
      background-color: #4effac78!important;
@@ -281,21 +282,18 @@ a{
     border: 0.7px solid rgba(213, 213, 213, 0.951)!important;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
+    margin-bottom: 3rem!important;
 }
 #Welcome:hover{
     background-color: #4effac78!important;
     transition: 0.31s background-color ease-in-out!important;
-}
-.card-text{
-    color: #4a4a4a!important;
 }
 .card:hover{
     background-color: #4effac78!important;
     transition: 0.31s background-color ease-in-out!important;
 }
 .card-body, .card-text:hover{
-    font-weight: bold!important;
-    color: #000!important;
+    color: #1a1a1a!important;
     transition: 0.31s background-color ease-in-out!important;
 }
 #WelcomeA{
@@ -332,7 +330,7 @@ a{
     width: 100%!important;
     height: 100%!important;
     display: flex!important;
-    padding-top: 180px!important;
+    padding-top: 160px!important;
     padding-bottom: 80px!important;
 }
 #Block-wrappo{
