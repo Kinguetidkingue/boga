@@ -139,7 +139,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-image: -webkit-linear-gradient(rgb(255, 226, 213), rgba(255, 253, 253, 0.953));
+    background-image: -webkit-linear-gradient(rgba(255, 229, 217, 0.988), rgba(255, 255, 255, 0.953));
     border-top: 0.15rem solid rgb(255, 115, 55)!important;
     position: sticky!important;
     padding: 8.13px!important;
@@ -202,7 +202,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 30px!important;
+    height: 28px!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 18px!important;
     color: rgb(17, 17, 176)!important;
@@ -214,9 +214,9 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 30px!important;
+    height: 28px!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    border-bottom: 0.4rem solid rgb(80, 138, 255)!important;
+    border-bottom: 0.42rem solid rgb(87, 142, 253)!important;
     transition: background-color all 0.3s ease-in-out!important;
     color: rgb(255, 51, 0)!important;
     font-size: 18px!important; 
