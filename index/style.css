@@ -236,8 +236,8 @@ a{
 #Beauty{
     align-items: center!important;
     background-image: linear-gradient(#1435cc31, #142ccaa9)!important;
-    padding: 20px!important;
-    height: auto!important;
+    padding: 10px!important;
+    height: 100%!important;
     border-radius: 0.5rem!important;
 }
 #Begin{
