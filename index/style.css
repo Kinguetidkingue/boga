@@ -106,7 +106,7 @@ html {
 }
 body{
    scroll-behavior: smooth!important;
-   font-family: Arial, Helvetica, sans-serif!important;
+   font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 
 .row {
@@ -168,7 +168,7 @@ ul{
     }
 li{
     list-style: none; 
-    margin-left: 20px!important;;
+    margin-left: 20px!important;
 }
 a{
     text-decoration: none;
