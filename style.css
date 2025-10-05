@@ -297,7 +297,7 @@ a{
     transition: 0.31s background-color ease-in-out!important;
 }
 #WelcomeA{
-    width: 96%!important;
+    width: 100%!important;
     height: 460px!important;
     display: flex!important;
     flex-direction: row!important;
@@ -310,7 +310,7 @@ a{
     background-color: #e7e7e7f0;
 }
 #Three{
-    width: 350px!important;
+    width: 100%!important;
     height: 400px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     border-radius:0.4rem!important;
