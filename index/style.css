@@ -140,7 +140,8 @@ body{
     align-items: center!important;
     flex-direction: column!important;
     background-color: #fff!important;
-    border-top: 0.15rem solid #ff802be6!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    border-top: 0.5rem solid #7e7e7e!important;
     border-bottom: #f2f2f2 solid!important;
     position: sticky!important;
     padding: 8.13px!important;
@@ -218,15 +219,6 @@ a{
     font-size: 18px!important; 
     font-weight: bolder!important;
 }
-#Basic{ 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    font-weight: bold!important;
-    font-size: 25px!important;
-    color:red!important;
-    justify-content: start!important;
-    align-items: start!important;
-    border-bottom: 1px solid red;
-}
 #Beauty{
     align-items: center!important;
     background-image: linear-gradient(#1435cc31, #142ccaa9)!important;
@@ -247,7 +239,15 @@ a{
 
 }
 #Tech{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: center!important;
+    width: 90%!important;
+    font-size: 40px!important;
+    height: auto!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    color: rgba(144, 20, 185, 0.972)!important;
 }
 #Wel{
     display: flex!important;
@@ -255,7 +255,7 @@ a{
     width: 47.25%!important;
     height: 100%!important;
     padding: 40px!important;
-    border: 0.7px solid rgba(213, 213, 213, 0.951)!important;
+    border: 0.7px solid rgba(213, 213, 213, 0.951)C;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
     margin-bottom: 3rem!important;
@@ -314,6 +314,8 @@ a{
 #Three{
     width: 680px!important;
     height:auto!important;
+    font-family:Georgia, 'Times New Roman', Times, serif!important;
+    border-radius:0.4rem!important;
 }
 .Header{
     width: 100%!important;
