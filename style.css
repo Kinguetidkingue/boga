@@ -306,7 +306,7 @@ a{
     font-family: Arial, Helvetica, sans-serif!important;
     padding: 25px!important;
     border-radius: 0.25rem!important;
-    background-color: #eaeaeae6;
+    background-color: #ecebebe6;
 }
 #Three{
     width: auto!important;
@@ -323,7 +323,7 @@ a{
     color: var(--bs-blue)!important;
 }
 #Three:hover{
-    background-color: #ffd3ffe6!important;
+    background-color: #ffd7ffdc!important;
     transition: background-color 0.32s ease-in-out!important;
 }
 .Header{
