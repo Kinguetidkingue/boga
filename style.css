@@ -324,8 +324,8 @@ a{
 .Header{
     width: 100%!important;
     font-weight: bolder!important;
-    font-size: 30px!important;
-    color: rgba(14, 109, 241, 0.961)!important;
+    font-size: 35px!important;
+    color: rgba(16, 88, 189, 0.961)!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 20px!important;
@@ -348,7 +348,7 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: #84c0fdae!important;
+    background-color: #8ec6ffc2!important;
 }
 #Block-wrapper{
     width: 100%!important;
