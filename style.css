@@ -141,8 +141,8 @@ body{
     flex-direction: column!important;
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border-top: 0.1px solid #ff7a2d!important;
-    border-bottom: 0.5rem #b70808fe solid!important;
+    border-top: 0.1px solid #ff5b31!important;
+    border-bottom: 0.26rem #2787dbf1 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -198,7 +198,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 28px!important;
+    height: 30px!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 18px!important;
     color: rgb(17, 17, 176)!important;
@@ -209,8 +209,6 @@ a{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    width: 100%!important;
-    height: 28px!important;
     font-family: Arial, Helvetica, sans-serif!important;
     border-bottom: 0.55rem solid rgb(69, 144, 249)!important;
     transition: background-color all 0.3s ease-in-out!important;
