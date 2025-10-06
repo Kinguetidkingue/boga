@@ -142,7 +142,7 @@ body{
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #ff5b31!important;
-    border-bottom: 0.26rem #2787dbf1 solid!important;
+    border-bottom: 0.1px #2787dbf1 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -265,20 +265,20 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 50rem;
+    width: 55rem;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 22px!important;
+    font-size: 25px!important;
     color: #000!important;
     font-family: "Podkova", serif!important;
-    line-height: 1.67!important;
+    line-height: 1.6!important;
     padding: 20px!important;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
     box-shadow: 0 0 2px 0.3px #989898f5;
-    margin-bottom: 2rem!important;
+    margin-bottom: 2.5rem!important;
 }
 #Welcome:hover{
     background-color: #4effac78!important;
