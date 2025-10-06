@@ -265,20 +265,20 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
+    width: 50rem;
     display: flex!important;
     flex-direction: column!important;
-    width: 47.25%!important;
-    height: 100%!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 19.03px!important;
+    font-size: 22px!important;
     color: #000!important;
     font-family: "Podkova", serif!important;
     line-height: 1.67!important;
     padding: 20px!important;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
-    margin-bottom: 3rem!important;
+    box-shadow: 0 0 2px 0.3px #989898f5;
+    margin-bottom: 2rem!important;
 }
 #Welcome:hover{
     background-color: #4effac78!important;
