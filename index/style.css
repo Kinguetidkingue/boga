@@ -147,7 +147,7 @@ body{
     padding: 8px!important;
     top: 0!important;
     z-index: 1!important;
-}
+}    
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
 }
@@ -265,7 +265,7 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 55rem;
+    width: 95.5%;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
@@ -339,7 +339,7 @@ a{
     width: 100%!important;
     height: 100%!important;
     display: flex!important;
-    padding-top: 65px!important;
+    padding-top: 50px!important;
     padding-bottom: 60px!important;
 }
 #Block-wrappo{
