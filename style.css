@@ -142,7 +142,7 @@ body{
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #ff7a2d!important;
-    border-bottom: 2px #f2f2f2 solid!important;
+    border-bottom: 0.5rem #b70808fe solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -247,7 +247,7 @@ a{
     height: auto!important;
     text-align: left!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    color: rgba(144, 20, 185, 0.972)!important;
+    color: rgba(153, 72, 180, 0.972)!important;
 }
 #Wel{
     display: flex!important;
