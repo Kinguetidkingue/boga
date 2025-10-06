@@ -245,7 +245,7 @@ a{
     height: auto!important;
     text-align: left!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    color: rgba(153, 72, 180, 0.972)!important;
+    color: rgba(109, 30, 136, 0.972)!important;
 }
 #Wel{
     display: flex!important;
@@ -265,7 +265,7 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 95.5%;
+    width: 96%;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
@@ -277,8 +277,8 @@ a{
     padding: 20px!important;
     border-radius: 0.4rem!important;
     background-color: #fff!important;
-    box-shadow: 0 0 2px 0.3px #989898f5;
-    margin-bottom: 2.5rem!important;
+    box-shadow: 0 0 1px 0.31px #628afafc;
+    margin-bottom: 2.85rem!important;
 }
 #Welcome:hover{
     background-color: #4effac78!important;
@@ -314,7 +314,7 @@ a{
     align-items: center!important;
     padding: 20px!important;
     background-color: #fff!important;
-    box-shadow: 0 0 2px 0.38px #939393f5;
+    box-shadow: 0 0 1px 0.35px #6e95fffc;
     color: var(--bs-blue)!important;
 }
 #Three:hover{
@@ -330,7 +330,7 @@ a{
     align-items: center!important;
     padding: 20px!important;
     margin-bottom: 0.4rem!important;
-    font-family: 'Arial black'!important;
+    font-family: "Podkova", serif!important;
 }
 #RES{
     color: #dd810af7!important;
