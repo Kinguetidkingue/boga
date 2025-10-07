@@ -144,7 +144,7 @@ body{
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #ff5b31!important;
-    border-bottom: 0.2rem #117ad5f1 solid!important;
+    border-bottom: 0.18rem #117ad5f1 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -200,22 +200,17 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 30px!important;
-    font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 18px!important;
-    color: rgb(17, 17, 176)!important;
-    border-bottom: 0.55rem solid transparent!important;
+    height: 23px!important;
+    font-family: "Podkova", serif!important;
+    font-size: 20px!important;
+    color: rgb(21, 42, 205)!important;
+    border-bottom: 0.3rem solid transparent!important;
     font-weight: bolder!important;
 }
 .Bo:hover{
-    display: flex!important;
-    justify-content: center!important;
-    align-items: center!important;
-    font-family: Arial, Helvetica, sans-serif!important;
-    border-bottom: 0.55rem solid rgb(69, 144, 249)!important;
-    transition: background-color all 0.3s ease-in-out!important;
+    border-bottom: 0.25rem solid rgb(54, 158, 255)!important;
+    transition: background-color all 0.35s ease-in-out!important;
     color: rgb(255, 51, 0)!important;
-    font-size: 18px!important; 
     font-weight: bolder!important;
 }
 #Beauty{
@@ -267,7 +262,7 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 96%;
+    width: 95%;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
@@ -277,28 +272,35 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    border-radius: 0.25rem!important;
+    border-radius: 0.75rem!important;
     background-color: #fff!important;
     box-shadow: 1px 2px 3px 0.27px #92929285!important;
     margin-top: -0.7rem!important;
     margin-bottom: 2.85rem!important;
 }
-#Welcome:hover{
-    background-color: rgba(255, 249, 254, 0.895)!important;
-    transition: 0.31s background-color ease-in-out!important;
+
+.figure-caption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-size: 16px!important;
+    color:rgba(158, 81, 18, 0.904)!important;
+}
+.figure-caption:hover{
+    color: rgb(19, 148, 247)!important;
+    transition: 0.3s background-color ease-in-out;
 }
 .card:hover{
     background-color: #93ffcca0!important;
     transition: 0.31s background-color ease-in-out!important;
 }
-.card-body, .card-text:hover{
-    color: #1a1a1a!important;
+.card-body:hover{
+    background-color: rgba(255, 249, 254, 0.895)!important;
     transition: 0.31s background-color ease-in-out!important;
+    color: #1a1a1a!important;
 }
 #LearninG{
     font-family: "Podkova", serif!important;
     font-size: 19px!important;
-    color:rgba(20, 58, 173, 0.968)!important;
+    color:rgba(21, 61, 182, 0.968)!important;
     line-height: 1.55!important;
     padding: 20px!important;
 }
@@ -314,7 +316,7 @@ a{
     border-radius: 0.25rem!important;
 }
 #Three{
-    width: 100%!important;
+    width: 50%!important;
     height: 600px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     border-radius:0.25rem!important;
