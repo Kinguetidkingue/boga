@@ -144,7 +144,7 @@ body{
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #ff5b31!important;
-    border-bottom: 0.1px #2787dbf1 solid!important;
+    border-bottom: 0.2rem #117ad5f1 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -279,7 +279,7 @@ a{
     padding: 20px!important;
     border-radius: 0.25rem!important;
     background-color: #fff!important;
-    box-shadow: 0 0 2px 0.27px #8484847b!important;
+    box-shadow: 1px 2px 3px 0.27px #92929285!important;
     margin-top: -0.7rem!important;
     margin-bottom: 2.85rem!important;
 }
