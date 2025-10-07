@@ -272,19 +272,19 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 25px!important;
     color: #000!important;
     font-family: "Podkova", serif!important;
+    font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
     border-radius: 0.25rem!important;
     background-color: #fff!important;
-    box-shadow: 0 0 1px 0.31px #628afafc;
+    box-shadow: 0 0 2px 0.27px #8484847b!important;
     margin-top: -0.7rem!important;
     margin-bottom: 2.85rem!important;
 }
 #Welcome:hover{
-    background-color: rgba(255, 255, 148, 0.813)!important;
+    background-color: rgba(255, 249, 254, 0.895)!important;
     transition: 0.31s background-color ease-in-out!important;
 }
 .card:hover{
@@ -294,6 +294,13 @@ a{
 .card-body, .card-text:hover{
     color: #1a1a1a!important;
     transition: 0.31s background-color ease-in-out!important;
+}
+#LearninG{
+    font-family: "Podkova", serif!important;
+    font-size: 19px!important;
+    color:rgba(20, 58, 173, 0.968)!important;
+    line-height: 1.55!important;
+    padding: 20px!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -317,7 +324,7 @@ a{
     align-items: center!important;
     padding: 20px!important;
     background-color: #fff!important;
-    box-shadow: 0 0 1px 0.35px #6e95fffc;
+    box-shadow: 0 0 2px 0.25px #b8b8b8f0!important;
     color: var(--bs-blue)!important;
 }
 #Three:hover{
