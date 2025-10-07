@@ -137,9 +137,10 @@ body{
 #Navbar{
     width: 100%!important;
     height: 100%!important;
+    display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    flex-direction: column!important;
+    flex-direction: row!important;
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #ff5b31!important;
