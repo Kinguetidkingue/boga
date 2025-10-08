@@ -297,7 +297,8 @@ a{
     transition: 0.31s background-color ease-in-out!important;
 }
 .card-body:hover{
-background-color: #f8f8f8e6;
+background-color: #f8f8f8e6!important;
+border-radius: 0.5rem;
 }
 #LearninG{
     font-family: "Podkova", serif!important;
