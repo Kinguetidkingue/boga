@@ -144,7 +144,7 @@ body{
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #c9c9c9ea!important;
-    border-bottom: 0.55rem #388ce0 solid!important;
+    border-bottom: 0.5rem #257fd8 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -237,13 +237,16 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    width: 95%!important;
-    font-size: 26px!important;
+    width: 90%!important;
+    font-size: 20px!important;
     padding: 5px;
     height: auto!important;
+    background-color: #f2f2f2;
     text-align: left!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    color: rgba(109, 30, 136, 0.972)!important;
+    color:rgba(255, 87, 15, 0.961)!important;
+    border: none!important;
+    margin-left: 15px!important;
 }
 #Wel{
     display: flex!important;
@@ -293,17 +296,11 @@ a{
     background-color: #93ffcca0!important;
     transition: 0.31s background-color ease-in-out!important;
 }
-.card-body:hover{
-    background-color: rgba(255, 249, 254, 0.895)!important;
-    transition: 0.31s background-color ease-in-out!important;
-    color: #1a1a1a!important;
-}
 #LearninG{
     font-family: "Podkova", serif!important;
-    font-size: 19px!important;
-    color:rgba(34, 72, 196, 0.976)!important;
+    font-size: 19.5px!important;
+    color:rgba(34, 74, 206, 0.984)!important;
     line-height: 1.55!important;
-    padding: 20px!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -317,7 +314,7 @@ a{
     border-radius: 0.25rem!important;
 }
 #Three{
-    width: 50%!important;
+    width: 100%!important;
     height: 600px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     border-radius:0.25rem!important;
@@ -338,7 +335,7 @@ a{
     width: 100%!important;
     font-weight: bolder!important;
     font-size: 35px!important;
-    color: rgba(16, 88, 189, 0.961)!important;
+    color: rgba(255, 87, 15, 0.961)!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 20px!important;
