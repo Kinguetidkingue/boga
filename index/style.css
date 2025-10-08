@@ -237,8 +237,9 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    width: 100%!important;
+    width: 95%!important;
     font-size: 26px!important;
+    padding: 5px;
     height: auto!important;
     text-align: left!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
@@ -276,7 +277,7 @@ a{
     background-color: #fff!important;
     box-shadow: 1px 2px 3px 0.27px #92929285!important;
     margin-top: -0.7rem!important;
-    margin-bottom: 2.85rem!important;
+    margin-bottom: 1rem!important;
 }
 
 .figure-caption{
@@ -300,7 +301,7 @@ a{
 #LearninG{
     font-family: "Podkova", serif!important;
     font-size: 19px!important;
-    color:rgba(19, 47, 141, 0.945)!important;
+    color:rgba(34, 72, 196, 0.976)!important;
     line-height: 1.55!important;
     padding: 20px!important;
 }
