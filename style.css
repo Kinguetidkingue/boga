@@ -296,10 +296,13 @@ a{
     background-color: #93ffcca0!important;
     transition: 0.31s background-color ease-in-out!important;
 }
+.card-body:hover{
+background-color: #f8f8f8e6;
+}
 #LearninG{
     font-family: "Podkova", serif!important;
     font-size: 19.5px!important;
-    color:rgba(34, 74, 206, 0.984)!important;
+    color:rgba(36, 74, 197, 0.994)!important;
     line-height: 1.55!important;
 }
 #WelcomeA{
