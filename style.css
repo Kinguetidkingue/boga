@@ -145,7 +145,7 @@ body{
     align-items: center!important;
     flex-direction: column!important;
     background-color: #fefefe!important;
-    border-top: 0.12rem solid #3eabff!important;
+    border-top: 0.1px solid #3eabff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
