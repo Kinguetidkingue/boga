@@ -114,12 +114,12 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: 40px!important;
+    height: 37px!important;
     width: 100%!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #1a44dbf6!important;
+    background-color: #163faffa!important;
 }
 #demo{
     width: 100%!important;
@@ -127,24 +127,28 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 13.75px!important;
+    font-size: 13px!important;
     font-weight: lighter!important;
-    margin-top: 6px!important;
+    margin-top: 4px!important;
     color: #fff!important;
     font-weight: bolder!important;
-    font-family: Arial, Helvetica, sans-serif!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+#demo:hover{
+    color: #ff0!important;
+    transition: background-color 0.3s ease-in-out;
 }
 #Navbar{
     width: 100%!important;
-    height: 100%!important;
+    height: 90px!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
     flex-direction: row!important;
-    background-color: #fff!important;
+    background-image: linear-gradient(#feffffe7, #ffffffe2)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-top: 0.1px solid #c9c9c9ea!important;
-    border-bottom: 0.5rem #257fd8 solid!important;
+    border-bottom: 0.16rem #317ec1 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -203,12 +207,12 @@ a{
     height: 23px!important;
     font-family: "Podkova", serif!important;
     font-size: 20px!important;
-    color:#3082d5!important;
-    border-bottom: 0.3rem solid transparent!important;
+    color:#317cc7!important;
+    border-bottom: 0.6rem solid transparent!important;
     font-weight: bolder!important;
 }
 .Bo:hover{
-    border-bottom: 0.25rem solid rgb(54, 158, 255)!important;
+    border-bottom: 0.25rem solid rgb(66, 157, 242)!important;
     transition: background-color all 0.35s ease-in-out!important;
     color: rgb(255, 51, 0)!important;
     font-weight: bolder!important;
