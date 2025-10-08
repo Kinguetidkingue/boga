@@ -114,12 +114,12 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: 37px!important;
+    height: 36px!important;
     width: 100%!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #163faffa!important;
+    background-color: #fe552ffb!important;
 }
 #demo{
     width: 100%!important;
@@ -141,19 +141,27 @@ body{
 #Navbar{
     width: 100%!important;
     height: auto!important;
-    display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    flex-direction: row!important;
-    background-color: #fff!important;
+    flex-direction: column!important;
+    background-color: #ffffff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border-top: 0.1px solid #c9c9c9ea!important;
-    border-bottom: 0.16rem #2d78b9 solid!important;
     position: sticky!important;
-    padding: 8px!important;
     top: 0!important;
     z-index: 1!important;
 }    
+#Nav-One{
+    width: 100%!important;
+    height: 61px!important;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-direction: column!important;  
+    background-color: #6ec0fffa;
+    border-top: 0.1rem solid #3eabff;
+    border-bottom: 0.1rem solid #3eabff;
+}
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
 }
@@ -173,7 +181,7 @@ ul{
     }
 li{
     list-style: none; 
-    margin-left: 20px!important;
+    margin-left: 25px!important;
 }
 a{
     text-decoration: none;
@@ -191,6 +199,9 @@ a{
 }
 .ROVER{
     text-decoration: none;
+}
+.ROVER:hover{
+    text-decoration: underline;
 }
 .footer{
     display: block;
@@ -301,13 +312,13 @@ a{
     transition: 0.31s background-color ease-in-out!important;
 }
 .card-body:hover{
-background-color: #f8f8f8e6!important;
+background-color: #fcfcfcf0!important;
 border-radius: 0.5rem;
 }
 #LearninG{
     font-family: "Podkova", serif!important;
     font-size: 19.5px!important;
-    color:rgba(36, 74, 197, 0.994)!important;
+    color:rgba(7, 7, 7, 0.757)!important;
     line-height: 1.55!important;
 }
 #WelcomeA{
@@ -395,7 +406,7 @@ border-radius: 0.5rem;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #12246ff2!important;
+    background-color: #13287df8!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
