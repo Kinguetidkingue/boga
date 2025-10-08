@@ -144,7 +144,8 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: #ffffff!important;
+    background-color: #fefefe!important;
+    border-top: 0.12rem solid #3eabff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -152,16 +153,14 @@ body{
 }    
 #Nav-One{
     width: 100%!important;
-    height: 60px!important;
+    height: 63px!important;
     display: flex!important;
     flex-direction: row!important;
-    justify-content: center!important;
-    align-items: center!important;
-    background-color: #6ec0fff2;
+    background-color: #91c4fff7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
     border-top: 0.1rem solid #3eabff;
-    border-bottom: 0.1rem solid #3eabff;
+    border-bottom: 0.1px solid #3eabff;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
@@ -220,7 +219,7 @@ a{
     font-family: "Podkova", serif!important;
     font-size: 20px!important;
     color:#317cc7!important;
-    border-bottom: 0.6rem solid transparent!important;
+    border-bottom: 0.25rem solid transparent!important;
     font-weight: bolder!important;
 }
 .Bo:hover{
