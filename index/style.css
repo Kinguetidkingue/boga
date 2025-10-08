@@ -143,8 +143,8 @@ body{
     flex-direction: row!important;
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border-top: 0.1px solid #ff5b31!important;
-    border-bottom: 0.18rem #117ad5f1 solid!important;
+    border-top: 0.1px solid #c9c9c9ea!important;
+    border-bottom: 0.55rem #388ce0 solid!important;
     position: sticky!important;
     padding: 8px!important;
     top: 0!important;
@@ -203,7 +203,7 @@ a{
     height: 23px!important;
     font-family: "Podkova", serif!important;
     font-size: 20px!important;
-    color: rgb(21, 42, 205)!important;
+    color:#3082d5!important;
     border-bottom: 0.3rem solid transparent!important;
     font-weight: bolder!important;
 }
@@ -300,7 +300,7 @@ a{
 #LearninG{
     font-family: "Podkova", serif!important;
     font-size: 19px!important;
-    color:rgba(21, 61, 182, 0.968)!important;
+    color:rgba(19, 47, 141, 0.945)!important;
     line-height: 1.55!important;
     padding: 20px!important;
 }
@@ -422,39 +422,16 @@ a{
     width: 49.5%!important;
     height: auto!important;
     display: block!important;
-    font-size: 16px!important;
+    font-size: 15px!important;
+    line-height: 1.68!important;
     justify-content: center!important;
     align-items: center!important;
-    font-family: "Courier New", Courier, monospace!important;
-    font-weight: bold!important;
-    line-height: 1.6!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     padding: 5px!important;
-    margin-left: -0.81rem!important;
     color: #000!important;
-    border-left: 0.5rem solid var(--bs-dark)!important;
-    border-radius: 20px!important;
-    background-color: #9accffba!important;
+    border-radius: 10px!important;
+    background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
-}
-#Block:hover{  
-    display: block!important;
-    justify-content: center!important;
-    align-items: center;
-    font-family: "Courier New", Courier, monospace!important;
-    font-weight: bold!important;
-    line-height: 1.6!important;
-    padding: 5px!important;
-    box-shadow: 1px 0.5px 2px 1px rgba(10, 10, 10, 0.406)!important;
-    transition: background-color all 0.3s ease-in-out;
-    cursor: pointer;
-}
-#Block:hover{
-    line-height: 1.6!important;
-    padding: 5px!important;
-    background-color: rgba(255, 255, 116, 0.95)!important;
-    box-shadow: 1px 0.5px 2px 1px rgba(10, 10, 10, 0.406)!important;
-    transition: background-color all 0.3s ease-in-out;
-    cursor: pointer;
 }
 #Bloc{
     width: 49.5%!important;
