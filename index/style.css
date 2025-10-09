@@ -237,9 +237,10 @@ a{
     height: 23px!important;
     font-family: "Podkova", serif!important;
     font-size: 20px!important;
-    color:#1f6ab6!important;
+    color:#1c66af!important;
     border-bottom: 0.25rem solid transparent!important;
     font-weight: bolder!important;
+    margin-top: 8px!important;
 }
 .Bo:hover{
     border-bottom: 0.25rem solid rgb(58, 143, 223)!important;
