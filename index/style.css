@@ -150,7 +150,20 @@ body{
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
-}    
+}  
+#Logo{
+    display: flex;
+    width: 96px;
+    height: 52px;
+    padding: 10px;
+    border: 0.1px solid red;
+}  
+#B{
+font-size: 12px;
+}
+#H6{
+font-size: 14px;
+}
 #Nav-One{
     width: 100%!important;
     height: 58px!important;
