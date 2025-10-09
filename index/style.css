@@ -144,7 +144,7 @@ body{
     height: 100%!important;
     flex-direction: column!important; ;
     background-color: lab(95.97% -0.28 -6.09)!important;
-    border-top: 0.2rem solid #ff5635fd!important;
+    border-top: 0.15rem solid #ff5635fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
