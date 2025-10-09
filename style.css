@@ -139,13 +139,12 @@ body{
     transition: background-color 0.3s ease-in-out;
 }
 #Navbar{
+    display: flex!important;
     width: 100%!important;
     height: 100%!important;
-    justify-content: center!important;
-    align-items: center!important;
-    flex-direction: column!important;
+    flex-direction: column!important; ;
     background-color: lab(95.97% -0.28 -6.09)!important;
-    border-top: 0.12rem solid lab(89.19% 1.22 -8.97)!important;
+    border-top: 0.2rem solid #ff5635fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -154,9 +153,9 @@ body{
 }  
 #Logo{
     display: flex!important;
-    width: 90px!important;;
+    width: 89px!important;;
     height: 50px!important;;
-    padding: 10px!important;
+    padding: 20px!important;
     border: 0.1px solid red!important;
     border-top: 0.4rem solid red!important;
     justify-content: center!important;
