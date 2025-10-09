@@ -154,11 +154,13 @@ body{
 }  
 #Logo{
     display: flex;
-    width: 88px!important;;
-    height: 43px!important;;
+    width: 90px!important;;
+    height: 44px!important;;
     padding: 2px!important;
-    margin-top: -0.47rem;
+    margin-top: -0.3rem;
     border: 0.1px solid red;
+    justify-content: center;
+    align-items: center;
 }  
 #B{
 font-size: 11px;
