@@ -135,7 +135,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #demo:hover{
-    color: rgb(157, 255, 127)!important;
+    color: rgb(172, 255, 147)!important;
     transition: background-color 0.3s ease-in-out;
 }
 #Navbar{
@@ -144,7 +144,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: lab(94.15% -0.27 -8.84)!important;
+    background-color: lab(95.97% -0.28 -6.09)!important;
     border-top: 0.12rem solid lab(89.19% 1.22 -8.97)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
@@ -157,11 +157,15 @@ body{
     width: 90px!important;;
     height: 50px!important;;
     padding: 10px!important;
-    border: 0.1rem solid lab(82.76% 0 -0.01 / 0.897)!important;
+    border: 0.1px solid red!important;
     border-top: 0.4rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
-}  
+}
+#Logo:hover{
+    background-color: #fff!important;
+    transition: background-color 0.3s ease-in-out;   
+}
 #B{
 font-size: 11px!important;
 }
@@ -189,14 +193,9 @@ color: #000!important
 }
 .navbar-brand{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: rgba(255, 233, 37, 0.991)!important;
+    background-color: #93ffcd92!important;
     font-weight: bolder!important;
     margin-top: -5px!important;
-}
-.navbar-brand:hover{
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: #fff!important;
-    transition: background-color 0.3s ease-in-out;   
 }
 ul{       
     margin: 0;
@@ -330,7 +329,7 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card:hover{
-    background-color: #93ffcca0!important;
+    background-color: #93ffcd92!important;
     transition: 0.31s background-color ease-in-out!important;
 }
 .card-body:hover{
