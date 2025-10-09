@@ -145,7 +145,7 @@ body{
     align-items: center!important;
     flex-direction: column!important;
     background-color: #fff!important;
-    border-top: 0.1px solid #f2f2f2!important;
+    border-top: 0.1px solid rgba(255, 130, 58, 0.987)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -286,7 +286,7 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    border-radius: 0.75rem!important;
+    border-radius: 0.25rem!important;
     background-color: #fff!important;
     box-shadow: 1px 2px 3px 0.27px #92929285!important;
     margin-top: -1rem!important;
@@ -307,8 +307,8 @@ a{
     transition: 0.31s background-color ease-in-out!important;
 }
 .card-body:hover{
-background-color: #fcfcfcf0!important;
-border-radius: 0.5rem;
+background-color: #f5fcffe9!important;
+border-radius: 0.15rem!important;
 }
 #LearninG{
     font-family: "Podkova", serif!important;
