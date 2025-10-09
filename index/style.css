@@ -145,24 +145,26 @@ body{
     align-items: center!important;
     flex-direction: column!important;
     background-color: #fff!important;
-    border-top: 0.25px solid rgb(255, 105, 18)!important;
+    border-top: 0.15rem solid rgb(255, 119, 40)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
+    padding: auto;
 }  
 #Logo{
     display: flex;
-    width: 96.5px!important;;
-    height: 47.5px!important;;
-    padding: 2.5px!important;
+    width: 88px!important;;
+    height: 43px!important;;
+    padding: 2px!important;
+    margin-top: -0.47rem;
     border: 0.1px solid red;
 }  
 #B{
-font-size: 12px;
+font-size: 11px;
 }
 #H6{
-font-size: 14px;
+font-size: 12px;
 }
 #Nav-One{
     width: 100%!important;
@@ -172,9 +174,10 @@ font-size: 14px;
     background-color: rgba(18, 43, 167, 0.987)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
+    padding: 5px!important;
 }
 .navbar-toggler-icon{
-    background-color: var(--bs-white)!important;
+    background-color: transparent!important;
 }
 .navbar-brand{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
@@ -231,9 +234,9 @@ a{
     font-weight: bolder!important;
 }
 .Bo:hover{
-    border-bottom: 0.25rem solid rgb(66, 157, 242)!important;
+    border-bottom: 0.25rem solid rgb(58, 143, 223)!important;
     transition: background-color all 0.35s ease-in-out!important;
-    color: rgb(255, 51, 0)!important;
+    color: rgb(255, 30, 0)!important;
     font-weight: bolder!important;
 }
 #Beauty{
