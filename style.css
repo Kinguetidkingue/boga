@@ -154,8 +154,8 @@ body{
 #Logo{
     display: flex;
     width: 96px;
-    height: 52px;
-    padding: 10px;
+    height: 50px;
+    padding: 3px!important;
     border: 0.1px solid red;
 }  
 #B{
@@ -192,7 +192,7 @@ ul{
     }
 li{
     list-style: none; 
-    margin-left: 25px!important;
+    margin-left: 27px!important;
 }
 a{
     text-decoration: none;
