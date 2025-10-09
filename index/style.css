@@ -130,12 +130,12 @@ body{
     font-size: 13px!important;
     font-weight: lighter!important;
     margin-top: 4px!important;
-    color: #fff!important;
+    color: rgba(4, 12, 39, 0.916)!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 #demo:hover{
-    color: rgb(172, 255, 147)!important;
+    color:#fff!important;
     transition: background-color 0.3s ease-in-out;
 }
 #Navbar{
