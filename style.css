@@ -144,8 +144,8 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: #fff!important;
-    border-top: 0.12rem solid rgb(255, 119, 40)!important;
+    background-color: lab(95.4% 0.42 -6.94)!important;
+    border-top: 0.15rem solid rgba(18, 43, 167)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -155,17 +155,19 @@ body{
 #Logo{
     display: flex!important;
     width: 90px!important;;
-    height: 55px!important;;
+    height: 50px!important;;
     padding: 10px!important;
-    border: 0.1rem solid red;
-    justify-content: center;
-    align-items: center;
+    border: 0.11rem solid red!important;
+    border-top: 0.4rem solid red!important;
+    justify-content: center!important;
+    align-items: center!important;
 }  
 #B{
 font-size: 11px!important;
 }
 #H6{
-font-size: 12.5px;
+font-size: 12.5px!important;
+color: #000!important
 }
 #Nav-One{
     width: 100%!important;
@@ -176,6 +178,11 @@ font-size: 12.5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
     padding: 5px!important;
+}
+#SERVICES:hover{
+    background-color: #fff!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #000!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
