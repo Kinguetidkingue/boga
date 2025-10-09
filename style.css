@@ -114,7 +114,7 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: 36px!important;
+    height: 40px!important;
     width: 100%!important;
     display: flex!important;
     justify-content: center!important;
@@ -143,8 +143,8 @@ body{
     width: 100%!important;
     height: 100%!important;
     flex-direction: column!important; ;
-    background-color: lab(95.97% -0.28 -6.09)!important;
-    border-top: 0.15rem solid #ff5635fd!important;
+    background-color: #fff!important;
+    border-top: 0.14rem solid #ff5635fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -169,12 +169,12 @@ body{
 font-size: 11px!important;
 }
 #H6{
-font-size: 12.5px!important;
+font-size: 12.8px!important;
 color: #000!important
 }
 #Nav-One{
     width: 100%!important;
-    height: 50px!important;
+    height: 42px!important;
     display: flex!important;
     flex-direction: row!important;
     background-color: rgba(18, 43, 167, 0.987)!important;
