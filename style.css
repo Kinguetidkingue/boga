@@ -144,8 +144,8 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: lab(95.4% 0.42 -6.94)!important;
-    border-top: 0.15rem solid rgba(18, 43, 167)!important;
+    background-color: lab(94.15% -0.27 -8.84)!important;
+    border-top: 0.12rem solid lab(89.19% 1.22 -8.97)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -157,7 +157,7 @@ body{
     width: 90px!important;;
     height: 50px!important;;
     padding: 10px!important;
-    border: 0.11rem solid red!important;
+    border: 0.1rem solid lab(82.76% 0 -0.01 / 0.897)!important;
     border-top: 0.4rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
@@ -189,11 +189,13 @@ color: #000!important
 }
 .navbar-brand{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: var(--bs-bb-yellow)!important;
+    background-color: rgba(255, 233, 37, 0.991)!important;
+    font-weight: bolder!important;
+    margin-top: -5px!important;
 }
 .navbar-brand:hover{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: rgba(214, 144, 255, 0.542)!important;
+    background-color: #fff!important;
     transition: background-color 0.3s ease-in-out;   
 }
 ul{       
