@@ -144,8 +144,8 @@ body{
     justify-content: center!important;
     align-items: center!important;
     flex-direction: column!important;
-    background-color: #fefefe!important;
-    border-top: 0.1px solid #3eabff!important;
+    background-color: #fff!important;
+    border-top: 0.1px solid #f2f2f2!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -153,14 +153,12 @@ body{
 }    
 #Nav-One{
     width: 100%!important;
-    height: 63px!important;
+    height: 75px!important;
     display: flex!important;
     flex-direction: row!important;
-    background-color: #91c4fff7;
+    background-color: rgba(17, 39, 152, 0.987)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
-    border-top: 0.1rem solid #3eabff;
-    border-bottom: 0.1px solid #3eabff;
 }
 .navbar-toggler-icon{
     background-color: var(--bs-white)!important;
