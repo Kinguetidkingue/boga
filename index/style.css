@@ -314,7 +314,7 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -2.07rem!important;
+    margin-top: -3.1rem!important;
     margin-bottom: 1rem!important;
     border-bottom: 0.2rem solid rgba(255, 87, 15, 0.961)!important;
     background-color: transparent!important;
@@ -341,8 +341,8 @@ background-color: rgba(156, 255, 217, 0.718)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(176, 206, 255, 0.874)!important; 
-    border: 2px solid rgba(133, 179, 253, 0.874)!important; 
+    background-color:rgba(176, 206, 255, 0.762)!important; 
+    border: 2px solid rgba(144, 187, 255, 0.827)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #LearninG{
@@ -366,15 +366,12 @@ background-color: rgba(156, 255, 217, 0.718)!important;
     width: 100%!important;
     height: 600px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
-    border-radius:0.25rem!important;
     display: flex!important;
     flex-wrap: wrap!important;
     justify-items: center!important;
     align-items: center!important;
     padding: 20px!important;
     background-color: #fff!important;
-    box-shadow: 0 0 2px 0.25px #b8b8b8f0!important;
-    color: var(--bs-blue)!important;
 }
 #Three:hover{
     background-color: #ffd7ffdc!important;
