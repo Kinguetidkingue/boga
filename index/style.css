@@ -119,7 +119,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #ff5635fd!important;
+    background-color: #ff4c28fd!important;
 }
 #demo{
     width: 100%!important;
@@ -130,7 +130,7 @@ body{
     font-size: 13px!important;
     font-weight: lighter!important;
     margin-top: 4px!important;
-    color: rgba(4, 12, 39, 0.916)!important;
+    color: #fff!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
@@ -144,7 +144,7 @@ body{
     height: 100%!important;
     flex-direction: column!important; ;
     background-color: #fff!important;
-    border-top: 0.14rem solid #ff5635fd!important;
+    border-top: 0.14rem solid #ff4c28fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
