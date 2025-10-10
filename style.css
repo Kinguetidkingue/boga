@@ -145,7 +145,7 @@ body{
     height: 100%!important;
     flex-direction: column!important; ;
     background-color: #fff!important;
-    border-top: 0.13rem solid #ff4c28fd!important;
+    border-top: 0.12rem solid #ff4c28fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -159,7 +159,7 @@ body{
     padding: 20px!important;
     padding-top: 22px!important;
     border: 2px solid #000!important;
-    border-top: 0.4rem solid red!important;
+    border-top: 0.33rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
     border-bottom-left-radius: 14px!important;
