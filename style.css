@@ -314,9 +314,9 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -3.1rem!important;
+    margin-top: -2.9rem!important;
     margin-bottom: 1rem!important;
-    border-bottom: 0.2rem solid rgba(255, 87, 15, 0.961)!important;
+    border-bottom: 0.15rem solid rgba(255, 122, 65, 0.961)!important;
     background-color: transparent!important;
 }
 
@@ -336,7 +336,7 @@ a{
     border: none!important;
 }
 .card-body:hover{
-background-color: rgba(156, 255, 217, 0.718)!important;
+background-color: rgba(183, 255, 227, 0.776)!important;
 }
 #BLOK{
     width: 18.4rem!important; 
