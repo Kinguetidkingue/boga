@@ -153,16 +153,16 @@ body{
 }  
 #Logo{
     display: flex!important;
-    width: 85px!important;;
-    height: 49px!important;;
+    width: 80px!important;;
+    height: 45px!important;;
     padding: 20px!important;
     padding-top: 22px!important;
     border: 2px solid #000!important;
-    border-top: 0.45rem solid red!important;
+    border-top: 0.4rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
-    border-bottom-left-radius: 16px!important;
-    border-bottom-right-radius: 16px!important;
+    border-bottom-left-radius: 14px!important;
+    border-bottom-right-radius: 14px!important;
 }
 #Logo:hover{
     background-color: #fff!important;
@@ -453,7 +453,6 @@ border-radius: 0.15rem!important;
     padding: 40px!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: transparent!important;
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;
 }
@@ -479,14 +478,12 @@ border-radius: 0.15rem!important;
     font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
-    font-family: "Courier New", Courier, monospace!important;
-    font-weight: bold!important;
     line-height: 1.6!important;
     padding: 5px!important;
     color: #000!important;
     border-right: 0.5rem solid var(--bs-dark)!important;
     border-radius: 20px!important;
-    background-color: #9accffba!important;
+    background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc:hover{
