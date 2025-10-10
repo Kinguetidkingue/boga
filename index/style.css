@@ -115,7 +115,7 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: 40px!important;
+    height: 38px!important;
     width: 100%!important;
     display: flex!important;
     justify-content: center!important;
@@ -130,7 +130,7 @@ body{
     align-items: center!important;
     font-size: 13px!important;
     font-weight: lighter!important;
-    margin-top: 4px!important;
+    margin-top: 6px!important;
     color: #fff!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
