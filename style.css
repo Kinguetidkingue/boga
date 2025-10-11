@@ -215,7 +215,7 @@ color: #000!important
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     background-color: #93ffcd92!important;
     font-weight: bolder!important;
-    margin-top: -5px!important;
+    margin-top: -3px!important;
 }
 ul{       
     margin: 0;
@@ -321,7 +321,7 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 93%;
+    width: 98%;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
@@ -331,10 +331,8 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -2.65rem!important;
-    margin-bottom: 1rem!important;
-    border-bottom: 0.15rem solid rgba(255, 122, 65, 0.961)!important;
-    background-color: #fff!important;
+    margin-top: -3.5rem!important;
+    margin-bottom: 0.5rem!important;
 }
 
 .figure-caption{
@@ -347,7 +345,7 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card-body{
-    background-color: #f7fbffe4!important;
+    background-color: #f2f9ffdd!important;
 }
 .card, .card-body{
     border: none!important;
@@ -358,7 +356,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(176, 210, 255, 0.86)!important; 
+    background-color:rgba(199, 222, 254, 0.86)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #LearninG{
@@ -366,6 +364,8 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     font-size: 19.5px!important;
     color:rgba(7, 7, 7, 0.757)!important;
     line-height: 1.55!important;
+    background-color: #fff!important;
+    padding: 10px!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -380,7 +380,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Three{
     width: 100%!important;
-    height: 650px!important;
+    height: 600px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     flex-wrap: wrap!important;
