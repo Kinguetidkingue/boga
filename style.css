@@ -337,7 +337,7 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -3.5rem!important;
+    margin-top: -4.5rem!important;
 }
 
 .figure-caption{
@@ -474,16 +474,14 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: auto!important;
+    height: 100%!important;
     display: flex!important;
     padding: 40px!important;
     justify-content: center!important;
     justify-items: center!important;
-    margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
 }
 #Block{
-    width: 49.5%!important;
+    width: 45%!important;
     height: auto!important;
     display: block!important;
     font-size: 15px!important;
@@ -493,12 +491,10 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     padding: 5px!important;
     color: #000!important;
-    border-radius: 10px!important;
     background-color: #fff!important;
-    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc{
-    width: 49.5%!important;
+    width: 45%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
