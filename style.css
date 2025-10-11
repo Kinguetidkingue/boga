@@ -115,8 +115,9 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    height: 38px!important;
+    padding: 5px!important;
     width: 100%!important;
+    height: 40px!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
@@ -145,7 +146,6 @@ body{
     height: 100%!important;
     flex-direction: column!important; ;
     background-color: #fff!important;
-    border-top: 0.12rem solid #ff4c28fd!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -178,7 +178,7 @@ color: #000!important
 }
 #Nav-One{
     width: 100%!important;
-    height: 50px!important;
+    height: auto!important;
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
@@ -200,20 +200,6 @@ color: #000!important
     background-color: #fff!important;
     transition: background-color 0.3s ease-in-out!important;
     color: #000!important;
-}
-#SERVICI{
-    font-display: flex!important;
-    justify-content: center!important;
-    align-items: center!important;
-    color: #fff!important;
-    padding: 5px!important;
-    font-size: 13px!important;
-}
-#SERVICI:hover{
-    background-color: #fff!important;
-    transition: background-color 0.3s ease-in-out!important;
-    color: #000!important;
-    padding: 5px!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
@@ -363,12 +349,12 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto; 
     background-color:rgba(199, 222, 254, 0.86)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.205)!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size: 18px!important;
-    color:rgb(87, 87, 87)!important;
-    line-height: 1.7!important;
+    font-size: 19.8px!important;
+    color:rgb(50, 50, 50)!important;
     background-color: #fff!important;
     padding: 10px!important;
     line-height: 1.67!important;
