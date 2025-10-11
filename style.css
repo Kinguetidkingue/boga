@@ -178,8 +178,9 @@ color: #000!important
 }
 #Nav-One{
     width: 100%!important;
-    height: 42px!important;
+    height: 50px!important;
     display: flex!important;
+    flex-wrap: wrap!important;
     flex-direction: row!important;
     background-color: rgba(18, 43, 167, 0.987)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
@@ -190,6 +191,22 @@ color: #000!important
     background-color: #fff!important;
     transition: background-color 0.3s ease-in-out!important;
     color: #000!important;
+}
+#SERVICI{
+    font-display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: #fff!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #194bc8f8!important;
+    padding: 5px!important;
+    font-size: 13px!important;
+}
+#SERVICI:hover{
+    background-color: #4076ffe1!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #fff!important;
+    padding: 5px!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
@@ -314,10 +331,10 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -2.9rem!important;
+    margin-top: -2.65rem!important;
     margin-bottom: 1rem!important;
     border-bottom: 0.15rem solid rgba(255, 122, 65, 0.961)!important;
-    background-color: transparent!important;
+    background-color: #fff!important;
 }
 
 .figure-caption{
@@ -330,19 +347,18 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card-body{
-    background-color: #fafdffe7!important;
+    background-color: #f7fbffe4!important;
 }
 .card, .card-body{
     border: none!important;
 }
 .card-body:hover{
-background-color: rgba(183, 255, 227, 0.776)!important;
+background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(176, 206, 255, 0.762)!important; 
-    border: 2px solid rgba(144, 187, 255, 0.827)!important; 
+    background-color:rgba(176, 210, 255, 0.86)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #LearninG{
@@ -364,7 +380,7 @@ background-color: rgba(183, 255, 227, 0.776)!important;
 }
 #Three{
     width: 100%!important;
-    height: 600px!important;
+    height: 650px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     flex-wrap: wrap!important;
