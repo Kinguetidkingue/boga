@@ -336,7 +336,7 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card-body{
-    background-color: #f2f9ffdd!important;
+    background-color: #f6fbffdd!important;
 }
 .card, .card-body{
     border: none!important;
@@ -347,9 +347,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(220, 234, 255, 0.86)!important; 
+    background-color:rgba(75, 148, 252, 0.397)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    box-shadow: 0.5px 0.5px 4px 0.5px rgba(143, 166, 204, 0.391)!important;
+    border-radius: 0.5rem!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
