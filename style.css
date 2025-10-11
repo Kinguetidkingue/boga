@@ -159,7 +159,7 @@ body{
     padding: 20px!important;
     padding-top: 22px!important;
     border: 2px solid #000!important;
-    border-top: 0.33rem solid red!important;
+    border-top: 0.3rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
     border-bottom-left-radius: 14px!important;
@@ -187,6 +187,15 @@ color: #000!important
     font-size: 16px!important;
     padding: 5px!important;
 }
+#SERVICES{
+    font-display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #fff!important;
+    padding: 5px!important;
+    font-size: 13px!important;
+}
 #SERVICES:hover{
     background-color: #fff!important;
     transition: background-color 0.3s ease-in-out!important;
@@ -196,16 +205,14 @@ color: #000!important
     font-display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #fff!important;
-    transition: background-color 0.3s ease-in-out!important;
-    color: #194bc8f8!important;
+    color: #fff!important;
     padding: 5px!important;
     font-size: 13px!important;
 }
 #SERVICI:hover{
-    background-color: #4076ffe1!important;
+    background-color: #fff!important;
     transition: background-color 0.3s ease-in-out!important;
-    color: #fff!important;
+    color: #000!important;
     padding: 5px!important;
 }
 .navbar-toggler-icon{
@@ -256,8 +263,8 @@ a{
     align-items: center!important;
     width: 100%!important;
     height: 23px!important;
-    font-family: "Podkova", serif!important;
-    font-size: 20px!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-size: 16px!important;
     color:#1c66af!important;
     border-bottom: 0.25rem solid transparent!important;
     font-weight: bolder!important;
@@ -327,12 +334,10 @@ a{
     justify-content: center!important;
     align-items: center!important;
     color: #000!important;
-    font-family: "Podkova", serif!important;
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
     margin-top: -3.5rem!important;
-    margin-bottom: 0.5rem!important;
 }
 
 .figure-caption{
@@ -360,12 +365,13 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #LearninG{
-    font-family: "Podkova", serif!important;
-    font-size: 19.5px!important;
-    color:rgba(7, 7, 7, 0.757)!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-size: 17px!important;
+    color:rgb(87, 87, 87)!important;
     line-height: 1.55!important;
     background-color: #fff!important;
     padding: 10px!important;
+    line-height: 1.66!important;
 }
 #WelcomeA{
     width: 100%!important;
