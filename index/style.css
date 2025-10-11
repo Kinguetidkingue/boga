@@ -347,9 +347,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(199, 222, 254, 0.86)!important; 
+    background-color:rgba(220, 234, 255, 0.86)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.205)!important;
+    box-shadow: 0.5px 0.5px 4px 0.5px rgba(143, 166, 204, 0.391)!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
