@@ -29,6 +29,7 @@
     --bs-red: #dc3545;
     --bs-redd:#7e0b39f6;
     --bs-ps-red: #ff6776e4;
+    --bs-bor-topnav: #ff4c24;
     --bs-r-red: #f9a0a9f1;
     --bs-orange: #ff9d4dfb; 
     --bs-coorange: #ffdc96f3; 
@@ -121,7 +122,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #ff4c28fd!important;
+    background-color: #ff5328!important;
 }
 #demo{
     width: 100%!important;
@@ -187,6 +188,16 @@ color: #000!important
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
     padding: 5px!important;
+}
+#BOTON{
+    background-color: rgba(255, 127, 36, 0.998)!important;
+    color: #000!important;
+}
+#BOTON:hover{
+    background-color: #fff!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #000!important;
+    border: 1px solid #7e7e7e!important;
 }
 #SERVICES{
     font-display: flex!important;
