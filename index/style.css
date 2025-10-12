@@ -461,7 +461,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: 600px!important;
+    height: 100%!important;
     display: flex!important;
     padding: 40px!important;
     justify-content: center!important;
@@ -481,7 +481,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: #fff!important;
 }
 #Bloc{
-    width: 45%!important;
+    width: 49%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
