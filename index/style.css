@@ -348,7 +348,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(75, 148, 252, 0.397)!important; 
+    background-color:rgba(75, 149, 252, 0.464)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-radius: 0.5rem!important;
 }
@@ -469,7 +469,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block{
     width: 45%!important;
-    height: auto!important;
+    height: 600px!important;
     display: block!important;
     font-size: 15px!important;
     line-height: 1.68!important;
