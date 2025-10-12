@@ -461,15 +461,15 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: 100%!important;
+    height: 600px!important;
     display: flex!important;
     padding: 40px!important;
     justify-content: center!important;
     justify-items: center!important;
 }
 #Block{
-    width: 45%!important;
-    height: auto!important;
+    width: 50%!important;
+    height: 500px!important;
     display: block!important;
     font-size: 15px!important;
     line-height: 1.68!important;
