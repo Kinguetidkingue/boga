@@ -146,8 +146,8 @@ body{
     width: 100%!important;
     height: 100%!important;
     flex-direction: column!important; ;
-    background-color: #fff!important;
-    border-top: 0.15rem solid rgb(241, 116, 7);
+    background-color: #fffffffd!important;
+    border-top: 0.15rem solid rgb(255, 124, 10);
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -366,10 +366,10 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 18px!important;
-    color: #3c3c3cf9!important;
+    color: rgba(54, 54, 54, 0.999)!important;
     background-color: #fff!important;
     padding: 13px!important;
-    line-height: 1.6!important;
+    line-height: 1.66!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -407,7 +407,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     align-items: center!important;
     padding: 20px!important;
     margin-bottom: 0.4rem!important;
-    font-family: "Podkova", serif!important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important;
 }
 #RES{
     color: #ed8b0cf7!important;
