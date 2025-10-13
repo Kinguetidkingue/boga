@@ -118,11 +118,11 @@ body{
 #TopNav{
     padding: 5px!important;
     width: 100%!important;
-    height: 40px!important;
+    height: 36px!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #ff8622!important;
+    background-color: #ff8025!important;
 }
 #demo{
     width: 100%!important;
@@ -337,7 +337,12 @@ a{
     padding: 20px!important;
     margin-top: -3.1rem!important;
 }
-
+#Sun{
+    font-size: 40px!important;
+    color: cyan!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-weight: bolder!important;
+}
 .figure-caption{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
@@ -379,7 +384,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    padding: 10px!important;
+    padding: 5px!important;
     border: 0.12rem solid#ff8622!important;
     margin-bottom: 1rem!important;
 }
