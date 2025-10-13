@@ -348,7 +348,7 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card-body{
-    background-color: #f6fbffdd!important;
+    background-color: #f6fbffe8!important;
 }
 .card, .card-body{
     border: none!important;
@@ -359,7 +359,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(75, 149, 252, 0.464)!important; 
+    background-color:rgba(85, 166, 253, 0.53)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-radius: 0.5rem!important;
 }
