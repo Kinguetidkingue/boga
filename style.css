@@ -373,27 +373,24 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #WelcomeA{
     width: 100%!important;
-    height: 620px!important;
+    height: 600px!important;
     display: flex!important;
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
     padding: 10px!important;
+    border: 0.2rem solid #ff8622!important;
 }
 #Three{
     width: 100%!important;
-    height: 590px!important;
+    height: 580px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     flex-wrap: wrap!important;
     justify-items: center!important;
     align-items: center!important;
     background-color: #fff!important
-}
-#Three:hover{
-     background-color: #ffddffdc!important;
-     transition: 0.31s background-color ease-in-out!important;
 }
 .Header{
     width: 100%!important;
