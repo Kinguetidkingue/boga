@@ -364,11 +364,11 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     border-radius: 0.5rem!important;
 }
 #LearninG{
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size: 19.8px!important;
-    color:rgb(50, 50, 50)!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-size: 16.86px!important;
+    color: #343a40!important;
     background-color: #fff!important;
-    padding: 10px!important;
+    padding: 15px!important;
     line-height: 1.67!important;
 }
 #WelcomeA{
