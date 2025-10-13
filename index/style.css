@@ -364,12 +364,12 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     border-radius: 0.5rem!important;
 }
 #LearninG{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    font-size: 16.86px!important;
-    color: #343a40!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    font-size: 19.98px!important;
+    color: #555555fb!important;
     background-color: #fff!important;
-    padding: 15px!important;
-    line-height: 1.67!important;
+    padding: 13px!important;
+    line-height: 1.65!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -385,7 +385,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Three{
     width: 100%!important;
-    height: 540px!important;
+    height: 550px!important;
     font-family:Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     flex-wrap: wrap!important;
