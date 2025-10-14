@@ -122,7 +122,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #ff8025!important;
+    background-color: #ff6f22fb!important;
 }
 #demo{
     width: 100%!important;
@@ -400,6 +400,11 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-items: center!important;
     align-items: center!important;
     background-color: #fff!important
+}
+.figure-caption{
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-size: 11px!important;
+    color:rgba(158, 81, 18, 0.904)!important;
 }
 .Header{
     width: 100%!important;
