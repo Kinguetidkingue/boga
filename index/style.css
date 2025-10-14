@@ -356,7 +356,7 @@ a{
     transition: 0.3s background-color ease-in-out;
 }
 .card-body{
-    background-color: #feffffee!important;
+    background-color: #fefffff3!important;
 }
 .card, .card-body{
     border: none!important;
