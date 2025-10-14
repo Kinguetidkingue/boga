@@ -38,7 +38,7 @@
     --bs-green: #198754;
     --bs-bgab-green: #4dd6ff;
     --bs-teal: #20c997;
-    --bs-cyan: #0dcaf0;
+    --bs-cyan: #30dcfe;
     --bs-black: #000;
     --bs-bb-lack: #1449cef7;
     --bs-white: #fff;
@@ -340,7 +340,7 @@ a{
 #SUN{
     width: 100%!important;
     height:auto!important;
-    color: #fff!important;
+    color: cyan!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.3!important;
