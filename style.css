@@ -381,7 +381,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #WelcomeA{
     width: 100%!important;
-    height: 620px!important;
+    height: auto!important;
     display: flex!important;
     flex-direction: row!important;
     justify-content: center!important;
@@ -401,10 +401,10 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     align-items: center!important;
     background-color: #fff!important
 }
-.figure-caption{
+#FIGCAPTION{
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 13px!important;
-    color:rgba(158, 81, 18, 0.904)!important;
+    color:rgba(138, 25, 87, 0.904)!important;
 }
 .Header{
     width: 100%!important;
@@ -436,14 +436,12 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: #fff!important;
 }
 #Block-wrapper{
-    width: 100%!important;
+    width: 95%!important;
     height: auto!important;
-    display: block!important;
+    display: flex!important;
     flex-direction: column!important;
-    background-color: transparent!important;
-    padding-top: 30px!important;
-    padding-bottom: 50px!important;
-    justify-content: space-between!important;
+    margin-top: 5rem!important;
+    justify-content: center!important;
     align-items:center!important;
 }
 #Block-wrap{
@@ -483,13 +481,16 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     width: 100%!important;
     height: 100%!important;
     display: flex!important;
+    flex-direction: row!important;
     padding: 40px!important;
     justify-content: center!important;
     justify-items: center!important;
+    border: 0.12rem solid#ff8622!important;
+    margin-bottom: 1rem!important;
 }
 #Block{
-    width: 50%!important;
-    height: 600px!important;
+    width: 44%!important;
+    height: 550px!important;
     display: block!important;
     font-size: 15px!important;
     line-height: 1.68!important;
