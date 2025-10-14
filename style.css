@@ -437,7 +437,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block-wrapper{
     width: 95%!important;
-    height: auto!important;
+    height: 700px!important;
     display: flex!important;
     flex-direction: column!important;
     margin-top: 5rem!important;
@@ -479,7 +479,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: 100%!important;
+    height: 570px!important;
     display: flex!important;
     flex-direction: row!important;
     padding: 40px!important;
@@ -490,7 +490,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block{
     width: 44%!important;
-    height: 550px!important;
+    height: 500px!important;
     display: block!important;
     font-size: 15px!important;
     line-height: 1.68!important;
