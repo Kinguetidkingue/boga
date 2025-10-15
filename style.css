@@ -390,8 +390,6 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    padding: 5px!important;
-    border: 0.5px solid#ff8622!important;
 }
 #Three{
     width: 100%!important;
@@ -401,7 +399,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     flex-wrap: wrap!important;
     justify-items: center!important;
     align-items: center!important;
-    background-color: #fff!important
+    background-color: #fff!important;
+    border: 1px solid #ff8622!important;
+    border-radius: 0.5rem!important;
 }
 #FIGCAPTION{
     font-family: Arial, Helvetica, sans-serif!important;
@@ -435,7 +435,6 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: transparent!important;
 }
 #Block-wrapper{
     width: 100%!important;
@@ -456,13 +455,14 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
     align-items:center!important;
+    background-color: rgba(28, 83, 211, 0.771)!important;
 }
 #Block-wrapp{
     width: 100%!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: rgba(28, 83, 211, 0.771)!important;
+    background-color: #fff!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -487,13 +487,13 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
-    border: 0.5px solid#ff8622!important;
+    border-radius: 1rem!important;
 }
 #Block{
-    width: 44%!important;
-    height: 550px!important;
+    width: 65%!important;
+    height: 700px!important;
     display: block!important;
-    font-size: 15px!important;
+    font-size: 18px!important;
     line-height: 1.68!important;
     justify-content: center!important;
     align-items: center!important;
@@ -501,6 +501,8 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding: 5px!important;
     color: #000!important;
     background-color: #fff!important;
+    border: 1px solid #ff8622!important;
+     border-radius: 0.5rem!important;
 }
 #Bloc{
     width: 49%!important;
