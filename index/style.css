@@ -118,11 +118,11 @@ body{
 #TopNav{
     padding: 5px!important;
     width: 100%!important;
-    height: 36px!important;
+    height: 38px!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #1149c2fd!important;
+    background-color: #1844cbfd!important;
 }
 #demo{
     width: 100%!important;
@@ -209,7 +209,7 @@ color: #000!important
     color: darkblue!important
 }
 #SERVICES:hover{
-    background-color: #1c26b0f3!important;
+    background-color: #1448b9fd!important;
     transition: background-color 0.3s ease-in-out!important;
     color: gold!important;
 }
