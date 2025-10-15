@@ -438,7 +438,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: transparent!important;
 }
 #Block-wrapper{
-    width: 95%!important;
+    width: 100%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
