@@ -209,9 +209,9 @@ color: #000!important
     color: darkblue!important
 }
 #SERVICES:hover{
-    background-color: #1448b9fd!important;
+    background-color: #000!important;
     transition: background-color 0.3s ease-in-out!important;
-    color: gold!important;
+    color: cyan!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
