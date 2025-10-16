@@ -449,19 +449,18 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffffff!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: rgba(28, 83, 211, 0.771)!important;
+    background-color: rgba(24, 81, 214, 0.644)!important;
 }
 #Block-wrapp{
     width: 100%!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #fff!important;
+    background-color: #f1f1f1!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -472,7 +471,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ff775572!important;
+    background-color: #ff875f60!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -480,7 +479,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: 618px!important;
+    height: 700px!important;
     display: flex!important;
     flex-direction: row!important;
     padding: 5px!important;
@@ -493,7 +492,6 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: 700px!important;
     display: block!important;
     font-size: 18px!important;
-    line-height: 1.68!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
