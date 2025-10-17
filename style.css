@@ -358,6 +358,9 @@ a{
     color: rgb(19, 148, 247)!important;
     transition: 0.3s background-color ease-in-out;
 }
+.card, .card-body{
+    border: none!important;
+}
 .card-body{
     background-color: #fefffff3!important;
 }
