@@ -132,7 +132,7 @@ body{
     align-items: center!important;
     font-size: 13px!important;
     font-weight: lighter!important;
-    margin-top: 0.5px!important;
+    margin-top: 5px!important;
     color: #fff!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
@@ -360,9 +360,6 @@ a{
 }
 .card-body{
     background-color: #fefffff3!important;
-}
-.card, .card-body{
-    border: none!important;
 }
 .card-body:hover{
 background-color: rgba(211, 255, 238, 0.776)!important;
