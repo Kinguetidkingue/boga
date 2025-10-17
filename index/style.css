@@ -180,9 +180,9 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    background-color: rgba(153, 199, 255, 0.998)!important;
-    border-top: 0.5px solid rgba(82, 82, 82, 0.924)!important;
-    border-bottom: 0.5px solid rgba(82, 82, 82, 0.924)!important;
+    background-color: rgba(64, 153, 254, 0.527)!important;
+    border-top: 0.5px solid rgb(18, 49, 84)!important;
+    border-bottom: 0.5px solid rgb(18, 49, 84)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
@@ -340,7 +340,7 @@ a{
     padding: 20px!important;
     margin-top: -3.1rem!important;
 }
-#SUN{
+ #SUN{
     width: 100%!important;
     height:auto!important;
     color: cyan!important;
@@ -370,7 +370,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #BLOK{
     width: 18.4rem!important; 
     height: auto; 
-    background-color:rgba(56, 149, 255, 0.525)!important; 
+    background-color:rgba(62, 152, 255, 0.527)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #LearninG{
@@ -451,14 +451,14 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: rgba(24, 81, 214, 0.644)!important;
+    background-color: rgba(38, 100, 244, 0.598)!important;
 }
 #Block-wrapp{
     width: 100%!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ecececf2!important;
+    background-color: #f0f0f0!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
