@@ -372,7 +372,6 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto; 
     background-color:rgba(56, 149, 255, 0.525)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border-radius: 0.5rem!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
@@ -390,7 +389,6 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    border: 1px solid transparent;
 }
 #Three{
     width: 100%!important;
