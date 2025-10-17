@@ -180,9 +180,9 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    background-color: rgba(64, 153, 254, 0.527)!important;
-    border-top: 0.5px solid rgb(18, 49, 84)!important;
-    border-bottom: 0.5px solid rgb(18, 49, 84)!important;
+    background-color: rgba(119, 178, 255, 0.61)!important;
+    border-top: 0.5px solid rgba(18, 25, 35, 0.653)!important;
+    border-bottom: 0.5px solid rgba(18, 25, 35, 0.653)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
@@ -451,14 +451,14 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: rgba(38, 100, 244, 0.598)!important;
+    background-color: rgba(49, 109, 248, 0.543)!important;
 }
 #Block-wrapp{
     width: 100%!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #f0f0f0!important;
+    background-color: #f2f2f2!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -469,7 +469,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ff875f60!important;
+    background-color: #ff7a4d6f!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
