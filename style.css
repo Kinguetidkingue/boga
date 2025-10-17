@@ -180,7 +180,7 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    background-color: rgba(176, 176, 176, 0.794)!important;
+    background-color: rgba(153, 199, 255, 0.998)!important;
     border-top: 0.5px solid rgba(82, 82, 82, 0.924)!important;
     border-bottom: 0.5px solid rgba(82, 82, 82, 0.924)!important;
     justify-content: center!important;
@@ -211,7 +211,7 @@ color: #000!important
 #SERVICES:hover{
     background-color: #000!important;
     transition: background-color 0.3s ease-in-out!important;
-    color: cyan!important;
+    color: #fff!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
