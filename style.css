@@ -161,7 +161,7 @@ body{
     padding: 20px!important;
     padding-top: 22px!important;
     border: 2px solid #000!important;
-    border-top: 0.5rem solid red!important;
+    border-top: 0.45rem solid red!important;
     justify-content: center!important;
     align-items: center!important;
     border-bottom-left-radius: 1rem!important;
@@ -171,7 +171,7 @@ body{
 font-size: 11.25px!important;
 }
 #H6{
-font-size: 11px!important;
+font-size: 10.88px!important;
 color: #000!important
 }
 #Nav-One{
@@ -336,7 +336,7 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -4.5rem!important;
+    margin-top: -4.65rem!important;
 }
  #SUN{
     width: 100%!important;
