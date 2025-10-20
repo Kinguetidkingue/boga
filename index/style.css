@@ -147,12 +147,12 @@ body{
     height: 100%!important;
     flex-direction: column!important; ;
     background-color: #ffffff!important;
-    border-top: 0.5px solid #f0f0f0!important;
+    border-top: 0.15rem solid #ff7a2d!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
-    padding-top: 10px!important;
+    padding-top: 7px!important;
 }  
 #Logo{
     display: flex!important;
@@ -188,17 +188,6 @@ color: #000!important
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
     padding: 5px!important;
-}
-#Nav-Two{
-    width: 100%!important;
-    height: auto!important;
-    display: flex!important;
-    flex-direction: row!important;
-    background-color: #fff!important;
-    justify-content: center!important;
-    align-items: center!important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    font-size: 16px!important;
 }
 #BOTON{
     background-image: linear-gradient(rgb(34, 89, 208),#ffffff3c)!important;
