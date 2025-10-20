@@ -133,7 +133,7 @@ body{
     font-size: 13px!important;
     font-weight: lighter!important;
     margin-top: 5px!important;
-    color: #fff!important;
+    color: #ff0!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
@@ -146,13 +146,13 @@ body{
     width: 100%!important;
     height: 100%!important;
     flex-direction: column!important; ;
-    background-color: #fffffffd!important;
-    border-top: 0.15rem solid rgb(255, 101, 5)!important;
+    background-color: #ffffff!important;
+    border-top: 0.5px solid #f0f0f0!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
-    padding: auto;
+    padding-top: 10px!important;
 }  
 #Logo{
     display: flex!important;
@@ -180,17 +180,28 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    background-color: rgba(114, 175, 255, 0.602)!important;
-    border-top: 0.5px solid rgba(18, 25, 35, 0.653)!important;
-    border-bottom: 0.5px solid rgba(18, 25, 35, 0.653)!important;
+    background-color: rgba(114, 180, 255, 0.602)!important;
+    border-top: 0.5px solid rgba(18, 25, 35, 0.589)!important;
+    border-bottom: 0.5px solid rgba(18, 25, 35, 0.589)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     font-size: 16px!important;
     padding: 5px!important;
 }
+#Nav-Two{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    background-color: #fff!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-size: 16px!important;
+}
 #BOTON{
-    background-image: linear-gradient(rgb(34, 89, 208),#ffffff34)!important;
+    background-image: linear-gradient(rgb(34, 89, 208),#ffffff3c)!important;
     color: #fff!important;
     border: none!important;
 }
@@ -270,7 +281,7 @@ a{
     color:#1c66af!important;
     border-bottom: 0.25rem solid transparent!important;
     font-weight: bolder!important;
-    margin-top: 8px!important;
+    margin-top: 7px!important;
 }
 .Bo:hover{
     border-bottom: 0.25rem solid rgb(58, 143, 223)!important;
