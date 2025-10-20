@@ -180,9 +180,9 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    background-color: rgb(255, 149, 92)!important;
-    border-top: 0.5px solid rgba(18, 25, 35, 0.589)!important;
-    border-bottom: 0.5px solid rgba(18, 25, 35, 0.589)!important;
+    background-color: rgba(255, 133, 67, 0.992)!important;
+    border-top: 0.5px solid rgba(18, 25, 35, 0.727)!important;
+    border-bottom: 0.65rem solid rgb(23, 52, 145)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
