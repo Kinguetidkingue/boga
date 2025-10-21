@@ -395,6 +395,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding: 13px!important;
     line-height: 1.66!important;
 }
+#Full{
+    background-color: #f3f3f3!important;
+}
 #WelcomeA{
     width: 100%!important;
     height: 700px!important;
@@ -403,10 +406,10 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    background-color: light!important;
+    background-color: transparent!important;
 }
 #WelcomeB{
-    background-color: light!important;
+    background-color: transparent!important;
 }
 #Three{
     width: 100%!important;
@@ -416,6 +419,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     flex-wrap: wrap!important;
     justify-items: center!important;
     align-items: center!important;
+    background-color: transparent!important;
 }
 #FIGCAPTION{
     font-family: Arial, Helvetica, sans-serif!important;
