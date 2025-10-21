@@ -159,9 +159,9 @@ body{
 #Logo{
     display: flex!important;
     width: 76px!important;
-    height: 36px!important;
+    height: 30px!important;
     padding: 22px!important;
-    padding-top: 20px!important;
+    padding-top: 22px!important;
     border: 2px solid #000!important;
     border-top: 0.4rem solid red!important;
     justify-content: center!important;
@@ -173,7 +173,7 @@ body{
 font-size: 11.25px!important;
 }
 #H6{
-font-size: 10.88px!important;
+font-size: 10.5px!important;
 color: #000!important
 }
 #Nav-One{
