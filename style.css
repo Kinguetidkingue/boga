@@ -272,6 +272,7 @@ a{
     z-index: 1000!important;
     font-weight: bolder!important;
     font-family: Arial, Helvetica, sans-serif!important;
+    border: 2px solid #fff!important;
 }
 .Bo{
     display: flex!important;
