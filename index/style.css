@@ -481,17 +481,16 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Blockus{
     width: 100%!important;
-    height: 700px!important;
+    height: 750px!important;
     display: flex!important;
     flex-direction: row!important;
     padding: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
-    border-radius: 1rem!important;
 }
 #BLAKO{
     width: 65%!important;
-    height: 700px!important;
+    height: 690px!important;
     display: block!important;
     font-size: 18px!important;
     justify-content: center!important;
