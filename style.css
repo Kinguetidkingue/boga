@@ -262,14 +262,16 @@ a{
     align-items: center;
     
 }
-#TOP{
+#TOP{ display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    width: 120px!important;
-    height: 40px!important;
+    width: 115px!important;
+    height: auto!important;
     font-size: 12px!important;
+    padding: 10px!important;
     z-index: 1000!important;
     font-weight: bolder!important;
+    font-family: Arial, Helvetica, sans-serif!important;
 }
 .Bo{
     display: flex!important;
