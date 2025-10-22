@@ -349,7 +349,7 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 6.5rem!important;
+    margin-top: 6.8rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
@@ -506,10 +506,10 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 5px!important;
     color: #000!important;
-    background-color: #fff!important
+    background-color: #fff!important;
 }
 #Block{
-    width: 60%!important;
+    width: 97%!important;
     height: 1000px!important;
     display: block!important;
     font-size: 18px!important;
