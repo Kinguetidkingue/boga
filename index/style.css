@@ -183,7 +183,7 @@ color: #000!important
     flex-wrap: wrap!important;
     flex-direction: row!important;
     background-color: rgba(255, 122, 51, 0.984)!important;
-    border-bottom: 0.65rem solid rgb(47, 123, 245)!important;
+    border-bottom: 0.65rem solid #fff!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
@@ -261,18 +261,6 @@ a{
     justify-content: center;
     align-items: center;
     
-}
-#TOP{ display: block!important;
-    justify-content: center!important;
-    align-items: center!important;
-    width: 115px!important;
-    height: auto!important;
-    font-size: 12px!important;
-    padding: 10px!important;
-    z-index: 1000!important;
-    font-weight: bolder!important;
-    font-family: Arial, Helvetica, sans-serif!important;
-    border: 2px solid #fff!important;
 }
 .Bo{
     display: flex!important;
