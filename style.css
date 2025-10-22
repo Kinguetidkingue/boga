@@ -349,7 +349,7 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 8.5rem!important;
+    margin-top: 8.45rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
@@ -509,8 +509,8 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: #fff!important
 }
 #Block{
-    width: 65%!important;
-    height: 700px!important;
+    width: 56.5%!important;
+    height: 800px!important;
     display: block!important;
     font-size: 18px!important;
     justify-content: center!important;
@@ -519,6 +519,8 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     padding: 5px!important;
     color: #000!important;
     background-color: light!important;
+    margin-left: 120px!important;
+    margin-top: -3rem!important;
 }
 #Bloc{
     width: 49%!important;
