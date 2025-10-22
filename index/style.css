@@ -341,15 +341,17 @@ a{
     font-size: 20px!important;
     line-height: 1.6!important;
     padding: 20px!important;
-    margin-top: -4.65rem!important;
+    
 }
  #SUN{
     width: 100%!important;
-    height:auto!important;
+    height: 700px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: -1.7rem!important;
+    margin-top: 9rem!important;
+    justify-content: center!important;
+    align-items: center!important;
 }
 .figure-caption{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
