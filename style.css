@@ -439,7 +439,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block-wrappo{
     width: 100%!important;
-    height: 100%!important;
+    height: auto!important;
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
@@ -516,7 +516,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    padding: 5px!important;
+    padding: 10px!important;
     color: #000!important;
     background-color: light!important;
     margin-top: -2.98rem!important;
