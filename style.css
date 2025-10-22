@@ -149,7 +149,7 @@ body{
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
-    border-top: 0.15rem solid rgba(255, 125, 55, 0.953)!important;
+    border-top: 0.12rem solid rgb(255, 122, 51)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -468,7 +468,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #f2f2f2!important;
+    background-color: #fff!important;
     padding-top: 100px!important;
     padding-bottom: 100px!important;
     justify-content: center!important;
@@ -516,9 +516,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 5px!important;
     color: #000!important;
-    background-color: #fff!important;
-    border-radius: 1rem!important;
-    box-shadow: 0 0 2px 0.45px rgba(0, 0, 0, 0.641)!important;
+    background-color: light!important;
 }
 #Bloc{
     width: 49%!important;
