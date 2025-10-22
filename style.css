@@ -510,7 +510,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block{
     width: 97%!important;
-    height: 1000px!important;
+    height: auto!important;
     display: block!important;
     font-size: 18px!important;
     justify-content: center!important;
