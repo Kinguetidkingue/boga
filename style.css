@@ -384,6 +384,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
     padding: 13px!important;
     line-height: 1.66!important;
+    border-radius: 1rem!important;
 }
 #Full{
     background-color: #f3f3f3!important;
@@ -420,7 +421,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     width: 100%!important;
     font-weight: bolder!important;
     font-size: 35px!important;
-    color: rgba(255, 99, 32, 0.977)!important;
+    color: #000!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 10px!important;
