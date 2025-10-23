@@ -267,18 +267,18 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 23px!important;
+    height: 25px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 20px!important;
     color:#8c8c8c!important;
-    border-bottom: 0.25rem solid transparent!important;
+    border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
     margin-top: 9px!important;
 }
 .Bo:hover{
-    border-bottom: 0.25rem solid rgb(44, 136, 223)!important;
-    transition: background-color all 0.35s ease-in-out!important;
-    color: rgb(255, 30, 0)!important;
+    border-bottom: 0.14rem solid red!important;
+    transition: background-color all 0.3s ease-in-out!important;
+    color: rgb(44, 74, 245)!important;
     font-weight: bolder!important;
 }
 #Beauty{
@@ -512,14 +512,15 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     width: 97%!important;
     height: auto!important;
     display: block!important;
-    font-size: 18px!important;
+   
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     color: #000!important;
     background-color: light!important;
-    margin-top: -2.98rem!important;
+    margin-top: -1rem!important;
+    border-radius: 1rem!important;
 }
 #Bloc{
     width: 49%!important;
