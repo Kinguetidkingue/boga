@@ -332,7 +332,8 @@ a{
     font-size: 14px!important;
 }
 #Welcome{
-    width: 100%;
+    width: 100%!important;
+    height: auto!important;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
