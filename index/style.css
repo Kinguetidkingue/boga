@@ -456,11 +456,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block-wrap{
     width: 100%!important;
-    height: auto!important;
-    display: block!important;
+    height: 550px!important;
+    display: flex!important;
     flex-direction: column!important;
-    padding-top: 50px!important;
-    padding-bottom: 50px!important;
     justify-content: center!important;
     align-items:center!important;
     background-color: rgba(49, 109, 248, 0.543)!important;
@@ -509,7 +507,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: #fff!important;
 }
 #Block{
-    width: 49.5%!important;
+    width: 50%!important;
     height: auto!important;
     display: block!important;
     font-size: 17px!important;
@@ -522,7 +520,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     border-radius: 1rem!important;
 }
 #Bloc{
-    width: 49%!important;
+    width: 50%!important;
     height: auto!important;
     display: block!important;
     font-size: 20px!important;
