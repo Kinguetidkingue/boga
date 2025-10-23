@@ -270,7 +270,7 @@ a{
     height: 25px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 20px!important;
-    color:#8c8c8c!important;
+    color:#858585!important;
     border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
     margin-top: 9px!important;
@@ -369,7 +369,7 @@ a{
     background-color: #fefffff3!important;
 }
 .card-body:hover{
-background-color: rgba(211, 255, 238, 0.776)!important;
+background-color: rgba(255, 230, 155, 0.976)!important;
 }
 #BLOK{
     width: 18.4rem!important; 
@@ -456,7 +456,9 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 }
 #Block-wrap{
     width: 100%!important;
-    height: 550px!important;
+    height: auto!important;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
     display: flex!important;
     flex-direction: column!important;
     justify-content: center!important;
@@ -466,7 +468,7 @@ background-color: rgba(211, 255, 238, 0.776)!important;
 #Block-wrapp{
     width: 100%!important;
     height: auto!important;
-    display: block!important;
+    display: flex!important;
     flex-direction: column!important;
     background-color: #fff!important;
     padding-top: 50px!important;
