@@ -145,7 +145,7 @@ body{
     display: flex!important;
     flex-wrap: wrap!important;
     width: 100%!important;
-    height: 100%!important;
+    height: auto!important;
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
@@ -466,6 +466,17 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-content: center!important;
     align-items:center!important;
     background-color: rgba(52, 138, 250, 0.913)!important;
+}
+#Block-W{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    background-color: #fff!important;
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
+    justify-content: center!important;
+    align-items:center!important;
 }
 #Block-wrapp{
     width: 100%!important;
