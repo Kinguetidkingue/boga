@@ -509,17 +509,16 @@ background-color: rgba(211, 255, 238, 0.776)!important;
     background-color: #fff!important;
 }
 #Block{
-    width: 97%!important;
+    width: 49.5%!important;
     height: auto!important;
     display: block!important;
-   
+    font-size: 17px!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     color: #000!important;
     background-color: light!important;
-    margin-top: -1rem!important;
     border-radius: 1rem!important;
 }
 #Bloc{
