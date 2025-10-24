@@ -516,9 +516,9 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     flex-direction: column;
     justify-content: center!important;
     align-items: center!important;
-    border: 0.1px solid rgb(208, 208, 208)!important;
     padding: 15px!important;
     background-color: #fff!important;
+    border-left: 0.1px solid rgb(208, 208, 208)!important;
 }
 #Tropical{
     width: 95%!important;
@@ -554,8 +554,22 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     color: #000!important;
     background-color: #fff!important;
 }
+#ToGet{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    font-size: 17px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    padding: 10px!important;
+    color: #000!important;
+    border-radius: 1rem!important;
+    border: 0.1px solid rgb(208, 208, 208)!important;
+}
 #Block{
-    width: 53%!important;
+    width: 50%!important;
     height: auto!important;
     display: block!important;
     font-size: 17px!important;
@@ -565,7 +579,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     padding: 10px!important;
     color: #000!important;
     border-radius: 1rem!important;
-    border: 0.1px solid rgb(208, 208, 208)!important;
 }
 #Bloc{
     width: 50%!important;
