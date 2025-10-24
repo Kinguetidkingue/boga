@@ -509,8 +509,19 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-content: center!important;
     justify-items: center!important;
 }
+#One-One{
+    width: 42%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
+    border: 0.1px solid rgb(208, 208, 208)!important;
+    padding: 15px!important;
+    background-color: #fff!important;
+}
 #Tropical{
-    width: 90%!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
 }
@@ -520,7 +531,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     transition: background-color all 0.3s ease-in-out;
 }
 #Crocu{
-    width: 90%!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
     justify-content: center!important;
@@ -544,7 +555,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
 }
 #Block{
-    width: 50%!important;
+    width: 55%!important;
     height: auto!important;
     display: block!important;
     font-size: 17px!important;
