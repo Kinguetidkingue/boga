@@ -509,6 +509,16 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-content: center!important;
     justify-items: center!important;
 }
+#Tropical{
+    width: 30%!important;
+    height: auto!important;
+    display: block!important;
+}
+#Tropical:hover{
+    background-color: hsla(60, 98%, 75%, 0.861)!important;
+    color:rgb(1, 1, 155)!important;
+    transition: background-color all 0.3s ease-in-out;
+}
 #BLAKO{
     width: 65%!important;
     height: 690px!important;
