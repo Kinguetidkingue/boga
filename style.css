@@ -521,7 +521,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
 }
 #Tropical{
-    width: 100%!important;
+    width: 95%!important;
     height: auto!important;
     display: block!important;
 }
@@ -531,7 +531,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     transition: background-color all 0.3s ease-in-out;
 }
 #Crocu{
-    width: 100%!important;
+    width: 95%!important;
     height: auto!important;
     display: block!important;
     justify-content: center!important;
@@ -555,7 +555,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
 }
 #Block{
-    width: 54%!important;
+    width: 53%!important;
     height: auto!important;
     display: block!important;
     font-size: 17px!important;
