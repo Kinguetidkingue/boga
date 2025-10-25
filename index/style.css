@@ -418,7 +418,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-size: 13px!important;
     color:rgba(138, 25, 87, 0.904)!important;
 }
-.Header{
+#HeadeR{
     width: 100%!important;
     font-weight: bolder!important;
     font-size: 35px!important;
@@ -518,7 +518,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
     padding: 15px!important;
     background-color: #fff!important;
-    border-left: 0.1px solid rgb(208, 208, 208)!important;
+    border-left: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Tropical{
     width: 95%!important;
@@ -565,8 +565,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 5px!important;
     color: #000!important;
-    border-radius: 1rem!important;
-    border: 0.1px solid rgb(208, 208, 208)!important;
+    border: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Block{
     width: 50%!important;
