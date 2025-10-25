@@ -555,7 +555,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
 }
 #ToGet{
-    width: 100%!important;
+    width: 90%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: row!important;
@@ -563,7 +563,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    padding: 10px!important;
+    padding: 5px!important;
     color: #000!important;
     border-radius: 1rem!important;
     border: 0.1px solid rgb(208, 208, 208)!important;
