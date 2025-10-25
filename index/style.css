@@ -521,18 +521,18 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     border-left: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Tropical{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
+    background-color: light!important;
     width: 100%!important;
     height: auto!important;
     display: block!important;
 }
 #Tropical:hover{
-    background-color: #fff!important;
+    background-color: hsla(60, 100%, 77%, 0.89)!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
 #Crocu{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
+    background-color: light!important;
     width: 100%!important;
     height: auto!important;
     display: block!important;
@@ -540,7 +540,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
    }
 #Crocu:hover{
-    background-color: #fff!important;
+    background-color: hsla(60, 100%, 77%, 0.89)!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
