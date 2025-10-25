@@ -145,7 +145,7 @@ body{
     display: flex!important;
     flex-wrap: wrap!important;
     width: 100%!important;
-    height: 116px!important;
+    height: auto!important;
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
