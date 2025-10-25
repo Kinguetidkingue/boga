@@ -145,11 +145,12 @@ body{
     display: flex!important;
     flex-wrap: wrap!important;
     width: 100%!important;
-    height: auto!important;
+    height: 116px!important;
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
     border-top: 0.11rem solid rgba(255, 116, 41, 0.789)!important;
+    box-shadow: 0 0.15px 1px 0.5px #00000055 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -477,6 +478,12 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     padding-bottom: 50px!important;
     justify-content: center!important;
     align-items:center!important;
+}
+#List-Group{
+    display: block!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-size: 16px!important;
+    box-shadow: 0 0 1px 0.25px rgba(0, 0, 0, 0.239)!important;
 }
 #Block-wrapp{
     width: 100%!important;
