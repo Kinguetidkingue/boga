@@ -122,7 +122,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: rgb(32, 149, 238)! important;
+    background-color: rgba(28, 96, 198, 0.974)! important;
 }
 #demo{
     width: 100%!important;
@@ -130,7 +130,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    font-size: 13px!important;
+    font-size: 12px!important;
     font-weight: lighter!important;
     margin-top: 5px!important;
     color: #fff!important;
@@ -149,7 +149,7 @@ body{
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
-    border-top: 0.11rem solid rgba(255, 116, 41, 0.941)!important;
+    border-top: 0.11rem solid rgba(255, 116, 41, 0.789)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -510,7 +510,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-items: center!important;
 }
 #One-One{
-    width: 42%!important;
+    width: 45%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: column;
@@ -521,7 +521,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     border-left: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Tropical{
-    width: 95%!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
 }
@@ -531,7 +531,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     transition: background-color all 0.3s ease-in-out;
 }
 #Crocu{
-    width: 95%!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
     justify-content: center!important;
