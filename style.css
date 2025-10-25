@@ -149,8 +149,8 @@ body{
     flex-direction: column!important;
     flex-wrap: wrap!important;
     background-color: #ffffff!important;
-    border-top: 0.11rem solid rgba(255, 116, 41, 0.805)!important;
-    box-shadow: 0 0.15px 1px 0.5px #00000055 !important;
+    border-top: 0.11px solid rgba(255, 141, 65, 0.966)!important;
+    box-shadow: 0 0.13px 1px 0.5px #00000072 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
