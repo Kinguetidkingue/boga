@@ -147,7 +147,8 @@ body{
     width: 100%!important;
     height: auto!important;
     flex-direction: column!important;
-    flex-wrap: wrap!important;
+    justify-content: space-between!important;
+    align-items: center!important;
     background-color: #ffffff!important;
     border-top: 0.11px solid rgba(255, 141, 65, 0.966)!important;
     box-shadow: 0 0.15px 1px 0.1px #000000a8 !important;
@@ -155,7 +156,6 @@ body{
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
-    padding-top: 7px!important;
 }  
 #Logo{
     display: flex!important;
