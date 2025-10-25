@@ -283,9 +283,11 @@ a{
     font-weight: bolder!important;
 }
 #Beauty{
+    display: flex!important;
+    justify-items: center!important;
     align-items: center!important;
     background-image: linear-gradient(#1035de58, #152fd7b2)!important;
-    padding: 10px!important;
+   
     height: auto!important;
     border-radius: 0.5rem!important;
     margin-top: 2.5rem!important;
