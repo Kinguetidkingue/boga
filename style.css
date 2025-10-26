@@ -577,6 +577,17 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     color: #000!important;
     border: 0.11px solid rgb(203, 203, 203)!important;
 }
+#Bootstrap{
+    width: 80%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 17px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    padding: 10px!important;
+    border-radius: 1rem!important;
+}
 #Block{
     width: 50%!important;
     height: auto!important;
