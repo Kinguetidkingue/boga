@@ -620,13 +620,11 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     justify-content: center;
     align-items: center;
     display: block!important;
-    font-weight: bold!important;
-    font-family: "Courier New", Courier, monospace!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
     line-height: 1.6!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
     padding: 20px!important;
-    color: #000!important;
     border: 0.12rem dotted #242424!important;
 }
 #Pati:hover{
@@ -646,19 +644,19 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     cursor: pointer;
 }
 #Pat{
+    background-color: light!important;
     width: 100%!important;
     height: auto!important;
     font-size: 20px!important;
     justify-content: center;
     align-items: center;
     display: block!important;
-    font-family: "Courier New", Courier, monospace!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
     line-height: 1.5!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
     padding: 20px!important;
-    color: #000!important;
-    border: 0.12rem dotted #000!important;
+    border-radius: 0.5rem!important;
 }
 #Pat:hover{
     width: 100%!important;
@@ -667,14 +665,12 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     margin-bottom: 10px!important;
     font-size: 20px!important;
     padding: 20px!important;
-    font-family: "Courier New", Courier, monospace!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
     display: block!important;
-    border: 0.12rem solid var(--bs-black)!important;
-    background-color: #ffcc35fb!important;
-    color: #000!important;
+    background-color: #fff!important;
     line-height: 1.5!important;
-    border-radius: 20px!important;
-    transition: background-color all 0.35s ease-in-out;
+    transition: background-color all 0.35s ease-in-out!important;
+    border-radius: 0.5rem!important;
     cursor: pointer;
 }
 #Static{
@@ -690,29 +686,10 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     margin-bottom: 10px!important;
     width: 100%;
     height: auto;
-    font-weight: bold!important;
-    font-size: 20px!important;
-    color: #000 !important;
-    padding: 20px!important;
-    border: 0.12rem dotted #000!important;
-    line-height: 1.6!important;
-    font-family: "Courier New", Courier, monospace!important;
-}
-#Topa:hover{
-    display:block!important;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
     font-size: 20px!important;
     padding: 20px!important;
-    border: 0.12rem solid #000!important;
-    background-color: var(--bs-bgab-green)!important;
-    color: #000!important;
-    border-radius: 20px!important;
     line-height: 1.6!important;
-    transition: background-color all 0.3s ease-in-out;
-    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #Atop{
     width: 100%;
