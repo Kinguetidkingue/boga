@@ -278,7 +278,7 @@ a{
 .Bo:hover{
     border-bottom: 0.14rem solid red!important;
     transition: background-color all 0.3s ease-in-out!important;
-    color: rgb(44, 74, 245)!important;
+    color: rgb(39, 68, 231)!important;
     font-weight: bolder!important;
 }
 #Beauty{
@@ -286,7 +286,7 @@ a{
     justify-items: center!important;
     align-items: center!important;
     background-color: transparent!important;
-    height: 500px!important;
+    height: auto!important;
     width: 100%!important;
     border-radius: 0.5rem!important;
     padding: 20px!important;
