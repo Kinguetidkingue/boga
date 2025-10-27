@@ -419,12 +419,22 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 }
 #HeadeR{
     width: 100%!important;
+    height: 500px!important;
     font-weight: bolder!important;
-    font-size: 37px!important;
+    font-size: 45px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 10px!important;
+    padding: 20px!important;
     margin-bottom: 0.4rem!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+#BEGINNER{
+    height: 500px!important;
+    width: 100%!important;
+    font-size: 30px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding: 20px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #RES{
