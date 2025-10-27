@@ -417,24 +417,38 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-size: 11.6px!important;
     color:rgba(162, 29, 111, 0.963)!important;
 }
+#Welcome-Message{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: transparent!important;
+}
 #HeadeR{
-    width: 40%!important;
+    display: flex!important;
+    flex-direction: row!important;
+    width: 100%!important;
     height: 500px!important;
     font-weight: bolder!important;
     font-size: 45px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 5px!important;
+    padding: 20px!important;
     margin-bottom: 0.4rem!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #BEGINNER{
+    display: flex!important;
+    flex-direction: row!important;
     height: 500px!important;
-    width: 40%!important;
+    width: 100%!important;
     font-size: 30px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 5px!important;
+    padding: 20px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #RES{
