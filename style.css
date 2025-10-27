@@ -184,11 +184,10 @@ color: #000!important
     display: flex!important;
     flex-wrap: wrap!important;
     flex-direction: row!important;
-    
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    padding: 8px!important;
+    padding: 7px!important;
 }
 #BOTON{
     background-image: linear-gradient(rgb(34, 89, 208),#ffffff3c)!important;
@@ -235,7 +234,7 @@ ul{
     }
 li{
     list-style: none; 
-    margin-left: 30px!important;
+    margin-left: 25px!important;
 }
 a{
     text-decoration: none;
@@ -433,7 +432,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     display: flex!important;
     flex-direction: row!important;
     width: 100%!important;
-    height: 350px!important;
+    height: 360px!important;
     font-weight: bolder!important;
     font-size: 60px!important;
     justify-content: center!important;
@@ -445,13 +444,15 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 #BEGINNER{
     display: flex!important;
     flex-direction: row!important;
-    height: 350px!important;
+    height: 360px!important;
     width: 100%!important;
-    font-size: 40px!important;
+    font-size: 26px!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 10px!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    line-height: 1.35!important;
+    text-align: start!important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 #RES{
     color: #ed8b0cf7!important;
