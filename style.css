@@ -418,7 +418,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     color:rgba(162, 29, 111, 0.963)!important;
 }
 #HeadeR{
-    width: 49%!important;
+    width: 40%!important;
     height: 500px!important;
     font-weight: bolder!important;
     font-size: 45px!important;
@@ -430,7 +430,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 }
 #BEGINNER{
     height: 500px!important;
-    width: 49%!important;
+    width: 40%!important;
     font-size: 30px!important;
     justify-content: center!important;
     align-items: center!important;
