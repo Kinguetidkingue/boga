@@ -117,11 +117,11 @@ body{
 #TopNav{
     padding: 5px!important;
     width: 100%!important;
-    height: 35px!important;
+    height: 41px!important;
     display: flex!important;
-    justify-content: center!important;
+    justify-content: space-around!important;
     align-items: center!important;
-    background-color: rgba(23, 101, 203, 0.993)! important;
+    background-color: rgba(162, 29, 111, 0.963)! important;
 }
 #demo{
     width: 100%!important;
@@ -131,7 +131,7 @@ body{
     align-items: center!important;
     font-size: 12px!important;
     font-weight: lighter!important;
-    margin-top: 5px!important;
+    margin-top: 8px!important;
     color: #fff!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
@@ -172,7 +172,7 @@ body{
 font-size: 11.25px!important;
 }
 #H6{
-font-size: 10.5px!important;
+font-size: 10.45px!important;
 color: #000!important
 }
 #Nav-One{
@@ -185,8 +185,7 @@ color: #000!important
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    font-size: 16px!important;
-    padding: 5px!important;
+    padding: 8px!important;
 }
 #BOTON{
     background-image: linear-gradient(rgb(34, 89, 208),#ffffff3c)!important;
@@ -205,7 +204,7 @@ color: #000!important
     transition: background-color 0.3s ease-in-out!important;
     padding: 4px!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 13px!important;
+    font-size: 14px!important;
     color: #fff!important;
     font-weight: bolder!important;
 }
@@ -267,8 +266,8 @@ a{
     width: 100%!important;
     height: 25px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size: 18px!important;
-    color:#878787!important;
+    font-size: 18.5px!important;
+    color:rgb(186, 32, 127)!important;
     border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
     margin-top: 5px!important;
@@ -331,7 +330,7 @@ a{
 #LuL{
     font-size: 14px!important;
 }
-#Welcome{
+#Web-Dev{
     width: 100%!important;
     height: auto!important;
     display: flex!important;
@@ -350,7 +349,7 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 6.7rem!important;
+    margin-top: 7.8rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
@@ -602,10 +601,10 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     width: 50%!important;
     height: auto!important;
     display: block!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     justify-content: center!important;
     align-items: center!important;
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     padding: 5px!important;
     color: #000!important;
     border-right: 0.5rem solid var(--bs-dark)!important;
@@ -614,7 +613,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc:hover{
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     padding: 5px!important;
     background-color: rgba(255, 255, 116, 0.95)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
@@ -625,12 +624,12 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     display: block!important;
     width: 100%;
     height: auto;
-    font-size: 20px!important;
+    font-size: 22px!important;
     justify-content: center;
     align-items: center;
     display: block!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
     padding: 20px!important;
@@ -641,13 +640,13 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     height: auto;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     padding: 20px!important;
     font-family: "Courier New", Courier, monospace!important;
     display: block!important;
     background-color: rgba(255, 207, 118, 0.926)!important;
     color: #000!important;
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     border-radius: 20px!important;
     transition: background-color all 0.3s ease-in-out;
     cursor: pointer;
@@ -656,28 +655,29 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: light!important;
     width: 100%!important;
     height: auto!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     justify-content: center;
     align-items: center;
     display: block!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    line-height: 1.5!important;
+    line-height: 1.65!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
     padding: 20px!important;
     border-radius: 0.5rem!important;
+    color: grey!important;
 }
 #Pat:hover{
     width: 100%!important;
     height: auto!important;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     padding: 20px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     display: block!important;
     background-color: #fff!important;
-    line-height: 1.5!important;
+    line-height: 1.65!important;
     transition: background-color all 0.35s ease-in-out!important;
     border-radius: 0.5rem!important;
     cursor: pointer;
@@ -695,34 +695,33 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     margin-bottom: 10px!important;
     width: 100%;
     height: auto;
-    font-size: 20px!important;
+    font-size: 22px!important;
     padding: 20px!important;
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #Atop{
     width: 100%;
     height: auto;
-    font-size: 20px!important;
+    font-size: 22px!important;
     margin-top: 20px;
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     display: block!important;
-    line-height: 1.6!important;
-    font-family: "Courier New", Courier, monospace!important;
-    border: 0.12rem dotted #000!important;
+    line-height: 1.65!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #Atop:hover{
     background-color: var(--bs-danger)!important;
     border: 0.12rem solid #000!important;
     color:#fff!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     width: 100%!important;
     height: auto!important;
     margin-top: 20px;
     margin-bottom: 30px;
-    line-height: 1.6!important;
+    line-height: 1.65!important;
     justify-content: center !important;
     align-items: center !important;
     display: block!important;
@@ -733,7 +732,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 #Pate{
     width: 100%!important;
     height: auto!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     justify-content: center!important;
     align-items: center!important;
     display: block!important;
@@ -747,13 +746,13 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 .sisi{
     width: 100%!important;
     height: auto!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     padding: 20px!important;
-    font-family: "Courier New", Courier, monospace!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     background-color: var(--bs-white)!important;
     color: #000!important;
-    line-height: 1.5!important;
+    line-height: 1.65!important;
     border-radius: 20px!important;
 }
 /*End of custom styles*/
