@@ -121,7 +121,7 @@ body{
     display: flex!important;
     justify-content: space-around!important;
     align-items: center!important;
-    background-color: #1d5fc3!important;
+    background-color: #0d6efd!important;
 }
 #demo{
     width: 100%!important;
@@ -337,7 +337,6 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    color: rgba(206, 24, 137, 0.991)!important;
     font-size: 30px!important;
     line-height: 1.6!important;
     padding: 10px!important;
