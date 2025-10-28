@@ -210,9 +210,9 @@ color: #000!important
     font-weight: bolder!important;
 }
 #SERVICES:hover{
-    background-color: rgba(255, 216, 195, 0.984)!important;
+    background-color: #ffcdd2!important;
     transition: background-color 0.31s ease-in-out!important;
-    color: rgb(1, 1, 155)!important;
+    color: rgb(0, 0, 168)!important;
 }
 .navbar-toggler-icon{
     background-color: transparent!important;
