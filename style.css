@@ -150,7 +150,7 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    border-top: 0.1px solid rgba(255, 141, 65, 0.966)!important;
+    border-top: 0.15rem solid rgba(255, 141, 65, 0.966)!important;
     box-shadow: 0 0.15px 1px 0.1px #000000a8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
