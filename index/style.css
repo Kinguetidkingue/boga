@@ -344,11 +344,11 @@ a{
 }
  #SUN{
     width: 100%!important;
-    height: 100px!important;
+    height: 300px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 8.5rem!important;
+    margin-top: 8rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
