@@ -117,12 +117,11 @@ body{
     --bs-gutter-y: 0;
 }
 #TopNav{
-    padding: 5px!important;
     width: 100%!important;
     height: auto!important;
-    padding: 10px!important;
+    padding: auto!important;
     display: flex!important;
-    justify-content: space-around!important;
+    justify-content: center!important;
     align-items: center!important;
     background-color: #0d6efd!important;
 }
@@ -134,7 +133,7 @@ body{
     align-items: center!important;
     font-size: 12px!important;
     font-weight: lighter!important;
-    margin-top: 8px!important;
+    margin-top: 10px!important;
     color: #fff!important;
     font-weight: bolder!important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
@@ -151,7 +150,7 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    border-top: 0.11px solid rgba(255, 141, 65, 0.966)!important;
+    border-top: 0.1px solid rgba(255, 141, 65, 0.966)!important;
     box-shadow: 0 0.15px 1px 0.1px #000000a8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
@@ -187,7 +186,7 @@ color: #000!important
     justify-content: center!important;
     align-items: center!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    padding: 7px!important;
+    padding: 7.8px!important;
 }
 #BOTON{
     background-image: linear-gradient(rgb(34, 89, 208),#ffffff3c)!important;
@@ -259,7 +258,7 @@ a{
     height: 197px;
     justify-content: center;
     align-items: center;
-    padding: 50px!important;
+    padding: 60px!important;
 }
 .Bo{
     display: flex!important;
@@ -449,7 +448,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-size: 26px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 10px!important;
+    padding: 13px!important;
     line-height: 1.35!important;
     text-align: justify!important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
@@ -588,7 +587,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     background-color: #fff!important;
 }
 #ToGet{
-    width: 80%!important;
+    width: 100%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: row!important;
