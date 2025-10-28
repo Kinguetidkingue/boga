@@ -547,7 +547,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
     padding: 15px!important;
     background-color: #fff!important;
-    border-left: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Tropical{
     background-color: light!important;
@@ -619,7 +618,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     color: #000!important;
-    border-radius: 1rem!important;
+    border-right: 0.11px solid rgb(203, 203, 203)!important;
 }
 #Bloc{
     width: 50%!important;
