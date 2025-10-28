@@ -232,7 +232,7 @@ ul{
     list-style: none;
     }
 li{
-    list-style: none; 
+    list-style: none;
     margin-left: 25px!important;
 }
 a{
@@ -266,12 +266,11 @@ a{
     align-items: center!important;
     width: 100%!important;
     height: 25px!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size: 18.5px!important;
-    color:#198754!important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
+    font-size: 20px!important;
+    color:#076c3d!important;
     border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
-    margin-top: 5px!important;
 }
 .Bo:hover{
     border-bottom: 0.14rem solid red!important;
@@ -415,7 +414,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
 #FIGCAPTION{
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
     font-size: 11.6px!important;
-    color:#0d6efd!important;
+    color:#000!important;
 }
 #Welcome-Message{
     width: 100%!important;
@@ -450,7 +449,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
     padding: 13px!important;
     line-height: 1.35!important;
-    text-align: justify!important;
+    text-align: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 #RES{
