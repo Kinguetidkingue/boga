@@ -607,6 +607,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     border-radius: 1rem!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block{
     width: 50%!important;
@@ -618,7 +619,23 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     color: #000!important;
-    border-right: 0.11px solid rgb(203, 203, 203)!important;
+    border-radius: 1rem!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
+}
+#BLOCK{
+    width: 50%!important;
+    height: auto!important;
+    display: block!important;
+    font-size: 20px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    line-height: 1.65!important;
+    padding: 5px!important;
+    color: #000!important;
+    border-left: 0.5rem solid var(--bs-dark)!important;
+    border-radius: 20px!important;
+    background-color: #fff!important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc{
     width: 50%!important;
@@ -644,8 +661,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     display: block!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     line-height: 1.65!important;
-    margin-top: 10px!important;
-    margin-bottom: 10px!important;
     padding: 20px!important;
 }
 #Pat{
@@ -657,8 +672,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     display: block!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     line-height: 1.65!important;
-    margin-top: 10px!important;
-    margin-bottom: 10px!important;
     padding: 20px!important;
     border-radius: 0.5rem!important;
 }
