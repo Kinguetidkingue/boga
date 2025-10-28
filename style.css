@@ -352,15 +352,6 @@ a{
     justify-content: center!important;
     align-items: center!important;
 }
-.figure-caption{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
-    font-size: 16px!important;
-    color:rgba(158, 81, 18, 0.904)!important;
-}
-.figure-caption:hover{
-    color: rgb(19, 148, 247)!important;
-    transition: 0.3s background-color ease-in-out;
-}
 .card, .card-body{
     border: none!important;
 }
@@ -632,7 +623,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     line-height: 1.65!important;
     padding: 5px!important;
     color: #000!important;
-    border-left: 0.5rem solid var(--bs-dark)!important;
     border-radius: 20px!important;
     background-color: #fff!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
