@@ -278,14 +278,24 @@ a{
     color: rgb(39, 68, 231)!important;
     font-weight: bolder!important;
 }
+#Resources{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: #93ffcd92!important;
+    padding: 30px!important;
+}
 #Beauty{
     display: flex!important;
     justify-items: center!important;
     align-items: center!important;
+    flex-direction: row!important;
     background-color: transparent!important;
     height: auto!important;
     width: 100%!important;
-    border-radius: 0.5rem!important;
     padding: 20px!important;
 }
 #Begin{
@@ -377,7 +387,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     border-radius: 1rem!important;
 }
 #Full{
-    background-color: #f3f3f3!important;
+    background-color: #fff!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -466,7 +476,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
-    background-color: #fff!important;
+    background-color: #f0f0f0!important;
     justify-content: center!important;
     align-items:center!important;
 }
@@ -528,6 +538,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     padding: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
+    background-color: #f0f0f0!important;
 }
 #One-One{
     width: 45%!important;
@@ -573,7 +584,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 5px!important;
     color: #000!important;
-    background-color: #fff!important;
+    background-color: #f0f0f0!important;
 }
 #ToGet{
     width: 100%!important;
@@ -601,7 +612,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Block{
-    width: 50%!important;
+    width: 100%!important;
     height: auto!important;
     display: block!important;
     font-size: 17px!important;
@@ -683,12 +694,10 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #Atop{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    width: 100%!important;
+    height: auto!important;
     justify-content: center;
-    align-items: center;
+    align-items: center!important;
     display: block!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
@@ -701,8 +710,6 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
     display: block!important;
     position: relative!important;
-    margin-top: 10px!important;
-    margin-bottom: 40px!important;
     padding: 20px!important;
     color: #000!important;
     background-color: var(--bs-gradient)!important;
