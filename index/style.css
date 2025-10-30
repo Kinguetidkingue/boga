@@ -447,7 +447,8 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     align-items: center!important;
     padding: 10px!important;
     margin-bottom: 0.4rem!important;
-    font-family: "Rock Salt", cursive!important;
+    font-family: .35!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #BEGINNER{
     display: flex!important;
