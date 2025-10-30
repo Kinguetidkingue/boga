@@ -255,7 +255,7 @@ a{
 .footer{
     display: block!important;
     width: 100%!important;
-    height: 560px!important;
+    height: 570px!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
@@ -277,7 +277,7 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #103ac5f5!important;
+    background-color: #ff0!important;
     padding: 20px!important;
     border-radius: 1rem!important;
 }
