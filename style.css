@@ -294,7 +294,7 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #93ffcd92!important;
+    background-color: #93ffcd9b!important;
     padding: 30px!important;
 }
 #Beauty{
@@ -378,7 +378,7 @@ a{
     background-color: #fefffff3!important;
 }
 .card-body:hover{
-background-color: rgba(255, 230, 155, 0.976)!important;
+background-color: rgba(255, 231, 166, 0.976)!important;
 }
 #BLOK{
     width: 18.4rem!important; 
@@ -390,7 +390,7 @@ background-color: rgba(255, 230, 155, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 18px!important;
     color: #3b3b3b!important;
-    background-color: #fff!important;
+    background-color: #d8ffecfc!important;
     padding: 13px!important;
     line-height: 1.66!important;
     border-radius: 1rem!important;
