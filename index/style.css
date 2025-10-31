@@ -255,19 +255,19 @@ a{
 .footer{
     display: block!important;
     width: 100%!important;
-    height: 588px!important;
+    height: auto!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 40px!important;
+    padding: 20px!important;
     background-color: #091745fb!important;
 }
 #Space-to-Footer{
     width: 100%!important;
-    height: auto!important;
+    height: 270px!important;
     background-color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
-    padding: 5px!important;
+    padding: 20px!important;
 }
 #U-Links{
     width: 100%!important;
@@ -279,10 +279,9 @@ a{
     align-items: center!important;
     background-color: #fff!important;
     padding: 20px!important;
-    border-radius: 1rem!important;
 }
 #U-Links:hover{
-    background-color: rgb(255, 255, 142)!important;
+    background-color: #3462f7fa!important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #Linko{
@@ -295,15 +294,13 @@ a{
     font-size: 16px!important;
     color:#fff!important;
     padding: 20px!important;
-    border-radius: 1rem!important;
-    background-color: #0b2786f5!important;
-    border: 0.15rem solid #0b2786f5!important;
+    border-radius: 0.15rem!important;
+    background-color: #13308df5!important;
 }
 #Linko:hover{
     background-color: #fff!important;
     color: red!important;
     transition: 0.3s background-color ease-in-out!important;
-    border: 0.15rem solid green!important;
 }
 .Bo{
     display: flex!important;
