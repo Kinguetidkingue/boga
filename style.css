@@ -277,12 +277,12 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #ff0!important;
+    background-color: #fff!important;
     padding: 20px!important;
     border-radius: 1rem!important;
 }
 #U-Links:hover{
-    background-color: #fff!important;
+    background-color: rgb(255, 255, 100)!important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #Linko{
