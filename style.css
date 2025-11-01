@@ -475,7 +475,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     display: flex!important;
     flex-direction: row!important;
     width: 100%!important;
-    height: 355px!important;
+    height: 360px!important;
     font-weight: bolder!important;
     font-size: 60px!important;
     justify-content: center!important;
@@ -488,7 +488,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #BEGINNER{
     display: flex!important;
     flex-direction: row!important;
-    height: 355px!important;
+    height: 360px!important;
     width: 100%!important;
     font-size: 26px!important;
     justify-content: center!important;
