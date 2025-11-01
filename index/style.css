@@ -285,7 +285,7 @@ a{
     padding: 20px!important;
 }
 #U-Links:hover{
-    background-color: #3462f7fa!important;
+    background-color: #34d7f8!important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #Linko{
@@ -299,11 +299,13 @@ a{
     color:#fff!important;
     padding: 20px!important;
     border-radius: 0.15rem!important;
-    background-color: #13308df5!important;
+    border: 2px solid #0e2f9efb!important;
+    background-color: #0e2f9efb!important;
 }
 #Linko:hover{
     background-color: #fff!important;
-    color: red!important;
+    border: 2px solid red!important;
+    color: #000!important;
     transition: 0.3s background-color ease-in-out!important;
 }
 .Bo{
