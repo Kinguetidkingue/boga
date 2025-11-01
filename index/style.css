@@ -156,7 +156,6 @@ body{
     position: sticky!important;
     top: 0!important;
     z-index: 1!important;
-    padding: 10px!important;
 }  
 #Logo{
     display: flex!important;
