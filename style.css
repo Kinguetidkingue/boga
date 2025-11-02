@@ -150,7 +150,7 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    border-top: 0.4rem solid rgba(255, 121, 38, 0.987)!important;
+    border-top: 0.45rem solid rgba(255, 121, 38, 0.987)!important;
     box-shadow: 0 0.15px 1px 0.1px #00000070 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
@@ -299,11 +299,11 @@ a{
     color:#fff!important;
     padding: 20px!important;
     border-radius: 0.5rem!important;
-    border: 1px solid #0e2f9efb!important;
-    background-color: #0e2f9efb!important;
+    border: 1px solid #1447c6fd!important;
+    background-color: #1447c6fd!important;
 }
 #Linko:hover{
-    background-color: rgb(186, 14, 118)!important;
+    background-color: rgb(185, 24, 132)!important;
     border: 1px solid #fff!important;
     color: #ff0!important;
     transition: 0.3s background-color ease-in-out!important;
@@ -314,9 +314,9 @@ a{
     align-items: center!important;
     width: 100%!important;
     height: 25px!important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
-    font-size: 19px!important;
-    color:#8f8f8f!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    font-size: 18px!important;
+    color:#878787!important;
     border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
 }
