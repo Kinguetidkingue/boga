@@ -150,7 +150,7 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    border-top: 0.25rem solid rgba(255, 130, 42, 0.966)!important;
+    border-top: 0.4rem solid rgba(255, 121, 38, 0.987)!important;
     box-shadow: 0 0.15px 1px 0.1px #00000070 !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
@@ -316,7 +316,7 @@ a{
     height: 25px!important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
     font-size: 19px!important;
-    color:#0f9255!important;
+    color:#8f8f8f!important;
     border-bottom: 0.14rem solid transparent!important;
     font-weight: bold!important;
 }
