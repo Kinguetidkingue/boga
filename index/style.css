@@ -281,11 +281,13 @@ a{
     flex-direction: row!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #fff!important;
+    background-color: transparent!important;
+    border: 0.2rem solid transparent!important;
     padding: 20px!important;
 }
 #U-Links:hover{
-    background-color: #34d7f8!important;
+    border: 0.2rem solid #00d5ff!important;
+    border-radius: 0.5rem!important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #Linko{
@@ -418,7 +420,7 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 8.2rem!important;
+    margin-top: 8.3rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
@@ -490,15 +492,15 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #HeadeR{
     display: flex!important;
     flex-direction: row!important;
+    flex-wrap: wrap!important;
     width: 100%!important;
     height: 360px!important;
     font-weight: bolder!important;
-    font-size: 60px!important;
+    font-size: 50px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 10px!important;
-    margin-bottom: 0.4rem!important;
-    font-family: .35!important;
+    padding: 55px!important;
+    line-height: 1.55!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 #BEGINNER{
@@ -506,12 +508,13 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     flex-direction: row!important;
     height: 360px!important;
     width: 100%!important;
-    font-size: 26px!important;
+    font-size: 22px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 13px!important;
-    line-height: 1.35!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    padding: 20px!important;
+    text-align: start!important;
+    line-height: 1.5!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 #RES{
     color: #ed8b0cf7!important;
@@ -681,7 +684,6 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 10px!important;
     color: #000!important;
     border-radius: 1rem!important;
-    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #BLOCK{
     width: 50%!important;
@@ -695,7 +697,6 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     color: #000!important;
     border-radius: 20px!important;
     background-color: #fff!important;
-    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406)!important;
 }
 #Bloc{
     width: 50%!important;
@@ -722,9 +723,13 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     line-height: 1.65!important;
     padding: 20px!important;
+    border-left: 0.5rem solid var(--bs-primary)!important;
+    border-radius: 0.5rem!important;
+    background-color: rgba(233, 233, 233, 0.71)!important;
 }
 #Pat{
-    background-color: light!important;
+    border-left: 0.5rem solid var(--bs-primary)!important;
+    background-color: rgba(233, 233, 233, 0.71)!important;
     width: 100%!important;
     height: auto!important;
     justify-content: center;
@@ -751,6 +756,9 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 20px!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
+    border-left: 0.5rem solid var(--bs-primary)!important;
+    background-color: rgba(233, 233, 233, 0.71)!important;
+    border-radius: 0.5rem!important;
 }
 #Atop{
     width: 100%!important;
@@ -760,6 +768,21 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     display: block!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
+    border-left: 0.5rem solid var(--bs-primary)!important;
+    background-color: rgba(233, 233, 233, 0.71)!important;
+    border-radius: 0.5rem!important;
+}
+#List-UL{
+    width: 100%!important;
+    height: auto!important;
+    font-size: 22px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    display: block!important;
+    position: relative!important;
+    padding: 20px!important;
+    color: #1339aa!important;
+    background-color: var(--bs-gradient)!important;
 }
 #Pate{
     width: 100%!important;
