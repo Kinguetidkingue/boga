@@ -282,11 +282,11 @@ a{
     justify-content: center!important;
     align-items: center!important;
     background-color: transparent!important;
-    border: 0.2rem solid transparent!important;
+    border: 0.11px solid transparent!important;
     padding: 20px!important;
 }
 #U-Links:hover{
-    border: 0.2rem solid #00d5ff!important;
+    border: 0.11px solid #00d5ff!important;
     border-radius: 0.5rem!important;
     transition: 0.3s background-color ease-in-out!important;
 }
