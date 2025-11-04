@@ -123,7 +123,7 @@ body{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #0d6efd!important;
+    background-color: #184486!important;
 }
 #demo{
     width: 100%!important;
@@ -510,7 +510,6 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     line-height: 1.55!important;
     color: #fff!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: #184486!important;
 }
 #BEGINNER{
     display: flex!important;
@@ -525,7 +524,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     line-height: 1.5!important;
     font-family: "Titillium Web", sans-serif;  
     color: #fff!important;
-    background-color: #ff4c24!important;
+    background-color: #184486!important;
 }
 #RES{
     color: #ed8b0cf7!important;
