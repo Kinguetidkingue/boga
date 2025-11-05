@@ -258,13 +258,13 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
-    color: #1e4eeaf8!important;
-    background-color: #0a1b53f8!important;
+    color: #4571ff!important;
+    background-color: #09194dfd!important;
 }
 #Footer-space{
     width: 100%!important;
     height: auto!important;
-    background-color: #0a1b53f8!important;
+    background-color: #09194ddd!important;
 }
 #Space-to-Footer{
     width: 100%!important;
@@ -273,17 +273,16 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     padding-top: 40px!important;
-    border-bottom: 0.1px solid #193eb5f8!important;
 }
 #Lin{
     width: 25%!important;
     height: auto!important;
     font-size: 15px!important;
-    color: #2c5dfff8!important;
+    color: #4571ff!important;
     padding: 10px!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
-#Lin, a:hover{
+#Lin a:hover{
     color: #ff0!important;
     transition: background-color 0.3s ease-in-out;
 }
