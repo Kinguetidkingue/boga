@@ -258,6 +258,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
+    color: #1e4eeaf8!important;
     background-color: #0a1b53f8!important;
 }
 #Footer-space{
@@ -274,23 +275,17 @@ a{
     padding-top: 40px!important;
     border-bottom: 0.1px solid #193eb5f8!important;
 }
-#U-Links{
-    width: 100%!important;
-    height: auto!important;
-    display: flex!important;
-    flex-wrap: wrap!important;
-    flex-direction: row!important;
-    justify-content: center!important;
-    align-items: center!important;
-    background-color: transparent!important;
-}
 #Lin{
     width: 25%!important;
     height: auto!important;
     font-size: 15px!important;
-    color: #ff0!important;
+    color: #2c5dfff8!important;
     padding: 10px!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+}
+#Lin, a:hover{
+    color: #ff0!important;
+    transition: background-color 0.3s ease-in-out;
 }
 .Bo{
     display: flex!important;
