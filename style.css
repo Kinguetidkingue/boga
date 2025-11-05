@@ -282,15 +282,13 @@ a{
     justify-content: center!important;
     align-items: center!important;
     background-color: transparent!important;
-    border: 0.11px solid transparent!important;
 }
 #Lin{
-    width: 50%!important;
+    width: 25%!important;
     height: auto!important;
     font-size: 16px!important;
     color: #ff0!important;
     padding: 10px!important;
-    border: 0.11px solid #fff!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 .Bo{
