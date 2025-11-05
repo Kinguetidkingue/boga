@@ -299,14 +299,14 @@ a{
     justify-content: center!important;
     align-items: center!important;
     width: 100%!important;
-    height: 25px!important;
+    height: 26px!important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
     font-size: 19px!important;
     color:#878787!important;
-    border-bottom: 0.14rem solid transparent!important;
+    border-bottom: 0.13rem solid transparent!important;
 }
 .Bo:hover{
-    border-bottom: 0.14rem solid red!important;
+    border-bottom: 0.13rem solid red!important;
     transition: background-color all 0.3s ease-in-out!important;
     color: rgb(30, 61, 241)!important;
 }
