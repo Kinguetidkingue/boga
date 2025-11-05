@@ -268,13 +268,19 @@ a{
 }
 #Space-to-Footer{
     width: 100%!important;
-    height: 330px!important;
+    height: 300px!important;
     background-color: transparent!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     justify-content: center!important;
     align-items: center!important;
     font-weight: bolder!important;
-    padding-top: 40px!important;
+    padding-top: 60px!important;
+}
+#Universities{
+    background-color: #09194dfd!important;
+    color: rgb(212, 180, 0)!important;
+    font-size: 22px!important;
+    padding: 15px!important;
 }
 #Lin{
     width: 25%!important;
