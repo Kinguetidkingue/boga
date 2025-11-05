@@ -271,6 +271,8 @@ a{
     height: 330px!important;
     background-color: transparent!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
+    justify-content: center!important;
+    align-items: center!important;
     font-weight: bolder!important;
     padding-top: 40px!important;
 }
