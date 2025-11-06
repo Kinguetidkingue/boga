@@ -422,6 +422,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     height: auto; 
     background-color:rgba(62, 152, 255, 0.527)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
+    box-shadow: 0 1.5px 1.15rem 0.6px rgba(17, 108, 212, 0.989)!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
