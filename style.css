@@ -422,7 +422,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     height: auto; 
     background-color:rgba(62, 152, 255, 0.527)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    box-shadow: 0 1.5px 1.25rem 0.5px rgba(6, 29, 114, 0.835)!important;
+    box-shadow: 0 1.25px 1.25rem 0.5px rgba(6, 29, 114, 0.835)!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
@@ -694,8 +694,8 @@ transition: 0.3s box-shadow ease-in-out!important;
     line-height: 1.65!important;
     padding: 5px!important;
     color: #000!important;
-    border-radius: 20px!important;
     background-color: #fff!important;
+    border-right: 1px solid rgb(187, 187, 187)!important;
 }
 #Bloc{
     width: 50%!important;
@@ -724,11 +724,11 @@ transition: 0.3s box-shadow ease-in-out!important;
     padding: 20px!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
     border-radius: 0.5rem!important;
-    background-color: rgba(233, 233, 233, 0.71)!important;
+    background-color: rgba(243, 243, 243, 0.765)!important;
 }
 #Pat{
     border-left: 0.5rem solid var(--bs-primary)!important;
-    background-color: rgba(233, 233, 233, 0.71)!important;
+   background-color: rgba(243, 243, 243, 0.765)!important;
     width: 100%!important;
     height: auto!important;
     justify-content: center;
@@ -756,7 +756,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
-    background-color: rgba(233, 233, 233, 0.71)!important;
+    background-color: rgba(243, 243, 243, 0.765)!important;
     border-radius: 0.5rem!important;
 }
 #Atop{
@@ -768,7 +768,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     border-left: 0.5rem solid var(--bs-primary)!important;
-    background-color: rgba(233, 233, 233, 0.71)!important;
+    background-color: rgba(243, 243, 243, 0.765)!important;
     border-radius: 0.5rem!important;
 }
 #List-UL{
