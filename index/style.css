@@ -310,18 +310,6 @@ a{
     transition: background-color all 0.3s ease-in-out!important;
     color: rgb(30, 61, 241)!important;
 }
-#FRANCAIS{
-    font-size: 16px!important;
-    font-weight: bolder!important;
-    color: #fff!important;
-    border-top: 0.14rem solid red!important;
-    padding: 10px!important;
-}
-#FRANCAIS:hover{
-    background-color: #fff!important;
-    color: #000!important;
-    transition: background-color all 0.3s ease-in-out!important;
-}
 #Resources{
     width: 100%!important;
     height: auto!important;
