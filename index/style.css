@@ -474,7 +474,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     display: flex!important;
     flex-direction: row!important;
     width: 100%!important;
-    height: 358px!important;
+    height: 360px!important;
     font-weight: bolder!important;
     font-size: 50px!important;
     justify-content: center!important;
@@ -487,15 +487,15 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #BEGINNER{
     display: flex!important;
     flex-direction: row!important;
-    height: 358px!important;
+    height: 360px!important;
     width: 100%!important;
-    font-size: 25px!important;
+    font-size: 22px!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 15px!important;
-    text-align: start!important;
+    text-align: justify!important;
     line-height: 1.5!important;
-    font-family: "Titillium Web", sans-serif;  
+    font-family: Georgia, 'Times New Roman', Times, serif!important;  
     color: #ffbaaa!important;
     background-color: #184486!important;
 }
