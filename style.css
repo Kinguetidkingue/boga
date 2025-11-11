@@ -412,12 +412,17 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     box-shadow: 0 5px 5rem 0.5px rgba(9, 42, 160, 0.822)!important;
 }
+#BLOK:hover{
+    background-color: #fff!important;
+    box-shadow: 0 2px 1.25rem 0.25px rgba(10, 46, 177, 0.822)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 18.5px!important;
     color: #282828!important;
     background-color: #e9fff5fe!important;
-    padding: 13px!important;
+    padding: 10px!important;
     line-height: 1.66!important;
     border-radius: 1rem!important;
 }
