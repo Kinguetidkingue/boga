@@ -406,11 +406,11 @@ a{
 background-color: rgba(255, 231, 166, 0.976)!important;
 }
 #BLOK{
-    width: 18.4rem!important; 
+    width: 18rem!important; 
     height: auto; 
     background-color:rgba(62, 152, 255, 0.527)!important; 
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    box-shadow: 0 1.25px 1.25rem 0.5px rgba(6, 29, 114, 0.835)!important;
+    box-shadow: 0 5px 5rem 0.5px rgba(9, 39, 150, 0.822)!important;
 }
 #LearninG{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
