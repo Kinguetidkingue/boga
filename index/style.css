@@ -668,20 +668,20 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     padding: 10px!important;
     color: #000!important;
-    box-shadow: 0 0 1rem 1px #0f176fdd!important;
-    background-color: #070c3ff7!important;
+    box-shadow: 0 0 1rem 1px #111a7dec!important;
+    background-color: #0e2660!important;
     opacity: 0.99!important;
 }
 #List-UL{
     width: 100%!important;
     height: auto!important;
-    font-size: 22px!important;
+    font-size: 20.5px!important;
     justify-content: center!important;
     align-items: center!important;
     display: block!important;
     position: relative!important;
     padding: 20px!important;
-    color: #58cafb!important;
+    color: #ecf8ff!important;
     background-color: transparent!important;
 }
 #Block{
