@@ -284,6 +284,7 @@ a{
 }
 #Lin a{
     color: #2ad1ff!important;
+    font-size: 14px!important;
     text-decoration: none!important;
 }
 #Lin a:hover{
