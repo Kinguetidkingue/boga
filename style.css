@@ -258,7 +258,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
-    color: #4571ff!important;
+    color: #89a5ff!important;
     background-color: #051137ee!important;
 }
 #Footer-space{
@@ -278,15 +278,15 @@ a{
 }
 #Universities{
     background-color: #051137ee!important;
-    color: rgb(212, 180, 0)!important;
-    font-size: 20px!important;
+    color: rgb(248, 211, 6)!important;
+    font-size: 16px!important;
     padding: 15px!important;
 }
 #Lin{
     width: 25%!important;
     height: auto!important;
     font-size: 14.5px!important;
-    color: #4571ff!important;
+    color: #5d82ff!important;
     padding: 10px!important;
     font-family: 'Times New Roman', Times, serif!important;
 }
@@ -489,14 +489,14 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     flex-direction: row!important;
     height: 360px!important;
     width: 100%!important;
-    font-size: 23px!important;
+    font-size: 22px!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 15px!important;
     text-align: start!important;
     line-height: 1.5!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;  
-    color: #ffbaaa!important;
+    font-family: 'Times New Roman', Times, serif!important;  
+    color: #4fd9ffff!important;
     background-color: #184486!important;
 }
 #RES{
@@ -672,8 +672,8 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 10px!important;
     color: #000!important;
     box-shadow: 0 0 1rem 1px #0f176fdd!important;
-    background-color: #0c1463!important;
-    opacity: 0.96!important;
+    background-color: #070c3ff7!important;
+    opacity: 0.99!important;
 }
 #List-UL{
     width: 100%!important;
@@ -743,13 +743,13 @@ transition: 0.3s box-shadow ease-in-out!important;
     line-height: 1.65!important;
     padding: 20px!important;
     border-radius: 0.5rem!important;
-    border: 0.15rem solid #ff7044!important;
-    border-left: 0.5rem solid #ff7044!important;
+    border: 0.15rem solid #fd6d2e!important;
+    border-left: 0.5rem solid #fd6d2e!important;
     background-color: rgba(255, 255, 255, 0.976)!important;
 }
 #Pat{
-    border: 0.15rem solid #ff7044!important;
-    border-left: 0.5rem solid #ff7044!important;
+    border: 0.15rem solid #fd6d2e!important;
+    border-left: 0.5rem solid #fd6d2e!important;
     background-color: rgba(255, 255, 255, 0.976)!important;
     width: 100%!important;
     height: auto!important;
@@ -777,8 +777,8 @@ transition: 0.3s box-shadow ease-in-out!important;
     padding: 20px!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border: 0.15rem solid #ff7044!important;
-    border-left: 0.5rem solid #ff7044!important;
+    border: 0.15rem solid #fd6d2e!important;
+    border-left: 0.5rem solid #fd6d2e!important;
     background-color: rgba(255, 255, 255, 0.976)!important;
     border-radius: 0.5rem!important;
 }
@@ -790,8 +790,8 @@ transition: 0.3s box-shadow ease-in-out!important;
     display: block!important;
     line-height: 1.65!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border: 0.15rem solid #ff7044!important;
-    border-left: 0.5rem solid #ff7044!important;
+    border: 0.15rem solid #fd6d2e!important;
+    border-left: 0.5rem solid #fd6d2e!important;
     background-color: rgba(255, 255, 255, 0.976)!important;
     border-radius: 0.5rem!important;
 }
