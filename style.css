@@ -258,12 +258,12 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
-    background-color: #051137ee!important;
+    background-color: #061544ee!important;
 }
 #Footer-space{
     width: 100%!important;
     height: auto!important;
-    background-color: #061649dc!important;
+    background-color: #061644d8!important;
 }
 #Space-to-Footer{
     width: 100%!important;
@@ -277,14 +277,14 @@ a{
     color: #ffa75f!important;
 }
 #Universities{
-    background-color: #051137ee!important;
-    color: rgb(248, 211, 6)!important;
+    background-color: #061544ee!important;
+    color: rgb(255, 224, 46)!important;
     font-size: 16px!important;
     padding: 15px!important;
 }
 #Lin a{
-    color: #2ad1ff!important;
-    font-size: 14px!important;
+    color: #72e1ff!important;
+    font-size: 13px!important;
     text-decoration: none!important;
 }
 #Lin a:hover{
