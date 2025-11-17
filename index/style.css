@@ -150,8 +150,8 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
+    background-color: #fff!important;
     border-top: 0.45rem solid #fd6d2e!important;
-    box-shadow: 0 0.15px 0.15rem 0.1px #3434343c !important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -206,13 +206,14 @@ transition: 0.3s background-color ease-in-out!important;
     color: #000!important;
 }
 #SERVICES{
+    background-color: #fff!important;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
     transition: background-color 0.3s ease-in-out!important;
     padding: 4px!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 13.25px!important;
+    font-size: 13px!important;
     color: #666!important;
 }
 #SERVICES:hover{
