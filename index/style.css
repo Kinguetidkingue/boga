@@ -608,18 +608,16 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     background-color: #fff!important;
 }
 #Tropical{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
     width: 100%!important;
     height: auto!important;
     display: block!important;
 }
 #Tropical:hover{
-    background-color: #fff!important;
+    background-color: hsla(60, 100%, 77%, 0.89)!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
 #Crocu{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
     width: 100%!important;
     height: auto!important;
     display: block!important;
@@ -627,7 +625,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     align-items: center!important;
    }
 #Crocu:hover{
-    background-color: #fff!important;
+    background-color: hsla(60, 100%, 77%, 0.89)!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
