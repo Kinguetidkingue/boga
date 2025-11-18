@@ -681,7 +681,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #List-UL{
     width: 100%!important;
     height: auto!important;
-    font-size: 20.5px!important;
+    font-size: 18px!important;
     justify-content: center!important;
     align-items: center!important;
     display: block!important;
@@ -689,6 +689,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 20px!important;
     color: #ecf8ff!important;
     background-color: transparent!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #Block{
     width: 100%!important;
