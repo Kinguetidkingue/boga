@@ -292,8 +292,9 @@ a{
 }
 #Lin a{
     color: #72e1ff!important;
-    font-size: 13px!important;
+    font-size: 12px!important;
     text-decoration: none!important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 #Lin a:hover{
     color: #f3f3f3!important;
