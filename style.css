@@ -214,10 +214,12 @@ transition: 0.3s background-color ease-in-out!important;
     padding: 4px!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 13px!important;
-    color: #666!important;
+    color: rgb(255, 104, 17)!important;
+    border: 1.55px solid transparent!important;
 }
 #SERVICES:hover{
-    background-color: #ffcdd2!important;
+    border: 1.55px solid #ffcdd2!important;
+    background-color: #ffeff1e3!important;
     transition: background-color 0.31s ease-in-out!important;
     color: rgb(0, 0, 168)!important;
 }
@@ -525,7 +527,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     text-align: start!important;
     line-height: 1.45!important;
     font-family: 'Times New Roman', Times, serif!important;  
-    color: #abdfff!important;
+    color: #ffee00f3!important;
     background-color: #1039a1!important;
 }
 #RES{
