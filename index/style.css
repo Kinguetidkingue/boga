@@ -268,6 +268,22 @@ a{
     padding: 40px!important;
     background-color: #061544ee!important;
 }
+#TOPO{
+    align-items: center!important;
+    width: 109px!important;
+    height: 40px!important;
+    font-size: 12px!important;
+    margin-left: 5px!important;
+    padding: 10px!important;
+    z-index: 1000!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    border: 2px solid #fff!important;
+}
+#TOPO:hover{
+    background-color: #fff!important;
+    color: #000!important;
+    transition: background-color 0.3s ease-in-out;
+}
 #Footer-space{
     width: 100%!important;
     height: auto!important;
@@ -291,13 +307,13 @@ a{
     padding: 15px!important;
 }
 #Lin a{
-    color: #72e1ff!important;
+    color: #63efff!important;
     font-size: 12px!important;
     text-decoration: none!important;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 #Lin a:hover{
-    color: #f3f3f3!important;
+    color: #f3f!important;
     transition: background-color 0.3s ease-in-out;
 }
 .Bo{
@@ -424,14 +440,21 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #LearninG{
+    width: 100%!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 18.5px!important;
-    color: #282828!important;
-    background-color: #e9fff5fe!important;
+    color: #106b4afa!important;
+    background-color: #e9fef4fe!important;
     padding: 10px!important;
     line-height: 1.66!important;
     border-radius: 1rem!important;
 }
+#LearninG:first-letter{
+    font-size: 50px!important;
+    font-weight: bolder!important;
+    color: #10704ef7!important;
+}
+
 #LearninG:hover{
     transition: background-color all 0.3s ease-in-out;
 }
@@ -523,7 +546,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    box-shadow: 0 1.5px 2rem 1px rgba(3, 85, 3, 0.911)!important;
+    box-shadow: 0 1.55px 2rem 1.5px rgba(6, 111, 6, 0.881)!important;
     border-bottom-left-radius: 1rem!important;
     border-bottom-right-radius: 1rem!important;
 }
