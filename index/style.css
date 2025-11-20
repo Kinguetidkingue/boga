@@ -164,7 +164,7 @@ body{
     padding: 22px!important;
     padding-top: 22px!important;
     border: 2px solid #000!important;
-    border-top: 0.5rem solid red!important;
+    border-top: 0.5rem solid #fd6d2e!important;
     justify-content: center!important;
     align-items: center!important;
     border-bottom-left-radius: 1rem!important;
@@ -324,7 +324,7 @@ a{
     height: 26px!important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
     font-size: 19px!important;
-    color:#878787!important;
+    color:#707070!important;
     border-bottom: 0.13rem solid transparent!important;
 }
 .Bo:hover{
@@ -443,7 +443,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     width: 100%!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-size: 18.5px!important;
-    color: #106b4afa!important;
+    color: #0f6e4bfa!important;
     background-color: #e9fef4fe!important;
     padding: 10px!important;
     line-height: 1.66!important;
@@ -452,7 +452,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #LearninG:first-letter{
     font-size: 50px!important;
     font-weight: bolder!important;
-    color: #10704ef7!important;
+    color: #0f6e4bfa!important;
 }
 
 #LearninG:hover{
@@ -546,7 +546,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    box-shadow: 0 1.55px 2rem 1.5px rgba(6, 111, 6, 0.881)!important;
+    box-shadow: 0 1px 1.8rem 1.25px rgba(7, 120, 7, 0.887)!important;
     border-bottom-left-radius: 1rem!important;
     border-bottom-right-radius: 1rem!important;
 }
@@ -690,6 +690,9 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     border-radius: 1rem!important;
     box-shadow: 0 3px 5rem 1px #fa561f!important;
 }
+#Bootstrap:first-letter{
+font-size: 50px!important;
+}
 #NeedToKnow{
     width: 100%!important;
     height: auto!important;
@@ -730,6 +733,9 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     border-radius: 1rem!important;
     box-shadow: 0 2px 1.25rem 3px rgb(2, 4, 39)!important;
 }
+#Block:first-letter{
+font-size: 50px!important;
+}
 #Block:hover{
 box-shadow: 0 1px 0.5rem 1.25px rgb(2, 4, 39)!important;
 transition: 0.3s box-shadow ease-in-out!important;
@@ -746,6 +752,9 @@ transition: 0.3s box-shadow ease-in-out!important;
     color: #000!important;
     background-color: #fff!important;
     border-right: 1px solid rgb(187, 187, 187)!important;
+}
+#BLOCK:first-letter{
+font-size: 50px!important;
 }
 #Bloc{
     width: 50%!important;
