@@ -518,14 +518,14 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     flex-direction: row!important;
     height: 375px!important;
     width: 100%!important;
-    font-size: 21px!important;
+    font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
-    padding: 25px!important;
+    padding: 22px!important;
     text-align: start!important;
     line-height: 1.45!important;
     font-family: 'Times New Roman', Times, serif!important;  
-    color: #dfe6f8!important;
+    color: #bbe5ff!important;
     background-color: #1039a1!important;
 }
 #RES{
