@@ -28,6 +28,7 @@
       {
         "list": "off"
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }
