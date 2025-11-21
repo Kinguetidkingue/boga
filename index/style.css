@@ -723,24 +723,32 @@ font-size: 50px!important;
     background-color: transparent!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#Block{
+#BTHREE{
     width: 100%!important;
     height: auto!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: transparent!important;
+}
+#Block{
+    width: 30rem!important;
     display: block!important;
     font-size: 17px!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    padding: 10px!important;
     color: #000!important;
-    border-radius: 1rem!important;
-    box-shadow: 0 2px 1.25rem 3px rgb(2, 4, 39)!important;
+    background-color: transparent!important;
+    box-shadow: 0 2px 1.25rem 1px rgba(1, 5, 63, 0.635)!important;
 }
 #Block:first-letter{
 font-size: 50px!important;
 }
 #Block:hover{
-box-shadow: 0 1px 0.5rem 1.25px rgb(2, 4, 39)!important;
+box-shadow: 0 1px 0.5rem 1px rgba(1, 5, 63, 0.635)!important;
 transition: 0.3s box-shadow ease-in-out!important;
 }
 #BLOCK{
