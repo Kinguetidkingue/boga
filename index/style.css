@@ -825,12 +825,11 @@ font-size: 50px!important;
     width: 100%;
     height: auto;
     padding: 20px!important;
-    line-height: 1.65!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border: 0.15rem solid #fd6d2e!important;
-    border-left: 0.5rem solid #fd6d2e!important;
-    background-color: rgba(255, 255, 255, 0.976)!important;
-    border-radius: 0.5rem!important;
+    line-height: 1.7!important;
+    font-size: 20px!important;
+    color: rgb(69, 205, 255)!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    background-color: transparent!important;
 }
 #Atop{
     width: 100%!important;
@@ -838,24 +837,23 @@ font-size: 50px!important;
     justify-content: center;
     align-items: center!important;
     display: block!important;
-    line-height: 1.65!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    border: 0.15rem solid #fd6d2e!important;
-    border-left: 0.5rem solid #fd6d2e!important;
-    background-color: rgba(255, 255, 255, 0.976)!important;
-    border-radius: 0.5rem!important;
+    line-height: 1.7!important;
+    font-size: 20px!important;
+    color: rgb(69, 205, 255)!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    background-color: transparent!important;
 }
 #Pate{
     width: 100%!important;
     height: auto!important;
-    font-size: 22px!important;
+    font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
     display: block!important;
     position: relative!important;
     padding: 20px!important;
-    color: #000!important;
-    background-color: var(--bs-gradient)!important;
+    color: rgb(69, 205, 255)!important;
+    background-color: transparent!important;
 }
 .sisi{
     width: 100%!important;
