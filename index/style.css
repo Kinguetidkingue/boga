@@ -269,7 +269,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
-    background-color: #061544ee!important;
+    background-color: #0c256f!important;
 }
 #TOPO{
     align-items: center!important;
@@ -290,7 +290,7 @@ a{
 #Footer-space{
     width: 100%!important;
     height: auto!important;
-    background-color: #061644ce!important;
+    background-color: #0c256f!important;
 }
 #Space-to-Footer{
     width: 100%!important;
@@ -304,19 +304,19 @@ a{
     color: #ff9c4b!important;
 }
 #Universities{
-    background-color: #061544ee!important;
-    color: rgb(255, 226, 65)!important;
+    background-color: #0a1b4f!important;
+    color: #ff9c4b!important;
     font-size: 16px!important;
     padding: 15px!important;
 }
 #Lin a{
-    color: #6ff1ff!important;
+    color: #ffa65d!important;
     font-size: 11px!important;
     text-decoration: none!important;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 #Lin a:hover{
-    color: rgb(255, 226, 65)!important;
+    color: #f3f!important;
     transition: background-color 0.3s ease-in-out;
 }
 .Bo{
@@ -506,7 +506,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     display: flex!important;
     flex-direction: row!important;
     width: 100%!important;
-    height: 381px!important;
+    height: 383px!important;
     font-weight: bolder!important;
     font-size: 50px!important;
     justify-content: center!important;
@@ -519,16 +519,16 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #BEGINNER{
     display: flex!important;
     flex-direction: row!important;
-    height: 381px!important;
+    height: 383px!important;
     width: 100%!important;
-    font-size: 20.5px!important;
+    font-size: 20px!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 20px!important;
     text-align: start!important;
-    line-height: 1.45!important;
-    font-family: 'Times New Roman', Times, serif!important;  
-    color: #a9f9ff!important;
+    line-height: 1.5!important;
+    font-family: "Science Gothic", sans-serif!important;  
+    color: #fff!important;
     background-color: #1039a1!important;
 }
 #RES{
