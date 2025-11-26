@@ -301,22 +301,22 @@ a{
     align-items: center!important;
     font-weight: bolder!important;
     padding-top: 50px!important;
-    color: #ffa75f!important;
+    color: #ff9c4b!important;
 }
 #Universities{
     background-color: #061544ee!important;
-    color: rgb(255, 224, 46)!important;
+    color: rgb(255, 226, 65)!important;
     font-size: 16px!important;
     padding: 15px!important;
 }
 #Lin a{
-    color: #63efff!important;
+    color: #6ff1ff!important;
     font-size: 11px!important;
     text-decoration: none!important;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
 #Lin a:hover{
-    color: rgb(255, 224, 46)!important;
+    color: rgb(255, 226, 65)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .Bo{
