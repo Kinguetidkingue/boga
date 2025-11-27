@@ -269,7 +269,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     padding: 40px!important;
-    background-color: #0c256f!important;
+    background-color: #0d2364!important;
 }
 #TOPO{
     align-items: center!important;
@@ -290,13 +290,13 @@ a{
 #Footer-space{
     width: 100%!important;
     height: auto!important;
-    background-color: #0c256f!important;
+    background-color: #0d2364!important;
 }
 #Space-to-Footer{
     width: 100%!important;
     height: 300px!important;
     background-color: transparent!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-family: "Ubuntu", sans-serif!important;
     justify-content: center!important;
     align-items: center!important;
     font-weight: bolder!important;
@@ -304,19 +304,20 @@ a{
     color: #ff9c4b!important;
 }
 #Universities{
-    background-color: #0a1b4f!important;
-    color: #ff9c4b!important;
+    background-color: #0b1b4c!important;
+    color: #fea585!important;
     font-size: 16px!important;
     padding: 15px!important;
+    font-family: "Ubuntu", sans-serif!important;
 }
 #Lin a{
-    color: #ffa65d!important;
-    font-size: 11px!important;
+    color: #ffb499!important;
+    font-size: 12px!important;
     text-decoration: none!important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    font-family: "Ubuntu", sans-serif!important;  
 }
 #Lin a:hover{
-    color: #f3f!important;
+    color: rgb(55, 255, 33)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .Bo{
