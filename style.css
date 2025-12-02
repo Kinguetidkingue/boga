@@ -122,8 +122,8 @@ body{
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #e6e6e6!important;
-    border-top: 0.1px solid rgba(28, 55, 166, 0.917)!important;
+    background-color: #e7e7e7!important;
+    border-top: 0.35rem solid rgba(28, 55, 166, 0.917)!important;
 }
 #demo{
     width: 100%!important;
@@ -151,7 +151,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.1px solid #e6e6e6!important;
+    border-top: 0.1px solid #e7e7e7!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
