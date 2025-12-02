@@ -122,7 +122,8 @@ body{
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #e2eaffea!important;
+    background-color: #e6e6e6!important;
+    border-top: 0.1px solid rgba(28, 55, 166, 0.917)!important;
 }
 #demo{
     width: 100%!important;
@@ -133,7 +134,7 @@ body{
     font-size: 14px!important;
     font-weight: lighter!important;
     margin-top: 10px!important;
-    color: #000!important;
+    color: rgba(28, 55, 166, 0.917)!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;
 }
@@ -150,7 +151,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.1rem solid #ff9284!important;
+    border-top: 0.1px solid #e6e6e6!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -175,8 +176,6 @@ font-size: 9.25px!important;
 color: #000!important;
 }
 #FRANCAIS:hover{
-background-color: #fff!important;
-color:rgb(22, 22, 244)!important;
 font-weight: bolder!important;
 transition: 0.3s background-color ease-in-out!important;
 }
@@ -557,7 +556,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     line-height: 1.5!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
-    color: #6e6e6e!important;
+    color: #696969!important;
     background-color: #e6e6e6!important;
 }
 #RES{
