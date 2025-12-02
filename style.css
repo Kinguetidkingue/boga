@@ -438,15 +438,12 @@ a{
     line-height: 1.2!important;
     justify-content: center!important;
     align-items: center!important;
-    opacity: 0.8!important;
-    margin-top: -2.75rem!important;
+    margin-top: -2.9rem!important;
 }
 #SUN:hover{
     visibility:initial!important;
-    color: #000!important;
+    color: #139100!important;
     transition: color 0.3s ease-in-out;
-    opacity: 1!important;
-
 }
 .card, .card-body{
     border: none!important;
