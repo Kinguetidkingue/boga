@@ -239,7 +239,7 @@ ul{
     }
 li{
     list-style: none;
-    margin-left: 20px!important;
+    margin-left: 27px!important;
 }
 a{
     text-decoration: none;
@@ -670,7 +670,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     display: block!important;
 }
 #Tropical:hover{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
+    background-color: #f8f8f8!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
@@ -682,7 +682,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     align-items: center!important;
    }
 #Crocu:hover{
-    background-color: hsla(60, 100%, 77%, 0.89)!important;
+    background-color: #f8f8f8!important;
     color:rgb(1, 1, 155)!important;
     transition: background-color all 0.3s ease-in-out;
 }
@@ -795,7 +795,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     font-size: 17px!important;
     justify-content: center!important;
     align-items: center!important;
-    line-height: 1.5!important;
+    line-height: 1.7!important;
     font-weight: lighter!important;
     padding: 5px!important;
     color: #555!important;
