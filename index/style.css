@@ -122,7 +122,7 @@ body{
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #1039a1!important;
+    background-color: #cddbff!important;
 }
 #demo{
     width: 100%!important;
@@ -133,12 +133,12 @@ body{
     font-size: 14px!important;
     font-weight: lighter!important;
     margin-top: 10px!important;
-    color: #fff!important;
+    color: #000!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;
 }
 #demo:hover{
-    color:#fff!important;
+    color:#00f!important;
     transition: background-color 0.3s ease-in-out;
 }
 #Navbar{
@@ -150,7 +150,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.45rem solid #fd6d2e!important;
+    border-top: 0.15rem solid #fd6d2e!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -160,14 +160,11 @@ body{
     display: flex!important;
     width: 77px!important;
     height: 25px!important;
-    padding: 22px!important;
-    padding-top: 22px!important;
-    border: 2px solid #000!important;
-    border-top: 0.5rem solid #fd6d2e!important;
+    padding-left: 22px!important;
+    padding-right: 30px!important;
+    border-right: 5px solid #ff6262!important;
     justify-content: center!important;
     align-items: center!important;
-    border-bottom-left-radius: 1rem!important;
-    border-bottom-right-radius: 1rem!important;
     margin-top: -3px!important;
 }
 #B{
@@ -213,7 +210,7 @@ transition: 0.3s background-color ease-in-out!important;
     padding: 4px!important;
     font-family: "Ubuntu", sans-serif!important;
     font-size: 12px!important;
-    font-weight: bolder!important;
+    font-weight: lighter!important;
     color: rgb(65, 65, 65)!important;
     border: 1.55px solid transparent!important;
 }
@@ -228,7 +225,7 @@ transition: 0.3s background-color ease-in-out!important;
 }
 .navbar-brand{
     font-family: Georgia, 'Times New Roman', Times, serif!important;
-    background-color: #93ffcd92!important;
+    background-color: #dbffee92!important;
     font-weight: bolder!important;
 }
 .navbar-brand:hover{
@@ -325,6 +322,7 @@ a{
     align-items: center!important;
     width: 100%!important;
     height: 26px!important;
+    font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;
     font-size: 19px!important;
     color:#707070!important;
@@ -342,7 +340,8 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #3dffa492!important;
+    font-family: "Ubuntu", sans-serif!important;
+    background-color: #d9ffed92!important;
     padding: 20px!important;
     border-top: 0.15px solid rgba(192, 192, 192, 0.884)!important; 
     border-bottom: 0.15px solid rgba(192, 192, 192, 0.884)!important; 
@@ -407,6 +406,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-size: 30px!important;
+    font-family: "Ubuntu", sans-serif!important;
     line-height: 1.6!important;
     padding: 10px!important;
     
@@ -432,9 +432,8 @@ a{
     width: 100%!important;
     height: 200px!important;
     font-family: "Ubuntu", serif!important;
-    font-weight: bolder!important;
+    font-weight: lighter!important;
     line-height: 1.2!important;
-    margin-top: 1rem!important;
     justify-content: center!important;
     align-items: center!important;
 }
@@ -470,12 +469,11 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     width: 100%!important;
     font-family: "Ubuntu", sans-serif!important;
     font-weight: lighter!important;
-    font-size: 17.71px!important;
+    font-size: 16px!important;
     color: #000!important;
-    background-color: #f2f2f2!important;
+    background-color: #f7f7f7!important;
     padding: 5px!important;
     line-height: 1.7!important;
-    border-radius: 0.5rem!important;
 }
 #LearninG:first-letter{
     font-size: 50px!important;
@@ -539,8 +537,8 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 60px!important;
     line-height: 1.55!important;
     color: #fff!important;
-    background-color: #ff4c24!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    background-color: #ff7454!important;
+    font-family: "Ubuntu", sans-serif!important;
 }
 
 #BEGINNER{
@@ -557,7 +555,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
     color: #000!important;
-    background-color: #c0c0c0!important;
+    background-color: #e2e0e0!important;
 }
 #RES{
     color: #ed8b0cf7!important;
@@ -712,21 +710,23 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     width: 100%!important;
     height: auto!important;
     display: block!important;
-    font-size: 17px!important;
+    font-size: 15px!important;
+    font-weight: lighter!important;
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
+    color:#000!important;
     font-family: "Ubuntu",sans-serif!important;
     padding: 10px!important;
     border-radius: 1rem!important;
-    box-shadow: 0 3px 5rem 1px #fa561f!important;
+    box-shadow: 0 2px 1.5rem 1px #f47b53!important;
 }
 #Bootstrap:first-letter{
 font-size: 50px!important;
 }
 #Bootstrap:hover{
-    background-color: rgba(255, 255, 155, 0.938)!important;
-box-shadow: 0 1px 0.25rem 0.5px #fa561f!important;
+background-color: rgba(255, 249, 243, 0.938)!important;
+box-shadow: 0 0 0.2rem 0.5px #ffa486!important;
 transition: 0.3s box-shadow ease-in-out!important;
 }
 #NeedToKnow{
