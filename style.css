@@ -122,7 +122,7 @@ body{
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #cddbff!important;
+    background-color: #e2eaffea!important;
 }
 #demo{
     width: 100%!important;
@@ -150,7 +150,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.15rem solid #fd6d2e!important;
+    border-top: 0.1rem solid #fd6d2e!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
