@@ -303,13 +303,13 @@ a{
 }
 #Universities{
     background-color: #0d2364!important;
-    color: rgb(255, 91, 255)!important;
+    color: rgb(255, 148, 255)!important;
     font-size: 16px!important;
     padding: 15px!important;
     font-family: "Ubuntu", sans-serif!important;
 }
 #Lin a{
-    color: rgb(255, 91, 255)!important;
+    color: rgb(255, 148, 255)!important;
     font-size: 12px!important;
     text-decoration: none!important;
     font-family: "Ubuntu", sans-serif!important;  
@@ -439,7 +439,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     opacity: 0.8!important;
-    margin-top: -2.5rem!important;
+    margin-top: -2.75rem!important;
 }
 #SUN:hover{
     visibility:initial!important;
@@ -779,7 +779,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: "Ubuntu", sans-serif!important;
-    color: #000!important;
+    color: #555!important;
     background-color: transparent!important;
     box-shadow: 0 2px 1.5rem 1px rgba(1, 5, 63, 0.635)!important;
 }
@@ -794,12 +794,13 @@ transition: 0.3s box-shadow ease-in-out!important;
     width: 50%!important;
     height: auto!important;
     display: block!important;
-    font-size: 18px!important;
+    font-size: 17px!important;
     justify-content: center!important;
     align-items: center!important;
-    line-height: 1.65!important;
+    line-height: 1.5!important;
+    font-weight: lighter!important;
     padding: 5px!important;
-    color: #000!important;
+    color: #555!important;
     font-family: "Ubuntu", sans-serif!important;
     background-color: #fff!important;
     border-right: 1px solid rgb(187, 187, 187)!important;
