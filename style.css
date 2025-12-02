@@ -443,7 +443,7 @@ a{
 }
 #SUN:hover{
     visibility:initial!important;
-    color: #139100!important;
+    color: #f0f0f0!important;
     transition: color 0.3s ease-in-out;
 }
 .card, .card-body{
