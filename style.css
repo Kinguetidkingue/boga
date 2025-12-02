@@ -150,7 +150,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.1rem solid #ff8a46!important;
+    border-top: 0.1rem solid #ff9284!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -275,8 +275,10 @@ a{
     margin-left: 5px!important;
     padding: 10px!important;
     z-index: 1000!important;
+    color: #fff!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    border: 2px solid #fff!important;
+    border: 1.7px solid #fff!important;
+    background-color: #ff9284!important;
 }
 #TOPO:hover{
     background-color: #fff!important;
@@ -437,6 +439,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     opacity: 0.8!important;
+    margin-top: -2.5rem!important;
 }
 #SUN:hover{
     visibility:initial!important;
@@ -457,7 +460,8 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #BLOK{
     width: 18rem!important; 
     height: auto; 
-    background-color:rgba(62, 152, 255, 0.527)!important; 
+    color: #555!important;
+    background-color:rgba(189, 189, 189, 0.527)!important; 
     font-family: "Ubuntu", sans-serif!important;
     box-shadow: 0 5px 5rem 0.5px rgba(9, 42, 160, 0.822)!important;
 }
@@ -471,7 +475,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-family: "Ubuntu", sans-serif!important;
     font-weight: lighter!important;
     font-size: 16px!important;
-    color: #000!important;
+    color: #555555!important;
     background-color: #f7f7f7!important;
     padding: 5px!important;
     line-height: 1.7!important;
@@ -514,7 +518,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 #FIGCAPTION{
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
     font-size: 11.6px!important;
-    color:#000!important;
+    color:#333!important;
 }
 #Welcome-Message{
     width: 100%!important;
@@ -536,10 +540,10 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     justify-content: center!important;
     align-items: center!important;
     padding: 60px!important;
-    line-height: 1.55!important;
+    line-height: 1.6!important;
     color: #fff!important;
-    background-color: #ff7454!important;
-    font-family: "Ubuntu", sans-serif!important;
+    background-color: #ff9284!important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 
 #BEGINNER{
@@ -555,8 +559,8 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     line-height: 1.5!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
-    color: #000!important;
-    background-color: #e4e4e4!important;
+    color: #6e6e6e!important;
+    background-color: #e6e6e6!important;
 }
 #RES{
     color: #ed8b0cf7!important;
