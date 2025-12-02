@@ -150,7 +150,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.1rem solid #fd6d2e!important;
+    border-top: 0.1rem solid #ff8a46!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
@@ -239,7 +239,7 @@ ul{
     }
 li{
     list-style: none;
-    margin-left: 25px!important;
+    margin-left: 20px!important;
 }
 a{
     text-decoration: none;
@@ -324,8 +324,8 @@ a{
     height: 26px!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;
-    font-size: 19px!important;
-    color:#707070!important;
+    font-size: 16px!important;
+    color:#464646!important;
     border-bottom: 0.13rem solid transparent!important;
 }
 .Bo:hover{
@@ -430,12 +430,13 @@ a{
  #SUN{
     display: block!important;
     width: 100%!important;
-    height: 200px!important;
+    height: 100px!important;
     font-family: "Ubuntu", serif!important;
     font-weight: lighter!important;
     line-height: 1.2!important;
     justify-content: center!important;
     align-items: center!important;
+    opacity: 0.8!important;
 }
 #SUN:hover{
     visibility:initial!important;
@@ -555,7 +556,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
     color: #000!important;
-    background-color: #e2e0e0!important;
+    background-color: #e4e4e4!important;
 }
 #RES{
     color: #ed8b0cf7!important;
