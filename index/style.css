@@ -215,7 +215,7 @@ transition: 0.3s background-color ease-in-out!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 13px!important;
     font-weight: bolder!important;
-    color: rgb(55, 188, 18)!important;
+    color: rgb(65, 65, 65)!important;
     border: 1.55px solid transparent!important;
 }
 #SERVICES:hover{
@@ -412,15 +412,39 @@ a{
     padding: 10px!important;
     
 }
- #SUN{
+#IMGSet{
+    width: 100%;
+    height: auto!important;
+    display: block!important;
+    opacity: 0.8!important;
+}
+#IMGSet:hover{
+    opacity: 1!important;
+    transition: opacity 0.3s ease-in-out;
+}
+#Sunset-Image{
     width: 100%!important;
-    height: 300px!important;
+    height: auto!important;
+    display: block!important;
+    position: relative!important;
+}
+ #SUN{
+    display: block!important;
+    width: 100%!important;
+    height: 200px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     font-weight: bolder!important;
     line-height: 1.2!important;
-    margin-top: 8.3rem!important;
+    margin-top: 1rem!important;
     justify-content: center!important;
     align-items: center!important;
+}
+#SUN:hover{
+    visibility:initial!important;
+    color: #000!important;
+    transition: color 0.3s ease-in-out;
+    opacity: 1!important;
+
 }
 .card, .card-body{
     border: none!important;
@@ -445,18 +469,19 @@ background-color: rgba(255, 231, 166, 0.976)!important;
 }
 #LearninG{
     width: 100%!important;
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-family: "Ubuntu", sans-serif!important;
+    font-weight: lighter!important;
     font-size: 18px!important;
-    color: #0f6e4bfa!important;
-    background-color: #e9fef4fe!important;
+    color: #000!important;
+    background-color: #f2f2f2!important;
     padding: 10px!important;
-    line-height: 1.64!important;
-    border-radius: 1rem!important;
+    line-height: 1.7!important;
+    border-radius: 0.5rem!important;
 }
 #LearninG:first-letter{
     font-size: 50px!important;
     font-weight: bolder!important;
-    color: #0f6e4bfa!important;
+    color: #767676!important;
 }
 
 #LearninG:hover{
@@ -515,8 +540,10 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     padding: 60px!important;
     line-height: 1.55!important;
     color: #fff!important;
+    background-color: #ff4c24!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
+
 #BEGINNER{
     display: flex!important;
     flex-direction: row!important;
@@ -527,11 +554,11 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     align-items: center!important;
     padding: 20px!important;
     text-align: start!important;
-    line-height: 1.45!important;
-    font-weight: light!important;
+    line-height: 1.5!important;
+    font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
-    color: #fff!important;
-    background-color: #1039a1!important;
+    color: #050505!important;
+    background-color: #c0c0c0!important;
 }
 #RES{
     color: #ed8b0cf7!important;
@@ -551,7 +578,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    box-shadow: 0 1px 1.8rem 1.25px rgba(7, 120, 7, 0.887)!important;
+    box-shadow: 0 1.5px 1.6rem 1px rgb(68, 68, 68)!important;
     border-bottom-left-radius: 1rem!important;
     border-bottom-right-radius: 1rem!important;
 }
