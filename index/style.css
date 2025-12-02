@@ -459,7 +459,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     width: 18rem!important; 
     height: auto; 
     background-color:rgba(62, 152, 255, 0.527)!important; 
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-family: "Ubuntu", sans-serif!important;
     box-shadow: 0 5px 5rem 0.5px rgba(9, 42, 160, 0.822)!important;
 }
 #BLOK:hover{
