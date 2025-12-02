@@ -343,12 +343,13 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-family: "Ubuntu", sans-serif!important;
-    background-color: #d9ffed92!important;
+    background-color: #e7fff492!important;
     padding: 20px!important;
     border-top: 0.15px solid rgba(192, 192, 192, 0.884)!important; 
     border-bottom: 0.15px solid rgba(192, 192, 192, 0.884)!important; 
 }
 #Beauty{
+    font-size: 16px!important;
     display: flex!important;
     justify-items: center!important;
     align-items: center!important;
