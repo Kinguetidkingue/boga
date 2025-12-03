@@ -122,7 +122,7 @@ body{
     display: block!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: rgb(28, 56, 165)!important;
+    background-color: #dc3545!important;
 }
 #demo{
     width: 100%!important;
@@ -133,7 +133,7 @@ body{
     font-size: 14px!important;
     font-weight: lighter!important;
     margin-top: 10px!important;
-    color: rgb(143, 255, 255)!important;
+    color: #fff!important;
     font-family: "Ubuntu", sans-serif!important;
 }
 #Navbar{
@@ -145,7 +145,7 @@ body{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    border-top: 0.15rem solid #ffa15e!important;
+    border-top: 0.12rem solid #dc3545!important;
     box-shadow: 0 0 0.1rem 0.15px rgba(56, 56, 56, 0.547)!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
@@ -533,8 +533,10 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     align-items: center!important;
     padding: 50px!important;
     line-height: 1.6!important;
-    color: #fff!important;
-    background-color: #ffa15e!important;
+    color: #333!important;
+    border-top: 1px solid #666!important;
+    border-bottom: 1px solid #666!important;
+    background-color: #f2f2f2!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
 }
 
@@ -551,7 +553,9 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     line-height: 1.5!important;
     font-weight: lighter!important;
     font-family: "Ubuntu", sans-serif!important;  
-    color: #666!important;
+    color: #000!important;
+    border-top: 1px solid #666!important;
+    border-bottom: 1px solid #666!important;
     background-color: #e6e6e6!important;
 }
 #RES{
