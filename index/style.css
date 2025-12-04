@@ -370,6 +370,7 @@ a{
     text-align: left!important;
     font-family: "Ubuntu", sans-serif!important;
     color:#545454!important;
+    border: none!important;
 }
 #Wel{
     display: flex!important;
@@ -433,14 +434,11 @@ a{
     color: #f0f0f0!important;
     transition: color 0.3s ease-in-out;
 }
-.card, .card-body{
-    border: none!important;
-}
 .card-body{
-    background-color: #fefffff3!important;
+    background-color: #fff!important;
 }
 .card-body:hover{
-background-color: rgba(255, 246, 220, 0.969)!important;
+background-color: rgb(255, 250, 236)!important;
 }
 #BLOK{
     width: 18rem!important; 
@@ -448,7 +446,7 @@ background-color: rgba(255, 246, 220, 0.969)!important;
     color: #555!important;
     background-color:#fff!important; 
     font-family: "Ubuntu", sans-serif!important;
-    border: 0.1px solid rgb(195, 195, 195)!important;
+    border: 0.1px solid rgba(196, 196, 196, 0.924)!important;
 }
 #BLOK:hover{
     background-color: #fff!important;
@@ -593,13 +591,13 @@ background-color: rgba(255, 246, 220, 0.969)!important;
 #Block-wrap{
     width: 100%!important;
     height: auto!important;
-    padding-top: 20px!important;
+    padding-top: 50px!important;
     padding-bottom: 20px!important;
     display: flex!important;
     flex-direction: row!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: #fff!important;
+    background-color: light!important;
     border-top: 0.1px solid #cecece!important;
 }
 #Block-W{
@@ -771,7 +769,8 @@ transition: 0.3s box-shadow ease-in-out!important;
     font-family: "Ubuntu", sans-serif!important;
     color: #6c757d!important;
     background-color: #fff!important;
-    box-shadow: 0 0.5px 0.18rem 0.15px rgba(96, 96, 96, 0.409)!important;
+    border: 0.1px solid rgba(196, 196, 196, 0.924)!important;
+    border-radius: 0.5rem!important;
 }
 #Block:first-letter{
 font-size: 50px!important;
