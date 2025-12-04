@@ -599,7 +599,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     flex-direction: row!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: rgba(67, 149, 255, 0.966)!important;
+    background-color: #fff9e2f9!important;
 }
 #Block-W{
     width: 100%!important;
@@ -628,7 +628,7 @@ background-color: rgba(255, 231, 166, 0.976)!important;
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ff7a4d6f!important;
+    background-color: #ffd4c5f6!important;
     padding-top: 50px!important;
     padding-bottom: 50px!important;
     justify-content: center!important;
@@ -762,7 +762,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     background-color: transparent!important;
 }
 #Block{
-    width: 22rem!important;
+    width: 24rem!important;
     display: block!important;
     font-size: 17px!important;
     justify-content: center!important;
@@ -770,7 +770,7 @@ transition: 0.3s box-shadow ease-in-out!important;
     font-family: "Ubuntu", sans-serif!important;
     color: #555!important;
     background-color: transparent!important;
-    box-shadow: 0 2px 1.5rem 1px rgba(1, 5, 63, 0.635)!important;
+    box-shadow: 0 2px 1rem 0.5px rgba(1, 5, 63, 0.341)!important;
 }
 #Block:first-letter{
 font-size: 50px!important;
@@ -899,4 +899,5 @@ font-size: 50px!important;
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
