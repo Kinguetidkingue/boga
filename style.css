@@ -494,8 +494,8 @@ a{
 }
 #FIGCAPTION{
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
-    font-size: 11.6px!important;
-    color:#333!important;
+    font-size: 12px!important;
+    color:#000!important;
 }
 #Welcome-Message{
     width: 100%!important;
@@ -766,9 +766,6 @@ transition: 0.3s box-shadow ease-in-out!important;
     background-color: #fff!important;
     border: 0.1px solid rgba(196, 196, 196, 0.924)!important;
     border-radius: 0.5rem!important;
-}
-#Block:first-letter{
-font-size: 50px!important;
 }
 #Block:hover{
 box-shadow: 0 1px 0.5rem 1px rgba(96, 96, 96, 0.573)!important;
