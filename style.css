@@ -437,9 +437,6 @@ a{
 .card-body{
     background-color: #fff!important;
 }
-.card-body:hover{
-background-color: rgb(255, 250, 236)!important;
-}
 #BLOK{
     width: 18rem!important; 
     height: auto; 
@@ -450,7 +447,7 @@ background-color: rgb(255, 250, 236)!important;
 }
 #BLOK:hover{
     background-color: #fff!important;
-    box-shadow: 0 2px 1.5rem 0.1px rgba(70, 70, 70, 0.674)!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(80, 80, 80, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #LearninG{
@@ -483,10 +480,7 @@ background-color: rgb(255, 250, 236)!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    background-color: transparent!important;
-}
-#WelcomeB{
-    background-color: transparent!important;
+    
 }
 #Three{
     width: 100%!important;
@@ -496,7 +490,6 @@ background-color: rgb(255, 250, 236)!important;
     flex-wrap: wrap!important;
     justify-items: center!important;
     align-items: center!important;
-    background-color: transparent!important;
 }
 #FIGCAPTION{
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
@@ -687,6 +680,7 @@ background-color: rgb(255, 250, 236)!important;
     padding: 5px!important;
     color: #000!important;
     background-color: #f0f0f0!important;
+    border: none!important;
 }
 #ToGet{
     width: 100%!important;
