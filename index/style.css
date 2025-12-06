@@ -441,13 +441,78 @@ a{
 #BLOK{
     width: 18rem!important; 
     height: auto; 
+    color: #555!important;
+    background-color:#fff!important; 
+    font-size: 12px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
+#BLOK:hover{
+    background-color: transparent!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(52, 52, 52, 0.622)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
+#BLOKY{
+    width: 18rem!important; 
+    height: auto; 
     color: #4e4e4e!important;
     background-color:#fff!important; 
     font-size: 13px!important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
-#BLOK:hover{
-    background-color: #b61dcd48!important;
+#BLOKY:hover{
+    background-color: #4dd6ff48!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
+#BLOKA{
+    width: 18rem!important; 
+    height: auto; 
+    color: #4e4e4e!important;
+    background-color:#fff!important; 
+    font-size: 13px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+#BLOKA:hover{
+    background-color: #ff9d4d48!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
+#BLOKI{
+    width: 18rem!important; 
+    height: auto; 
+    color: #4e4e4e!important;
+    background-color:#fff!important; 
+    font-size: 13px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+#BLOKI:hover{
+    background-color: #ff4c2448!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
+#BLOKY{
+    width: 18rem!important; 
+    height: auto; 
+    color: #4e4e4e!important;
+    background-color:#fff!important; 
+    font-size: 13px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+#BLOKY:hover{
+    background-color: #4dd6ff48!important;
+    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
+    transition: box-shadow 0.3s ease-in-out!important;
+}
+#BLOKU{
+    width: 18rem!important; 
+    height: auto; 
+    color: #4e4e4e!important;
+    background-color:#fff!important; 
+    font-size: 13px!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+#BLOKU:hover{
+    background-color: #7e0b3948!important;
     box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
@@ -459,13 +524,15 @@ a{
     align-items: center!important;
     font-size: 14px!important;
     color: #fff!important;
+    border: 0.2rem solid transparent!important;
     font-family: Arial, Helvetica, sans-serif!important;
     background-color: #2767c7!important;
 }
 #READMORE:hover{
-    background-color: #2156a5!important;
+    background-color: #fff!important;
+    border: 0.2rem solid #2156a5!important;
     transition: background-color 0.3s ease-in-out;
-    color: #ff0!important;
+    color: #183e77!important;
 }
 #LEARNMORE{
     width: 100%!important;
@@ -617,7 +684,7 @@ a{
 #Block-wrap{
     width: 100%!important;
     height: auto!important;
-    padding-top: 50px!important;
+    padding-top: 10px!important;
     padding-bottom: 20px!important;
     display: flex!important;
     flex-direction: row!important;
