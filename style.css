@@ -570,7 +570,7 @@ a{
     transition: background-color all 0.3s ease-in-out;
 }
 #Full{
-    background-color: #fff!important;
+    background-color: #f0f0f0!important;
 }
 #WelcomeA{
     width: 100%!important;
@@ -580,7 +580,6 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    
 }
 #Three{
     width: 100%!important;
@@ -677,7 +676,7 @@ a{
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
-    background-color: #f0f0f0!important;
+    background-color: transparent!important;
     justify-content: center!important;
     align-items:center!important;
 }
@@ -733,7 +732,7 @@ a{
     padding: 5px!important;
     justify-content: center!important;
     justify-items: center!important;
-    background-color: #f0f0f0!important;
+    background-color: transparent!important;
 }
 #One-One{
     width: 45%!important;
