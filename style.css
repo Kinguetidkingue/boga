@@ -149,9 +149,9 @@ body{
     width: 77px!important;
     height: 25px!important;
     padding-right: 20px!important;
-    margin-left:30px!important;
+    margin-left:10px!important;
     font-weight: bolder!important;
-    border-right: 7.7px solid #dc3545!important;
+    border-right: 7px solid #dc3545!important;
     justify-content: center!important;
     align-items: center!important;
     
@@ -286,8 +286,9 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-weight: bolder!important;
+    font-size: 22px!important;
     padding-top: 50px!important;
-    color: #ff9c4b!important;
+    color: #ffaa65!important;
 }
 #Universities{
     background-color: #0d2364!important;
@@ -297,13 +298,13 @@ a{
     font-family: "Ubuntu", sans-serif!important;
 }
 #Lin a{
-    color: rgb(255, 148, 255)!important;
+    color: rgb(255, 180, 255)!important;
     font-size: 12px!important;
     text-decoration: none!important;
     font-family: "Ubuntu", sans-serif!important;  
 }
 #Lin a:hover{
-    color: rgb(55, 255, 33)!important;
+    color: rgb(110, 255, 94)!important;
     transition: background-color 0.3s ease-in-out;
 }
 .Bo{
@@ -439,7 +440,7 @@ a{
     background-color: #fff!important;
 }
 #BLOK{
-    width: 18rem!important; 
+    width: 17.5rem!important; 
     height: auto; 
     color: #434343!important;
     border: 0.12rem solid transparent!important;
@@ -455,7 +456,7 @@ a{
     box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
 }
 #BLOKY{
-    width: 18rem!important; 
+    width: 17.5rem!important;  
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -468,7 +469,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKA{
-    width: 18rem!important; 
+    width: 17.5rem!important; 
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -481,7 +482,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKI{
-    width: 18rem!important; 
+     width: 17.5rem!important; 
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -494,7 +495,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKY{
-    width: 18rem!important; 
+     width: 17.5rem!important; 
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -507,7 +508,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKU{
-    width: 18rem!important; 
+    width: 17.5rem!important; 
     height: auto; 
     color: #4e4e4e!important;
     background-color:#fff!important; 
@@ -532,7 +533,7 @@ a{
     background-color: #2767c7!important;
 }
 #READMORE:hover{
-    background-color: #d7e6fffa!important;
+    background-color: #e2edfffd!important;
     border: 0.15rem solid #2156a5!important;
     transition: background-color 0.3s ease-in-out;
     color: #183e77!important;
@@ -853,7 +854,7 @@ font-size: 50px!important;
     background-color: transparent!important;
 }
 #Block{
-    width: 23rem!important;
+    width: 22.85rem!important;
     display: block!important;
     font-size: 15px!important;
     justify-content: center!important;
