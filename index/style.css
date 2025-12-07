@@ -316,10 +316,10 @@ a{
     font-family: "Ubuntu", sans-serif!important;
     font-size: 16px!important;
     color:#000!important;
-    border-bottom: 0.13rem solid transparent!important;
+    border-bottom: 0.15rem solid transparent!important;
 }
 .Bo:hover{
-    border-bottom: 0.13rem solid red!important;
+    border-bottom: 0.15rem solid red!important;
     transition: background-color all 0.3s ease-in-out!important;
     color: rgb(30, 61, 241)!important;
 }
@@ -441,33 +441,36 @@ a{
 #BLOK{
     width: 18rem!important; 
     height: auto; 
-    color: #555!important;
+    color: #434343!important;
+    border: 0.12rem solid transparent!important;
     background-color:#fff!important; 
-    font-size: 12px!important;
+    font-size: 13px!important;
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
 }
 #BLOK:hover{
     background-color: transparent!important;
-    box-shadow: 0 1px 1rem 0.1px rgba(52, 52, 52, 0.622)!important;
     transition: box-shadow 0.3s ease-in-out!important;
+    color: #2e2e2e!important;
+    border: 0.12rem solid #2156a5!important;
+    box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
 }
 #BLOKY{
     width: 18rem!important; 
     height: auto; 
-    color: #4e4e4e!important;
+    color: #434343!important;
     background-color:#fff!important; 
     font-size: 13px!important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #BLOKY:hover{
-    background-color: #4dd6ff48!important;
+    background-color: #33c0eb48!important;
     box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKA{
     width: 18rem!important; 
     height: auto; 
-    color: #4e4e4e!important;
+    color: #434343!important;
     background-color:#fff!important; 
     font-size: 13px!important;
     font-family: Arial, Helvetica, sans-serif!important;
@@ -480,26 +483,26 @@ a{
 #BLOKI{
     width: 18rem!important; 
     height: auto; 
-    color: #4e4e4e!important;
+    color: #434343!important;
     background-color:#fff!important; 
     font-size: 13px!important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #BLOKI:hover{
-    background-color: #ff4c2448!important;
+    background-color: #ffc0426f!important;
     box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKY{
     width: 18rem!important; 
     height: auto; 
-    color: #4e4e4e!important;
+    color: #434343!important;
     background-color:#fff!important; 
     font-size: 13px!important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #BLOKY:hover{
-    background-color: #4dd6ff48!important;
+    background-color: #75e6ff48!important;
     box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
@@ -512,7 +515,7 @@ a{
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #BLOKU:hover{
-    background-color: #7e0b3948!important;
+    background-color: #630b7e48!important;
     box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527)!important;
     transition: box-shadow 0.3s ease-in-out!important;
 }
@@ -850,17 +853,19 @@ font-size: 50px!important;
     background-color: transparent!important;
 }
 #Block{
-    width: 24rem!important;
+    width: 23rem!important;
     display: block!important;
-    font-size: 17px!important;
+    font-size: 15px!important;
     justify-content: center!important;
     align-items: center!important;
     font-family: "Ubuntu", sans-serif!important;
-    color: #6c757d!important;
+    border: 0.1rem solid transparent!important;
+    color: #555!important;
     background-color: #fff!important;
 }
 #Block:hover{
-box-shadow: 0 1px 0.5rem 1px rgba(96, 96, 96, 0.573)!important;
+border: 0.1rem solid #969696!important;
+box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
 transition: 0.3s box-shadow ease-in-out!important;
 color: #000!important;
 }
