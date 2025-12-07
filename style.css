@@ -161,11 +161,19 @@ font-size: 12.5px!important;
 }
 #H6{
 font-size: 10.35px!important;
-color: #000!important;
+color: green!important;
+}
+#FRANCAIS{
+font-size: 14px!important;
+font-weight: bolder!important;
+color: #fff!important;
+background-color: #2767c7!important;
 }
 #FRANCAIS:hover{
-font-weight: bolder!important;
 transition: 0.3s background-color ease-in-out!important;
+border: 0.1px solid #2767c7!important;
+color: #2767c7!important;
+background-color: #fff!important;
 }
 #Nav-One{
     width: 100%!important;
@@ -316,7 +324,7 @@ a{
     font-weight: bolder!important;
     font-family: "Ubuntu", sans-serif!important;
     font-size: 16px!important;
-    color:#000!important;
+    color:#2767c7!important;
     border-bottom: 0.15rem solid transparent!important;
 }
 .Bo:hover{
@@ -533,7 +541,7 @@ a{
     background-color: #2767c7!important;
 }
 #READMORE:hover{
-    background-color: #e2edfffd!important;
+    background-color: #e9f1fffd!important;
     border: 0.15rem solid #2156a5!important;
     transition: background-color 0.3s ease-in-out;
     color: #183e77!important;
