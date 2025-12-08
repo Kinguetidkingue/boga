@@ -450,16 +450,15 @@ a{
 #BLOK{
     width: 17.5rem!important; 
     height: auto; 
-    color: #434343!important;
+    color: #303030!important;
     border: 0.12rem solid transparent!important;
     background-color:#fff!important; 
-    font-size: 13px!important;
+    font-size: 14px!important;
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
 }
 #BLOK:hover{
     background-color: transparent!important;
     transition: box-shadow 0.3s ease-in-out!important;
-    color: #2e2e2e!important;
     border: 0.12rem solid #2156a5!important;
     box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
 }
