@@ -136,8 +136,8 @@ body{
     flex-direction: column!important;
     justify-content: center!important;
     align-items: center!important;
-    background-color: #fffffff0!important;
-    border-top: 0.1px solid #dc3545!important;
+    background-color: #ffffffe9!important;
+    border-top: 0.5px solid #dc3545!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     position: sticky!important;
     top: 0!important;
