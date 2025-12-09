@@ -453,7 +453,7 @@ a{
     border: 0.2rem solid transparent!important;
     background-color:#fff!important; 
     font-size: 17px!important;
-    line-height: 1.5!important;
+    line-height: 1.25!important;
     font-family: 'Times New Roman', Times, serif!important;
 }
 #BLOK:hover{
@@ -464,7 +464,7 @@ a{
 }
 .Paragraph{
     font-size: 16.5px!important;
-    color: #3c0d33f5!important;
+    color: #490f3ef5!important;
     font-family: 'Times New Roman', Times, serif!important;
 }
 #BLOKY{
@@ -873,7 +873,7 @@ font-size: 50px!important;
     align-items: center!important;
     font-family: "Ubuntu", sans-serif!important;
     border: 0.1rem solid transparent!important;
-    color: #555!important;
+    color: #4d4d4d!important;
     background-color: #fff!important;
 }
 #Block:hover{
@@ -890,12 +890,12 @@ color: #000!important;
     align-items: center!important;
     font-family: helvetica!important;
     border: 0.1rem solid transparent!important;
-    color: #363636!important;
+    color: #212121!important;
     background-color: #fff!important;
 }
 #Blockk:hover{
-border: 0.1rem solid #969696!important;
-box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
+border: 0.1rem solid #000!important;
+box-shadow: 0 1px 5rem 0.1px rgba(74, 74, 74, 0.626)!important;
 transition: 0.3s box-shadow ease-in-out!important;
 color: #000!important;
 }
