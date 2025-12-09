@@ -210,7 +210,7 @@ background-color: #fff!important;
     border: 1.55px solid transparent!important;
 }
 #SERVICES:hover{
-    background-color: rgba(4, 4, 48, 0.917)!important;
+    background-color: rgb(1, 1, 18)!important;
     transition: background-color 0.31s ease-in-out!important;
     color:#fff!important;
 }
@@ -447,13 +447,13 @@ a{
     background-color: #fff!important;
 }
 #BLOK{
-    width: 17.5rem!important; 
+    width: 17.45rem!important; 
     height: auto!important; 
-    color: #5a5a5a!important;
+    color: #606060!important;
     border: 0.2rem solid transparent!important;
     background-color:#fff!important; 
     font-size: 17px!important;
-    line-height: 1.25!important;
+    line-height: 1.4!important;
     font-family: 'Times New Roman', Times, serif!important;
 }
 #BLOK:hover{
@@ -877,8 +877,7 @@ font-size: 50px!important;
     background-color: #fff!important;
 }
 #Block:hover{
-border: 0.1rem solid #969696!important;
-box-shadow: 0 1px 5rem 0.1px rgba(104, 104, 104, 0.527)!important;
+box-shadow: 0 1px 5rem 0.1px rgba(74, 74, 74, 0.626)!important;
 transition: 0.3s box-shadow ease-in-out!important;
 color: #000!important;
 }
@@ -894,7 +893,6 @@ color: #000!important;
     background-color: #fff!important;
 }
 #Blockk:hover{
-border: 0.1rem solid #000!important;
 box-shadow: 0 1px 5rem 0.1px rgba(74, 74, 74, 0.626)!important;
 transition: 0.3s box-shadow ease-in-out!important;
 color: #000!important;
@@ -1009,7 +1007,7 @@ font-size: 50px!important;
     width: 100%!important;
     height: auto!important;
     font-size: 22px!important;
-    padding: 19px!important;
+    padding: 20px!important;
     font-family: Georgia, 'Times New Roman', Times, serif!important;
     display: flex!important;
     background-color: var(--bs-white)!important;
