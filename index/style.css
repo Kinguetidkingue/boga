@@ -569,6 +569,25 @@ a{
     transition: background-color 0.3s ease-in-out;
     color: #000!important;
 }
+#Learnmore{
+    width: 100%!important;
+    height: 50px!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 18px!important;
+    color: #fff!important;
+    border: 0.12rem solid transparent!important;
+    font-family: "Ubuntu", sans-serif!important;
+    background-color: #0f3484fb!important;
+}
+#Learnmore:hover{
+    background-color: #fff!important;
+    font-size: 18px!important;
+    border: 0.12rem #0f3484fb solid !important;
+    transition: background-color 0.3s ease-in-out;
+    color: #0f3484fb!important;
+}
 #LearninG{
     width: 100%!important;
     font-family: "Ubuntu", sans-serif!important;
@@ -737,11 +756,20 @@ a{
     height: auto!important;
     display: block!important;
     flex-direction: column!important;
-    background-color: #ffd4c5f6!important;
+    background-color: #eeeeee!important;
     padding-top: 20px!important;
     padding-bottom: 20px!important;
     justify-content: center!important;
     align-items:center!important;
+}
+#Technology{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: column!important;
+    background-color: transparent!important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    padding: 10px!important;
 }
 #Blockus{
     width: 100%!important;
@@ -812,7 +840,7 @@ a{
     color: #000!important;
 }
 #Bootstrap{
-    width: 100%!important;
+    width: 24rem!important;
     height: auto!important;
     display: block!important;
     font-size: 15px!important;
@@ -823,10 +851,15 @@ a{
     font-family: "Ubuntu",sans-serif!important;
     padding: 10px!important;
     background-color: #fff!important;
-    box-shadow: 0 0 0.2rem 0.5px #ffa486!important;
+    border: 0.12rem solid #0f3484fb!important;
+    box-shadow: 0 -10px 1.5rem 1px #0f3484fb!important;
+    border-radius: 0.5rem!important;
 }
-#Bootstrap:first-letter{
-font-size: 50px!important;
+#Bootstrap:hover{
+    transition: 0.3s box-shadow ease-in-out!important;
+    color: #0f3484fb!important;
+    border: 0.12rem solid #0f3484fb!important;
+    box-shadow: 0 -9px 0.45rem 4px #0f3484fb!important;
 }
 #NeedToKnow{
     width: 100%!important;
