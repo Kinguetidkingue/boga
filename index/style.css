@@ -769,7 +769,8 @@ a{
     flex-direction: column!important;
     background-color: transparent!important;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
-    padding: 10px!important;
+    padding-bottom: 10px!important;
+    border-bottom: 0.2rem dashed #0f3484fb!important;
 }
 #Blockus{
     width: 100%!important;
@@ -840,7 +841,7 @@ a{
     color: #000!important;
 }
 #Bootstrap{
-    width: 24rem!important;
+    width: 25rem!important;
     height: auto!important;
     display: block!important;
     font-size: 15px!important;
@@ -860,6 +861,10 @@ a{
     color: #0f3484fb!important;
     border: 0.12rem solid #0f3484fb!important;
     box-shadow: 0 -9px 0.45rem 4px #0f3484fb!important;
+}
+#Bootstrap h1:hover{
+    color: red!important;
+    font-weight: bold!important;
 }
 #NeedToKnow{
     width: 100%!important;
