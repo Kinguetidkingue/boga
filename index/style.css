@@ -770,7 +770,7 @@ a{
     background-color: transparent!important;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
     padding-bottom: 10px!important;
-    border-bottom: 0.2rem dashed #0f3484fb!important;
+    border-bottom: 0.15rem dashed #0f3484fb!important;
 }
 #Blockus{
     width: 100%!important;
@@ -848,22 +848,22 @@ a{
     font-weight: lighter!important;
     justify-content: center!important;
     align-items: center!important;
-    color:#000!important;
+    color:green!important;
     font-family: "Ubuntu",sans-serif!important;
     padding: 10px!important;
     background-color: #fff!important;
-    border: 0.12rem solid #0f3484fb!important;
-    box-shadow: 0 -10px 1.5rem 1px #0f3484fb!important;
+    border: 0.5px solid #123d9afb!important;
+    box-shadow: 0 -8px 0.45rem 0.5px #123d9afb!important;
     border-radius: 0.5rem!important;
 }
 #Bootstrap:hover{
     transition: 0.3s box-shadow ease-in-out!important;
-    color: #0f3484fb!important;
-    border: 0.12rem solid #0f3484fb!important;
-    box-shadow: 0 -9px 0.45rem 4px #0f3484fb!important;
+    color: #123d9afb!important;
+    border: 0.5px solid #123d9afb!important;
+    box-shadow: 0 -3px 1rem 1px #123d9afb!important;
 }
 #Bootstrap h1:hover{
-    color: green!important;
+    color: red!important;
 }
 #NeedToKnow{
     width: 100%!important;
