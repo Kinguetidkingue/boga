@@ -863,8 +863,7 @@ a{
     box-shadow: 0 -9px 0.45rem 4px #0f3484fb!important;
 }
 #Bootstrap h1:hover{
-    color: red!important;
-    font-weight: bold!important;
+    color: green!important;
 }
 #NeedToKnow{
     width: 100%!important;
