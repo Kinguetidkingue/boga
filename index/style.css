@@ -447,7 +447,7 @@ a{
     background-color: #fff!important;
 }
 #BLOK{
-    width: 17.45rem!important; 
+    width: 26rem!important; 
     height: auto!important; 
     color: #606060!important;
     border: 0.2rem solid transparent!important;
@@ -481,7 +481,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKA{
-    width: 17.5rem!important; 
+    width: 26rem!important; 
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -494,7 +494,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKI{
-     width: 17.5rem!important; 
+    width: 26rem!important; 
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -507,7 +507,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKY{
-     width: 17.5rem!important; 
+    width: 26rem!important;  
     height: auto; 
     color: #434343!important;
     background-color:#fff!important; 
@@ -520,7 +520,7 @@ a{
     transition: box-shadow 0.3s ease-in-out!important;
 }
 #BLOKU{
-    width: 17.5rem!important; 
+    width: 26rem!important;  
     height: auto; 
     color: #4e4e4e!important;
     background-color:#fff!important; 
@@ -757,8 +757,7 @@ a{
     display: block!important;
     flex-direction: column!important;
     background-color: #eeeeee!important;
-    padding-top: 15px!important;
-    padding-bottom: 20px!important;
+    padding: 20px!important;
     justify-content: center!important;
     align-items:center!important;
 }
