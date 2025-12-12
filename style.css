@@ -459,7 +459,7 @@ a{
 #BLOK:hover{
     background-color: transparent!important;
     transition: box-shadow 0.3s ease-in-out!important;
-    border: 0.2rem solid #2156a5!important;
+    border: 0.2rem solid #800080!important;
     box-shadow: 0 1px 5rem 3px rgba(104, 104, 104, 0.527)!important;
 }
 .Paragraph{
@@ -539,7 +539,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     font-size: 16px!important;
-    color: #fff!important;
+    color: #ff0!important;
     border: 0.2rem solid transparent!important;
     font-family: Arial, Helvetica, sans-serif!important;
     background-color: #2767c7!important;
@@ -549,6 +549,24 @@ a{
     border: 0.2rem solid #2156a5!important;
     transition: background-color 0.3s ease-in-out;
     color: #183e77!important;
+}
+#READ-MORE{
+    width: 100%!important;
+    height: auto!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 16px!important;
+    color: #fff!important;
+    border: 0.2rem solid transparent!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    background-color: #800080!important;
+}
+#READ-MORE:hover{
+    background-color: #fff!important;
+    border: 0.2rem solid #800080!important;
+    transition: background-color 0.3s ease-in-out;
+    color: #800080!important;
 }
 #LEARNMORE{
     width: 100%!important;
