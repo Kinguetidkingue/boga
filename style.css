@@ -175,7 +175,7 @@ color: #2767c7!important;
 background-color: #fff!important;
 }
 #Nav-One{
-    background-color: #fffffff0!important;
+    background-color: #fff!important;
     width: 100%!important;
     height: auto!important;
     display: flex!important;
@@ -206,11 +206,11 @@ background-color: #fff!important;
     font-family: Arial, Helvetica, sans-serif!important;
     font-size: 12px!important;
     font-weight: lighter!important;
-    color: red!important;
+    color: #dc3545!important;
     border: 1.55px solid transparent!important;
 }
 #SERVICES:hover{
-    background-color: rgb(1, 1, 18)!important;
+    background-color: #000!important;
     transition: background-color 0.31s ease-in-out!important;
     color:#fff!important;
 }
@@ -757,8 +757,7 @@ a{
     display: block!important;
     flex-direction: column!important;
     background-color: #eeeeee!important;
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
+    padding: 50px!important;
     justify-content: center!important;
     align-items:center!important;
 }
@@ -840,7 +839,7 @@ a{
     color: #000!important;
 }
 #Bootstrap{
-    width: 26rem!important;
+    width: 30rem!important;
     height: auto!important;
     display: block!important;
     font-size: 15px!important;
@@ -851,17 +850,17 @@ a{
     font-family: "Ubuntu",sans-serif!important;
     padding: 10px!important;
     background-color: #fff!important;
-    border: 0.5px solid #123d9afb!important;
-    box-shadow: 0 -8px 0.45rem 0.5px #123d9afb!important;
+    border: 0.25px solid #123d9afb!important;
+    box-shadow: 0 -5px 0.4rem 0.45px #123d9afb!important;
     border-radius: 0.5rem!important;
 }
 #Bootstrap:hover{
     transition: 0.3s box-shadow ease-in-out!important;
     color: #123d9afb!important;
-    border: 0.5px solid #123d9afb!important;
+    border: 0.25px solid #123d9afb!important;
     box-shadow: 0 -3px 1rem 1px #123d9afb!important;
 }
-#Bootstrap h1:hover{
+#Bootstrap h1{
     color: red!important;
 }
 #NeedToKnow{
