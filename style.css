@@ -611,8 +611,8 @@ a{
     font-family: "Ubuntu", sans-serif!important;
     font-weight: lighter!important;
     font-size: 18px!important;
-    color: #515151!important;
-    background-color: #f8f8f8!important;
+    color: #000!important;
+    background-color: #fff!important;
     padding: 5px!important;
     line-height: 1.63!important;
 }
@@ -715,9 +715,7 @@ a{
     justify-content: center!important;
     align-items: center!important;
     background-color: #fff!important;
-    box-shadow: 0 1.5px 1.6rem 1px rgb(68, 68, 68)!important;
-    border-bottom-left-radius: 1rem!important;
-    border-bottom-right-radius: 1rem!important;
+    border: none!important;
 }
 #Block-wrappo{
     width: 100%!important;
@@ -725,14 +723,14 @@ a{
     flex-direction: column!important;
     justify-content: center!important;
     align-items:center!important;
-    background-color: light!important;
+    background-color: #fff!important;
 }
 #Block-wrapper{
     width: 100%!important;
     height: auto!important;
     display: flex!important;
     flex-direction: column!important;
-    background-color: transparent!important;
+    background-color: #fff!important;
     justify-content: center!important;
     align-items:center!important;
 }
