@@ -770,8 +770,11 @@ a {
     height: auto !important;
     display: flex !important;
     flex-direction: row !important;
+    flex-wrap: wrap !important;
     border-top: none !important;
     border-bottom: none !important;
+    align-items: center !important;
+    justify-content: center !important;
 
 }
 
@@ -798,30 +801,14 @@ a {
 }
 
 #RightContainer {
-    width: 35% !important;
+    width: 45% !important;
     height: auto !important;
-    display: flex !important;
+    display: block !important;
     flex-direction: row !important;
     background-color: #fff !important;
-    justify-content: start !important;
+    justify-content: center !important;
     align-items: center !important;
-    border-right: 0.1px solid #c8c8c8 !important;
-    padding: 20px !important;
-    position: sticky !important;
-    top: 0 !important;
-    border: none !important;
-}
-
-#LeftContainer {
-    width: 35% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: row !important;
-    background-color: #fff !important;
-    justify-content: end !important;
-    align-items: center !important;
-    border-left: 0.1px solid #cacaca !important;
-    padding: 20px !important;
+    margin-left: 20px !important;
     position: sticky !important;
     top: 0 !important;
     border: none !important;
