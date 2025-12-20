@@ -825,9 +825,9 @@ a {
 }
 
 #RightContainer {
-    width: 100% !important;
+    width: 41% !important;
     height: auto !important;
-    display: flex !important;
+    display: block !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
@@ -1059,9 +1059,9 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    border: 0.12px solid #b7b8b9 !important;
     color: #4d4d4d !important;
     background-color: #fff !important;
+    border: none !important;
 }
 
 #BALOU:hover {
