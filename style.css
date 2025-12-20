@@ -497,7 +497,7 @@ a {
 }
 
 #BLOK {
-    width: 21.5rem !important;
+    width: 21rem !important;
     height: auto !important;
     color: #343434 !important;
     border: 0.12px solid #c6c6c6ff !important;
@@ -511,66 +511,6 @@ a {
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
     box-shadow: 0 1px 5rem 3px rgba(121, 121, 121, 0.653) !important;
-}
-
-#BLOKA {
-    width: 21.5rem !important;
-    height: auto !important;
-    color: #434343 !important;
-    background-color: #fff !important;
-    font-size: 17px !important;
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
-#BLOKA:hover {
-    background-color: #ff9d4d48 !important;
-    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527) !important;
-    transition: box-shadow 0.3s ease-in-out !important;
-}
-
-#BLOKI {
-    width: 21.5rem !important;
-    height: auto !important;
-    color: #434343 !important;
-    background-color: #fff !important;
-    font-size: 17px !important;
-    line-height: 1.4 !important;
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
-#BLOKI:hover {
-    background-color: #ffc0426f !important;
-    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527) !important;
-    transition: box-shadow 0.3s ease-in-out !important;
-}
-
-#BLOKY {
-    width: 21.5rem !important;
-    height: auto !important;
-    color: #434343 !important;
-    background-color: #fff !important;
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
-#BLOKY:hover {
-    background-color: #75e6ff48 !important;
-    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527) !important;
-    transition: box-shadow 0.3s ease-in-out !important;
-}
-
-#BLOKU {
-    width: 21.5rem !important;
-    height: auto !important;
-    color: #434343 !important;
-    background-color: #fff !important;
-    font-size: 17px !important;
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
-#BLOKU:hover {
-    background-color: #630b7e48 !important;
-    box-shadow: 0 1px 1rem 0.1px rgba(104, 104, 104, 0.527) !important;
-    transition: box-shadow 0.3s ease-in-out !important;
 }
 
 #READMORE {
@@ -818,16 +758,16 @@ a {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 100% !important;
+    width: 50% !important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
 }
 
 #RightContainer {
-    width: 41% !important;
+    width: 50% !important;
     height: auto !important;
-    display: block !important;
+    display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
@@ -836,8 +776,9 @@ a {
     font-size: 14px !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 102px !important;
-    padding-left: 20px !important;
+    top: 110px !important;
+    padding: 15px !important;
+    border: none !important;
 }
 
 #Block-wrapper {
