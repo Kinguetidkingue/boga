@@ -811,7 +811,6 @@ a {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    padding: 20px !important;
 }
 
 #ALL_TOGETHER {
@@ -826,7 +825,7 @@ a {
 }
 
 #RightContainer {
-    width: 27.5% !important;
+    width: 100% !important;
     height: auto !important;
     display: flex !important;
     flex-direction: column !important;
@@ -838,7 +837,7 @@ a {
     background-color: #fff !important;
     position: sticky !important;
     top: 102px !important;
-    padding-right: 20px !important;
+    padding-left: 20px !important;
 }
 
 #Block-wrapper {
