@@ -146,7 +146,7 @@ body {
     align-items: center !important;
     background-color: #fff !important;
     border-top: 0.1px solid #dc3545 !important;
-    border-bottom: 0.5rem solid #1a73bb !important;
+    border-bottom: 0.1px solid #d8d8d8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -178,15 +178,15 @@ body {
 #FRANCAIS {
     font-size: 14px !important;
     font-weight: bolder !important;
-    color: #fff !important;
-    background-color: #cd3545 !important;
+    color: #cd3545 !important;
+    border: 0.1px solid #cd3545 !important;
+    background-color: #fff !important;
 }
 
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
-    border: 0.1px solid #cd3545 !important;
-    color: #cd3545 !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #cd3545 !important;
 }
 
 #Nav-One {
@@ -411,12 +411,12 @@ a {
 
 #BREAK {
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
+    text-align: center !important;
     width: 100% !important;
     padding-top: 20px !important;
-    border-top: 0.1px solid #cacaca !important;
     font-family: "Ubuntu", sans-serif !important;
     font-size: 18px !important;
 }
@@ -497,30 +497,29 @@ a {
 }
 
 #BLOK {
-    width: 21rem !important;
+    width: 21.5rem !important;
     height: auto !important;
-    color: #606060 !important;
-    border: 0.12px solid #800080 !important;
+    color: #343434 !important;
+    border: 0.12px solid #c6c6c6ff !important;
     background-color: #fff !important;
     font-size: 17px !important;
-    line-height: 1.4 !important;
     font-family: 'Times New Roman', Times, serif !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    border: 0.12px solid #800080 !important;
-    box-shadow: 0 1px 5rem 3px rgba(104, 104, 104, 0.527) !important;
+    border: 0.12px solid #c6c6c6ff !important;
+    box-shadow: 0 1px 5rem 3px rgba(121, 121, 121, 0.653) !important;
 }
 
 #BLOKA {
-    width: 21rem !important;
-    height: auto;
+    width: 21.5rem !important;
+    height: auto !important;
     color: #434343 !important;
     background-color: #fff !important;
-    font-size: 13px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #BLOKA:hover {
@@ -530,12 +529,13 @@ a {
 }
 
 #BLOKI {
-    width: 21rem !important;
-    height: auto;
+    width: 21.5rem !important;
+    height: auto !important;
     color: #434343 !important;
     background-color: #fff !important;
-    font-size: 13px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    line-height: 1.4 !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #BLOKI:hover {
@@ -545,12 +545,11 @@ a {
 }
 
 #BLOKY {
-    width: 21rem !important;
-    height: auto;
+    width: 21.5rem !important;
+    height: auto !important;
     color: #434343 !important;
     background-color: #fff !important;
-    font-size: 13px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #BLOKY:hover {
@@ -560,12 +559,12 @@ a {
 }
 
 #BLOKU {
-    width: 21rem !important;
-    height: auto;
-    color: #4e4e4e !important;
+    width: 21.5rem !important;
+    height: auto !important;
+    color: #434343 !important;
     background-color: #fff !important;
-    font-size: 13px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #BLOKU:hover {
@@ -602,16 +601,16 @@ a {
     align-items: center !important;
     font-size: 16px !important;
     color: #fff !important;
-    border: 0.2rem solid transparent !important;
+    border: 0.1rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #800080 !important;
+    background-color: #d101d1 !important;
 }
 
 #READ-MORE:hover {
     background-color: #fff !important;
-    border: 0.2rem solid #800080 !important;
+    border: 0.1rem solid transparent !important;
     transition: background-color 0.3s ease-in-out;
-    color: #800080 !important;
+    color: #d101d1 !important;
 }
 
 #LEARNMORE {
@@ -621,16 +620,15 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-size: 16px !important;
-    color: #fff !important;
+    color: #000 !important;
     font-weight: bolder !important;
-    border: 0.15rem solid transparent !important;
+    border: 0.12px solid #b7b8b9 !important;
     font-family: "Ubuntu", sans-serif !important;
-    background-color: #1250ac !important;
 }
 
 #LEARNMORE:hover {
     background-color: #ff0 !important;
-    border: 0.15rem #000 solid !important;
+    border: 0.12px #000 solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
 }
@@ -643,17 +641,17 @@ a {
     align-items: center !important;
     font-size: 18px !important;
     color: #fff !important;
-    border: 0.12rem solid transparent !important;
+    border: 0.12px solid #c2c2c2 !important;
     font-family: "Ubuntu", sans-serif !important;
-    background-color: #0f3484fb !important;
+    background-color: #000 !important;
 }
 
 #Learnmore:hover {
     background-color: #fff !important;
     font-size: 18px !important;
-    border: 0.12rem #0f3484fb solid !important;
+    border: 0.12px #000 solid !important;
     transition: background-color 0.3s ease-in-out;
-    color: #0f3484fb !important;
+    color: #000 !important;
 }
 
 #LearninG {
@@ -761,16 +759,26 @@ a {
 }
 
 #Blockos {
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
     display: flex !important;
     flex-direction: row !important;
-    flex-wrap: wrap !important;
     border-top: none !important;
     border-bottom: none !important;
     align-items: center !important;
     justify-content: center !important;
 
+}
+
+#Blockos2 {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 #Intro {
@@ -793,6 +801,44 @@ a {
     align-items: center !important;
     background-color: #fff !important;
     padding: 20px !important;
+}
+
+#CANADA-CITIES {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #fff !important;
+    padding: 20px !important;
+}
+
+#ALL_TOGETHER {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: #fff !important;
+    flex-wrap: wrap !important;
+}
+
+#RightContainer {
+    width: 27.5% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #7c868e !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 14px !important;
+    background-color: #fff !important;
+    position: sticky !important;
+    top: 102px !important;
+    padding-right: 20px !important;
 }
 
 #Block-wrapper {
@@ -847,8 +893,9 @@ a {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #eeeeee !important;
-    padding: 20px !important;
+    background-color: #c7c7c7a3 !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
     justify-content: center !important;
     align-items: center !important;
 }
@@ -937,31 +984,29 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
-    padding: 5px !important;
     color: #000 !important;
 }
 
 #Bootstrap {
-    width: 26rem !important;
+    width: 21.5rem !important;
     height: auto !important;
     display: block !important;
-    font-size: 17px !important;
+    font-size: 16px !important;
     font-weight: lighter !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     padding: 10px !important;
     background-color: #fff !important;
-    border: 0.15px solid #123d9a61 !important;
-    box-shadow: 0 -5px 0.4rem 0.45px #123d9afb !important;
+    border: 0.12px solid #c6c6c6ff !important;
     border-radius: 0.5rem !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #123d9afb !important;
-    border: 0.15px solid #123d9a61 !important;
-    box-shadow: 0 -3px 1rem 1px #123d9afb !important;
+    border: 0.12px solid transparent !important;
+    box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
 }
 
 #Bootstrap h1 {
@@ -1006,7 +1051,6 @@ a {
     justify-content: center !important;
     align-items: center !important;
     background-color: transparent !important;
-    border-bottom: 0.12px solid #c6c6c6ff !important;
 }
 
 #BALOU {
@@ -1016,7 +1060,7 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    border: 0.12px solid #c6c6c6ff !important;
+    border: 0.12px solid #b7b8b9 !important;
     color: #4d4d4d !important;
     background-color: #fff !important;
 }
@@ -1036,11 +1080,10 @@ a {
     align-items: center !important;
     line-height: 1.7 !important;
     font-weight: lighter !important;
-    padding: 5px !important;
     color: #555 !important;
     font-family: "Ubuntu", sans-serif !important;
     background-color: #fff !important;
-    border-right: 1px solid rgb(187, 187, 187) !important;
+    padding-right: 10px !important;
 }
 
 #BLOCK:first-letter {
