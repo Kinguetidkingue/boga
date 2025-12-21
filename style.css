@@ -779,6 +779,7 @@ a {
     position: sticky !important;
     top: 108px !important;
     padding-left: 15px !important;
+    padding-right: 10px !important;
     border: none !important;
 }
 
