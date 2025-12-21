@@ -155,24 +155,25 @@ body {
 
 #Logo {
     display: flex !important;
-    width: 77px !important;
-    height: 25px !important;
-    padding-right: 20px !important;
-    margin-left: 10px !important;
+    width: 80px !important;
+    height: 35px !important;
+    padding-right: 30px !important;
+    margin-left: 25px !important;
     font-weight: bolder !important;
-    border-right: 7px solid #dc3545 !important;
+    border-right: 10px solid #dc3545 !important;
     justify-content: center !important;
     align-items: center !important;
 
 }
 
 #B {
-    font-size: 12.5px !important;
+    font-size: 14.5px !important;
 }
 
 #H6 {
-    font-size: 10.35px !important;
+    font-size: 11.75px !important;
     color: rgb(21, 171, 21) !important;
+    word-spacing: 1px !important;
 }
 
 #FRANCAIS {
@@ -190,7 +191,7 @@ body {
 }
 
 #Nav-One {
-    background-color: #fff !important;
+    background-color: transparent !important;
     width: 100% !important;
     height: auto !important;
     display: flex !important;
@@ -772,12 +773,11 @@ a {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    color: #7c868e !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    font-size: 14px !important;
+    color: #697076 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 118px !important;
+    top: 108px !important;
     padding-left: 15px !important;
     border: none !important;
 }
@@ -790,10 +790,16 @@ a {
     background-color: #fff !important;
     border-left: none !important;
     border-right: none !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 13px !important;
+    color: #7c868e !important;
+    font-weight: bolder !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #CC-List a:hover {
-    background-color: #f1f1f1 !important;
+    background-color: #f3f3f3 !important;
     color: #00f !important;
     transition: background-color all 0.3s ease-in-out;
     font-weight: bolder !important;
