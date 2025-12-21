@@ -762,6 +762,7 @@ a {
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
+    padding-right: 15px !important;
 }
 
 #RightContainer {
@@ -776,9 +777,26 @@ a {
     font-size: 14px !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 110px !important;
-    padding: 15px !important;
+    top: 105px !important;
+    padding-left: 15px !important;
     border: none !important;
+}
+
+.CC {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #fff !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+#CC-List a:hover {
+    background-color: #f1f1f1 !important;
+    color: #00f !important;
+    transition: background-color all 0.3s ease-in-out;
+    font-weight: bolder !important;
 }
 
 #Block-wrapper {
