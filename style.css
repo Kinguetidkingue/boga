@@ -758,14 +758,14 @@ a {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 50% !important;
+    width: 70% !important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
 }
 
 #RightContainer {
-    width: 50% !important;
+    width: 30% !important;
     height: auto !important;
     display: flex !important;
     flex-direction: column !important;
@@ -833,7 +833,7 @@ a {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #c7c7c7a3 !important;
+    background-color: #dcdcdcbc !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
@@ -939,7 +939,6 @@ a {
     padding: 10px !important;
     background-color: #fff !important;
     border: 0.12px solid #c6c6c6ff !important;
-    border-radius: 0.5rem !important;
 }
 
 #Bootstrap:hover {
@@ -1002,11 +1001,14 @@ a {
     font-family: "Ubuntu", sans-serif !important;
     color: #4d4d4d !important;
     background-color: #fff !important;
-    border: none !important;
+    border-top: 0.25rem dashed #929292a3 !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
 }
 
 #BALOU:hover {
-    box-shadow: 0 1px 5rem 0.1px rgba(112, 112, 112, 0.626) !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
 }
