@@ -573,6 +573,7 @@ a {
     border: 2px #000 solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
+}
 
 #Learnmore {
     width: 100% !important;
@@ -793,9 +794,8 @@ a {
     border-right: none !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 13px !important;
+    font-size: 14px !important;
     color: #7c868e !important;
-    font-weight: bolder !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
