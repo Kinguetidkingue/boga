@@ -359,9 +359,9 @@ a {
     width: 100% !important;
     height: 22px !important;
     font-weight: bold !important;
-    font-family: helvetica !important;
+    font-family: "Ubuntu", sans-serif !important;
     font-size: 16px !important;
-    color: #1a73bb !important;
+    color: #0d6efd !important;
     border-bottom: 0.15rem solid transparent !important;
 }
 
@@ -774,13 +774,13 @@ a {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    color: #697076 !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     background-color: #fff !important;
     position: sticky !important;
     top: 108px !important;
-    padding-left: 15px !important;
-    padding-right: 10px !important;
+    font-size: 20px !important;
+    padding: 15px !important;
     border: none !important;
 }
 
@@ -795,15 +795,15 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-size: 14px !important;
-    color: #7c868e !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bolder !important;
+    color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #CC-List a:hover {
     background-color: #f3f3f3 !important;
-    color: #00f !important;
-    transition: background-color all 0.3s ease-in-out;
-    font-weight: bolder !important;
+    color: red !important;
+    transition: background-color all 0.3s ease-in-out !important;
 }
 
 #Block-wrapper {
