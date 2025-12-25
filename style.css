@@ -122,6 +122,7 @@ body {
     --bs-gutter-x: 0.375rem;
     --bs-gutter-y: 0;
 }
+
 .TOPBANNER {
     background-color: #c42434 !important;
 }
@@ -148,7 +149,7 @@ body {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.1px solid #c42434 !important;
+    border-top: 0.1px solid #dc3545 !important;
     border-bottom: 0.1px solid #d8d8d8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
@@ -166,6 +167,7 @@ body {
     border-right: 10px solid #dc3545 !important;
     justify-content: center !important;
     align-items: center !important;
+
 }
 
 #B {
@@ -189,7 +191,7 @@ body {
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
     color: #fff !important;
-    background-color: #cd3545 !important;
+    background-color: #c42434 !important;
 }
 
 #Nav-One {
@@ -579,7 +581,7 @@ a {
 
 #Learnmore {
     width: 100% !important;
-    height: 50px !important;
+    height: auto !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -794,6 +796,8 @@ a {
     background-color: #fff !important;
     border-left: none !important;
     border-right: none !important;
+    border-top: 0.1px dashed rgba(133, 126, 133, 0.294) !important;
+    border-bottom: 0.1px dashed rgba(133, 126, 133, 0.294) !important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 14px !important;
@@ -1019,6 +1023,50 @@ a {
     background-color: transparent !important;
 }
 
+#WINNIPEG {
+    width: 22.85rem !important;
+    display: block !important;
+    font-size: 15px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: #4d4d4d !important;
+    padding: 10px !important;
+    background-color: #fff !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 0.1px dashed #929292a3 !important;
+    border-right: 0.1px dashed #929292a3 !important;
+}
+
+#WINNIPEG:hover {
+    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
+    transition: 0.3s box-shadow ease-in-out !important;
+    color: #000 !important;
+}
+
+#EDMONTON {
+    width: 22.85rem !important;
+    display: block !important;
+    font-size: 15px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: #4d4d4d !important;
+    padding: 10px !important;
+    background-color: #fff !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 0.1px dashed #929292a3 !important;
+    border-right: 0.1px dashed #929292a3 !important;
+}
+
+#EDMONTON:hover {
+    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
+    transition: 0.3s box-shadow ease-in-out !important;
+    color: #000 !important;
+}
+
 #BALOU {
     width: 22.85rem !important;
     display: block !important;
@@ -1027,11 +1075,12 @@ a {
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     color: #4d4d4d !important;
+    padding: 10px !important;
     background-color: #fff !important;
-    border-top: 0.25rem dashed #929292a3 !important;
+    border-top: none !important;
     border-bottom: none !important;
-    border-left: none !important;
-    border-right: none !important;
+    border-left: 0.1px dashed #929292a3 !important;
+    border-right: 0.1px dashed #929292a3 !important;
 }
 
 #BALOU:hover {
