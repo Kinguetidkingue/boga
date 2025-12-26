@@ -343,17 +343,18 @@ a {
 
 #Universities {
     background-color: #0d2364 !important;
-    color: rgb(255, 148, 255) !important;
-    font-size: 16px !important;
+    color: #fff !important;
+    font-size: 18px !important;
     padding: 15px !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #Lin a {
-    color: rgb(255, 180, 255) !important;
-    font-size: 12px !important;
+    line-height: 1.7 !important;
+    color: #fff !important;
+    font-size: 14px !important;
     text-decoration: none !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #Lin a:hover {
@@ -774,7 +775,7 @@ a {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 70% !important;
+    width: 69.7% !important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
@@ -782,7 +783,7 @@ a {
 }
 
 #RightContainer {
-    width: 30% !important;
+    width: 30.3% !important;
     height: auto !important;
     display: flex !important;
     flex-direction: column !important;
@@ -806,8 +807,8 @@ a {
     background-color: #fff !important;
     border-left: none !important;
     border-right: none !important;
-    border-top: 0.1px dashed rgba(133, 126, 133, 0.294) !important;
-    border-bottom: 0.1px dashed rgba(133, 126, 133, 0.294) !important;
+    border-top: 0.1px dashed rgba(165, 165, 165, 0.294) !important;
+    border-bottom: 0.1px dashed rgba(165, 165, 165, 0.294) !important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 14px !important;
@@ -817,7 +818,7 @@ a {
 }
 
 #CC-List a:hover {
-    background-color: #f3f3f3 !important;
+    background-color: #f2f2f29f !important;
     color: red !important;
     transition: background-color all 0.3s ease-in-out !important;
 }
