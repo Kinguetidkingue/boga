@@ -347,6 +347,7 @@ a {
     font-size: 18px !important;
     padding: 15px !important;
     font-family: Arial, Helvetica, sans-serif !important;
+    border-top: 0.1px solid #fff !important;
 }
 
 #Lin a {
@@ -783,7 +784,7 @@ a {
 }
 
 #RightContainer {
-    width: 30.3% !important;
+    width: 21rem !important;
     height: auto !important;
     display: flex !important;
     flex-direction: column !important;
