@@ -782,7 +782,7 @@ a {
 }
 
 #RightContainer {
-    width: 21rem !important;
+    width: 30.3% !important;
     height: auto !important;
     display: flex !important;
     flex-direction: column !important;
