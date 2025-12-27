@@ -339,6 +339,7 @@ a {
     font-size: 22px !important;
     padding-top: 50px !important;
     color: #ffaa65 !important;
+    border-bottom: 0.1px solid #fff !important;
 }
 
 #Universities {
