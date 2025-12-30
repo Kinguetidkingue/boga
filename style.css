@@ -365,7 +365,7 @@ a {
     font-weight: bold !important;
     font-family: "Ubuntu", sans-serif !important;
     font-size: 16px !important;
-    color: #0d6efd !important;
+    color: #6c757d !important;
     border-bottom: 0.15rem solid transparent !important;
 }
 
@@ -788,14 +788,14 @@ a {
     background-color: #fff !important;
     position: sticky !important;
     top: 90px !important;
-    font-size: 21px !important;
-    padding: 20px !important;
+    font-size: 18px !important;
+    padding: 25px !important;
     border: none !important;
 }
 
 .CC {
     width: 100% !important;
-    height: 35px !important;
+    height: 40px !important;
     display: flex !important;
     flex-direction: column !important;
     background-color: #fff !important;
@@ -805,6 +805,7 @@ a {
     border-bottom: 0.25px dashed rgba(88, 88, 88, 0.393) !important;
     justify-content: center !important;
     align-items: center !important;
+    text-align: right !important;
     font-size: 14px !important;
     font-weight: bolder !important;
     color: #000 !important;
