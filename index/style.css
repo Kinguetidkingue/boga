@@ -264,6 +264,15 @@ a {
     font-family: inherit;
 }
 
+.HOVER {
+    color: rgb(1, 1, 155) !important;
+    text-decoration: none !important;
+}
+
+.HOVER:hover {
+    font-weight: bold !important;
+}
+
 .ROVER {
     text-decoration: none;
 }
@@ -320,7 +329,8 @@ a {
     font-size: 22px !important;
     padding-top: 50px !important;
     color: #ffaa65 !important;
-    border-bottom: 0.1px solid #fff !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 0.15rem solid #648bff !important;
 }
 
 #Universities {
@@ -334,7 +344,7 @@ a {
 #Lin a {
     width: 100%;
     color: #fff !important;
-    font-size: 12px !important;
+    font-size: 11.5px !important;
     text-decoration: none !important;
     font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -342,6 +352,8 @@ a {
 #Lin a:hover {
     color: #ff0 !important;
     transition: background-color 0.3s ease-in-out;
+    font-size: 12px !important;
+    font-weight: bold !important;
 }
 
 .Bo {
@@ -472,11 +484,11 @@ a {
     width: 100% !important;
     height: 100px !important;
     font-family: "Ubuntu", serif !important;
-    font-weight: lighter !important;
+    font-weight: bold !important;
     line-height: 1.2 !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-top: -2.75rem !important;
+    margin-top: 2.75rem !important;
 }
 
 #SUN:hover {
@@ -775,22 +787,22 @@ a {
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 108px !important;
-    font-size: 20px !important;
-    padding: 15px !important;
+    top: 90px !important;
+    font-size: 21px !important;
+    padding: 20px !important;
     border: none !important;
 }
 
 .CC {
     width: 100% !important;
-    height: auto !important;
+    height: 35px !important;
     display: flex !important;
     flex-direction: column !important;
     background-color: #fff !important;
     border-left: none !important;
     border-right: none !important;
-    border-top: 0.1px dashed rgba(165, 165, 165, 0.294) !important;
-    border-bottom: 0.1px dashed rgba(165, 165, 165, 0.294) !important;
+    border-top: 0.25px dashed rgba(88, 88, 88, 0.393) !important;
+    border-bottom: 0.25px dashed rgba(88, 88, 88, 0.393) !important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 14px !important;
@@ -980,15 +992,11 @@ a {
     width: 100% !important;
     height: auto !important;
     display: block !important;
-    font-size: 17px !important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    padding: 10px !important;
-    color: #000 !important;
-    box-shadow: 0 0 1rem 1px #111a7dec !important;
-    background-color: #0e2660 !important;
-    opacity: 0.99 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #112f75 !important;
 }
 
 #List-UL {
@@ -1014,52 +1022,6 @@ a {
     justify-content: center !important;
     align-items: center !important;
     background-color: transparent !important;
-}
-
-#WINNIPEG {
-    width: 22.85rem !important;
-    display: block !important;
-    font-size: 15px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: "Ubuntu", sans-serif !important;
-    color: #4d4d4d !important;
-    padding: 10px !important;
-    background-color: #fff !important;
-    border-left: 0.12rem dashed #929292a3 !important;
-    border-right: 0.12rem dashed #929292a3 !important;
-    border-top: 0.12rem transparent !important;
-    border-bottom: 0.12rem transparent !important;
-}
-
-#WINNIPEG:hover {
-    border: 0.12rem dashed #929292a3 !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
-    transition: 0.3s box-shadow ease-in-out !important;
-    color: #000 !important;
-}
-
-#EDMONTON {
-    width: 22.85rem !important;
-    display: block !important;
-    font-size: 15px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: "Ubuntu", sans-serif !important;
-    color: #4d4d4d !important;
-    padding: 10px !important;
-    background-color: #fff !important;
-    border-left: 0.12rem dashed #929292a3 !important;
-    border-right: 0.12rem dashed #929292a3 !important;
-    border-top: 0.12rem transparent !important;
-    border-bottom: transparent !important;
-}
-
-#EDMONTON:hover {
-    border: 0.12rem dashed #929292a3 !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
-    transition: 0.3s box-shadow ease-in-out !important;
-    color: #000 !important;
 }
 
 #BALOU {
