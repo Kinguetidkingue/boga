@@ -147,10 +147,10 @@ body {
     width: 100% !important;
     height: auto !important;
     flex-direction: column !important;
-    justify-content: center !important;
+    justify-content: space-evenly !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.15rem solid #dc3545 !important;
+    border-top: 0.12rem solid #dc3545 !important;
     border-bottom: 0.1px solid #d8d8d8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
@@ -200,7 +200,6 @@ body {
     width: 100% !important;
     height: auto !important;
     display: flex !important;
-    flex-wrap: wrap !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
@@ -230,8 +229,7 @@ body {
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 12px !important;
     font-weight: lighter !important;
-    color: #c42434 !important;
-    border: 1.55px solid transparent !important;
+    color: #000 !important;
 }
 
 #SERVICES:hover {
@@ -246,13 +244,7 @@ body {
 
 .navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
-    background-color: #dbffee92 !important;
     font-weight: bolder !important;
-}
-
-.navbar-brand:hover {
-    background-color: #fff !important;
-    transition: background-color 0.3s ease-in-out;
 }
 
 ul {
@@ -270,17 +262,6 @@ a {
     text-decoration: none;
     color: inherit;
     font-family: inherit;
-}
-
-.HOVER {
-    text-decoration: none;
-}
-
-.HOVER:hover {
-    font-weight: bold;
-    text-decoration: underline;
-    color: var(--bs-bb-blue) !important;
-    transition: background-color 0.3s ease-in-out;
 }
 
 .ROVER {
