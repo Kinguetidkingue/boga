@@ -976,6 +976,7 @@ a {
     padding: 10px !important;
     background-color: #fff !important;
     border: 0.12px solid #c6c6c6ff !important;
+    border-radius: 0.5rem !important;
 }
 
 #Bootstrap:hover {
