@@ -150,7 +150,7 @@ body {
     justify-content: space-evenly !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.12rem solid #dc3545 !important;
+    border-top: 0.12rem solid gray !important;
     border-bottom: 0.1px solid #d8d8d8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
@@ -248,20 +248,30 @@ body {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin-top: 0.25rem !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    background-color: #f0f0f0 !important;
+    border: 2px solid #e5e5e5 !important;
 }
 
 li {
-    list-style: none;
-    margin-left: 25px !important;
+    list-style: none !important;
+    margin-left: 20px !important;
 }
 
 a {
     text-decoration: none;
     color: inherit;
     font-family: inherit;
+}
+
+.navbar ul li a:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+    transition: 0.4s background-color ease-in-out !important;
 }
 
 .HOVER {
@@ -363,14 +373,14 @@ a {
     width: 100% !important;
     height: 22px !important;
     font-weight: bold !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 16px !important;
     color: #6c757d !important;
-    border-bottom: 0.15rem solid transparent !important;
+    border-bottom: 0.14rem solid transparent !important;
 }
 
 .Bo:hover {
-    border-bottom: 0.15rem solid rgb(27, 203, 27) !important;
+    border-bottom: 0.14rem solid rgb(27, 203, 27) !important;
     transition: background-color all 0.3s ease-in-out !important;
     color: red !important;
 }
@@ -453,8 +463,8 @@ a {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 30px !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-size: 28px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     line-height: 1.6 !important;
     padding: 10px !important;
 
@@ -515,7 +525,7 @@ a {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
-    box-shadow: 0 1px 5rem 3px rgba(121, 121, 121, 0.653) !important;
+    box-shadow: 0 1px 3rem 2px rgba(151, 151, 151, 0.653) !important;
 }
 
 #READMORE {
@@ -602,7 +612,7 @@ a {
 
 #LearninG {
     width: 100% !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-weight: lighter !important;
     font-size: 18px !important;
     color: #000 !important;
@@ -674,7 +684,7 @@ a {
     width: 100% !important;
     height: 383px !important;
     font-weight: bolder !important;
-    font-size: 50px !important;
+    font-size: 45px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 50px !important;
@@ -784,7 +794,7 @@ a {
     justify-content: center !important;
     align-items: center !important;
     color: #000 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     position: sticky !important;
     top: 90px !important;
@@ -809,7 +819,7 @@ a {
     font-size: 14px !important;
     font-weight: bolder !important;
     color: #000 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #CC-List a:hover {
@@ -1036,17 +1046,9 @@ a {
     color: #4d4d4d !important;
     padding: 10px !important;
     background-color: #fff !important;
-    border-left: 0.12rem dashed #929292a3 !important;
-    border-right: 0.12rem dashed #929292a3 !important;
-    border-top: 0.12rem dashed transparent !important;
-    border-bottom: 0.12rem dashed transparent !important;
 }
 
 #BALOU:hover {
-    border-left: 0.12rem dashed #929292a3 !important;
-    border-right: 0.12rem dashed #929292a3 !important;
-    border-top: 0.12rem #929292a3 !important;
-    border-bottom: 0.12rem #929292a3 !important;
     box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
@@ -1056,13 +1058,13 @@ a {
     width: 50% !important;
     height: auto !important;
     display: block !important;
-    font-size: 17px !important;
+    font-size: 18px !important;
     justify-content: center !important;
     align-items: center !important;
     line-height: 1.7 !important;
     font-weight: lighter !important;
     color: #555 !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     padding-right: 10px !important;
 }
