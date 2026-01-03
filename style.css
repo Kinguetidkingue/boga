@@ -253,7 +253,7 @@ ul {
     margin: 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    background-color: #eeeeee !important;
+    background-color: #d9d9d9 !important;
     border: 0.5px solid #d4d4d4 !important;
 }
 
@@ -601,10 +601,10 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-size: 18px !important;
-    color: #fff !important;
-    border: 0.12px solid #c2c2c2 !important;
+    color: #666 !important;
+    border: 0.12px solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
-    background-color: #000 !important;
+    background-color: #cdcdcd !important;
 }
 
 #Learnmore:hover {
@@ -881,7 +881,7 @@ a {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #e7e7e7bc !important;
+    background-color: #ededed !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
