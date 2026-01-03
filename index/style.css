@@ -150,7 +150,7 @@ body {
     justify-content: space-evenly !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.12rem solid gray !important;
+    border-top: 0.15rem solid #dc3545 !important;
     border-bottom: 0.1px solid #d8d8d8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
@@ -184,15 +184,15 @@ body {
 #FRANCAIS {
     font-size: 14px !important;
     font-weight: bolder !important;
-    color: #cd3545 !important;
-    border: 0.1px solid #cd3545 !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #c42434 !important;
 }
 
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
-    color: #fff !important;
-    background-color: #c42434 !important;
+    color: #cd3545 !important;
+    border: 0.1px solid #cd3545 !important;
+    background-color: #fff !important;
 }
 
 #Nav-One {
@@ -253,8 +253,12 @@ ul {
     margin: 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    background-color: #f0f0f0 !important;
-    border: 2px solid #e5e5e5 !important;
+    background-color: #ededed !important;
+    border: 0.15px solid #dcdcdc !important;
+}
+
+ul:hover {
+    background-color: #e9ecef !important;
 }
 
 li {
@@ -575,16 +579,17 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-size: 16px !important;
-    background-color: #000 !important;
+    padding: 10px !important;
+    background-color: #a5a5a5 !important;
     color: #fff !important;
     font-weight: bolder !important;
-    border: 2px solid transparent !important;
+    border: 1.25px solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 
 #LEARNMORE:hover {
     background-color: #fff !important;
-    border: 2px #000 solid !important;
+    border: 1.25px #000 solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
 }
@@ -783,7 +788,7 @@ a {
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-    padding-right: 15px !important;
+    padding-right: 25px !important;
 }
 
 #RightContainer {
@@ -793,13 +798,12 @@ a {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    color: #000 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     position: sticky !important;
     top: 105px !important;
     font-size: 18px !important;
-    padding: 25px !important;
+    padding: 35px !important;
     border: none !important;
 }
 
@@ -815,7 +819,7 @@ a {
     text-align: right !important;
     font-size: 14px !important;
     font-weight: bolder !important;
-    color: #000 !important;
+    color: #494949 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
