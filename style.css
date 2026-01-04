@@ -897,7 +897,7 @@ a {
     display: flex !important;
     flex-direction: column !important;
     background-color: transparent !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     padding-bottom: 10px !important;
 }
 
