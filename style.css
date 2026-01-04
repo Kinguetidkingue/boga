@@ -147,11 +147,11 @@ body {
     width: 100% !important;
     height: auto !important;
     flex-direction: column !important;
-    justify-content: space-evenly !important;
+    justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.15rem solid #dc3545 !important;
-    border-bottom: 0.1px solid #d8d8d8 !important;
+    border-top: 0.1px solid var(--bs-gray-300) !important;
+    border-bottom: 0.1px solid var(--bs-gray-300) !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -248,17 +248,19 @@ body {
 }
 
 ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
     margin-top: 0.25rem !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    background-color: #d9d9d9 !important;
-    border: 0.5px solid #d4d4d4 !important;
+    background-color: #e2e2e2 !important;
+    border: 0.1px solid #bebebe !important;
 }
 
 ul:hover {
-    background-color: #e2e2e2 !important;
+    background-color: #e8e6e6 !important;
 }
 
 li {
@@ -270,6 +272,7 @@ a {
     text-decoration: none;
     color: inherit;
     font-family: inherit;
+    font-size: inherit;
 }
 
 .navbar ul li a:hover {
@@ -370,7 +373,7 @@ a {
     font-weight: bold !important;
 }
 
-.Bo {
+#Bo {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -379,12 +382,12 @@ a {
     font-weight: bold !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 16px !important;
-    color: #6c757d !important;
+    color: #000 !important;
     border-bottom: 0.14rem solid transparent !important;
 }
 
-.Bo:hover {
-    border-bottom: 0.14rem solid rgb(27, 203, 27) !important;
+#Bo:hover {
+    border-bottom: 0.15rem solid #000 !important;
     transition: background-color all 0.3s ease-in-out !important;
     color: red !important;
 }
@@ -559,17 +562,16 @@ a {
     justify-content: center !important;
     align-items: center !important;
     font-size: 16px !important;
-    color: #fff !important;
+    color: #333 !important;
     border: 0.1rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #d101d1 !important;
+    background-color: #bebebe !important;
 }
 
 #READ-MORE:hover {
     background-color: #fff !important;
-    border: 0.1rem solid transparent !important;
+    border: 0.1rem solid #bebebe !important;
     transition: background-color 0.3s ease-in-out;
-    color: #d101d1 !important;
 }
 
 #LEARNMORE {
@@ -580,8 +582,8 @@ a {
     align-items: center !important;
     font-size: 16px !important;
     padding: 10px !important;
-    background-color: #a5a5a5 !important;
-    color: #fff !important;
+    background-color: #e2e2e2 !important;
+    color: #333 !important;
     font-weight: bolder !important;
     border: 1.25px solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
@@ -589,7 +591,7 @@ a {
 
 #LEARNMORE:hover {
     background-color: #fff !important;
-    border: 1.25px #000 solid !important;
+    border: 1.25px #bebebe solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
 }
@@ -610,7 +612,7 @@ a {
 #Learnmore:hover {
     background-color: #fff !important;
     font-size: 18px !important;
-    border: 0.12px #000 solid !important;
+    border: 0.15px #bebebe solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
 }
@@ -777,6 +779,7 @@ a {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
+    flex-wrap: wrap !important;
 }
 
 #ALL_TOGETHER {
@@ -881,7 +884,7 @@ a {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #ededed !important;
+    background-color: #e2e2e2 !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
@@ -920,7 +923,7 @@ a {
     align-items: center !important;
     padding: 15px !important;
     background-color: #fff !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #Tropical {
@@ -968,11 +971,9 @@ a {
     height: auto !important;
     display: flex !important;
     flex-direction: row !important;
-    font-size: 17px !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
-    color: #000 !important;
 }
 
 #Bootstrap {
@@ -1056,15 +1057,14 @@ a {
 }
 
 #BLOCK {
-    width: 50% !important;
+    width: 55% !important;
     height: auto !important;
     display: block !important;
     font-size: 18px !important;
     justify-content: center !important;
     align-items: center !important;
     line-height: 1.7 !important;
-    font-weight: lighter !important;
-    color: #555 !important;
+    color: #000 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     padding-right: 10px !important;
