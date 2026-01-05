@@ -125,7 +125,7 @@ body {
 }
 
 .TOPBANNER {
-    background-color: #c42434 !important;
+    background-color: #dc3545 !important;
 }
 
 #demo {
@@ -150,7 +150,7 @@ body {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 2px solid var(--bs-danger) !important;
+    border-top: 0.5rem solid #dc3545 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -172,6 +172,11 @@ body {
 
 }
 
+#Logo:hover {
+    background-color: #ffe25eeb !important;
+    transition: 0.3s background-color ease-in-out !important;
+}
+
 #B {
     font-size: 14.5px !important;
 }
@@ -186,7 +191,7 @@ body {
     font-size: 14px !important;
     font-weight: bolder !important;
     color: #fff !important;
-    background-color: #c42434 !important;
+    background-color: #dc3545 !important;
 }
 
 #FRANCAIS:hover {
@@ -339,11 +344,11 @@ a {
     width: 100% !important;
     height: 300px !important;
     background-color: #0d2364 !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: bolder !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
     padding-top: 50px !important;
     color: #ffaa65 !important;
     margin-bottom: 1rem !important;
@@ -387,9 +392,9 @@ a {
 }
 
 #Bo:hover {
-    border-bottom: 0.15rem solid #2a6ff9 !important;
+    border-bottom: 0.15rem solid #2c55fc !important;
     transition: background-color all 0.3s ease-in-out !important;
-    color: red !important;
+    color: #dc3545 !important;
 }
 
 #Resources {
@@ -552,13 +557,14 @@ a {
     color: #333 !important;
     border: 0.1rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #bebebe !important;
+    background-color: #c5c5c5 !important;
 }
 
 #READ-MORE:hover {
     background-color: #fff !important;
     border: 0.1rem solid #bebebe !important;
     transition: background-color 0.3s ease-in-out;
+    color: rgb(32, 97, 196) !important;
 }
 
 #LEARNMORE {
@@ -807,15 +813,16 @@ a {
     justify-content: center !important;
     align-items: center !important;
     text-align: right !important;
-    font-size: 14px !important;
-    font-weight: bolder !important;
-    color: #494949 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #CC-List a:hover {
     background-color: #f2f2f29f !important;
     color: red !important;
+    font-weight: bold !important;
     transition: background-color all 0.3s ease-in-out !important;
 }
 
@@ -964,7 +971,7 @@ a {
 }
 
 #Bootstrap {
-    width: 21.5rem !important;
+    width: 22.7rem !important;
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
@@ -997,7 +1004,7 @@ a {
     align-items: center !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background-color: #112f75 !important;
+    background-color: #1762b3fe !important;
 }
 
 #List-UL {
