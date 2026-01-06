@@ -798,10 +798,11 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 105px !important;
+    top: 100px !important;
     font-size: 18px !important;
     padding: 35px !important;
     border: none !important;
+    margin-top: -27rem !important;
 }
 
 .CC {
@@ -819,7 +820,6 @@ a {
     color: #3e3e3e !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
-
 #CC-List a:hover {
     background-color: #f2f2f29f !important;
     color: red !important;
