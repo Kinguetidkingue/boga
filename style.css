@@ -163,6 +163,7 @@ body {
     height: 60px !important;
     padding: 10px !important;
     margin-left: 25px !important;
+    background-color: #ffe77cfd !important;
     font-weight: bolder !important;
     border: 1px solid #dc3545 !important;
     border-right: 10px solid #dc3545 !important;
@@ -173,7 +174,7 @@ body {
 }
 
 #Logo:hover {
-    background-color: #ffe25eeb !important;
+    background-color: #fff !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 
@@ -260,12 +261,12 @@ ul {
     margin: 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    background-color: #e2e2e2 !important;
-    border: 0.1px solid #b8b8b8 !important;
+    background-color: #e5e5e5 !important;
+    border: 0.1px solid #ababab !important;
 }
 
 ul:hover {
-    background-color: #e8e6e6 !important;
+    background-color: #e1e1e1 !important;
 }
 
 li {
@@ -1033,14 +1034,14 @@ a {
 }
 
 #BALOU {
-    width: 22.85rem !important;
+    width: 22.66rem !important;
     display: block !important;
-    font-size: 15px !important;
+    font-size: 14.5px !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     color: #4d4d4d !important;
-    padding: 10px !important;
+    padding: 8px !important;
     background-color: #fff !important;
 }
 
