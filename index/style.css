@@ -928,13 +928,14 @@ a {
     flex-direction: column !important;
     width: 100% !important;
     height: auto !important;
-    color: #fff !important;
+    color: rgb(11, 11, 180) !important;
+    background-color: #fff !important;
 }
 
 .Tourismo:hover {
     background-color: rgb(11, 11, 180) !important;
     color: #ff0 !important;
-    transition: background-color all 0.3s ease-in-out !important;
+    transition: 0.3s background-color ease-in-out !important;
 }
 
 #Tropical {
@@ -1021,7 +1022,13 @@ a {
     align-items: center !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background-color: #143f8f !important;
+    background-color: #133794 !important;
+}
+
+#LearnMoreButton:hover {
+    background-color: #fff !important;
+    color: #133794 !important;
+    transition: background-color 0.3s ease-in-out !important;
 }
 
 #List-UL {
@@ -1057,14 +1064,15 @@ a {
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     color: #4d4d4d !important;
-    padding: 8px !important;
+    padding: 12px !important;
     background-color: #fff !important;
 }
 
 #BALOU:hover {
-    box-shadow: 0 2px 1rem 0.1px rgba(58, 58, 58, 0.626) !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
     transition: 0.3s box-shadow ease-in-out !important;
-    color: #000 !important;
+    color: #0d37dd !important;
+    background-color: #fff !important;
 }
 
 #BLOCK {
@@ -1108,26 +1116,25 @@ a {
     justify-content: center;
     align-items: center;
     display: block !important;
-    color: #0dcaf0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #fff !important;
     line-height: 1.7 !important;
     padding: 20px !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     font-size: 20px !important;
     background-color: transparent !important;
 }
 
 #Pat {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     border-radius: 0.5rem !important;
     background-color: transparent !important;
     width: 100% !important;
     height: auto !important;
     justify-content: center;
+    color: #fff !important;
     align-items: center;
     display: block !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    color: rgb(69, 205, 255) !important;
     line-height: 1.7 !important;
     padding: 20px !important;
 }
@@ -1148,8 +1155,8 @@ a {
     height: auto;
     padding: 20px !important;
     line-height: 1.7 !important;
-    font-size: 20px !important;
-    color: rgb(69, 205, 255) !important;
+    font-size: 18px !important;
+    color: #fff !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     background-color: transparent !important;
 }
@@ -1161,8 +1168,8 @@ a {
     align-items: center !important;
     display: block !important;
     line-height: 1.7 !important;
-    font-size: 20px !important;
-    color: rgb(69, 205, 255) !important;
+    font-size: 18px !important;
+    color: #fff !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     background-color: transparent !important;
 }
@@ -1175,8 +1182,9 @@ a {
     align-items: center !important;
     display: block !important;
     position: relative !important;
-    padding: 20px !important;
-    color: rgb(69, 205, 255) !important;
+    padding: 18px !important;
+    color: #fff !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     background-color: transparent !important;
 }
 
