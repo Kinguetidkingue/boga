@@ -150,7 +150,7 @@ body {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid #dc3545 !important;
+    border-top: 1.6px solid #dc3545 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -162,15 +162,13 @@ body {
     width: auto !important;
     height: 60px !important;
     padding: 10px !important;
-    margin-left: 25px !important;
-    background-color: #ffe77cfd !important;
+    margin-left: 20px !important;
+    background-color: #ffeea1e8 !important;
     font-weight: bolder !important;
-    border: 1px solid #dc3545 !important;
+    border-top: 2px solid #dc3545 !important;
     border-right: 10px solid #dc3545 !important;
     justify-content: center !important;
     align-items: center !important;
-    border-radius: 0.5rem !important;
-
 }
 
 #Logo:hover {
@@ -189,7 +187,7 @@ body {
 }
 
 #FRANCAIS {
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: bolder !important;
     color: #fff !important;
     background-color: #dc3545 !important;
@@ -261,12 +259,12 @@ ul {
     margin: 0 !important;
     padding: 0 !important;
     list-style: none !important;
-    background-color: #e1e1e1 !important;
-    border: 0.1px solid #ababab !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 ul:hover {
-    background-color: #e5e5e5 !important;
+    background-color: #eaeaea !important;
 }
 
 li {
@@ -353,7 +351,7 @@ a {
     padding-top: 50px !important;
     color: #ffaa65 !important;
     margin-bottom: 1rem !important;
-    border-bottom: 0.15rem solid #ffaa65 !important;
+    border-bottom: 0.1px solid #ffaa65 !important;
 }
 
 #Universities {
@@ -919,6 +917,7 @@ a {
     align-items: center !important;
     padding: 15px !important;
     background-color: #fff !important;
+    border-left: 0.1px solid rgb(220, 220, 220) !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     cursor: pointer !important;
 }
@@ -1020,8 +1019,8 @@ a {
     display: block !important;
     justify-content: center !important;
     align-items: center !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
     background-color: #133794 !important;
 }
 
