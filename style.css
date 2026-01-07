@@ -309,7 +309,7 @@ a {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #0d2364 !important;
+    background-color: #133794 !important;
 }
 
 #TOPO {
@@ -336,13 +336,13 @@ a {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #0d2364 !important;
+    background-color: #133794 !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
-    background-color: #0d2364 !important;
+    background-color: #133794 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     justify-content: center !important;
     align-items: center !important;
@@ -351,11 +351,11 @@ a {
     padding-top: 50px !important;
     color: #ffaa65 !important;
     margin-bottom: 1rem !important;
-    border-bottom: 0.1px solid #ffaa65 !important;
+    border-bottom: 0.1px solid #fff !important;
 }
 
 #Universities {
-    background-color: #0d2364 !important;
+    background-color: #133794 !important;
     color: #fff !important;
     font-size: 18px !important;
     padding: 15px !important;
@@ -1024,9 +1024,14 @@ a {
     background-color: #133794 !important;
 }
 
+#LearnMoreButton {
+    background-color: #f24b18 !important;
+    color: #fff !important;
+}
+
 #LearnMoreButton:hover {
     background-color: #fff !important;
-    color: #133794 !important;
+    color: #000 !important;
     transition: background-color 0.3s ease-in-out !important;
 }
 
