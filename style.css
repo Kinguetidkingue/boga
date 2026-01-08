@@ -163,9 +163,9 @@ body {
     height: 60px !important;
     padding: 10px !important;
     margin-left: 20px !important;
-    background-color: #ffed9cfa !important;
+    background-color: #fff1b5e4 !important;
     font-weight: bolder !important;
-    border-top: 2.39px solid #dc3545 !important;
+    border-top: 2.35px solid #dc3545 !important;
     border-right: 10px solid #dc3545 !important;
     justify-content: center !important;
     align-items: center !important;
@@ -1025,7 +1025,7 @@ a {
     align-items: center !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
-    background-color: #123795 !important;
+    background-color: #12389a !important;
 }
 
 #LearnMoreButton {
@@ -1052,6 +1052,7 @@ a {
     line-height: 1.85 !important;
     padding: 20px !important;
 }
+
 #List-UL:hover {
     background-color: transparent !important;
 }
