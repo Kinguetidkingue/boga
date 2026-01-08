@@ -916,10 +916,12 @@ a {
     flex-direction: column;
     justify-content: center !important;
     align-items: center !important;
-    padding: 15px !important;
+    padding: 25px !important;
     background-color: #fff !important;
-    border-left: 0.1px solid rgb(220, 220, 220) !important;
+    border: 0.1px solid rgb(147, 147, 147) !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
     cursor: pointer !important;
 }
 
@@ -930,6 +932,7 @@ a {
     height: auto !important;
     color: rgb(11, 11, 180) !important;
     background-color: #fff !important;
+    border: none !important;
 }
 
 .Tourismo:hover {
