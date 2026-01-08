@@ -1040,17 +1040,17 @@ a {
 }
 
 #List-UL {
-    width: 100% !important;
-    height: auto !important;
-    font-size: 18px !important;
-    justify-content: center !important;
-    align-items: center !important;
     display: block !important;
-    position: relative !important;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
     padding: 20px !important;
-    color: #ecf8ff !important;
-    background-color: transparent !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #BTHREE {
@@ -1124,26 +1124,23 @@ a {
     justify-content: center;
     align-items: center;
     display: block !important;
-    font-family: Arial, Helvetica, sans-serif !important;
     color: #fff !important;
-    line-height: 1.7 !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
     padding: 20px !important;
-    font-size: 20px !important;
-    background-color: transparent !important;
 }
 
 #Pat {
-    font-size: 18px !important;
-    border-radius: 0.5rem !important;
-    background-color: transparent !important;
     width: 100% !important;
     height: auto !important;
     justify-content: center;
     color: #fff !important;
     align-items: center;
     display: block !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    line-height: 1.7 !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
     padding: 20px !important;
 }
 
@@ -1155,45 +1152,44 @@ a {
 
 #Topa {
     display: block !important;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
     width: 100%;
     height: auto;
-    padding: 20px !important;
-    line-height: 1.7 !important;
-    font-size: 18px !important;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
     color: #fff !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    background-color: transparent !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
+    padding: 20px !important;
 }
 
 #Atop {
-    width: 100% !important;
-    height: auto !important;
-    justify-content: center;
-    align-items: center !important;
     display: block !important;
-    line-height: 1.7 !important;
-    font-size: 18px !important;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
     color: #fff !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    background-color: transparent !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
+    padding: 20px !important;
 }
 
 #Pate {
-    width: 100% !important;
-    height: auto !important;
-    font-size: 20px !important;
-    justify-content: center !important;
-    align-items: center !important;
     display: block !important;
-    position: relative !important;
-    padding: 18px !important;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
     color: #fff !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    background-color: transparent !important;
+    font-size: 18px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
+    padding: 20px !important;
 }
 
 .sisi {
