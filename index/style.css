@@ -1052,6 +1052,9 @@ a {
     line-height: 1.85 !important;
     padding: 20px !important;
 }
+#List-UL:hover {
+    background-color: transparent !important;
+}
 
 #BTHREE {
     width: 100% !important;
