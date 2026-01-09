@@ -162,7 +162,6 @@ body {
     width: auto !important;
     height: 60px !important;
     padding: 10px !important;
-    margin-left: 20px !important;
     background-color: #fff1b5e4 !important;
     font-weight: bolder !important;
     border-top: 2.35px solid #dc3545 !important;
@@ -350,7 +349,7 @@ a {
     font-weight: bolder !important;
     font-size: 20px !important;
     padding-top: 50px !important;
-    color: #ff8a57 !important;
+    color: #ffa575 !important;
     margin-bottom: 1rem !important;
     border-bottom: 0.1px solid #fff !important;
 }
