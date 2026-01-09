@@ -151,6 +151,7 @@ body {
     align-items: center !important;
     background-color: #fff !important;
     border-top: 1.6px solid #dc3545 !important;
+    border-bottom: 0.1px solid #e8e8e8 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -991,7 +992,7 @@ a {
 }
 
 #Bootstrap {
-    width: 22.7rem !important;
+    width: 25rem !important;
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
@@ -1046,7 +1047,7 @@ a {
     align-items: center;
     display: block !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
@@ -1128,7 +1129,7 @@ a {
     align-items: center;
     display: block !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
@@ -1141,7 +1142,7 @@ a {
     color: #fff !important;
     align-items: center;
     display: block !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
@@ -1161,7 +1162,7 @@ a {
     align-items: center;
     display: block !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
@@ -1175,7 +1176,7 @@ a {
     align-items: center;
     display: block !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
@@ -1189,7 +1190,7 @@ a {
     align-items: center;
     display: block !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-family: "Inconsolata", monospace;
     line-height: 1.85 !important;
     padding: 20px !important;
