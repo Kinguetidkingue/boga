@@ -812,10 +812,10 @@ a {
     border: none !important;
     justify-content: center !important;
     align-items: center !important;
-    text-align: right !important;
+    text-align: center !important;
     font-size: 15px !important;
     font-weight: bold !important;
-    color: #3e3e3e !important;
+    color: green !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
