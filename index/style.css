@@ -163,16 +163,15 @@ body {
     width: auto !important;
     height: 60px !important;
     padding: 10px !important;
-    background-color: #fff1b5e4 !important;
     font-weight: bolder !important;
-    border-top: 2.35px solid #dc3545 !important;
+    background-color: #fff !important;
     border-right: 10px solid #dc3545 !important;
     justify-content: center !important;
     align-items: center !important;
 }
 
 #Logo:hover {
-    background-color: #fff !important;
+    background-color: #fff1b5e4 !important;
     transition: 0.3s background-color ease-in-out !important;
     border-top: none !important;
 }
