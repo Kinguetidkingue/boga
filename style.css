@@ -1028,8 +1028,9 @@ a {
 }
 
 #LearnMoreButton {
-    background-color: #f44d1a !important;
+    background-color: #ff5a1e !important;
     color: #fff !important;
+    font-weight: bold !important;
 }
 
 #LearnMoreButton:hover {
