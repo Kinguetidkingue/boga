@@ -309,7 +309,7 @@ a {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #134da3 !important;
+    background-color: #113381 !important;
 }
 
 #TOPO {
@@ -336,26 +336,26 @@ a {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #134da3 !important;
+    background-color: #113381 !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
-    background-color: #134da3 !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    background-color: #113381 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: bolder !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     padding-top: 50px !important;
-    color: #ffa575 !important;
+    color: #ff0 !important;
     margin-bottom: 1rem !important;
     border-bottom: 0.1px solid #fff !important;
 }
 
 #Universities {
-    background-color: #134da3 !important;
+    background-color: #113381 !important;
     color: #fff !important;
     font-size: 18px !important;
     padding: 15px !important;
