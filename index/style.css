@@ -126,7 +126,7 @@ body {
 }
 
 .TOPBANNER {
-    background-color: #d12738f6 !important;
+    background-color: #dc3545!important;
 }
 
 #demo {
@@ -150,7 +150,7 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #091056f3 !important;
+    background-color: #0a1269f9 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -193,9 +193,9 @@ body {
 
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
-    color: #cd3545 !important;
+    color: #000 !important;
     border: 0.1px solid #cd3545 !important;
-    background-color: #fff !important;
+    background-color: #ff0 !important;
 }
 
 #BOTON {
@@ -251,18 +251,19 @@ ul {
 }
 li {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px !important;
+    font-size: 16px !important;
     display: block !important;
     list-style-type: none !important;
     color: #fff !important;
     padding: 20px !important;
-    font-weight: bold! important;
 }
 
 li a:hover {
     color: #ff0 !important;
     text-decoration: none !important;
     transition: 0.3s background-color ease-in-out !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
 }
 
 .HOVER {
@@ -289,7 +290,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #113381 !important;
+    background-color: #123c9e !important;
 }
 
 #TOPO {
@@ -316,26 +317,26 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #113381 !important;
+    background-color: #123c9e !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
-    background-color: #113381 !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    background-color: #123c9e !important;
+    font-family: 'Courier New', Courier, monospace; 
     justify-content: center !important;
     align-items: center !important;
     font-weight: bolder !important;
-    font-size: 15px !important;
+    font-size: 8px !important;
     padding-top: 50px !important;
-    color: #ff0 !important;
+    color: rgb(255, 221, 0) !important;
     margin-bottom: 1rem !important;
     border-bottom: 0.1px solid #fff !important;
 }
 
 #Universities {
-    background-color: #113381 !important;
+    background-color: #123c9e !important;
     color: #fff !important;
     font-size: 18px !important;
     padding: 15px !important;
@@ -753,7 +754,7 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-family: helvetica !important;
     background-color: #fff !important;
     position: sticky !important;
     top: 100px !important;
@@ -775,8 +776,8 @@ li a:hover {
     text-align: center !important;
     font-size: 15px !important;
     font-weight: bold !important;
-    color: green !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    color: rgb(11, 105, 11) !important;
+    font-family: helvetica !important;
 }
 
 #CC-List a:hover {
@@ -1008,7 +1009,7 @@ li a:hover {
     display: block !important;
     color: #fff !important;
     font-size: 22px !important;
-    font-family: "Inconsolata", monospace;
+    font-family: "Inconsolata", monospace!important;
     line-height: 1.85 !important;
     padding: 20px !important;
 }
