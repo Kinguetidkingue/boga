@@ -1,3 +1,4 @@
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -149,29 +150,26 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #fff !important;
-    border-top: 1.6px solid #dc3545 !important;
-    border-bottom: 0.1px solid #e8e8e8 !important;
+    background-color: #080f4cf3 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
 }
-
 #Logo {
     display: flex !important;
     width: auto !important;
     height: 60px !important;
     padding: 10px !important;
     font-weight: bolder !important;
-    background-color: #fff !important;
-    border-right: 10px solid #dc3545 !important;
+    background-color: #fff1b5e4 !important;
     justify-content: center !important;
     align-items: center !important;
+    border-radius: 0.5rem !important;
 }
 
 #Logo:hover {
-    background-color: #fff1b5e4 !important;
+    background-color: #fff !important;
     transition: 0.3s background-color ease-in-out !important;
     border-top: none !important;
 }
@@ -198,18 +196,6 @@ body {
     color: #cd3545 !important;
     border: 0.1px solid #cd3545 !important;
     background-color: #fff !important;
-}
-
-#Nav-One {
-    background-color: transparent !important;
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    padding: 5px !important;
 }
 
 #BOTON {
@@ -258,31 +244,25 @@ ul {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    list-style: none !important;
+    list-style-type: none !important;
     justify-content: center !important;
     align-items: center !important;
+    overflow:hidden !important;
 }
-
-ul:hover {
-    background-color: #eaeaea !important;
-}
-
 li {
-    list-style: none !important;
-    margin-left: 20px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px !important;
+    display: block !important;
+    list-style-type: none !important;
+    color: #fff !important;
+    padding: 20px !important;
+    font-weight: bold! important;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-}
-
-.navbar ul li a:hover {
-    color: #000 !important;
+li a:hover {
+    color: #ff0 !important;
     text-decoration: none !important;
-    transition: 0.4s background-color ease-in-out !important;
+    transition: 0.3s background-color ease-in-out !important;
 }
 
 .HOVER {
@@ -376,26 +356,6 @@ a {
     font-size: 12px !important;
     font-weight: bold !important;
 }
-
-#Bo {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-    height: 22px !important;
-    font-weight: bold !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    font-size: 16px !important;
-    color: #000 !important;
-    border-bottom: 0.14rem solid transparent !important;
-}
-
-#Bo:hover {
-    border-bottom: 0.15rem solid #2c55fc !important;
-    transition: background-color all 0.3s ease-in-out !important;
-    color: #dc3545 !important;
-}
-
 #Resources {
     width: 100% !important;
     height: auto !important;
@@ -1208,6 +1168,5 @@ a {
     line-height: 1.65 !important;
     border-radius: 20px !important;
 }
-
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
