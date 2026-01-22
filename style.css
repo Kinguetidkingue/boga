@@ -126,7 +126,7 @@ body {
 }
 
 .TOPBANNER {
-    background-color: #dc3545 !important;
+    background-color: #d12738f6 !important;
 }
 
 #demo {
@@ -136,7 +136,7 @@ body {
     justify-content: center !important;
     align-items: center !important;
     font-size: 13.5px !important;
-    font-weight: lighter !important;
+    font-weight: bolder !important;
     margin-top: 10px !important;
     color: #fff !important;
     font-family: "Ubuntu", sans-serif !important;
@@ -150,7 +150,7 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #080f4cf3 !important;
+    background-color: #091056f3 !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     position: sticky !important;
     top: 0 !important;
@@ -984,7 +984,7 @@ li a:hover {
     align-items: center !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
-    background-color: #1563b7 !important;
+    background-color: #1f6fc5fe !important;
 }
 
 #LearnMoreButton {
