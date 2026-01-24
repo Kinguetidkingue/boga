@@ -148,7 +148,7 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.15rem solid #dc3545!important;
+    border-bottom: 0.5rem solid #dc3545!important;
     background-color: #fff !important;
     position: sticky !important;
     top: 0 !important;
