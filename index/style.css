@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -256,7 +258,7 @@ li {
 }
 
 li a:hover {
-    color: rgba(255, 0, 0, 0.898) !important;
+    color: rgba(255, 0, 0, 0.823) !important;
     text-decoration: none !important;
     transition: 0.3s background-color ease-in-out !important;
     font-weight: bold !important;
@@ -480,7 +482,7 @@ li a:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
-    box-shadow: 0 1px 3rem 2px rgba(151, 151, 151, 0.653) !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
 #READMORE {
@@ -511,16 +513,16 @@ li a:hover {
     align-items: center !important;
     font-size: 16px !important;
     color: #666 !important;
-    border: 0.1rem solid transparent !important;
+    border: 0.15rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: #cecece !important;
 }
 
 #READ-MORE:hover {
     background-color: #fff !important;
-    border: 0.1rem solid #bebebe !important;
+    border: 0.15rem solid #000 !important;
     transition: background-color 0.3s ease-in-out;
-    color: rgb(32, 97, 196) !important;
+    color: red !important;
 }
 
 #LEARNMORE {
@@ -534,15 +536,15 @@ li a:hover {
     background-color: #e2e2e2 !important;
     color: #333 !important;
     font-weight: bolder !important;
-    border: 1.25px solid transparent !important;
+    border: 0.15rem solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 
 #LEARNMORE:hover {
     background-color: #fff !important;
-    border: 1.25px #bebebe solid !important;
+    border: 0.15rem solid #000 !important;
     transition: background-color 0.3s ease-in-out;
-    color: #000 !important;
+    color: #666 !important;
 }
 
 #Learnmore {
@@ -1032,7 +1034,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    color: #4d4d4d !important;
+    color: #666 !important;
     padding: 12px !important;
     background-color: #fff !important;
 }
@@ -1040,7 +1042,7 @@ li a:hover {
 #BALOU:hover {
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
     transition: 0.3s box-shadow ease-in-out !important;
-    color: #0d37dd !important;
+    color: #000 !important;
     background-color: #fff !important;
 }
 
