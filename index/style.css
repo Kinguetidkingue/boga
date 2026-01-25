@@ -645,7 +645,7 @@ li a:hover {
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 50px !important;
+    padding: 40px !important;
     color: #333 !important;
     border-top: 0.15px solid #707070 !important;
     border-bottom: 0.15px solid #707070  !important;
@@ -751,13 +751,14 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: #fff !important;
+    background-color: rgba(238, 238, 238, 0.824) !important;
     position: sticky !important;
-    top: 100px !important;
+    top: 124px !important;
     font-size: 18px !important;
-    padding: 35px !important;
+    padding: 30px !important;
     border: none !important;
-    margin-top: -28rem !important;
+    border-top: 0.55rem solid #007bff !important;
+    margin-top: -25rem !important;
 }
 
 .CC {
@@ -770,9 +771,9 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
-    font-size: 15px !important;
+    font-size: 14px !important;
     font-weight: bold !important;
-    color: rgb(21, 155, 21) !important;
+    color: rgb(12, 158, 12) !important;
     font-family: helvetica !important;
 }
 
