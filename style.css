@@ -751,7 +751,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: rgba(238, 238, 238, 0.824) !important;
+    background-color: rgba(189, 189, 189, 0.677) !important;
     position: sticky !important;
     top: 124px !important;
     font-size: 18px !important;
@@ -767,21 +767,26 @@ li a:hover {
     display: flex !important;
     flex-direction: column !important;
     background-color: #fff !important;
-    border: none !important;
+    border: 0.15px solid rgba(148, 148, 148, 0.838) !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
-    font-size: 14px !important;
+    font-size: 13.5px !important;
     font-weight: bold !important;
-    color: rgb(12, 158, 12) !important;
+    color: rgba(12, 134, 12, 0.973) !important;
     font-family: helvetica !important;
+    border-radius: 2rem !important;
+    padding: 5px !important;
+    margin-bottom: 1.2px !important;
 }
 
 #CC-List a:hover {
-    background-color: #f2f2f29f !important;
+    background-color: transparent !important;
     color: red !important;
     font-weight: bold !important;
+    font-size: 18px !important;
     transition: background-color all 0.3s ease-in-out !important;
+    border: none !important;
 }
 
 #Block-wrapper {
