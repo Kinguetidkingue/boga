@@ -150,7 +150,8 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    border-bottom: 0.18rem solid #fb761e!important;
+    border-top: 0.13px solid rgb(172, 172, 172)!important;
+    border-bottom: 0.45rem solid #0e26aa!important;
     background-color: #fff !important;
     position: sticky !important;
     top: 0 !important;
@@ -189,9 +190,9 @@ body {
     border-bottom: 0.15rem solid transparent;
 }
 #DO:hover{
-    color: var(--bs-red) !important;
+    color: var(--bs-primary) !important;
     transition: 0.3s background-color ease-in-out;
-    border-bottom: 0.15rem solid var(--bs-bb-blue);
+    border-bottom: 0.15rem solid darkorange;
 }
 
 #FRANCAIS {
@@ -762,13 +763,13 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: rgba(182, 182, 182, 0.662) !important;
+    background-color: rgba(196, 195, 195, 0.662) !important;
     position: sticky !important;
-    top: 124px !important;
+    top: 122px !important;
     font-size: 18px !important;
     padding: 30px !important;
     border: none !important;
-    border-top: 0.55rem solid #007bff !important;
+    border-top: 0.5rem solid #dc3545 !important;
     margin-top: -25rem !important;
 }
 
@@ -784,7 +785,7 @@ li a:hover {
     text-align: center !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
-    color: rgba(12, 134, 12, 0.973) !important;
+    color: rgba(10, 173, 10, 0.969) !important;
     font-family: helvetica !important;
     border-radius: 2rem !important;
     padding: 5px !important;
