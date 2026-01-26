@@ -751,7 +751,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: rgba(189, 189, 189, 0.677) !important;
+    background-color: rgba(182, 182, 182, 0.662) !important;
     position: sticky !important;
     top: 124px !important;
     font-size: 18px !important;
@@ -767,7 +767,7 @@ li a:hover {
     display: flex !important;
     flex-direction: column !important;
     background-color: #fff !important;
-    border: 0.15px solid rgba(148, 148, 148, 0.838) !important;
+    border: 1.55px solid rgba(174, 174, 174, 0.838) !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
