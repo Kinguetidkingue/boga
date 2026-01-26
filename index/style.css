@@ -182,6 +182,17 @@ body {
     color: rgb(21, 171, 21) !important;
     word-spacing: 1px !important;
 }
+#DO{
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    border-bottom: 0.15rem solid transparent;
+}
+#DO:hover{
+    color: var(--bs-red) !important;
+    transition: 0.3s background-color ease-in-out;
+    border-bottom: 0.15rem solid var(--bs-bb-blue);
+}
 
 #FRANCAIS {
     font-size: 14px !important;
