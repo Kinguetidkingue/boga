@@ -150,9 +150,9 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.13px solid rgb(172, 172, 172)!important;
-    border-bottom: 0.45rem solid #0e26aa!important;
-    background-color: #fff !important;
+    border-top: 0.12px solid rgba(219, 219, 219, 0.966)!important;
+    border-bottom: 0.5rem solid #1474b4ec!important;
+    background-color: #ffffffec !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -254,7 +254,7 @@ ul {
     flex-wrap: wrap !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 10px !important;
     list-style-type: none !important;
     justify-content: center !important;
     align-items: center !important;
