@@ -151,7 +151,7 @@ body {
     justify-content: center !important;
     align-items: center !important;
     border-top: 0.12px solid rgba(219, 219, 219, 0.966)!important;
-    border-bottom: 0.5rem solid #147ec5ec!important;
+    border-bottom: 0.5rem solid #1581caf4!important;
     background-color: #ffffffef !important;
     position: sticky !important;
     top: 0 !important;
@@ -192,7 +192,7 @@ body {
 #DO:hover{
     color: var(--bs-primary) !important;
     transition: 0.3s background-color ease-in-out;
-    border-bottom: 0.15rem solid darkorange;
+    border-bottom: 0.2rem solid rgb(255, 129, 11);
 }
 
 #FRANCAIS {
