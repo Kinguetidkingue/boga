@@ -151,8 +151,8 @@ body {
     justify-content: center !important;
     align-items: center !important;
     border-top: 0.12px solid rgba(219, 219, 219, 0.966)!important;
-    border-bottom: 0.5rem solid #1474b4ec!important;
-    background-color: #ffffffec !important;
+    border-bottom: 0.5rem solid #147ec5ec!important;
+    background-color: #ffffffef !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
