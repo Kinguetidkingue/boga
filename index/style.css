@@ -150,9 +150,9 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.12px solid rgba(219, 219, 219, 0.966)!important;
-    border-bottom: 0.5rem solid #1581caf4!important;
-    background-color: #ffffffef !important;
+    border-top: 0.1px solid rgba(219, 219, 219, 0.966)!important;
+    border-bottom: 0.5rem solid #1387d4de!important;
+    background-color: #ffffffee !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -192,11 +192,10 @@ body {
 #DO:hover{
     color: var(--bs-primary) !important;
     transition: 0.3s background-color ease-in-out;
-    border-bottom: 0.2rem solid rgb(255, 129, 11);
+    border-bottom: 0.2rem solid rgb(255, 136, 25);
 }
 
 #FRANCAIS {
-    font-size: 14px !important;
     font-weight: bolder !important;
     color: #fff !important;
     background-color: #dc3545 !important;
@@ -488,6 +487,7 @@ li a:hover {
     background-color: #fff !important;
     font-size: 17px !important;
     font-family: 'Times New Roman', Times, serif !important;
+    border-top: 0.5rem solid #dc3545 !important;
 }
 
 #BLOK:hover {
@@ -765,7 +765,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: rgba(196, 195, 195, 0.662) !important;
     position: sticky !important;
-    top: 122px !important;
+    top: 128px !important;
     font-size: 18px !important;
     padding: 30px !important;
     border: none !important;
