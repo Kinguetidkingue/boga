@@ -492,6 +492,7 @@ li a:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
+    border-top: 0.5rem solid #dc3545 !important;
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
