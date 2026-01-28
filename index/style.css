@@ -1049,6 +1049,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
+    border-top: 0.5rem solid #dc3545 !important;
     color: #666 !important;
     padding: 12px !important;
     background-color: #fff !important;
