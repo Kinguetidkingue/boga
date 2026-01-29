@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -150,8 +148,8 @@ body {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.1px solid #dc3545 !important;
-    border-bottom: 0.5rem solid #1387d4de!important;
+    border-top: 1px solid #dc3545 !important;
+    border-bottom: 0.5rem solid #128bdc!important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -190,7 +188,7 @@ body {
     border-bottom: 0.2rem solid transparent;
 }
 #DO:hover{
-    color: #0f3bd9 !important;
+    color: #0b20da !important;
     transition: 0.3s background-color ease-in-out !important;
     border-bottom: 0.2rem solid red !important;
 }
@@ -198,14 +196,14 @@ body {
 #FRANCAIS {
     margin-top: -6px !important;
     color: #fff !important;
+    border: 0.1px solid #fff !important;
     background-color: #dc3545 !important;
 }
 
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
-    color: #000 !important;
-    border: 0.1px solid #cd3545 !important;
-    background-color: #ff0 !important;
+    color: cyan !important;
+    background-color:  #198754 !important;
 }
 
 #BOTON {
