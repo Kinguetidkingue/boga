@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -125,7 +127,7 @@ body {
 }
 
 .TOPBANNER {
-    background-color: #dc3545!important;
+    background-color: #198754!important;
 }
 
 #demo {
@@ -145,12 +147,11 @@ body {
     flex-wrap: wrap !important;
     width: 100% !important;
     height: auto !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.1px solid rgba(219, 219, 219, 0.966)!important;
+    border-top: 0.1px solid #dc3545 !important;
     border-bottom: 0.5rem solid #1387d4de!important;
-    background-color: #ffffffee !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -178,23 +179,24 @@ body {
 
 #H6 {
     font-size: 11.75px !important;
-    color: rgb(15, 182, 15) !important;
+    color: #198754 !important;
     word-spacing: 1px !important;
 }
 #DO{
+    color: #000 !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
     border-bottom: 0.2rem solid transparent;
 }
 #DO:hover{
-    color: var(--bs-primary) !important;
-    transition: 0.3s background-color ease-in-out;
-    border-bottom: 0.2rem solid rgb(255, 136, 25);
+    color: #0f3bd9 !important;
+    transition: 0.3s background-color ease-in-out !important;
+    border-bottom: 0.2rem solid red !important;
 }
 
 #FRANCAIS {
-    font-weight: bolder !important;
+    margin-top: -6px !important;
     color: #fff !important;
     background-color: #dc3545 !important;
 }
@@ -1049,8 +1051,8 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
+    color: #696969 !important;
     border-top: 0.5rem solid #dc3545 !important;
-    color: #666 !important;
     padding: 12px !important;
     background-color: #fff !important;
 }
