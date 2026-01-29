@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -165,7 +163,7 @@ body {
     background-color: #fff !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.15rem solid #666 !important;
+    border: 0.15rem solid #198754!important;
 }
 
 #Logo:hover {
