@@ -553,7 +553,7 @@ li a:hover {
 
 #LEARNMORE:hover {
     background-color: #fff !important;
-    border: 0.5rem solid #000 !important;
+    border: 0.15rem solid #000 !important;
     transition: background-color 0.3s ease-in-out;
     color: #666 !important;
 }
