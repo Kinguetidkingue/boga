@@ -169,8 +169,7 @@ body {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.25rem solid #198754 !important;
-   
+    border-top: 0.25rem solid #000 !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
