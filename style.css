@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -127,10 +125,12 @@ body {
 }
 
 #TOPBANNER {
-    background-color: #198754!important;
+    background-color: #198754 !important;
+    width: 100%!important;
+    height: 100% !important;
 }
 #TOPBANNER:hover{
-    background-color: var(--bs-red) !important;
+    background-color: rgb(21, 65, 159)!important;
     transition: 0.3s bacground-color ease-in-out !important;
 }
 #animDate{
@@ -158,18 +158,18 @@ body {
     font-size: 12.5px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
-    color: #fff !important;
+    color: #ff0 !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 #Navbar {
-    display: flex !important;
-    flex-wrap: wrap !important;
+    display: block!important;
     width: 100% !important;
     height: auto !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.25rem solid #000 !important;
+    border-top: 0.1px solid transparent !important;
+    border-bottom: 0.5rem solid var(--bs-danger) !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -178,12 +178,12 @@ body {
     display: flex !important;
     width: auto !important;
     height: 60px !important;
-    padding: 10px !important;
+    padding: 8px !important;
     font-weight: bolder !important;
     background-color: #fff !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.25rem solid #198754 !important;
+    border: 0.25rem solid #000!important;
 }
 
 #Logo:hover {
@@ -279,8 +279,8 @@ ul {
 }
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    font-size: 22px !important;
-    display: block !important;
+    font-size: 20px !important;
+    display: flex !important;
     list-style-type: none !important;
     color: #fff !important;
     padding: 18px !important;
@@ -566,7 +566,7 @@ li a:hover {
     padding: 10px !important;
     background-color: #e2e2e2 !important;
     color: #333 !important;
-    font-weight: bolder !important;
+    font-weight: bold !important;
     border: 0.15rem solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
 }
@@ -575,7 +575,8 @@ li a:hover {
     background-color: #fff !important;
     border: 0.15rem solid #000 !important;
     transition: background-color 0.3s ease-in-out;
-    color: #666 !important;
+    color: #000 !important;
+    font-weight: bold ! important;
 }
 
 #Learnmore {
@@ -678,10 +679,10 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    color: #333 !important;
+    color: rgb(21, 65, 159) !important;
     border-top: 0.15px solid #707070 !important;
     border-bottom: 0.15px solid #707070  !important;
-    background-color: #f0f0f0fc !important;
+    background-color: #fff !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
@@ -996,14 +997,12 @@ li a:hover {
     font-family: "Ubuntu", sans-serif !important;
     padding: 10px !important;
     background-color: #fff !important;
-    border: 0.12px solid #c6c6c6ff !important;
     border-radius: 0.5rem !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #123d9afb !important;
-    border: 0.12px solid transparent !important;
     box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
 }
 
@@ -1080,7 +1079,7 @@ li a:hover {
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    background-color: #fff !important;
+    background-color: #fff !important
 }
 
 #BLOCK {
