@@ -172,6 +172,7 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
+    border-top: 0.5rem solid #0f5836e0 !important;
     z-index: 1 !important;
 }
 #Logo {
