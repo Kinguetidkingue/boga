@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -125,12 +127,12 @@ body {
 }
 
 #TOPBANNER {
-    background-color: #198754 !important;
+    background-color: #198754de !important;
     width: 100%!important;
     height: 100% !important;
 }
 #TOPBANNER:hover{
-    background-color: rgb(21, 65, 159)!important;
+    background-color: rgba(25, 118, 232, 0.977)!important;
     transition: 0.3s bacground-color ease-in-out !important;
 }
 #animDate{
@@ -168,8 +170,6 @@ body {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.1px solid transparent !important;
-    border-bottom: 0.5rem solid var(--bs-danger) !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -183,7 +183,7 @@ body {
     background-color: #fff !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.25rem solid #000!important;
+    border: 0.25rem solid var(--bs-red)!important;
 }
 
 #Logo:hover {
@@ -201,16 +201,16 @@ body {
     word-spacing: 1px !important;
 }
 #DO{
-    color: #000 !important;
+    color: #ff0 !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    border-bottom: 0.2rem solid transparent;
+    border-bottom: 0.25rem solid transparent;
 }
 #DO:hover{
-    color: #0b20da !important;
+    color: cyan !important;
     transition: 0.3s background-color ease-in-out !important;
-    border-bottom: 0.2rem solid red !important;
+    border-bottom: 0.25rem solid #ffc107 !important;
 }
 
 #FRANCAIS {
@@ -526,7 +526,7 @@ li a:hover {
     color: #ff0 !important;
     border: 0.2rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #2767c7 !important;
+    background-color: #198754 !important;
 }
 
 #READMORE:hover {
@@ -679,7 +679,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    color: rgb(21, 65, 159) !important;
+    color: #198754 !important;
     border-top: 0.15px solid #707070 !important;
     border-bottom: 0.15px solid #707070  !important;
     background-color: #fff !important;
