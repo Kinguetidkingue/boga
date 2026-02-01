@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -564,18 +566,18 @@ li a:hover {
     align-items: center !important;
     font-size: 16px !important;
     padding: 10px !important;
-    background-color: #e2e2e2 !important;
-    color: red !important;
-    font-weight: bold !important;
-    border: 0.25rem solid var(--bs-success) !important;
-    font-family: "Ubuntu", sans-serif !important;
-}
-
-#LEARNMORE:hover {
     background-color: var(--bs-success) !important;
     border: 0.25rem solid var(--bs-success) !important;
     transition: background-color 0.3s ease-in-out;
     color: #ff0 !important;
+    font-weight: bold !important;
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+#LEARNMORE:hover {
+    background-color: #e2e2e2 !important;
+    border: 0.25rem solid var(--bs-success) !important;
+    color: red !important;
     font-weight: bold ! important;
 }
 
@@ -1073,10 +1075,11 @@ li a:hover {
     border-top: 0.25rem solid #198754 !important;
     padding: 12px !important;
     background-color: #fff !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
 #BALOU:hover {
-    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+    box-shadow: none !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important
