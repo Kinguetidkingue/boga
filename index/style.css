@@ -565,17 +565,17 @@ li a:hover {
     font-size: 16px !important;
     padding: 10px !important;
     background-color: #e2e2e2 !important;
-    color: #333 !important;
+    color: red !important;
     font-weight: bold !important;
-    border: 0.15rem solid transparent !important;
+    border: 0.25rem solid var(--bs-success) !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 
 #LEARNMORE:hover {
-    background-color: #fff !important;
-    border: 0.15rem solid #000 !important;
+    background-color: var(--bs-success) !important;
+    border: 0.25rem solid var(--bs-success) !important;
     transition: background-color 0.3s ease-in-out;
-    color: #000 !important;
+    color: #ff0 !important;
     font-weight: bold ! important;
 }
 
