@@ -130,7 +130,7 @@ body {
     height: 100% !important;
 }
 #TOPBANNER:hover{
-    background-color: rgba(25, 118, 232, 0.977)!important;
+    background-color: #198754e0 !important;
     transition: 0.3s bacground-color ease-in-out !important;
 }
 #animDate{
