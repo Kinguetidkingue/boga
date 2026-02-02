@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -216,16 +214,22 @@ body {
 }
 
 #FRANCAIS {
-    margin-top: -6px !important;
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    font-size: 15px !important;
+    padding: auto !important;
+    margin-top: -16px !important;
     color: #fff !important;
     border: 0.1px solid #fff !important;
+    border-radius: 50% !important;
     background-color: #dc3545 !important;
 }
 
 #FRANCAIS:hover {
     transition: 0.3s background-color ease-in-out !important;
-    color: cyan !important;
-    background-color:  #198754 !important;
+    color: #000 !important;
+    background-color:  #ff0 !important;
 }
 
 #BOTON {
