@@ -170,8 +170,7 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-top: 0.25rem solid var(--bs-danger) !important;
-    border-bottom: 0.15px solid #fff !important;
+    border-top: 0.15rem solid var(--bs-danger) !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
@@ -517,14 +516,14 @@ li a:hover {
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    border-top: 0.25rem solid #dc3545 !important;
+    border-top: 0.15rem solid #dc3545 !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
-    border-top: 0.25rem solid #dc3545 !important;
+    border-top: 0.15rem solid #dc3545 !important;
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
@@ -802,7 +801,7 @@ li a:hover {
     font-size: 18px !important;
     padding: 30px !important;
     border: none !important;
-    border-top: 0.25rem solid #dc3545 !important;
+    border-top: 0.15rem solid #dc3545 !important;
     margin-top: -27.85rem !important;
 }
 
@@ -1081,8 +1080,8 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    color: #696969 !important;
-    border-top: 0.25rem solid #198754 !important;
+    color: hsl(0, 0%, 41%) !important;
+    border-top: 0.15rem solid #198754 !important;
     padding: 12px !important;
     background-color: #fff !important;
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
