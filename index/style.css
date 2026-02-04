@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -621,6 +623,8 @@ li a:hover {
     background-color: #fff !important;
     padding: 5px !important;
     line-height: 1.63 !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
 
 #LearninG:first-letter {
