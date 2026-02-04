@@ -125,12 +125,12 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#12633df1!important;
+    background-color:#194da9ee!important;
     width: 100%!important;
     height: 100% !important;
 }
 #TOPBANNER:hover{
-    background-color:#194da9ee !important;
+    background-color:#12633df1!important;
     transition: 0.3s bacground-color ease-in-out !important;
 }
 #animDate{
@@ -170,9 +170,9 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-top: 0.45rem solid var(--bs-danger) !important;
+    border-top: 0.25rem solid var(--bs-danger) !important;
     border-bottom: 0.15px solid #fff !important;
-    background-color: #198754f9!important;
+    background-color: #fff!important;
     z-index: 1 !important;
 }
 #Logo {
@@ -184,7 +184,7 @@ body {
     background-color: #fff !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.25rem solid var(--bs-danger)!important;
+    border: 0.1rem solid var(--bs-success)!important;
 }
 
 #Logo:hover {
@@ -194,7 +194,7 @@ body {
     padding: 8px !important;
     font-weight: bolder !important;
     transition: 0.3s background-color ease-in-out !important;
-    border: 0.25rem solid var(--bs-dark)!important;
+    border: 0.1rem solid var(--bs-danger)!important;
 }
 
 #B {
@@ -207,16 +207,16 @@ body {
     word-spacing: 1px !important;
 }
 #DO{
-    color: #ff0 !important;
+    color: #198754 !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    border-bottom: 0.1rem solid transparent;
+    border-bottom: 0.11rem solid transparent;
 }
 #DO:hover{
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.3s background-color ease-in-out !important;
-    border-bottom: 0.1rem solid #ff0 !important;
+    border-bottom: 0.11rem solid red !important;
 }
 
 #FRANCAIS {
@@ -329,7 +329,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #123c9e !important;
+    background-color: #91b2fff5 !important;
 }
 
 #TOPO {
@@ -384,7 +384,7 @@ li a:hover {
 
 #Lin a {
     width: 100%;
-    color: #fff !important;
+    color: #0f3282 !important;
     font-size: 11.5px !important;
     text-decoration: none !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -798,7 +798,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: rgba(196, 195, 195, 0.662) !important;
     position: sticky !important;
-    top: 114px !important;
+    top: 113px !important;
     font-size: 18px !important;
     padding: 30px !important;
     border: none !important;
