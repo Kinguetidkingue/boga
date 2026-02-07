@@ -1042,8 +1042,8 @@ li a:hover {
     font-family: "Ubuntu", sans-serif !important;
     padding: 10px !important;
     background-color: #fff !important;
-    border-radius: 0.5rem !important;
-    border: 2px solid #198754e4 !important;
+    border-radius: 1rem !important;
+    border: 2px solid #198754 !important;
 }
 
 #Bootstrap:hover {
@@ -1056,10 +1056,15 @@ li a:hover {
 #Bootstrap h1 {
     color: red !important;
 }
+#KETO{
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
 #SEP{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    font-size: 18px !important;
-    font-weight: bold !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    line-height: 1.8px !important;
 }
 #LearnMoreButton {
     background-color: #ff5a1e !important;
