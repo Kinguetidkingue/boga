@@ -619,15 +619,15 @@ li a:hover {
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-top: 0.25rem solid #bfe2ff !important;
+    border-top: 0.25rem solid #cee9ff !important;
     background-color: #fff !important;
 }
 #ARKO{
-    border-top: 0.25rem solid #bfe2ff !important;
+    border-top: 0.25rem solid #cee9ff !important;
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-bottom: 0.25rem solid #bfe2ff !important;
+    border-bottom: 0.25rem solid #cee9ff !important;
     background-color: #fff !important;
 }
 
