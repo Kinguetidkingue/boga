@@ -171,6 +171,7 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
+    border-bottom: 2px solid var(--bs-success) !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
@@ -461,8 +462,8 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-size: 28px !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    line-height: 1.6 !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
     padding: 10px !important;
 
 }
@@ -611,16 +612,33 @@ li a:hover {
     transition: background-color 0.3s ease-in-out;
     color: red !important;
 }
+#TEK{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+#ARK{
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-top: 0.25rem solid #bfe2ff !important;
+    background-color: #fff !important;
+}
+#ARKO{
+    border-top: 0.25rem solid #bfe2ff !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-bottom: 0.25rem solid #bfe2ff !important;
+    background-color: #fff !important;
+}
 
 #LearninG {
     width: 100% !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    font-weight: lighter !important;
-    font-size: 20px !important;
-    color: #000 !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #666 !important;
     background-color: #fff !important;
-    padding: 5px !important;
-    line-height: 1.63 !important;
+    padding: 20px !important;
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
 }
@@ -683,6 +701,8 @@ li a:hover {
 }
 
 #HeadeR {
+    font-family: "Playwrite NZ Basic", cursive !important;
+    color: #666 !important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
@@ -695,7 +715,6 @@ li a:hover {
     color: #198754 !important;
     border-top: 0.15rem solid #198754 !important;
     background-color: #fff !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #BEGINNER {
@@ -709,9 +728,9 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
     color: #000 !important;
-   border-top: 0.15rem solid #198754 !important;
+    border-top: 0.15rem solid #198754 !important;
     background-color: #e4e4e4fc !important;
 }
 
@@ -750,9 +769,16 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     background-color: #198754!important;
-    border-top: 0.15rem solid #198754 !important;
     margin: none !important;
     padding: none !important;
+}
+#Green-Card{
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #666 !important;
+    margin-top: 7rem !important;
+    margin-bottom: 7rem !important;
 }
 
 #Block-wrappo {
@@ -799,7 +825,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: rgba(196, 195, 195, 0.662) !important;
     position: sticky !important;
-    top: 113px !important;
+    top: 117.5px !important;
     font-size: 18px !important;
     padding: 30px !important;
     border: none !important;
@@ -1011,12 +1037,14 @@ li a:hover {
     padding: 10px !important;
     background-color: #fff !important;
     border-radius: 0.5rem !important;
+    border: 2px solid #198754e4 !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #123d9afb !important;
     box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
+    border: 2px solid transparent !important;
 }
 
 #Bootstrap h1 {
