@@ -616,6 +616,8 @@ li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 #ARK{
+    display: block !important;
+    position: relative !important;
     font-size: 22px !important;
     width: 100% !important;
     height: auto !important;
@@ -624,6 +626,8 @@ li a:hover {
     background-color: #fff !important;
 }
 #ARKO{
+    display: block !important;
+    position: relative !important;
     font-size: 22px !important;
     border-top: 0.25rem solid #cee9ff !important;
     width: 100% !important;
@@ -1052,18 +1056,11 @@ li a:hover {
 #Bootstrap h1 {
     color: red !important;
 }
-
-#NeedToKnow {
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    justify-content: center !important;
-    align-items: center !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-    background-color: #15569bfe !important;
+#SEP{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
 }
-
 #LearnMoreButton {
     background-color: #ff5a1e !important;
     color: #fff !important;
@@ -1074,24 +1071,6 @@ li a:hover {
     background-color: #fff !important;
     color: #000 !important;
     transition: background-color 0.3s ease-in-out !important;
-}
-
-#List-UL {
-    display: block !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block !important;
-    color: #fff !important;
-    font-size: 22px !important;
-    font-family: "Inconsolata", monospace!important;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
-#List-UL:hover {
-    background-color: transparent !important;
 }
 
 #BTHREE {
@@ -1159,68 +1138,11 @@ li a:hover {
     background-color: #fff !important;
     box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406) !important;
 }
-
-#Pati {
-    display: block !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block !important;
-    color: #fff !important;
-    font-size: 22px !important;
-    font-family: "Inconsolata", monospace;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
-#Pat {
-    width: 100% !important;
-    height: auto !important;
-    justify-content: center;
-    color: #fff !important;
-    align-items: center;
-    display: block !important;
-    font-size: 22px !important;
-    font-family: "Inconsolata", monospace;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
 #Static {
     display: block !important;
     justify-content: center;
     align-items: center;
 }
-
-#Topa {
-    display: block !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block !important;
-    color: #fff !important;
-    font-size: 22px !important;
-    font-family: "Inconsolata", monospace;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
-#Atop {
-    display: block !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block !important;
-    color: #fff !important;
-    font-size: 22px !important;
-    font-family: "Inconsolata", monospace;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
 #Pate {
     display: block !important;
     width: 100%;
