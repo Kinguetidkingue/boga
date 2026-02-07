@@ -616,6 +616,7 @@ li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 #ARK{
+    font-size: 22px !important;
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -623,6 +624,7 @@ li a:hover {
     background-color: #fff !important;
 }
 #ARKO{
+    font-size: 22px !important;
     border-top: 0.25rem solid #cee9ff !important;
     width: 100% !important;
     height: auto !important;
