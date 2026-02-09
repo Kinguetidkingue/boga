@@ -1043,14 +1043,14 @@ li a:hover {
     padding: 10px !important;
     background-color: #fff !important;
     border-radius: 1rem !important;
-    border: 2px solid #198754 !important;
+    border: 1.5px solid #198754 !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #123d9afb !important;
     box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
-    border: 2px solid transparent !important;
+    border: 1.5px solid transparent !important;
 }
 
 #Bootstrap h1 {
@@ -1064,7 +1064,7 @@ li a:hover {
 }
 #SEP{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
-    line-height: 1.8 !important;
+    line-height: 1.8px !important;
 }
 #LearnMoreButton {
     background-color: #ff5a1e !important;
