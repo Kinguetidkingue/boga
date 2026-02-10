@@ -125,12 +125,12 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#1851b4f3!important;
+    background-color:#198754!important;
     width: 100%!important;
     height: 100% !important;
 }
 #TOPBANNER:hover{
-    background-color:#147045f7!important;
+    background-color:#1851b4f3!important;
     transition: 0.3s bacground-color ease-in-out !important;
 }
 #animDate{
@@ -171,7 +171,6 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
-    border-bottom: 2px solid var(--bs-success) !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
@@ -181,7 +180,7 @@ body {
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
-    background-color: #fff !important;
+    background-color: #198754 !important;
     justify-content: center !important;
     align-items: center !important;
     border: 0.1rem solid var(--bs-success)!important;
@@ -193,30 +192,32 @@ body {
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
+    background-color: #1c89ff !important;
     transition: 0.3s background-color ease-in-out !important;
     border: 0.1rem solid var(--bs-danger)!important;
 }
 
 #B {
     font-size: 14.5px !important;
+    color: #ff0 !important;
 }
 
 #H6 {
     font-size: 11.75px !important;
-    color: #198754 !important;
+    color: #fff !important;
     word-spacing: 1px !important;
 }
 #DO{
-    color: #198754 !important;
+    color: var(--bs-primary) !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
     border-bottom: 0.11rem solid transparent;
 }
 #DO:hover{
-    color: #000 !important;
+    color: var(--bs-dark) !important;
     transition: 0.3s background-color ease-in-out !important;
-    border-bottom: 0.11rem solid red !important;
+    border-bottom: 0.12rem solid red !important;
 }
 
 #FRANCAIS {
@@ -408,18 +409,6 @@ li a:hover {
     padding: 20px !important;
     border-top: 0.15px solid rgba(192, 192, 192, 0.884) !important;
     border-bottom: 0.15px solid rgba(192, 192, 192, 0.884) !important;
-}
-
-#Beauty {
-    font-size: 16px !important;
-    display: flex !important;
-    justify-items: center !important;
-    align-items: center !important;
-    flex-direction: row !important;
-    background-color: transparent !important;
-    height: auto !important;
-    width: 100% !important;
-    padding: 20px !important;
 }
 
 #Begin {
@@ -636,7 +625,38 @@ li a:hover {
     border-bottom: 0.25rem solid #cee9ff !important;
     background-color: #fff !important;
 }
-
+#ARC{
+    display: block !important;
+    position: relative !important;
+    font-size: 22px !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-top: 0.25rem solid green !important;
+    background-color: #fff !important;
+}
+#HEADER{
+    color:var(--bs-red) !important;
+    font-size: 30px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-weight: bold !important;
+}
+#HEAD{
+    justify-content: center !important;
+    align-items: center !important;
+    color:#000 !important;
+    font-size: 45px !important;
+    font-weight: bold !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+#HEADO{
+    justify-content: center !important;
+    align-items: center !important;
+    color:var(--bs-warning) !important;
+    font-size: 45px !important;
+    font-weight: bold !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
 #LearninG {
     width: 100% !important;
     font-family: "Playwrite NZ Basic", cursive !important;
@@ -665,6 +685,7 @@ li a:hover {
     flex-direction: column !important;
     width: 100% !important;
     height: auto;
+    border-top: 2px solid #198754;
 
 }
 
@@ -829,7 +850,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: rgba(196, 195, 195, 0.662) !important;
+    background-color: var(--bs-success) !important;
     position: sticky !important;
     top: 117.5px !important;
     font-size: 18px !important;
@@ -844,14 +865,13 @@ li a:hover {
     height: 45px !important;
     display: flex !important;
     flex-direction: column !important;
-    background-color: #fff !important;
-    border: 1.55px solid rgba(174, 174, 174, 0.838) !important;
+    background-color:  #ffc107 !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
-    color: rgba(10, 173, 10, 0.969) !important;
+    color: #000 !important;
     font-family: helvetica !important;
     border-radius: 2rem !important;
     padding: 5px !important;
@@ -860,7 +880,7 @@ li a:hover {
 
 #CC-List a:hover {
     background-color: transparent !important;
-    color: red !important;
+    color: #fff !important;
     font-weight: bold !important;
     font-size: 18px !important;
     transition: background-color all 0.3s ease-in-out !important;
@@ -949,64 +969,6 @@ li a:hover {
     padding-right: 20px !important;
 }
 
-#One-One {
-    width: 45% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 25px !important;
-    background-color: #fff !important;
-    border: 0.1px solid rgb(147, 147, 147) !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    border-top-left-radius: 0.5rem !important;
-    border-top-right-radius: 0.5rem !important;
-    cursor: pointer !important;
-}
-
-.Tourismo {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    height: auto !important;
-    color: rgb(11, 11, 180) !important;
-    background-color: #fff !important;
-    border: none !important;
-}
-
-.Tourismo:hover {
-    background-color: rgb(11, 11, 180) !important;
-    color: #ff0 !important;
-    transition: 0.3s background-color ease-in-out !important;
-}
-
-#Tropical {
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-}
-
-#Tropical:hover {
-    background-color: #f8f8f8 !important;
-    color: rgb(1, 1, 155) !important;
-    transition: background-color all 0.3s ease-in-out;
-}
-
-#Crocu {
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
-#Crocu:hover {
-    background-color: #f8f8f8 !important;
-    color: rgb(1, 1, 155) !important;
-    transition: background-color all 0.3s ease-in-out;
-}
-
 #BLAKO {
     width: 65% !important;
     height: 690px !important;
@@ -1021,18 +983,8 @@ li a:hover {
     border: none !important;
 }
 
-#ToGet {
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-}
-
 #Bootstrap {
-    width: 25rem !important;
+    width: 26rem !important;
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
@@ -1043,7 +995,7 @@ li a:hover {
     padding: 10px !important;
     background-color: #fff !important;
     border-radius: 1rem !important;
-    border: 1.5px solid #198754 !important;
+    border: 1.25px solid #198754 !important;
 }
 
 #Bootstrap:hover {
@@ -1108,24 +1060,6 @@ li a:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important
-}
-
-#BLOCK {
-    width: 55% !important;
-    height: auto !important;
-    display: block !important;
-    font-size: 18px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    line-height: 1.7 !important;
-    color: #000 !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    background-color: #fff !important;
-    padding-right: 10px !important;
-}
-
-#BLOCK:first-letter {
-    color: #000 !important;
 }
 
 #Bloc {
