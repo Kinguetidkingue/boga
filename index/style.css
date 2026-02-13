@@ -335,7 +335,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #19875490 !important;
+    background-color: #19875494 !important;
 }
 
 #TOPO {
@@ -524,7 +524,23 @@ li a:hover {
     border-top: 0.15rem solid #dc3545 !important;
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
-
+#BLOKE{
+    width: 21rem !important;
+    height: auto !important;
+    color: #343434 !important;
+    border: none !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+    border-top: 0.15rem solid transparent !important;
+    font-family: Helvetica, sans-serif !important;
+}
+#BLOKE:hover{
+    background-color: transparent !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+    border: 0.12px solid #c6c6c6ff !important;
+    border-top: 0.15rem solid #dc3545 !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+}
 #READMORE {
     width: 100% !important;
     height: auto !important;
@@ -665,9 +681,9 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:var(--bs-warning) !important;
-    font-size: 45px !important;
+    font-size: 35px !important;
     font-weight: bold !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
 }
 #LearninG {
     width: 100% !important;
