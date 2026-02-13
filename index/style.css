@@ -171,12 +171,12 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
-    box-shadow: 0 1px 0.1rem 0.1px rgba(206, 206, 206, 0.594) !important;
-    background-color: rgba(255, 224, 194, 0.89)!important;
+    box-shadow: 0 1px 0.1rem 0.1px #198754ca !important;
+    background-color: #fff!important;
     z-index: 1 !important;
 }
 #Navbar:hover{
-    background-color: #fff!important;
+    background-color: rgba(255, 224, 194, 0.89)!important;
     transition: 0.3s background-color ease-in-out! important;
 }
 #Logo {
@@ -654,7 +654,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:#000 !important;
-    font-size: 45px !important;
+    font-size: 36px !important;
     font-weight: bold !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
@@ -757,12 +757,14 @@ li a:hover {
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 20px !important;
+    font-size: 18.5px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
+    border-left: 0.3rem solid #198754! important;
+    border-top: 0.3rem solid #198754! important;
     font-family: "Playwrite NZ Basic", cursive !important;
     color: #000 !important;
     background-color: #e4e4e4fc !important;
