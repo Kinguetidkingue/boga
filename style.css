@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -174,8 +172,12 @@ body {
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
     box-shadow: 0 1px 0.1rem 0.1px rgba(206, 206, 206, 0.594) !important;
-    background-color: #fff!important;
+    background-color: rgba(255, 224, 194, 0.89)!important;
     z-index: 1 !important;
+}
+#Navbar:hover{
+    background-color: #fff!important;
+    transition: 0.3s background-color ease-in-out! important;
 }
 #Logo {
     display: flex !important;
