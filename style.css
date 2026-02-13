@@ -171,7 +171,6 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
-    box-shadow: 0 1px 0.1rem 0.1px #198754ca !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
