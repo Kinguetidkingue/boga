@@ -335,7 +335,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #91b2fff5 !important;
+    background-color: #19875490 !important;
 }
 
 #TOPO {
@@ -362,26 +362,29 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #123c9e !important;
+    background-color: #198754 !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
-    background-color: #123c9e !important;
+    background-color: #198754 !important;
     font-family: 'Courier New', Courier, monospace; 
     justify-content: center !important;
     align-items: center !important;
     font-weight: bolder !important;
     font-size: 8px !important;
     padding-top: 55px !important;
-    color: rgb(255, 221, 0) !important;
+    color: #ff0 !important;
     margin-bottom: 1rem !important;
     border-bottom: 0.1px solid #fff !important;
 }
-
+#Space-to-Footer:hover{
+    color: #fff !important;
+    transition: 0.3s background-color ease-in-out !important;
+}
 #Universities {
-    background-color: #123c9e !important;
+    background-color: #198754 !important;
     color: #fff !important;
     font-size: 18px !important;
     padding: 15px !important;
@@ -390,7 +393,7 @@ li a:hover {
 
 #Lin a {
     width: 100%;
-    color: #0f3282 !important;
+    color: darkblue !important;
     font-size: 11.5px !important;
     text-decoration: none !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -507,7 +510,7 @@ li a:hover {
     width: 21rem !important;
     height: auto !important;
     color: #343434 !important;
-    border: 0.12px solid #c6c6c6ff !important;
+    border: none !important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
@@ -559,7 +562,7 @@ li a:hover {
     background-color: #fff !important;
     border: 0.15rem solid #000 !important;
     transition: background-color 0.3s ease-in-out;
-    color: red !important;
+    color: #dc3545 !important;
 }
 
 #LEARNMORE {
@@ -581,7 +584,7 @@ li a:hover {
 #LEARNMORE:hover {
     background-color: #e2e2e2 !important;
     border: 0.25rem solid var(--bs-success) !important;
-    color: red !important;
+    color: #dc3545 !important;
     font-weight: bold ! important;
 }
 
@@ -604,7 +607,7 @@ li a:hover {
     font-weight: bold !important;
     border: 0.2rem #222 solid !important;
     transition: background-color 0.3s ease-in-out;
-    color: red !important;
+    color: #dc3545 !important;
 }
 #TEK{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -654,9 +657,9 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:#000 !important;
-    font-size: 36px !important;
-    font-weight: bold !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 26px !important;
+    line-height: 1.75 !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
 }
 #HEADO{
     justify-content: center !important;
@@ -721,8 +724,7 @@ li a:hover {
 
 #FIGCAPTION {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-size: 13px !important;
-    color: #6c6c6c !important;
+    font-size: 14px !important;
 }
 
 #Welcome-Message {
@@ -748,7 +750,9 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    color: #198754 !important;
+    color: #dc3545 !important;
+    border-top: 0.3rem solid #198754! important;
+    border-bottom: 0.3rem solid #198754! important;
     background-color: #fff !important;
 }
 
@@ -763,11 +767,11 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
-    border-left: 0.3rem solid #198754! important;
     border-top: 0.3rem solid #198754! important;
+    border-bottom: 0.3rem solid #198754! important;
     font-family: "Playwrite NZ Basic", cursive !important;
     color: #000 !important;
-    background-color: #e4e4e4fc !important;
+    background-color: var(--bs-gray-200)! important;
 }
 
 #RES {
@@ -1061,14 +1065,14 @@ li a:hover {
     border-top: 0.15rem solid #198754 !important;
     padding: 12px !important;
     background-color: #fff !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
 #BALOU:hover {
     box-shadow: none !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    background-color: #fff !important
+    background-color: #fff !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
 
 #Bloc {
