@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -171,6 +173,7 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
+    box-shadow: 0 1px 1rem 0.1px #19875474 !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
