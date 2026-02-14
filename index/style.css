@@ -171,7 +171,7 @@ body {
     position: sticky !important;
     top: 0 !important;
     border-top: 0.3rem solid var(--bs-danger) !important;
-    box-shadow: 0 1px 1rem 0.1px #1987544e !important;
+    box-shadow: 0 1px 1rem 0.1px #1987542a !important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
@@ -335,7 +335,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #19875494 !important;
+    background-color: #1987548f !important;
 }
 
 #TOPO {
@@ -755,7 +755,7 @@ li a:hover {
 }
 
 #HeadeR {
-    font-family: "Playwrite NZ Basic", cursive !important;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
     color: #666 !important;
     display: flex !important;
     flex-direction: row !important;
