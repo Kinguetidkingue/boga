@@ -911,9 +911,10 @@ li a:hover {
     background-color: transparent !important;
     color: #fff !important;
     font-weight: bold !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     transition: background-color all 0.3s ease-in-out !important;
     border: none !important;
+    border-top: 2px solid #fff !important;
 }
 
 #Block-wrapper {
