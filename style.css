@@ -881,11 +881,10 @@ li a:hover {
     font-family: helvetica !important;
     background-color: var(--bs-success) !important;
     position: sticky !important;
-    top: 117.5px !important;
+    top: 120px !important;
     font-size: 18px !important;
-    padding: 30px !important;
+    padding: 25px !important;
     border: none !important;
-    border-top: 0.15rem solid #dc3545 !important;
     margin-top: -27.85rem !important;
 }
 
@@ -894,15 +893,16 @@ li a:hover {
     height: 45px !important;
     display: flex !important;
     flex-direction: column !important;
-    background-color:  #ffc107 !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-top: 1px solid #ff0!important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
-    color: #000 !important;
+    color: #ff0 !important;
     font-family: helvetica !important;
-    border-radius: 2rem !important;
     padding: 5px !important;
     margin-bottom: 1.2px !important;
 }
@@ -1137,4 +1137,5 @@ li a:hover {
     border-radius: 20px !important;
 }
 /*End of custom styles*/
+@import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/utilities";
