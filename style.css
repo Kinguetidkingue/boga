@@ -170,7 +170,7 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-top: 0.25rem solid var(--bs-danger) !important;
+    border-bottom: 0.3rem solid var(--bs-success) !important;
     z-index: 1 !important;
 }
 #Navbar:hover{
@@ -211,7 +211,7 @@ body {
     word-spacing: 1px !important;
 }
 #DO{
-    color: #198754 !important;
+    color: #000 !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
@@ -220,7 +220,7 @@ body {
     border-bottom: 0.11rem solid transparent;
 }
 #DO:hover{
-    color: var(--bs-dark) !important;
+    color: var(--bs-primary) !important;
     transition: 0.3s background-color ease-in-out !important;
     border-bottom: 0.12rem solid red !important;
 }
