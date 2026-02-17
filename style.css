@@ -170,13 +170,11 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-top: 0.3rem solid var(--bs-danger) !important;
-    box-shadow: 0 1px 1rem 0.1px #19875448 !important;
-    background-color: #fff!important;
+    border-top: 0.25rem solid var(--bs-danger) !important;
     z-index: 1 !important;
 }
 #Navbar:hover{
-    background-color: rgba(255, 227, 198, 0.885)!important;
+    background-color: #ffcf3fe9!important;
     transition: 0.3s background-color ease-in-out! important;
 }
 #Logo {
