@@ -1,3 +1,5 @@
+
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -44,7 +46,7 @@
     --bs-teal: #20c997;
     --bs-cyan: #30dcfe;
     --bs-black: #000;
-    --bs-bb-lack: #1449cef7;
+    --bs-bb-info: #7da2fff7;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
@@ -659,6 +661,10 @@ li a:hover {
 .accordion-button{
     background-color: #fff !important;
     border: none !important;
+}
+.accordion-button:hover{
+    background-color: #c9e0ff !important;
+    transition: 0.3s background-color ease-in-out !important;
 }
 #HEADER{
     color:var(--bs-danger) !important;
