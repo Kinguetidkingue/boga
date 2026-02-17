@@ -170,12 +170,8 @@ body {
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-bottom: 0.3rem solid var(--bs-success) !important;
+    background-color: #fff!important;
     z-index: 1 !important;
-}
-#Navbar:hover{
-    background-color: #ffcf3fe9!important;
-    transition: 0.3s background-color ease-in-out! important;
 }
 #Logo {
     display: flex !important;
@@ -211,11 +207,12 @@ body {
     word-spacing: 1px !important;
 }
 #DO{
-    color: #000 !important;
+    color: #198754 !important;
     display: block !important;
     width: 100% !important;
     height: auto !important;
     font-weight: bold ! important;
+    font-size: 22px !important;
     font-family: 'Courier New', Courier, monospace !important;
     border-bottom: 0.11rem solid transparent;
 }
@@ -402,7 +399,7 @@ li a:hover {
 #Lin a:hover {
     color: #ff0 !important;
     transition: background-color 0.3s ease-in-out;
-    font-size: 12px !important;
+    font-size: 11.53px !important;
     font-weight: bold !important;
 }
 #Resources {
