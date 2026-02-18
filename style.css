@@ -1070,13 +1070,13 @@ li a:hover {
 }
 #BURKINA-FASO{
     border: none !important;
-    position: sticky !important; 
-    top: 96px !important;
-    margin-top: -9rem !important;
+}
+#LAND{
+    border: none !important;
 }
 
 #BALOU {
-    width: 25rem !important;
+    width: 24.5rem !important;
     display: block !important;
     font-size: 14.5px !important;
     justify-content: center !important;
