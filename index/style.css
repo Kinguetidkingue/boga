@@ -1,1461 +1,1152 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link to stylesheet (CSS) file-->
-    <link rel="stylesheet" type="text/css" href="./index/style.css">
-    <!--Link to the javascript file-->
-    <script type="module" src="./javascript/script.js."></script>
-    <!--Link to bootstrap-5-css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!--Link to bootstrap-5-js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <!--Link to google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
 
-    <!--The title is here-->
-    <title>GaB & TecH</title>
-    <!--The top of the page-->
-    <a id="TOP"></a>
-</head>
-<!--The topbanner of the page containing the date object-->
-<a class="ROVER" href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank">
-<div class="d-grid">
-    <button type="button" class="btn rounded-0 text-center" id="TOPBANNER">
-        <div class="date" id="animDate">
-            <p id="demo"></p>
-            <script>
-                //This is a javascript code snippet for the date
-                const d = new Date();
-                document.getElementById("demo").innerHTML = d;
-            </script>
-        </div>
-    </button>
-</div>
-</a>
-<!--The navigation bar starts here-->
-<nav class="navbar navbar-expand-lg bg-warning position-sticky top-0" id="Navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand text-center" id="Logo" href="https://www.learnbasictech.org/"
-            target="_blank"><b class="card-titlefw-bolder" id="B">GaB & TecH <br>
-                <h6 class="card-text fw-bolder" id="H6">Get the Basics</h6>
-            </b></a>
-        <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="container">
-                <ul class="navbar-nav flex flex-row justify-content-center align-items-center me-auto mt-1 p-2 g-0">
-                    <li class="nav-item"><a class="ROVER" href="https://html.spec.whatwg.org/multipage/"
-                            target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">HTML</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item"> <a class="ROVER" href="https://www.w3.org/Style/CSS/Overview.en.html"
-                            target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">CSS</h5>
-                        </a></li>
-                    <li class="nav-item"> <a class="ROVER" href="https://www.javascript.com/" target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">JAVASCRIPT<h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="https://getbootstrap.com/" target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">BOOTSTRAP</h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="https://www.python.org/" target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">PYTHON</h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="https://www.presidencedufaso.bf/" target="blank">
-                            <h5 class="text-secondary fw-bold" id="DO">BURKINA-FASO</h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="https://ameiph.com/" target="blank">
-                            <h5 class="text-secondary fw-bold" id="DO">ASSOCIATION</h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="mailto: patoimboumboucompi76@gmail.com"
-                            target="_blank">
-                            <h5 class="text-secondary fw-bold" id="DO">CONTACT</h5>
-                        </a></li>
-                    <li class="nav-item"><a class="ROVER" href="#" target="_blank"><button type="button"
-                                class="btn btn-sm-danger p-1 fw-bolder" id="FRANCAIS">FR</button></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
-<!--End of the navigation-->
+/*Functions first*/
+@import "../node_modules/bootstrap/scss/functions";
+/* Some required and optional imports*/
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/navbar";
 
-<!--The body of the page-->
+/*Custom styles*/
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
 
-<body>
-    <!--Here is the containerfor the image of the sunset-->
-    <div class="container-fluid g-0" id="Sunset-Image">
-        <a class="text-center text-white ROVER" href="https://georgerrmartin.com/" target="_blank">
-            <div class="card-img-overlay img-fluid" id="SUN">
-                <h1 class="text-center fs-6 fw-bolder pt-5">When the sun has set, no candle can replace it.<br> <b
-                        class="text-primary fs-6">George R.R. Martin</b>
-                </h1>
-            </div>
-        </a>
-        <figure>
-            <img src="https://www.zupimages.net/up/23/31/zxgr.jpg" alt="Sunset in Burkina Faso"
-                class="card-img-top img-fluid" id="SunSet">
-            <figcaption class="text-success fw-bold figure-caption ms-4 mt-3" id="FIGCAPTION">Sunset in Burkina Faso</figcaption>
-        </figure>
-    </div>
-    <!--Here is the container of the welcoming message-->
-    <div class="container-fluid d-flex flex-row g-0" id="Welcome-Message">
-        <div class="col-sm-5">
-            <h1 class="text-center" id="HeadeR">Welcome To GaB & TecH</h1>
-        </div>
-        <div class="col-sm-7">
-            <h3 class="text-center" id="BEGINNER"> This website has a main purpose to help beginners learn Web
-                Technologies including Web Development by linking them to basic resources like tutorials, websites or
-                any documentation that will be useful for the learning process.
-                In addition, some brief features on Canadian cities and Burkina Faso, a country in West Africa, have
-                also been added.
-                Thank you for your visit!</h3>
-        </div>
-    </div>
-    <!--Here starts the welcoming message and talks about web Dev-->
-    <div class="container-fluid card rounded-0 g-0" id="Intro">
-        <div class="container card-body rounded-0" id="Green-Card">
-            <h1 class="card-title text-center text-danger fw-bolder" id="Web-Dev">Web Development (WD)</h1>
-            <p class="card-text text-start lh-lg" id="LearninG">Learning <a class="ROVER"
-                    href="https://brainstation.io/career-guides/what-is-web-development" target="_blank"> Web
-                    Development (WD)</a> is not only interesting but also fascinating. In a spit of its fast evolution
-                to meet the user needs since the creation of the internet,
-                Web Development is a way to sharpen your learning and then take yourself to the next level. That is
-                really amazing and the same time exciting. The combinaison of interest, fascination, excitment and
-                creativity are huge and can stand as boosters to make you more focused in order to achieve your coding
-                goals.
-                But your first immersion to basic tech may be really challenging and disapointing given it's your first
-                encounter with such kind of science.
-                You can be confused because you have no idea about where to start and where to end and what and how to
-                do in order to get things done with methodology, exactness and efficiency.
-                <br> <br>
-                Yes, you are right. But you cannot afford to give up if you need to learn and improve.
-                You have to steadily nurture your curiosity and thirst for knwoledge. So that you have no way than to
-                push higher the boundaries of your ability to questionning and thinking about how to give answers
-                following the questions.
-                A curious mind is not nuisible but is a propice environment driving questions in order to have answers
-                if possible. That mind should possess you along your learning process.
-                <br>
-                For eg: Simple questions like why this process and not that one? How is this function working? Why this
-                method is different to that one ? how this sum is obtained ? etc - the kind of questions that can help
-                us drafting maybe solutions.
-                A deep observation and perpetual questionning of what you are seeing things in terms of snippets of
-                codes and the relativity between them will help you to better understand and may progress.
-                With a habit to continue to learn, you will become more familiar and pave out a way to understand and
-                deal with Web Development and I-tech in general.
-                </p>
-                <h2 class="text-danger p-3 fs-4 fw-bolder"> What is Web Development?</h2>
-                <p class="fw-bold p-3 lh-lg"><a class="ROVER" href="https://www.coursera.org/ca/articles/web-developer" target="_blank">
-                    Web
-                    Development (W.D)</a> is a sub-domain of <a class="text-primary ROVER"
-                    href="https://www.merriam-webster.com/dictionary/information%20technology" target="_blank">
-                    I-tech</a>. <a class="text-primary ROVER"
-                    href="https://www.merriam-webster.com/dictionary/information%20technology"
-                    target="_blank">I-tech</a> is a very important aspect and incresingly present in our daily lives
-                even it's deep and complexe.
-                But With the avent of AI (Artificial Intelligence) made with a combinaison of Machine Learning (ML) and Deep Learning (DL),
-                I-tech is becoming more and more accessible to everyone. AI will definitely change the way we learn and work in the future.
-                Over its fascinating dimension, Web development can be customed with AI and it is a pretty good way to
-                start a career for dreamers. The thing is that if you want to make it happen, you have to learn the
-                basics of coding and then enhance your knowledge.
+:root {
+    --bs-bb-yellow: rgb(254, 254, 1);
+    --bs-blue: #0d6efd;
+    --bs-bb-blue: #184486;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-bf-purple: rgba(207, 123, 255, 0.976);
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-redd: #7e0b39f6;
+    --bs-ps-red: #ff6776e4;
+    --bs-bor-topnav: #ff4c24;
+    --bs-r-red: #f9a0a9f1;
+    --bs-orange: #ff9d4dfb;
+    --bs-coorange: #ffdc96f3;
+    --bs-yellow: #ffe8b5fa;
+    --bs-ye-purple: #d5f0ff;
+    --bs-green: #198754;
+    --bs-bgab-green: #4dd6ff;
+    --bs-teal: #20c997;
+    --bs-cyan: #30dcfe;
+    --bs-black: #000;
+    --bs-bb-info: #7da2fff7;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #1d5fc3;
+    --bs-primray: #0d6efd;
+    --bs-gb-primary: #2145fb;
+    --bs-secondary: #136ba2;
+    --bs-success: #198754;
+    --bs-sc-success: #0f19a7fa;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-bb-warning: #ffca2afb;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-gab-light: #e8e8e8fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body: #f9f9f9;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #dee2e6;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+    --bs-border-radius: 0.375rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 0.5rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-2xl: 2rem;
+    --bs-border-radius-pill: 50rem;
+    --bs-link-color: #1a76ff;
+    --bs-link-hover-color: #cab40a;
+    --bs-code-color: #d63384;
+    --bs-highlight-bg: #fff3cd;
+    --bs-darkred: #c42434;
+}
 
-                I'd like to share resources with which you can read and master your learning.
-                The purpose of this website is to support <b class="text-primary ROVER"> beginners become masters</b>.
-                Helping people who are interested to getting into tech, makes me happy and is rewarding.
+html {
+    display: block;
+}
 
-                <b class="text-success text-center">Have a great learning journey !</b>
-            </p>
-        </div>
-    </div>
-    <div class="container text-center p-4">
-        <h2 class="text-secondary text-success fw-bolder">These are some key technologies to learn for Web Development and more</h2>
-    </div>
+body {
+    scroll-behavior: smooth !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
-    <!--Here ends the container on HTML and some programming languages-->
+.row {
+    --bs-gutter-x: 0.375rem;
+    --bs-gutter-y: 0;
+}
 
-    <!--Here starts the container on Canada main cities-->
-    <div class="container-fluid d-flex flex-row justify-content-center align-items-center g-0 rounded-0"
-        id="CANADA-CITIES">
-        <!--Some key technologies to learn-->
-        <div class="col-md-4 rounded-0" id="RightContainer">
-            <h5 class="text-white text-center p-2 fw-bolder">
-            <u class="mt-4">WEB DEV</u>
-            </h5>
-            <span class="list-group text-secondary rounded-0 pt-2 fs-6" id="CC-List" style="width: 100%;">
+#TOPBANNER {
+    background-color:#198754!important;
+    width: 100%!important;
+    height: 100% !important;
+}
+#TOPBANNER:hover{
+    background-color:#1851b4f3!important;
+    transition: 0.3s bacground-color ease-in-out !important;
+}
+#animDate{
+    animation: bounce 3s infinite;
+}
 
-                <a class="CC list-group-item list-group-item-action" id="CC-List"
-                    href="https://html.spec.whatwg.org/multipage/" target="_blank">
-                    
-                    HTML
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List"
-                    href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
-                    CSS
+#demo {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 12.5px !important;
+    font-weight: bolder !important;
+    margin-top: 10px !important;
+    color: #fff !important;
+    font-family: "Ubuntu", sans-serif !important;
+}
+#Navbar {
+    display: block!important;
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: sticky !important;
+    top: 0 !important;
+    box-shadow: 0 0 1rem 0.25px #19875432 !important;
+    background-color: #fff!important;
+    z-index: 1 !important;
+}
+#Logo {
+    display: flex !important;
+    width: auto !important;
+    height: 60px !important;
+    padding: 8px !important;
+    font-weight: bolder !important;
+    background-color: #198754 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: 0.1rem solid var(--bs-success)!important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://www.javascript.com/"
-                    target="_blank">
+#Logo:hover {
+    display: flex !important;
+    width: auto !important;
+    height: 60px !important;
+    padding: 8px !important;
+    font-weight: bolder !important;
+    background-color: #1c89ff !important;
+    transition: 0.3s background-color ease-in-out !important;
+    border: 0.1rem solid var(--bs-danger)!important;
+}
 
-                    JS
+#B {
+    font-size: 14.5px !important;
+    color: #ff0 !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://getbootstrap.com/"
-                    target="_blank">
+#H6 {
+    font-size: 11.75px !important;
+    color: #fff !important;
+    word-spacing: 1px !important;
+}
+#DO{
+    color: #198754 !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    font-weight: bold ! important;
+    font-size: 22px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    border-bottom: 0.11rem solid transparent;
+}
+#DO:hover{
+    color: var(--bs-primary) !important;
+    transition: 0.3s background-color ease-in-out !important;
+    border-bottom: 0.12rem solid red !important;
+}
 
-                    BOOTSTRAP
+#FRANCAIS {
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    font-size: 15px !important;
+    padding: auto !important;
+    margin-top: -16px !important;
+    color: #fff !important;
+    border: 0.1px solid #fff !important;
+    border-radius: 50% !important;
+    background-color: #dc3545 !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://www.python.org/"
-                    target="_blank">
+#FRANCAIS:hover {
+    transition: 0.3s background-color ease-in-out !important;
+    color: #000 !important;
+    background-color:  #ff0 !important;
+}
 
-                    PYTHON
+#BOTON {
+    background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
+    color: #fff !important;
+    border: none !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://www.c-language.org/"
-                    target="_blank">
+#BOTON:hover {
+    background-color: #fff !important;
+    transition: background-color 0.3s ease-in-out !important;
+    color: #000 !important;
+}
 
-                    C
+#SERVICES {
+    background-color: #fff !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: background-color 0.3s ease-in-out !important;
+    padding: 4px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: lighter !important;
+    color: #000 !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://isocpp.org/"
-                    target="_blank">
+#SERVICES:hover {
+    background-color: #000 !important;
+    transition: background-color 0.31s ease-in-out !important;
+    color: #fff !important;
+}
 
-                    C++
+.navbar-toggler-icon {
+    background-color: transparent !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://www.java.com/en/"
-                    target="_blank">
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bolder !important;
+}
 
-                    JAVA
+ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    list-style-type: none !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow:hidden !important;
+}
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 20px !important;
+    display: flex !important;
+    list-style-type: none !important;
+    color: #fff !important;
+    padding: 18px !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://react.dev/learn"
-                    target="_blank">
+li a:hover {
+    color: rgba(255, 0, 0, 0.823) !important;
+    text-decoration: none !important;
+    transition: 0.3s background-color ease-in-out !important;
+    font-weight: bold !important;
+}
 
-                    REACT
+.HOVER {
+    color: rgb(1, 1, 155) !important;
+    text-decoration: none !important;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://vuejs.org/"
-                    target="_blank">
+.HOVER:hover {
+    font-weight: bold !important;
+}
 
-                    VUE.JS
+.ROVER {
+    text-decoration: none;
+}
 
-                </a>
-                <a class="CC list-group-item list-group-item-action" id="CC-List" href="https://www.typescriptlang.org/"
-                    target="_blank">
+#BOTTOBANNER {
+    background-color: var(--bs-darkred) !important;
+}
 
-                    TYPESCRIPT
+.footer {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 40px !important;
+    background-color: #1987548f !important;
+}
 
-                </a>
-            </span>
-        </div>
+#TOPO {
+    align-items: center !important;
+    width: 109px !important;
+    height: 40px !important;
+    font-size: 12px !important;
+    margin-left: 5px !important;
+    padding: 10px !important;
+    z-index: 1000 !important;
+    color: #333 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    border: 1.5px solid #fff !important;
+    background-color: #ececec !important;
+}
 
+#TOPO:hover {
+    background-color: #fff !important;
+    border: 1.5px solid #000 !important;
+    color: #000 !important;
+    transition: background-color 0.3s ease-in-out;
+}
 
-        <div class="col-md-8 d-flex flex-row gap-5 pb-4 justify-content-center align-items-center" id="ALL_TOGETHER">
-            <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOK">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-                    class="card-img-top mt-4 img-fluid ps-3 pe-3 pt-3 rounded-0" style="width: 50%; height: 200px">
-                <div class="card-body justify-content-center align-items-center">
-                    <h1 class="card-title text-start text-danger fs-4 fw-bolder">Learn HTML</h1>
-                    <p class="card-text text-start fs-6 ps-1"> HTML is a markup language and stands for HyperText
-                        Markup. HTML is the main technology to use in order to create web pages. HTML is the backbone of
-                        the
-                        Internet and is widely used for web development.</p>
-                    <a class="ROVER text-center" href="https://html.spec.whatwg.org/multipage/" target="_blank">
-                        <div class="d-grid"><button class="text-center p-2 btn rounded-5 fw-bolder" id="READMORE">
-                                Read More</button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOK">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                    class="card-img-top mt-4 img-fluid ps-3 pe-3 pt-3 rounded-0" style="width: 38.5%; height: 200px;">
-                <div class="card-body justify-content-center align-items-center">
-                    <h1 class="card-title text-start text-primary fs-4 fw-bolder">Learn CSS</h1>
-                    <p class="card-text text-start fs-6"> CSS is a technological tool that stands for Cascading
-                        Style
-                        Sheet. CSS is used to style web pages by adding colors, fonts and layouts.
-                        CSS is essential for creating elegant and responsive web pages. CSS is the second sofware to be invented.
-                    </p>
-                    <a class="ROVER text-center" href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
-                        <div class="d-grid"><button class="text-center p-2 btn rounded-5 fw-bolder" id="READMORE">
-                                Read More</button>
-                        </div>
-                    </a>
-                </div>
-            </div>
+#Footer-space {
+    width: 100% !important;
+    height: auto !important;
+    background-color: #198754 !important;
+}
 
-            <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOK">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-                    class="card-img-top mt-4 img-fluid ps-3 pe-3 pt-3 rounded-0" style="width: 50%; height: 200px">
-                <div class="card-body justify-content-center align-items-center">
-                    <h1 class="card-title text-start text-dark fs-4 fw-bolder">Learn Javascript</h1>
-                    <p class="card-text text-start text-dark fs-6 ps-1"> Javascript is a versatile programming language
-                        for web development. It is
-                        known for its rich ecosystem of libraries and frameworks and is a popular choice for
-                        building interactive web applications.
-                    </p>
-                    <a class="ROVER text-center" href="https://www.javascript.com/" target="_blank">
-                        <div class="d-grid"><button class="text-center p-2 btn rounded-5 fw-bolder" id="READMORE">
-                                Read More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOK">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
-                    class="card-img-top mt-4 img-fluid ps-3 pe-3 pt-3 rounded-0" style="width: 50%; height: 200px;">
+#Space-to-Footer {
+    width: 100% !important;
+    height: 300px !important;
+    background-color: #198754 !important;
+    font-family: 'Courier New', Courier, monospace; 
+    justify-content: center !important;
+    align-items: center !important;
+    font-weight: bolder !important;
+    font-size: 8px !important;
+    padding-top: 55px !important;
+    color: #ff0 !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 0.1px solid #fff !important;
+}
+#Space-to-Footer:hover{
+    color: #fff !important;
+    transition: 0.3s background-color ease-in-out !important;
+}
+#Universities {
+    background-color: #198754 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 15px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 
-                <div class="card-body justify-content-center align-items-center">
-                    <h1 class="card-title text-start fs-4 fw-bolder" style="color: var(--bs-purple)">Learn
-                        Bootstrap
-                    </h1>
-                    <p class="card-text text-start fs-6 ps-1"> Bootstrap is a framework that gathers three technologies:
-                        HTML for the structure,
-                        CSS for the styling and JS for interactivity. With Bootstrap you can fastly build web
-                        applications.
-                    </p>
-                    <a class="text-center" href="https://getbootstrap.com/" target="_blank"></a>
-                    <a class="ROVER text-center" href="https://getbootstrap.com/" target="_blank">
-                        <div class="d-grid">
-                            <button class="text-center p-2 btn rounded-5 fw-bolder" id="READMORE">
-                                Read More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Programming languages, JS libraries and frameworks we have to get familiar-->
-    <!--Here starts the Block-wrappe container-->
-    <div class="container-fluid justify-content-center align-items-center" id="Block-wrappe">
-        <div class="container d-flex flex-row flex-wrap gap-4 pb-4 justify-content-center align-items-center">
-            <div class="container d-grid text-center mt-3">
-                <a href="https://en.wikipedia.org/wiki/Category:Dynamically_typed_programming_languages" target="_blank"
-                    class="ROVER">
-                    <button type="button" class="btn rounded-0">
-                        <h2 class="text-success fw-bolder">
-                            Programming Languages,
-                            Librairies And Frameworks To Know
-                        </h2>
-                    </button>
-                </a>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://www.svgrepo.com/show/452091/python.svg"
-                    class="card-img-top img-fluid rounded-0 ps-3 pe-3 pt-3 mt-2" style="width: 32.5%; height: 87px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">Python</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        Python is a versatile and high-level programming language - widely used in various domains
-                        including Web Dev, data analysis, AI and Scientific Computing</p>
-                    <ul class="list-group text-start fs-6 rounded-0 mb-1">
-                        <a href="https://www.python.org/" class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">
-                            Python
-                            Programming Language</a>
-                        <a href="https://docs.python.org/3/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Documentation</a>
-                        <a href="https://pypi.org/" class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">
-                            Package
-                            Index</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.python.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">React</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        React is a JavaScript library for building user interfaces.
-                        It is maintained by Facebook and a community of individual developers and companies.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://react.dev/learn" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">Quick Start</a>
-                        <a href="https://react.dev/learn/installation" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Installation</a>
-                        <a href="https://react.dev/learn/setup" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Setup</a>
-                    </ul>
-                    <a class="ROVER" href="https://react.dev/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">C</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        C is a popular programming language that is simple and flexible.
-                        It is machine-independent, structured programming language used for various tasks.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://www.c-language.org/tools" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Tools</a>
-                        <a href="https://www.c-language.org/resources" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Resources</a>
-                        <a href="https://www.c-language.org/about" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">About C Founders</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.c-language.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">C++</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        C++ is a general-purpose programming language created by Bjarne Stroustrup.
-                        It has imperative, object-oriented and generic programming features.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://isocpp.org/get-started" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Get Started</a>
-                        <a href="https://isocpp.org/tour" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">Tour</a>
-                        <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Core Guidelines</a>
-                    </ul>
-                    <a class="ROVER" href="https://isocpp.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">Vue</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        Vue.js, commonly referred to as Vue, is a progressive JavaScript framework
-                        designed for building user interfaces and single-page applications (SPAs).
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://vuejs.org/guide/introduction.html" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Introduction</a>
-                        <a href="https://vuejs.org/guide/quick-start.html" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Quick Start</a>
-                        <a href="https://vuejs.org/api/" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">API Reference</a>
-                    </ul>
-                    <a class="ROVER" href="https://vuejs.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Perl-logo.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">Perl</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        Perl is a programming language known for its text-processing capabilities.
-                        It is widely used for system administration, web development, and more.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://www.perl.org/about.html" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">What is Perl?</a>
-                        <a href="https://learn.perl.org/" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">Learn Perl</a>
-                        <a href="https://www.perl.org/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                                var(--bs-gray-600)">Docs</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.perl.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-ruby-logo-icon-svg-download-png-3030386.png?f=webp&w=256"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">Ruby</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        Ruby is a dynamic programming language known for its simplicity and productivity.
-                        It has an elegant syntax that is easy to read and write. Ruby is often used for web development.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://www.ruby-lang.org/en/about/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">What is Ruby?</a>
-                        <a href="https://www.ruby-lang.org/en/documentation/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Learn Ruby</a>
-                        <a href="https://www.ruby-lang.org/en/documentation/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                                var(--bs-gray-600)">Docs</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.ruby-lang.org/en/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">mySQL</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        mySQL is an open-source relational database management system (RDBMS) based on SQL (Structured
-                        Query Language) widely used for web applications and data storage.
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="https://www.mysql.com/" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">What is mySQL?</a>
-                        <a href="https://www.mysql.com/training/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Learn mySQL</a>
-                        <a href="https://dev.mysql.com/doc/" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                                var(--bs-gray-600)">Docs</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.mysql.com/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-<div class="card col-md-2 text-center rounded-0" id="Bootstrap">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
-                    class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0 mt-2" style="width: 32.5%; height: 85px">
-                <div class="card-body">
-                    <h1 class="card-title text-start fs-4 fw-bold">Typescript</h1>
-                    <p class="card-text text-start text-dark pt-1">
-                        TypeScript is a strongly typed programming language 
-                        that builds on JavaScript, giving you better tooling at any scale. It's been created for building web applications.
-                        
-                    </p>
-                    <ul class="list-group text-start rounded-0 mb-1">
-                        <a href="#" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Get Started</a>
-                        <a href="#" target="_blank" class="list-group-item list-group-item-action"
-                            style=" color:
-                            var(--bs-gray-600)">Tour</a>
-                        <a href="#" target="_blank"
-                            class="list-group-item list-group-item-action" style=" color:
-                            var(--bs-gray-600)">Core Guidelines</a>
-                    </ul>
-                    <a class="ROVER" href="https://www.typescriptlang.org/" target="_blank">
-                        <div class="d-grid">
-                            <button class="btn rounded-5 p-3 mt-2 mb-2" id="Learnmore">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-success justify-content-center align-items-center" id="KETO">
-        <div class="container card rounded-0 text-dark bg-warning" id="SEP">
-            <div class="card-body bg-warning">
-            <h2 class="card-title fw-bold" id="HEAD">
-                Technology is getting a wider space in human-beings lives. 
-                On a daily basis the consumption of products made of Basic Technologies (BASITECH) is increasing. From cellphones through e-watches to computers, it's not imaginable those tools be put away from our ways of living. 
-                With Artificial Intelligence (AI), Tech is unavoidably and continually imposing itself accross many fields and is more present on the core of our daily lives. This Forever. But what is Basic Tech?
-           </h2>
-        </div>
-        </div>
-    </div>
-    <!--Building an accordion for tech questions-->
-    <div class="container d-flex flex-row pt-4 pb-4 justify-content-space-between align-items-center">
-<div class="col-sm-12 rounded-0 accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item pt-2" id="ARK">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed text-secondary bg-body fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        What Is Basic Tech?
-      </button>
-    </h1>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <p class="lh-lg">Basic Tech is a term that refers to the fundamental technologies and skills that are essential for understanding and working with modern technology. 
-        It encompasses a wide range of topics, including computer literacy, internet usage, software applications, digital communication, and basic programming concepts.
-        </p>
-    </div>
+#Lin a {
+    width: 100%;
+    color: darkblue !important;
+    font-size: 11.5px !important;
+    text-decoration: none !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 
-    <a href="https://www.sciencedirect.com/topics/social-sciences/basic-technology" target="_blank">
-                <button class="btn btn-primary fs-6 rounded-5 ms-2 p-2 mt-0 mb-2 me-auto" id="LearnMoreButton">
-                    Learn More
-                </button></a>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARK">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed text-secondary bg-body fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        How Important Is To Learn Basic Tech?
-      </button>
-    </h1>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">
-      <p class="lh-lg">Basic Tech is important because it provides individuals with the foundational knowledge
-                    and
-                    skills needed to effectively navigate the digital world.
-                    It enables people to access information, communicate with others, and utilize various
-                    digital
-                    tools and platforms.
-                    In today's technology-driven society, having a solid understanding of Basic Tech is
-                    crucial
-                    for
-                    personal and professional development.
-      </p>
-         </div>
-        <a href="https://www.edsurfing.com/blog/why-you-should-learn-basic-computer-skills-178" target="_blank">
-                <button class="btn btn-primary fs-6 rounded-5 ms-2 p-2 mt-0 mb-2 me-auto" id="LearnMoreButton">
-                    Learn More
-                </button></a>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARK">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed text-secondary bg-body fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        How Long It Takes To Build A First Basic Program?
-      </button>
-    </h1>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-    <p class="lh-lg">The time required to create a static program can vary depending on several factors
-                    including
-                    the
-                    complexity of the program, your prior programming experience, and the programming
-                    language
-                    you
-                    choose to use.
-                    For beginners with little to no programming experience, it may take anywhere from hours
-                    to
-                    days
-                    or maybe to months to create a simple static program depending your ability to learn
-                    fast or
-                    not.
-                    This could involve learning the basics of the programming language, understanding the
-                    syntax,
-                    and writing the code for the program.
-                    However, with consistent practice and dedication, you can gradually improve your
-                    programming
-                    skills and create more complex programs over time.
-                </p>    
-    </div>
-    <a href="https://wcc.ca/blog/how-long-does-it-take-to-complete-an-it-program/" target="_blank">
-                <button class="btn btn-primary fs-6 rounded-5 ms-2 p-2 mt-0 mb-2 me-auto" id="LearnMoreButton">
-                    Learn More
-                </button></a>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARKO">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed bg-body text-secondary fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        Which Technology Should I Learn First?
-      </button>
-    </h2>
-    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <p>
-                    The choice of technology to start learning depends on your interests, goals, and the
-                    specific
-                    field you want to pursue.
-                    However, some popular and widely used technologies that are often recommended for
-                    beginners
-                    include:<br><br>
-                
-                <b>1. HTML/CSS:</b> These are the foundational languages for web development and are
-                    essential
-                    for
-                    creating and styling web pages.<br><br>
-                <b>2. JavaScript: </b>A versatile programming language used for web development, allowing
-                    you
-                    to
-                    create interactive and dynamic web applications.<br><br>
-                <b>3. Python: </b>A beginner-friendly programming language known for its simplicity and
-                    readability. It is widely used in various fields, including web development, data
-                    analysis,
-                    and
-                    machine learning.<br><br>
-                <b>4. SQL: </b>A language used for managing and manipulating databases. It is essential for
-                    working
-                    with data and is commonly used in web development and data analysis.<br><br>
-                <b>5. Git: </b>A version control system that allows you to track changes in your code and
-                    collaborate with others. It is widely used in software development projects.
-                 </p>
-            </div>
-            <a href="https://medium.com/globant/which-technology-programming-language-should-you-learn-first-c5bec08790f" target="_blank">
-                <button class="btn btn-primary fs-6 rounded-5 ms-2 p-2 mt-0 mb-2 me-auto" id="LearnMoreButton">
-                    Learn More
-                </button></a>
-    </div>
-  </div>
-</div>
-    </div>
+#Lin a:hover {
+    color: #ff0 !important;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 11.53px !important;
+    font-weight: bold !important;
+}
+#Resources {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "Ubuntu", sans-serif !important;
+    background-color: #e7fff492 !important;
+    padding: 20px !important;
+    border-top: 0.15px solid rgba(192, 192, 192, 0.884) !important;
+    border-bottom: 0.15px solid rgba(192, 192, 192, 0.884) !important;
+}
 
-<!--Building an accordion-->
-<div class=" container-fluid bg-success pb-4 d-flex flex-column justify-content-center align-items-center">
-<div class="container bg-success pt-4">
-            <h1 class="text-center text-warning" id="HEADO">These are some resources for each of the technologies listed below</h1>
-    </div>
-    <div class="container mt-3 mb-5 accordion accordion-flush" id="#accordionFlushExample">
-  <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseone" aria-expanded="false" aria-controls="flush-collapseone" id="HEADER">
-      HTML<span class="text-success ms-1">Resources</span>
-      </button>
-    </h1>
-    <div id="flush-collapseone" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://html.spec.whatwg.org/multipage/" target="_blank">
-                    HTML Living Standard
-                    </a>
-                    <br>
-         <a class="fs-5 HOVER" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN
-                    Web
-                    Docs - HTML</a><br>
-                <a class="fs-5 HOVER" href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML
-                    Tutorial</a><br>
-                <a class="fs-5 HOVER" href="https://html.com/" target="_blank">HTML.com - Learn HTML</a><br>
-                <a class="fs-5 HOVER"
-                    href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5"
-                    target="_blank">freeCodeCamp - HTML & HTML5</a><br>
-                <a class="fs-5 HOVER" href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy
-                    -Learn HTML</a>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapsetwo" id="HEADER">
-        CSS <span class="text-success ms-1">Resources</span>
-      </button>
-    </h1>
-    <div id="flush-collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">W3.Org</a><br>
-                <a class="fs-5 HOVER" href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS
-                    Tutorial</a><br>
-                <a class="fs-5 HOVER" href="https://css-tricks.com/" target="_blank">CSS-Tricks</a><br>
-                <a class="fs-5 HOVER" href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-css"
-                    target="_blank">freeCodeCamp - Basic CSS</a><br>
-                <a class="fs-5 HOVER" href="https://www.codecademy.com/learn/learn-css" target="_blank">CSS with
-                    codeacademy</a><br>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree" id="HEADER">
-        Javascript <span class="text-success ms-1">Resources</span>
-      </button>
-    </h1>
-    <div id="flush-collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER"href="https://www.javascript.com/ " target="_blank">Javascript.com</a><br>
-        <a class="fs-5 HOVER" href="https://javascript.info/" target="_blank">JavaScript-info</a><br>
-    <a class="fs-5 HOVER"href="https://www.w3schools.com/js/" target="_blank">w3schools JS tutorial</a><br>  
-</div>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour" id="HEADER">
-        VSCODE <span class="text-success ms-1">Resource</span>
-      </button>
-    </h1>
-    <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://code.visualstudio.com/" target="_blank">The Open Source Code
-                    Editor</a>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive" id="HEADER">
-       Bootstrap <span class="text-success ms-1">Resources</span>
-      </button>
-    </h1>
-    <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://getbootstrap.com/" target="_blank">Bootstrap.com</a><br>
-           <a class="fs-5 HOVER" href="https://www.w3schools.com/bootstrap5/"target="_blank">w3schools Bootstrap tutorial</a>
-    </div>
-    </div>
-  </div>
-   <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix" id="HEADER">
-       Python <span class="text-success ms-1">Resource</span>
-      </button>
-    </h1>
-    <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://www.python.org/" target="_blank">Python.org</a>
-    </div>
-    </div>
-  </div>
-   <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven" id="HEADER">
-       React <span class="text-success ms-1">Resource</span>
-      </button>
-    </h1>
-    <div id="flush-collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://react.dev/" target="_blank">React</a>
-    </div>
-    </div>
-  </div>
-   <div class="accordion-item" id="ARC">
-    <h1 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight" id="HEADER">
-       Vue.js <span class="text-success ms-1">Resource</span>
-      </button>
-    </h1>
-    <div id="flush-collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <a class="fs-5 HOVER" href="https://vuejs.org/" target="_blank">Vue.js</a>
-    </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="container text-center p-4">
-        <h2 class="text-secondary text-success fw-bolder">From coast to coast, Canada is a pluralistic country with many diversities
-        </h2>
-    </div>
-    <div class="col-md-8 d-flex flex-row gap-1 pb-4 justify-content-center align-items-center" id="CANADA-CITIES">
-        <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOKE">
-            <img src="https://zupimages.net/up/25/52/rpql.jpg" class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0"
-                style="width: 100%; height: 200px;">
-            <div class="card-body justify-content-center align-items-center">
-                <h1 class="card-title text-start fs-5 fw-bolder" style="color: var(--bs-dark)">City of
-                    Montreal
-                </h1>
-                <p class="card-text text-start ps-1"> Montreal is the largest city in Canada's province of
-                    Quebec
-                    and the largest french-speaking city in the Americas.
-                    It is known for its culture, arts, festivals, and vibrant nightlife.
-                    Montreal has many parks and green spaces. It is home to "LE CANADIEN DE MONTREAL".
-                </p>
-                <a class="ROVER text-center" href="https://montreal.ca/en" target="_blank">
-                    <div class="d-grid">
-                        <button class="text-center p-2 btn rounded-5 fw-bolder" id="READ-MORE">
-                            Read More
-                        </button>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOKE">
-            <img src="https://zupimages.net/up/26/05/kvp4.jpg" class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0"
-                style="width: 100%; height: 200px;">
-            <div class="card-body justify-content-center align-items-center">
-                <h1 class="card-title text-start fs-5 fw-bolder" style="color: var(--bs-dark)">City of
-                    Ottawa
-                </h1>
-                <p class="card-text text-start ps-1"> Ottawa is the federal capital of Canada - located in
-                    the
-                    province of Ontario.
-                    Being the political center of Canada, Ottawa is home to many government buildings and
-                    embassies.
-                    Ottawa is known for its historic landmarks and tulip festival. It is home to OTTAWA
-                    Senators.
-                </p>
-                <a class="ROVER text-center" href="https://www.ottawa.ca/en" target="_blank">
-                    <div class="d-grid"><button class="text-center p-2 btn rounded-5 fw-bolder" id="READ-MORE">
-                            Read More
-                        </button>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOKE">
-            <img src="https://zupimages.net/up/25/52/612q.jpg" class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0"
-                style="width: 100%; height: 200px;">
-            <div class="card-body justify-content-center align-items-center">
-                <h1 class="card-title text-start fs-5 fw-bolder" style="color: var(--bs-dark)">City of
-                    Toronto
-                </h1>
-                <p class="card-text text-start ps-1"> Toronto is the largest city in Canada and the capital
-                    of
-                    the
-                    province of Ontario.
-                    It is known for its diverse population, vibrant arts and culture scene, and iconic
-                    landmarks
-                    such as the CN Tower.
-                    Toronto is a financial and business hub and home to TORONTO Maple Leafs.
-                </p>
-                <a class="ROVER text-center" href="https://www.toronto.ca/" target="_blank">
-                    <div class="d-grid">
-                        <button class="text-center p-2 btn rounded-5 fw-bolder" id="READ-MORE">
-                            Read More
-                        </button>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="card rounded-0 justify-content-center align-items-center mb-2" id="BLOKE">
-            <img src="https://zupimages.net/up/25/49/s85e.jpg" class="card-img-top img-fluid ps-3 pe-3 pt-3 rounded-0"
-                style="width: 100%; height: 200px;">
-            <div class="card-body justify-content-center align-items-center">
-                <h1 class="card-title text-start fs-5 fw-bolder" style="color: var(--bs-dark)">City of
-                    Vancouver</h1>
-                <p class="card-text text-start ps-1"> Vancouver is a coastal city located in the province of
-                    British
-                    Columbia, Western Canada.
-                    It is known for its stunning natural beauty, with mountains like the Rockies, forests,
-                    and the Pacific Ocean surrounding the city. Vancouver is home to the NHL team Vancouver
-                    Canucks.
-                </p>
-                <a class="ROVER text-center" href="https://vancouver.ca/" target="_blank">
-                    <div class="d-grid">
-                        <button class="text-center p-2 btn rounded-5 fw-bolder" id="READ-MORE">
-                            Read More
-                        </button>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!--Here starts the Block-wrap container-->
-    <div class="container text-center p-4 mt-4 border-top border-success border-2">
-        <h2 class="text-secondary text-success fw-bolder"> Each province not only has its own capital-city but also its typical specificity
-        </h2>
-    </div>
-    <div class="container-fluid justify-content-center align-items-center" id="Block-wrap">
-        <div class="container d-flex flex-row gap-5" id="BTHREE">
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/52/vm7f.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Fredericton</h1>
-                    <p class="card-text text-start">Fredericton is the capital of Canada's province of New
-                        Brunswick. It is home to provincial institutions headquarters.
-                        Fredericton is crossed by the Saint-John river flowing to the Atlantic Ocean. Wintertime
-                        is
-                        really tougher given the closer and geographical postion of the Maritimes provinces to
-                        the
-                        Atlantic.
-                    </p>
-                    <a class="card-link ROVER" href="https://www.fredericton.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/49/5hns.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Calgary</h1>
-                    <p class="Paragraph card-text text-start">Calgary is the main city of the province of
-                        Alberta-CANADA.
-                        Calgary is a vibrant city with an economy mainly based on the oil and gas industry and
-                        tourism.
-                        Calgary is home to natural beauties and a gateway to the Rockies Mountains. It is also
-                        home
-                        to
-                        the NHL team, the Flames and annually hosts the Stampede.
-                    </p>
-                    <a class="card-link ROVER" href="https://www.calgary.ca/home.html" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/49/ye8s.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Winnipeg</h1>
-                    <p class="Paragraph card-text text-start">Winnipeg is the capital of Canada's province of
-                        Manitoba
-                        located in the Prairies.
-                        As many other cities in Manitoba, it is home to Metis people whose founder has been
-                        Louis
-                        Riel.
-                        The Jets of Winnipeg, a NHL team is based in Winnipeg. Summer is an ideal time for
-                        outdoors
-                        including festivals or other activities
-                    </p>
-                    <a class="card-link ROVER" href="https://www.winnipeg.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/49/052p.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Halifax</h1>
-                    <p class="card-text text-start lh-sm-1">Halifax is the capital and main city of Canada's
-                        province of
-                        Nova Scotia.
-                        It's a major economic center in Atlantic Canada. It has a rich history and is known for
-                        its
-                        maritime culture.
-                        As a coastal city, Halifax has a strong connection to the sea and is home to Canada
-                        Marines
-                        base.
-                        The city has many historic sites and museums.
-                    </p>
-                    <a class="card-link ROVER" href="https://www.halifax.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/49/gmwa.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
+#Begin {
+    display: block !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-weight: bolder !important;
+    font-size: 45px !important;
+    color: #393939 !important;
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of St John's</h1>
-                    <p class="card-text text-start lh-sm-1">St John's is the main city of Canada's province of
-                        Newfoundland.
-                        Given its geographical and closer location to water, St John's has a rich culture to the
-                        sea
-                        and
-                        especially in the fishing industry
-                        that is the main source of economical activities. It is isolated to mainland Canada
-                        because
-                        Newfounland is a Maritimes Island.
-                    </p>
-                    <a class="card-link ROVER" href="https://www.stjohns.ca/en/index.aspx" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/25/49/guc3.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder" style="width: 100%">The City of Edmondton
-                    </h1>
-                    <p class="card-text text-start lh-sm-1" style="width: 100%">Edmonton is the provincial capital of
-                        Canada's
-                        Alberta
-                        and
-                        is the northernmost city often called the GAteway to the North.
-                        Edmonton is known for its festivals, arts and culture scene, and beautiful river valley
-                        parks.
-                        It is home to the NHL team "The Oilers".
-                        The city has a strong economy based on oil and gas industry.
-                    </p>
-                    <a class="card-link ROVER" href="https://www.edmonton.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/26/05/jqnk.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Charlottetown</h1>
-                    <p class="Paragraph card-text text-start">Charlottetown is the capital and largest city of Canada's Prince Edwards Island. 
-                       It's known as the birth place of the Confederation of Canada.
-                        The Charlottetown Conference, a gathering between Canadian and Maritimes statemen to discuss the union in 1864 happened there. 
-                    </p>
-                    <a class="card-link ROVER" href="https://www.charlottetown.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/26/05/5y0x.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Iqualit</h1>
-                    <p class="Paragraph card-text text-start">Iqualit is the main city of the territory of Nunavut located in the geographical region of Northern Canada. 
-                        Because of this position Iqualit is closer to the artic pole and has a cold weather meaning long winters and short summers. Boreal aurors are part of the beauties of the area.
+#Wel {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 49% !important;
+    height: 100% !important;
+    padding: 40px !important;
+    border-radius: 0.4rem !important;
+    background-color: #fff !important;
+    margin-bottom: 3rem !important;
+}
 
-                    </p>
-                    <a class="card-link ROVER" href="https://iqaluit.ca/" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="card mt-2 mb-2 rounded-0" id="BALOU">
-                <img src="https://zupimages.net/up/26/05/qcrw.jpg"
-                    class="card-img-top img-fluid pt-3 ps-3 pe-3 rounded-0" style="width: 100%; height: 220px">
-                <div class="card-body">
-                    <h1 class="card-title text-dark text-start fs-5 fw-bolder">The City of Yellowknife</h1>
-                    <p class="card-text text-start lh-sm-1">Yellowknife is one of the northernmost cities of Canadian North West territories. Geography makes it it too close to the artic pole. 
-                        While boreal aurors are astoningly epic and make a well-being emotion given the marvels of beauties of mother nature, winter is long and tougher to live. 
-                    </p>
-                    <a class="card-link ROVER" href="https://www.yellowknife.ca/en/index.aspx" target="_blank">
-                        <div class="d-grid"><button class="btn btn-outline p-2 mt-3 mb-2" id="LEARNMORE">
-                                Learn More
-                            </button>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container border-top border-success border-2 mt-2 mb-2">
-        <h2 class="text-success text-center fw-bold mt-4">Burkina Faso is a country located in west Africa</h2>
-    </div>
-    <!--A section about Burkina Faso-->
-    <div class="container d-flex flex-row rounded-0 g-0 justify-content-between align-items-center">
-        <div class="card col-7" id="BURKINA-FASO">
-            <div class="card-body">
-            <h1 class="card-header bg-success rounded-0 text-start text-warning fs-1 fw-bold">Burkina Faso</h1>
-            <p class="card-text list-group list-group-flush fs-4">
-               <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Burkina_Faso#Etymology" target="_blank">Etymology</a>
-                <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Burkina_Faso#History" target="_blank">History</a>
-                <a class="list-group-item list-group-item-action" href="https://www.presidencedufaso.bf/"target="_blank">Presidency of Burkina Faso</a>
-               <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Demographics_of_Burkina_Faso" target="_blank">Population</a>
-                  <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Politics_of_Burkina_Faso" target="_blank">Politics</a>
-               <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Burkina_Faso#Economy" target="_blank">Economy</a>
-                <a class="list-group-item list-group-item-action" href="https://www.education.gov.bf/accueil" target="_blank">Education</a>
-                <a class="list-group-item list-group-item-action" href="https://en.wikipedia.org/wiki/Art_of_Burkina_Faso" target="_blank">Art and Culture</a>
-            </p>
-            </div>
-        </div>
-        
-            <div class="card col-5 me-auto" id="LAND"> 
-            <img src="https://zupimages.net/up/26/08/2dr4.jpg" class="card-img-top img-fluid p-2 rounded-0"
-                style="width: 27rem">
-               <a class="ROVER" href="https://en.wikipedia.org/wiki/Geography_of_Burkina_Faso" target="_blank"> 
-                <div class="card-body text-success">
-                    <h1 class="card-hearder">Geography</h1>
-                    <div class=card-body>
-                        <p class="card-text">Burkina Faso is a landlocked country located in the sahel of west africa sharing boundaries with six countries as following: Ghana, Togo, Benin, Niger, Mali and Ivory Coast
-                        </p>
-                    </div>
-                </div>
-                </a>
-            </div>
-    </div>
-    <!--Here is the block-div about Burkina Faso and its capital OUAGADOUGOU-->
-    <div class="container-fluid d-flex flex-column " id="Full">
-        <div class="container text-success border-top border-success border-2 text-start p-4 fw-bolder">
-            <h2 class="fw-bold text-center">Did you once hear about Burkina Faso and its capital OUAGADOUGOU?
-            </h2>
-        </div>
-        <div class="container d-flex flex-column justify-content-center align-items-center" id="WelcomeB">
-            <div class="card" id="WelcomeA">
-                <div class="card-body" id="Three">
-                    <figure>
-                        <figcaption class="figure-caption text-secondary" id="FIGCAPTION">© Wikipedia/ Ouaga
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/OUAGADOUGOU3.JPG/1280px-OUAGADOUGOU3.JPG"
-                                class="card-img-top rounded-0">
-                    </figure>
-                    <h3 class="card-title text-primary fs-5 fw-bolder">Ouagadougou, Capital Of Burkina Faso</h1>
-                        <p class="card-text text-secondary fs-6">OUAGADOUGOU the capital and main city
-                            of Burkina Faso.<br><br>
-                        </p>
-                        <div class="card-footer"><a href="https://en.wikipedia.org/wiki/Ouagadougou" target="_blank">
-                                <button class="btn btn-warning rounded-5 mb-2">
-                                    Read More
-                                </button>
-                            </a>
-                        </div>
-                </div>
-                <div class="card-body" id="Three">
-                    <figure>
-                        <figcaption class="figure-caption text-secondary" id="FIGCAPTION">© SWISS/ Sindou
-                            <img src="https://www.swiss.com/aircore/media/cn/eyJpZGVudGlmaWVyIjo0Njc2NjIsInR5cGUiOiJhc3NldCJ9.webp"
-                                class="card-img-top rounded-0">
-                    </figure>
-                    <h3 class="card-title text-primary fs-5 fw-bolder">Landscapes Of Burkina Faso</h3>
-                    <p class="card-text text-secondary fs-6">Learn about the capital of Burkina Faso, its culture, its
-                        people.<br><br>
-                    </p>
-                    <div class="card-footer"><a href="https://en.wikipedia.org/wiki/Sindou" target="_blank">
-                            <button class="btn btn-warning rounded-5 mb-2">
-                                Read More
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Here starts the Block-wrapper container on Burkina Faso-->
-    <div class="container-fluid d-flex flex-row justify-content-center align-items-center" id="B-W"
-        style="background-color: #f0f0f0;">
-        <div class="container" id="Block-wrapper">
-            <div class="container p-4 text-success text-start fw-bolder">
-                <h2 class="fw-bold text-center">Population and Education in Burkina Faso
-                </h2>
-            </div>
-            <div class="card d-flex flex-row gap-2 justify-content-center align-items-center" id="Blockus">
+#Wel:hover {
+    background-color: #4effac78 !important;
+    transition: 0.31s background-color ease-in-out !important;
+}
 
-                <div class="card-body text-center p-3" id="BLAKO">
-                    <figure>
-                        <figcaption class="figure-caption text-start text-secondary" id="FIGCAPTION">© faso.net/
-                            Crowd
-                            <img src="https://lefaso.net/local/cache-vignettes/L680xH454/b1d21355-9499-43e8-a23f-e788c4e1a216-0f33f.jpg?1759854082"
-                                class="card-img-top rounded-0 img-fluid">
-                        </figcaption>
-                    </figure>
-                    <h1 class="card-title text-start text-primary fs-5 p-2 fw-bolder">Population of Burkina Faso
-                    </h1>
-                    <p class="card-text text-secondary text-start fs-6 p-2">Burkina Faso has one of the
-                        fast-growing
-                        young population in West Africa. It is a huge potential for the country if they get
-                        educated
-                    </p>
-                    <div class="card-footer">
-                        <a class="ROVER" href="https://datacommons.org/place/country/BFA?category=Demographics&hl=en"
-                            target="_blank">
-                            <div class="d-grid">
-                                <button class="text-center p-2 btn btn-outline-primary rounded-0 fw-bolder"
-                                    id="READMORE">
-                                    Read More
-                                </button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-body text-center" id="BLAKO">
-                    <figure>
-                        <figcaption class="figure-caption text-start text-secondary" id="FIGCAPTION">© GPS/
-                            School
-                            <img src="https://assets.globalpartnership.org/s3fs-public/styles/standard_blog_banner/public/Burkinafaso.jpg?VersionId=AkSUq7bJUs_CUIVKJA1uJKJ.PYAE8aIL&itok=ilMGANBJ"
-                                class="card-img-top rounded-0 img-fluid">
-                        </figcaption>
-                    </figure>
-                    <h1 class="card-title text-start text-primary fs-5 p-2 fw-bolder">Education in Burkina Faso
-                    </h1>
-                    <p class="card-text text-secondary text-start fs-6 p-2">Burkina Faso has made some progress
-                        in
-                        terms
-                        of education. But there still is many challenges in rural areas about infrastructures
-                    </p>
-                    <div class="card-footer">
-                        <a class="ROVER card-link" href="https://www.education.gov.bf/accueil" target="_blank">
-                            <div class="d-grid">
-                                <button class="text-center p-2 btn btn-outline-primary rounded-0 fw-bolder"
-                                    id="READMORE">
-                                    Read More
-                                </button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+#LuL {
+    font-size: 14px !important;
+}
 
-    <!--End of the body of the page-->
+#Web-Dev {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 28px !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
+    padding: 10px !important;
 
-    <!--Button to go back to the top of the page-->
-    <a href="#TOP" class="btn fw-bold rounded-0 position-fixed bottom-0 end-0 m-3" id="TOPO"
-        style="justify-content: center!important;">BACK TO TOP
-    </a>
-    <!--The body ends here-->
-</body>
-<div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-body" id="Footer-space">
-    <a class="ROVER"
-        href="https://www.ungeneva.org/sites/default/files/2021-01/Disability-Inclusive-Language-Guidelines.pdf"
-        target="_blank">
-        <div class="container text-center" id="Space-to-Footer">
-            <h5 class="fw-bolder pt-4">WE ARE ALL HUMAN BEINGS BUT
-                <br>
-                <br>WE ARE DIFFERENTLY ABLE.
-                <br>
-                <br>
-                INCLUSION CAN'T BE DISMISSED 
-                <br>
-                <br>
-                BECAUSE IT REALLY MATTERS.
-            </h5>
-        </div>
-    </a>
-</div>
-<div class="container-fluid text-center" id="Universities">NEED TO STUDY ? CHECKOUT UNIVERSITIES.</div>
-<!--Here starts the footer of the page-->
-<div class="container-fluid footer d-flex flex-row gap-5 justify-content-center align-items-center" id="footer">
-    <div class="col-lg-3 text-center" id="Lin">
-        <a class="ROVER" href="https://www.uqac.ca" target="_blank">
-            UQAC</a>
-        <a class="ROVER" href="https://www.mit.edu/" target="_blank"><br>
-            MIT
-        </a>
-        <a class="ROVER" href="https://www.umontreal.ca/" target="_blank"><br>
-            U-MTL
-        </a>
-        <a class="ROVER" href="https://www.ulaval.ca/" target="_blank"><br>
-            LAVAL
-        </a>
-        <a class="ROVER" href="https://www.umoncton.ca/" target="_blank"><br>
-            U-MONCTON
-        </a>
-        <a class="ROVER" href="https://www.dal.ca/" target="_blank"><br>
-            DALHOUSIE
-        </a>
-    </div>
-    <div class="col-lg-3 text-center" id="Lin">
-        <a class="ROVER" href="https://www.ualberta.ca/" target="_blank">
-            U-ALBERTA
-        </a>
-        <a class="ROVER" href="https://www.usherbrooke.ca/" target="_blank"><br>
-            UDS
-        </a>
-        <a class="ROVER" href="https://www.uwinnipeg.ca/" target="_blank"><br>
-            U-WINNIPEG
-        </a>
-        <a class="ROVER" href="https://www.uregina.ca/" target="_blank"><br>
-            U-REGINA
-        </a>
-        <a class="ROVER" href="https://www.sfu.ca/" target="_blank"><br>
-        U-S.FRASER
-        </a>
-        <a class="ROVER" href="https://www.mcmaster.ca/" target="_blank"><br>
-            MCMASTER
-        </a>
-    </div>
-    <div class="col-lg-3 text-center" id="Lin">
-        <a class="ROVER" href="https://www.mcgill.ca/" target="_blank">
-            MCGILL
-        </a>
-        <a class="ROVER" href="https://www.concordia.ca/" target="_blank"><br>
-            CONCORDIA
-        </a>
-        <a class="ROVER" href="https://www.hec.ca/en/index.html" target="_blank"><br>
-            HEC
-        </a>
-        <a class="ROVER" href="https://uqam.ca/" target="_blank"><br>
-            UQAM
-        </a>
-        <a class="ROVER" href="https://www.uottawa.ca/" target="_blank"><br>
-            OTTAWA-U
-        </a>
-        <a class="ROVER" href="https://carleton.ca/" target="_blank"><br>
-            CARLETON
-        </a>
-    </div>
-    <div class="col-lg-3 text-center" id="Lin">
-        <a class="ROVER" href="https://www.utoronto.ca/" target="_blank">
-            U-TORONTO
-        </a>
-        <a class="ROVER" href="https://www.yorku.ca/" target="_blank"><br>
-            U-YORK
-        </a>
-        <a class="ROVER" href="https://www.ubc.ca/" target="_blank"><br>
-            U OF BC
-        </a>
-        <a class="ROVER" href="https://www.harvard.edu/" target="_blank"><br>
-            HARVARD
-        </a>
-        <a class="ROVER" href="https://www.stanford.edu/" target="_blank"><br>
-            STANFORD
-        </a>
-        <a class="ROVER" href="https://www.ox.ac.uk/" target="_blank"><br>
-            OXFORD
-        </a>
-    </div>
-</div>
-<div class="container-fluid text-center p-3" id="BOTTOBANNER"
-    style="width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 13px;">
-    <p class="text-white fs-6"> Ⓒ Copyright GaB & TecH | All Rights Reserved</p>
-</div>
-</html>
+}
+
+#IMGSet {
+    width: 100%;
+    height: auto !important;
+    display: block !important;
+    opacity: 0.8 !important;
+}
+
+#IMGSet:hover {
+    opacity: 1 !important;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#Sunset-Image {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    position: relative !important;
+}
+
+#SUN {
+    display: block !important;
+    width: 100% !important;
+    height: 100px !important;
+    font-family: "Ubuntu", serif !important;
+    font-weight: bold !important;
+    line-height: 1.2 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 4rem !important;
+}
+
+#SUN:hover {
+    visibility: initial !important;
+    color: #f0f0f0 !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.card-body {
+    background-color: #fff !important;
+}
+
+#BLOK {
+    width: 21rem !important;
+    height: auto !important;
+    color: #343434 !important;
+    border: none !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+    font-family: Helvetica, sans-serif !important;
+    border-top: 0.15rem solid #dc3545 !important;
+}
+
+#BLOK:hover {
+    background-color: transparent !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+    border: 0.12px solid #c6c6c6ff !important;
+    border-top: 0.15rem solid #dc3545 !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+}
+#BLOKE{
+    width: 21rem !important;
+    height: auto !important;
+    color: #343434 !important;
+    border: none !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+    border-top: 0.15rem solid transparent !important;
+    font-family: Helvetica, sans-serif !important;
+}
+#BLOKE:hover{
+    background-color: transparent !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+    border: 0.12px solid #c6c6c6ff !important;
+    border-top: 0.15rem solid #dc3545 !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+}
+#READMORE {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    color: #ff0 !important;
+    border: 0.2rem solid transparent !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #198754 !important;
+}
+
+#READMORE:hover {
+    background-color: #e9f1fffd !important;
+    border: 0.2rem solid #2156a5 !important;
+    transition: background-color 0.3s ease-in-out;
+    color: #183e77 !important;
+}
+
+#READ-MORE {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    color: #666 !important;
+    border: 0.15rem solid transparent !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #cecece !important;
+}
+
+#READ-MORE:hover {
+    background-color: #fff !important;
+    border: 0.15rem solid #000 !important;
+    transition: background-color 0.3s ease-in-out;
+    color: #dc3545 !important;
+}
+
+#LEARNMORE {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    padding: 10px !important;
+    background-color: var(--bs-success) !important;
+    border: 0.25rem solid var(--bs-success) !important;
+    transition: background-color 0.3s ease-in-out;
+    color: #ffc107 !important;
+    font-weight: bold !important;
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+#LEARNMORE:hover {
+    background-color: #e2e2e2 !important;
+    border: 0.25rem solid var(--bs-success) !important;
+    color: #dc3545 !important;
+    font-weight: bold ! important;
+}
+
+#Learnmore {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 18px !important;
+    color: #000!important;
+    border: 0.2rem solid transparent !important;
+    font-family: "Ubuntu", sans-serif !important;
+    background-color: #cdcdcd !important;
+}
+
+#Learnmore:hover {
+    background-color: #fff !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    border: 0.2rem #222 solid !important;
+    transition: background-color 0.3s ease-in-out;
+    color: #dc3545 !important;
+}
+#TEK{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+#ARK{
+    display: block !important;
+    position: relative !important;
+    font-size: 22px !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-top: 0.25rem solid #cee9ff !important;
+    background-color: #fff !important;
+}
+#ARKO{
+    display: block !important;
+    position: relative !important;
+    font-size: 22px !important;
+    border-top: 0.15rem solid #cee9ff !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-bottom: 0.15rem solid #cee9ff !important;
+    background-color: #fff !important;
+}
+#ARC{
+    display: block !important;
+    position: relative !important;
+    font-size: 22px !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-top: 0.15rem solid #198754 !important;
+    background-color: #fff !important;
+}
+.accordion-button{
+    background-color: #fff !important;
+    border: none !important;
+}
+.accordion-button:hover{
+    background-color: #c9e0ff !important;
+    transition: 0.3s background-color ease-in-out !important;
+}
+#HEADER{
+    color:var(--bs-danger) !important;
+    font-size: 22px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-weight: bold !important;
+}
+#HEAD{
+    justify-content: center !important;
+    align-items: center !important;
+    color:#000 !important;
+    font-size: 26px !important;
+    line-height: 1.75 !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+}
+#HEADO{
+    justify-content: center !important;
+    align-items: center !important;
+    color:var(--bs-warning) !important;
+    font-size: 35px !important;
+    font-weight: bold !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+}
+#LearninG {
+    width: 100% !important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #666 !important;
+    background-color: #fff !important;
+    padding: 20px !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+#LearninG:first-letter {
+    font-size: 50px !important;
+    font-weight: bolder !important;
+    color: #767676 !important;
+}
+
+#LearninG:hover {
+    transition: background-color all 0.3s ease-in-out;
+}
+
+#Full {
+    background-color: transparent !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto;
+}
+
+#WelcomeA {
+    width: 100% !important;
+    height: 700px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    border: none !important;
+}
+
+#Three {
+    width: 100% !important;
+    height: 650px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-items: center !important;
+    align-items: center !important;
+}
+
+#FIGCAPTION {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+}
+
+#Welcome-Message {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent !important;
+}
+
+#HeadeR {
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    height: 385px !important;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 40px !important;
+    color: #dc3545 !important;
+    border-top: 0.1rem solid #198754! important;
+    border-bottom: 0.1rem solid #198754! important;
+    background-color: #19875432 !important;
+}
+
+#BEGINNER {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 385px !important;
+    width: 100% !important;
+    font-size: 18.5px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+    text-align: start !important;
+    line-height: 1.85 !important;
+    border-top: 0.1rem solid #198754! important;
+    border-bottom: 0.1rem solid #198754! important;
+    font-family: "Playwrite NZ Basic", cursive !important;
+    color: #000 !important;
+    background-color: #fbfbfbf5! important;
+}
+
+#RES {
+    color: #ed8b0cf7 !important;
+}
+
+#Blockos {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+#Blockos2 {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#Intro {
+    width: auto !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #198754!important;
+    margin: none !important;
+    padding: none !important;
+}
+#Green-Card{
+    font-family: "Playwrite NZ Basic", cursive !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #666 !important;
+    margin-top: 7rem !important;
+    margin-bottom: 7rem !important;
+}
+
+#Block-wrappo {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #fff !important;
+    padding: 20px !important;
+}
+
+#CANADA-CITIES {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #fff !important;
+    flex-wrap: wrap !important;
+}
+
+#ALL_TOGETHER {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 69.7% !important;
+    height: auto !important;
+    background-color: #fff !important;
+    flex-wrap: wrap !important;
+    padding-right: 25px !important;
+}
+
+#RightContainer {
+    width: 30.3% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: helvetica !important;
+    background-color: var(--bs-success) !important;
+    position: sticky !important;
+    top: 120px !important;
+    font-size: 18px !important;
+    padding: 25px !important;
+    border: none !important;
+    margin-top: -27.85rem !important;
+}
+
+.CC {
+    width: 100% !important;
+    height: 45px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-top: 1px solid #ff0!important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 13.5px !important;
+    font-weight: bold !important;
+    color: #ff0 !important;
+    font-family: helvetica !important;
+    padding: 5px !important;
+    margin-bottom: 1.2px !important;
+}
+
+#CC-List a:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    transition: background-color all 0.3s ease-in-out !important;
+    border: none !important;
+    border-top: 2px solid #fff !important;
+}
+
+#Block-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: transparent !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#Block-wrap {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #fff !important;
+    margin-bottom: 20px !important;
+}
+
+#Block-W {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#Block-wrapp {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#Block-wrappe {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    flex-direction: column !important;
+    background-color: #d6d6d6 !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#Technology {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: transparent !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    padding-bottom: 10px !important;
+}
+
+#Blockus {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 5px !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    background-color: transparent !important;
+    border: none !important;
+    padding-right: 20px !important;
+}
+
+#BLAKO {
+    width: 65% !important;
+    height: 690px !important;
+    display: block !important;
+    font-size: 18px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    padding: 5px !important;
+    color: #000 !important;
+    background-color: #f0f0f0 !important;
+    border: none !important;
+}
+
+#Bootstrap {
+    width: 22rem !important;
+    height: auto !important;
+    display: block !important;
+    font-size: 16px !important;
+    font-weight: lighter !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "Ubuntu", sans-serif !important;
+    padding: 10px !important;
+    background-color: #fff !important;
+    border-radius: 1rem !important;
+}
+
+#Bootstrap:hover {
+    transition: 0.3s box-shadow ease-in-out !important;
+    color: #123d9afb !important;
+    box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
+    border: 1.5px solid transparent !important;
+}
+
+#Bootstrap h1 {
+    color: red !important;
+}
+#KETO{
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+#SEP{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    line-height: 1.8px !important;
+}
+#LearnMoreButton {
+    background-color: #ff5a1e !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+#LearnMoreButton:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+#BTHREE {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent !important;
+}
+#BURKINA-FASO{
+    border: none !important;
+}
+#LAND{
+    border: none !important;
+}
+#Land, a:hover{
+    text-decoration: underline!important;
+}
+
+#BALOU {
+    width: 25rem !important;
+    display: block !important;
+    font-size: 14.5px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: hsl(0, 0%, 41%) !important;
+    border-top: 0.15rem solid #198754 !important;
+    padding: 12px !important;
+    background-color: #fff !important;
+}
+
+#BALOU:hover {
+    box-shadow: none !important;
+    transition: 0.3s box-shadow ease-in-out !important;
+    color: #000 !important;
+    background-color: #fff !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+}
+
+#Bloc {
+    width: 50% !important;
+    height: auto !important;
+    display: block !important;
+    font-size: 22px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    line-height: 1.65 !important;
+    padding: 5px !important;
+    color: #000 !important;
+    border-right: 0.5rem solid var(--bs-dark) !important;
+    border-radius: 20px !important;
+    background-color: #fff !important;
+    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406) !important;
+}
+#Static {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+}
+#Pate {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
+    color: #fff !important;
+    font-size: 22px !important;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.85 !important;
+    padding: 20px !important;
+}
+
+.sisi {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 22px !important;
+    padding: 20px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    display: flex !important;
+    background-color: var(--bs-white) !important;
+    color: #000 !important;
+    line-height: 1.65 !important;
+    border-radius: 20px !important;
+}
+/*End of custom styles*/
+@import "../node_modules/bootstrap/scss/utilities";
+
