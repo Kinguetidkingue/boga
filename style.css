@@ -1,5 +1,3 @@
-
-
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -541,25 +539,6 @@ li a:hover {
     border-top: 0.15rem solid #dc3545 !important;
     box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
 }
-#READMORE {
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-size: 16px !important;
-    color: #ff0 !important;
-    border: 0.2rem solid transparent !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #198754 !important;
-}
-
-#READMORE:hover {
-    background-color: #e9f1fffd !important;
-    border: 0.2rem solid #2156a5 !important;
-    transition: background-color 0.3s ease-in-out;
-    color: #183e77 !important;
-}
 
 #READ-MORE {
     width: 100% !important;
@@ -709,40 +688,6 @@ li a:hover {
 
 #LearninG:hover {
     transition: background-color all 0.3s ease-in-out;
-}
-
-#Full {
-    background-color: transparent !important;
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    height: auto;
-}
-
-#WelcomeA {
-    width: 100% !important;
-    height: 700px !important;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    border: none !important;
-}
-
-#Three {
-    width: 100% !important;
-    height: 650px !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-items: center !important;
-    align-items: center !important;
-}
-
-#FIGCAPTION {
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-size: 14px !important;
 }
 
 #Welcome-Message {
@@ -918,16 +863,6 @@ li a:hover {
     border-top: 2px solid #fff !important;
 }
 
-#Block-wrapper {
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    background-color: transparent !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
 #Block-wrap {
     width: 100% !important;
     height: auto !important;
@@ -985,33 +920,6 @@ li a:hover {
     background-color: transparent !important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     padding-bottom: 10px !important;
-}
-
-#Blockus {
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: row !important;
-    padding: 5px !important;
-    justify-content: center !important;
-    justify-items: center !important;
-    background-color: transparent !important;
-    border: none !important;
-    padding-right: 20px !important;
-}
-
-#BLAKO {
-    width: 65% !important;
-    height: 690px !important;
-    display: block !important;
-    font-size: 18px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    padding: 5px !important;
-    color: #000 !important;
-    background-color: #f0f0f0 !important;
-    border: none !important;
 }
 
 #Bootstrap {
