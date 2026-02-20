@@ -161,10 +161,15 @@ body {
     color: #fff !important;
     font-family: "Ubuntu", sans-serif !important;
 }
+#PADTOP{
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    position: relative !important;
+}
 #Navbar {
     display: block!important;
     width: 100% !important;
-    height: auto !important;
+    height: 95px !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
@@ -512,15 +517,15 @@ li a:hover {
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    border-top: 0.15rem solid #dc3545 !important;
+    border-top: 0.15rem solid var(--bs-success) !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.12px solid #c6c6c6ff !important;
-    border-top: 0.15rem solid #dc3545 !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+    border-top: 0.15rem solid var(--bs-success) !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
 }
 #BLOKE{
     width: 20rem !important;
@@ -906,7 +911,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #efefef !important;
+    background-color: #198754a0 !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
@@ -940,7 +945,7 @@ li a:hover {
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #123d9afb !important;
-    box-shadow: 0 -1px 0.5rem 0.75px rgba(64, 64, 64, 0.999) !important;
+    box-shadow: 0 0.25px 0.3rem 4px orangered !important;
     border: 1.5px solid transparent !important;
 }
 
