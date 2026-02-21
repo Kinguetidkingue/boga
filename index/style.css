@@ -169,7 +169,7 @@ body {
 #Navbar {
     display: block!important;
     width: 100% !important;
-    height: 95px !important;
+    height: 90px !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
@@ -218,7 +218,7 @@ body {
     width: 100% !important;
     height: auto !important;
     font-weight: bold ! important;
-    font-size: 22px !important;
+    font-size: 21px !important;
     font-family: 'Courier New', Courier, monospace !important;
     border-bottom: 0.11rem solid transparent;
 }
@@ -833,7 +833,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: var(--bs-success) !important;
     position: sticky !important;
-    top: 120px !important;
+    top: 122px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
@@ -911,7 +911,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #198754a0 !important;
+    background-color: #198754bf !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
@@ -989,9 +989,6 @@ li a:hover {
 }
 #LAND{
     border: none !important;
-}
-#Land, a:hover{
-    text-decoration: underline!important;
 }
 
 #BALOU {
