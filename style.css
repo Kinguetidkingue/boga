@@ -167,14 +167,16 @@ body {
     position: relative !important;
 }
 #Navbar {
-    display: block!important;
-    width: 100% !important;
-    height: 90px !important;
+    display: flex !important;
     flex-direction: row !important;
-    justify-content: center !important;
+    width: 100% !important;
+    height: 75px !important;
+    justify-content: space-between !important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
+    border-top: 0.25rem solid var(--bs-danger)!important;
+    box-shadow: 0 1px 0.6rem 0.15px #1987543d!important;
     background-color: #fff!important;
     z-index: 1 !important;
 }
@@ -775,7 +777,7 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #198754!important;
+    background-color: #198754e3!important;
     margin: none !important;
     padding: none !important;
 }
@@ -912,7 +914,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #198754ca !important;
+    background-color: #198754c4 !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
     justify-content: center !important;
