@@ -152,9 +152,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 .list-group-item:hover{
-color: #000 ! important;
+color: #fff ! important;
 transition: 0.3s background-color ease-in-out !important;
-background-color: #ffc107d6!important;
+background-color: var(--bs-success)!important;
 }
 #demo {
     width: 100% !important;
