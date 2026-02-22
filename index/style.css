@@ -183,9 +183,14 @@ background-color: var(--bs-success)!important;
     position: sticky !important;
     top: 0 !important;
     border-top: 0.25rem solid var(--bs-danger)!important;
-    box-shadow: 0 1px 0.6rem 0.15px #1987543d!important;
+    box-shadow: 0 1px 1rem 0.15px #1ea26425!important;
     background-color: #fff!important;
     z-index: 1 !important;
+}
+#OFFCANVAS:hover{
+color: #000 !important;
+background-color: #ffc107 !important;
+transition: 0.3s background-color ease-in-out !important;
 }
 #Logo {
     display: flex !important;
