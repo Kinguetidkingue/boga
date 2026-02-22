@@ -148,7 +148,14 @@ body {
     transform: translateY(-15px);
   }
 }
-
+#OFFCANVAS{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.list-group-item:hover{
+color: #000 ! important;
+transition: 0.3s background-color ease-in-out !important;
+background-color: #ffc107d6!important;
+}
 #demo {
     width: 100% !important;
     height: 100% !important;
@@ -719,10 +726,10 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    color: #dc3545 !important;
-    border-top: 0.1rem solid #198754! important;
-    border-bottom: 0.1rem solid #198754! important;
-    background-color: #19875432 !important;
+    color: #198754 !important;
+    border-top: 0.15px solid #198754! important;
+    border-bottom: 0.15px solid #198754! important;
+    background-color: #fff !important;
 }
 
 #BEGINNER {
@@ -736,8 +743,8 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
-    border-top: 0.1rem solid #198754! important;
-    border-bottom: 0.1rem solid #198754! important;
+    border-top: 0.15px solid #198754! important;
+    border-bottom: 0.15px solid #198754! important;
     font-family: "Playwrite NZ Basic", cursive !important;
     color: #000 !important;
     background-color: #fbfbfbf5! important;
@@ -777,7 +784,7 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #198754e3!important;
+    background-color: #198754fa!important;
     margin: none !important;
     padding: none !important;
 }
@@ -914,9 +921,9 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #198754c4 !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    background-color: #198754ce !important;
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
 }
