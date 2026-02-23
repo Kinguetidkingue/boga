@@ -182,7 +182,8 @@ background-color: var(--bs-success)!important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    border-top: 0.25rem solid var(--bs-danger)!important;
+    padding: auto!important;
+    border-top: 0.15rem solid var(--bs-danger)!important;
     box-shadow: 0 1px 1rem 0.15px #1ea26425!important;
     background-color: #fff!important;
     z-index: 1 !important;
@@ -688,11 +689,8 @@ li a:hover {
     font-family: "Playwrite NZ Basic", cursive !important;
     font-weight: bold !important;
     font-size: 18px !important;
-    color: #666 !important;
     background-color: #fff !important;
     padding: 20px !important;
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
 }
 
 #LearninG:first-letter {
@@ -728,8 +726,7 @@ li a:hover {
     align-items: center !important;
     padding: 40px !important;
     color: #198754 !important;
-    border-top: 0.15px solid #198754! important;
-    border-bottom: 0.15px solid #198754! important;
+    border-top: 0.5px solid #198754! important;
     background-color: #fff !important;
 }
 
@@ -744,8 +741,7 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
-    border-top: 0.15px solid #198754! important;
-    border-bottom: 0.15px solid #198754! important;
+    border-top: 0.5px solid #198754! important;
     font-family: "Playwrite NZ Basic", cursive !important;
     color: #000 !important;
     background-color: #fbfbfbf5! important;
@@ -844,7 +840,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: var(--bs-success) !important;
     position: sticky !important;
-    top: 107px !important;
+    top: 80px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
