@@ -114,8 +114,9 @@ html {
 
 body {
     scroll-behavior: smooth !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     max-width: 100% !important;
+    height: auto !important;
     overflow-x: hidden !important;
 }
 
@@ -184,8 +185,6 @@ background-color: var(--bs-success)!important;
     top: 0 !important;
     padding: auto!important;
     border-top: 0.15rem solid var(--bs-danger)!important;
-    box-shadow: 0 1px 1rem 0.15px #1ea26425!important;
-    background-color: #fff!important;
     z-index: 1 !important;
 }
 
@@ -209,7 +208,7 @@ background-color: var(--bs-success)!important;
     font-weight: bolder !important;
     background-color: #1c89ff !important;
     transition: 0.3s background-color ease-in-out !important;
-    border: 0.1rem solid var(--bs-danger)!important;
+    border: 0.15px solid #fff!important;
 }
 
 #B {
@@ -675,7 +674,10 @@ li a:hover {
     line-height: 1.75 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
 }
-
+#KORDO{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
 #HEADO{
     justify-content: center !important;
     align-items: center !important;
@@ -840,7 +842,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: var(--bs-success) !important;
     position: sticky !important;
-    top: 80px !important;
+    top: 74px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
