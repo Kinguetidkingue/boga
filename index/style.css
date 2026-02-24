@@ -153,9 +153,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 .list-group-item:hover{
-color: #fff ! important;
+color: #ff0 ! important;
 transition: 0.3s background-color ease-in-out !important;
 background-color: var(--bs-success)!important;
+font-weight: bold !important;
 }
 #demo {
     width: 100% !important;
@@ -184,7 +185,7 @@ background-color: var(--bs-success)!important;
     position: sticky !important;
     top: 0 !important;
     padding: auto!important;
-    border-top: 0.15rem solid var(--bs-danger)!important;
+    border-top: 0.3rem solid var(--bs-success)!important;
     z-index: 1 !important;
 }
 
@@ -194,10 +195,10 @@ background-color: var(--bs-success)!important;
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
-    background-color: #198754 !important;
+    background-color: var(--bs-success)!important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.1rem solid var(--bs-success)!important;
+    border: 0.15px solid #fff!important;
 }
 
 #Logo:hover {
@@ -206,7 +207,7 @@ background-color: var(--bs-success)!important;
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
-    background-color: #1c89ff !important;
+    background-color: var(--bs-danger)!important;
     transition: 0.3s background-color ease-in-out !important;
     border: 0.15px solid #fff!important;
 }
