@@ -716,7 +716,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: transparent !important;
+     background-color: #ffe7db94 !important;
 }
 
 #HeadeR {
@@ -731,8 +731,6 @@ li a:hover {
     align-items: center !important;
     padding: 40px !important;
     color: #198754 !important;
-    border-top: 0.5px solid #198754! important;
-    background-color: #ffe0d1a2 !important;
 }
 
 #BEGINNER {
@@ -746,10 +744,8 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.85 !important;
-    border-top: 0.5px solid #198754! important;
     font-family: "Playwrite NZ Basic", cursive !important;
-    color: #000 !important;
-    background-color: #ffebe19b! important;
+    color: darkblue !important;
 }
 
 #RES {
@@ -945,21 +941,21 @@ li a:hover {
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
-    font-weight: lighter !important;
+    font-weight: bold !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    color: #000 !important;
+    color: #1440a1fb !important;
     padding: 10px !important;
-    background-color: #fff !important;
+    background-color: #1441a19d !important;
     border: none !important;
     border-radius: 1rem !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
-    color: #123d9afb !important;
-    box-shadow: 0 0.25px 0.3rem 4px orangered !important;
+    color: #000 !important;
+    box-shadow: 0 0.25px 1rem 2px #666 !important;
 }
 
 #Bootstrap h1 {
