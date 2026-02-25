@@ -185,7 +185,7 @@ font-weight: bold !important;
     position: sticky !important;
     top: 0 !important;
     padding: auto!important;
-    border-top: 0.3rem solid var(--bs-danger)!important;
+    border-top: 0.15rem solid var(--bs-success)!important;
     z-index: 1 !important;
 }
 
@@ -732,7 +732,7 @@ li a:hover {
     padding: 40px !important;
     color: #198754 !important;
     border-top: 0.5px solid #198754! important;
-    background-color: #fff !important;
+    background-color: #ffc3a7b0 !important;
 }
 
 #BEGINNER {
@@ -923,7 +923,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #198754c7 !important;
+    background-color: #198754da !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -949,6 +949,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: Arial, Helvetica, sans-serif !important;
+    color: #000 !important;
     padding: 10px !important;
     background-color: #fff !important;
     border: none !important;
