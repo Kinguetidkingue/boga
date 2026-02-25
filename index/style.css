@@ -185,7 +185,7 @@ font-weight: bold !important;
     position: sticky !important;
     top: 0 !important;
     padding: auto!important;
-    border-top: 0.15rem solid var(--bs-success)!important;
+    border-top: 0.3rem solid darkblue !important;
     z-index: 1 !important;
 }
 
@@ -633,7 +633,7 @@ li a:hover {
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-top: 0.15rem solid #198754 !important;
+    border-top: 0.15rem solid #2f9365 !important;
     background-color: #fff !important;
 }
 .accordion-button{
@@ -661,6 +661,7 @@ li a:hover {
 #KORDO{
     padding-top: 25px !important;
     padding-bottom: 25px !important;
+    background: #2f9365 !important;
 }
 #HEADO{
     justify-content: center !important;
@@ -900,7 +901,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #198754ce !important;
+    background-color: #469f76 !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -928,7 +929,7 @@ li a:hover {
     font-family: Arial, Helvetica, sans-serif !important;
     color: #1440a1fb !important;
     padding: 10px !important;
-    background-color: #1543a79b !important;
+    background-color: #1342a7ab !important;
     border: none !important;
     border-radius: 1rem !important;
 }
