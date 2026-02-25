@@ -195,7 +195,7 @@ font-weight: bold !important;
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
-    background-color: var(--bs-success)!important;
+    background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
 }
@@ -206,10 +206,8 @@ font-weight: bold !important;
     height: 60px !important;
     padding: 8px !important;
     font-weight: bolder !important;
-    background-color: var(--bs-danger)!important;
+    background-color: var(--success)!important;
     transition: 0.3s background-color ease-in-out !important;
-    border: 0.15px solid #fff!important;
-    border-left: none !important;
 }
 
 #B {
@@ -238,23 +236,9 @@ font-weight: bold !important;
     border-bottom: 0.12rem solid red !important;
 }
 
-#FRANCAIS {
-    display: flex !important;
-    width: 100% !important;
-    height: auto !important;
-    font-size: 15px !important;
-    padding: auto !important;
-    margin-top: -16px !important;
-    color: #fff !important;
-    border: 0.1px solid #fff !important;
-    border-radius: 50% !important;
-    background-color: #dc3545 !important;
-}
-
-#FRANCAIS:hover {
-    transition: 0.3s background-color ease-in-out !important;
-    color: #000 !important;
-    background-color:  #ff0 !important;
+#BASICS{
+    color: darkblue! important;
+    font-family: 'arial black' !important;
 }
 
 #BOTON {
@@ -544,15 +528,14 @@ li a:hover {
     border: none !important;
     background-color: #fff !important;
     font-size: 16px !important;
-    border-top: 0.15rem solid transparent !important;
+    border: 0.2rem solid #c6c6c6ff !important;
+    box-shadow: 0 1px 0.25rem 0.1px rgba(141, 141, 141, 0.626) !important;
     font-family: Helvetica, sans-serif !important;
 }
 #BLOKE:hover{
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    border: 0.12px solid #c6c6c6ff !important;
-    border-top: 0.15rem solid #dc3545 !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(86, 86, 86, 0.626) !important;
+    border: 0.2rem solid #dc3545 !important;
 }
 
 #READ-MORE {
@@ -945,7 +928,7 @@ li a:hover {
     font-family: Arial, Helvetica, sans-serif !important;
     color: #1440a1fb !important;
     padding: 10px !important;
-    background-color: #1749b690 !important;
+    background-color: #1543a79b !important;
     border: none !important;
     border-radius: 1rem !important;
 }
