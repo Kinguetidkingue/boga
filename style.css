@@ -109,11 +109,11 @@
 }
 
 html {
-    display: block;
+    display: block !important;
+    scroll-behavior: smooth !important;
 }
 
 body {
-    scroll-behavior: smooth !important;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     max-width: 100% !important;
     height: auto !important;
