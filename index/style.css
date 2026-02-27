@@ -126,7 +126,7 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#198754!important;
+    background-color:#198754f9!important;
     width: 100%!important;
     height: 100% !important;
 }
@@ -185,8 +185,9 @@ font-weight: bold !important;
     position: sticky !important;
     top: 0 !important;
     padding: auto!important;
-    border-top: 0.3rem solid darkblue !important;
+    border-top: 0.25rem solid darkblue !important;
     z-index: 1 !important;
+    background-color: #ffc107f6 !important;
 }
 
 #Logo {
@@ -901,7 +902,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-   background-color: #469f76f6 !important;
+    background-color: #469f76f6 !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
