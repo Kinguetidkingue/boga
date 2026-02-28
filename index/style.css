@@ -706,13 +706,13 @@ li a:hover {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 100px !important;
+    height: 200px !important;
     font-weight: bold !important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding: 40px !important;
+    padding-bottom: none !important;
     color: #fff !important;
 }
 
