@@ -179,7 +179,7 @@ font-weight: bold !important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 75px !important;
+    height: 76.24px !important;
     justify-content: space-between !important;
     align-items: center !important;
     position: sticky !important;
@@ -698,7 +698,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-     background-color: #ffe7db94 !important;
+    background-color: #198754 !important;
 }
 
 #HeadeR {
@@ -706,13 +706,14 @@ li a:hover {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 385px !important;
+    height: 100px !important;
     font-weight: bold !important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 40px !important;
-    color: #198754 !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    color: #fff !important;
 }
 
 #BEGINNER {
@@ -727,7 +728,7 @@ li a:hover {
     text-align: start !important;
     line-height: 1.85 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
-    color: darkblue !important;
+    color: #ff0 !important;
 }
 
 #RES {
@@ -764,7 +765,7 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #198754fa!important;
+    background-color: #198754!important;
     margin: none !important;
     padding: none !important;
 }
@@ -776,7 +777,7 @@ li a:hover {
     font-weight: bold !important;
     font-size: 18px !important;
     color: #333 !important;
-    margin: 7rem !important;
+    margin-bottom: 6rem !important;
 }
 
 #Block-wrappo {
