@@ -512,15 +512,15 @@ li a:hover {
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
     border-top: 0.15rem solid var(--bs-success) !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    border: 0.12px solid #c6c6c6ff !important;
-    border-top: 0.15rem solid var(--bs-success) !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
+    border: 0.15px solid #e8e8e8 !important;
+    border-top: 0.15rem solid var(--bs-danger) !important;
 }
 #BLOKE{
     width: 20rem !important;
@@ -933,12 +933,13 @@ li a:hover {
     background-color: #1342a7ab !important;
     border: none !important;
     border-radius: 1rem !important;
+    box-shadow: 0 0.25px 0.22rem 1px #fff !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    box-shadow: 0 0.25px 0.6rem 4px #333 !important;
+    box-shadow: none !important;
 }
 
 #Bootstrap h1 {
