@@ -126,7 +126,7 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#198754f9!important;
+    background-color:#198754!important;
     width: 100%!important;
     height: 100% !important;
 }
@@ -167,7 +167,7 @@ font-weight: bold !important;
     font-size: 12.5px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
-    color: #fff !important;
+    color: #ff0 !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 #PADTOP{
@@ -185,9 +185,8 @@ font-weight: bold !important;
     position: sticky !important;
     top: 0 !important;
     padding: auto!important;
-    border-top: 0.25rem solid darkblue !important;
     z-index: 1 !important;
-    background-color: #ffc107f6 !important;
+    background-color: #ffc107 !important;
 }
 
 #Logo {
