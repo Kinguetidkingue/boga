@@ -192,22 +192,29 @@ font-weight: bold !important;
 #Logo {
     display: flex !important;
     width: auto !important;
-    height: 60px !important;
-    padding: 8px !important;
+    height: 54px !important;
+    padding: 6px !important;
     font-weight: bolder !important;
     background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
+    transform: translate(-6px, 11%) !important ;
+    border-top: 0.1px solid #fff !important;
+    border-right: 0.1px solid #fff !important;
 }
 
 #Logo:hover {
     display: flex !important;
     width: auto !important;
-    height: 60px !important;
-    padding: 8px !important;
+    height: 54px !important;
+    padding: 6px !important;
     font-weight: bolder !important;
-    background-color: var(--success)!important;
+    background-color: darkblue!important;
+    transform: translate(-6px, 11%) !important ;
     transition: 0.3s background-color ease-in-out !important;
+    border: none !important;
+    border-top: 0.1px solid #fff !important;
+    border-right: 0.1px solid #fff !important;
 }
 
 #B {
@@ -233,12 +240,13 @@ font-weight: bold !important;
 #DO:hover{
     color: var(--bs-primary) !important;
     transition: 0.3s background-color ease-in-out !important;
-    border-bottom: 0.12rem solid red !important;
+    border-bottom: 0.12rem solid #dc3545 !important;
 }
 
 #BASICS{
     color: darkblue! important;
     font-family: 'arial black' !important;
+    font-weight: bold !important;
 }
 
 #BOTON {
