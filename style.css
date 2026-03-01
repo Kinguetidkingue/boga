@@ -179,26 +179,25 @@ font-weight: bold !important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 77px !important;
+    height: auto !important;
     justify-content: space-between !important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    padding: auto!important;
+    padding: 3px !important;
     z-index: 1 !important;
-    background-color: rgba(0, 0, 17, 0.934) !important;
+    background-color: rgba(0, 0, 25, 0.934) !important;
 }
 
 #Logo {
     display: flex !important;
     width: auto !important;
-    height: 54px !important;
+    height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
-    background-color: darkblue!important;
+    background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
-    transform: translate(-5px, 7%) !important ;
     border-top: 0.1px solid #fff !important;
     border-right: 0.1px solid #fff !important;
 }
@@ -206,11 +205,10 @@ font-weight: bold !important;
 #Logo:hover {
     display: flex !important;
     width: auto !important;
-    height: 52px !important;
+    height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
-    background-color: var(--bs-danger)!important;
-     transform: translate(-5px, 7%) !important;
+    background-color: darkblue!important;
     transition: 0.3s background-color ease-in-out !important;
     border: none !important;
     border-top: 0.1px solid #fff !important;
@@ -336,7 +334,7 @@ li a:hover {
 .footer {
     display: block !important;
     width: 100% !important;
-    height: auto !important;
+    height: 250px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
@@ -834,7 +832,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: var(--bs-success) !important;
     position: sticky !important;
-    top: 74px !important;
+    top: 50px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
@@ -869,17 +867,22 @@ li a:hover {
     border: none !important;
     border-top: 2px solid #fff !important;
 }
+#EACH-PROVINCE{
+    background-color: rgba(230, 238, 255, 0.829) !important;
+    margin-top: 10px !important;
+    color: #001 !important;
+}
 
 #Block-wrap {
     width: 100% !important;
     height: auto !important;
-    padding-top: 10px !important;
+    padding-top: 20px !important;
     padding-bottom: 20px !important;
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #fff !important;
+    background-color: rgba(230, 238, 255, 0.829) !important;
     margin-bottom: 20px !important;
 }
 
@@ -912,7 +915,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: rgba(0, 0, 17, 0.8) !important;
+    background-image:linear-gradient(rgba(18, 27, 109, 0.966), #ffffffb7) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -994,15 +997,15 @@ li a:hover {
 }
 
 #BALOU {
-    width: 25rem !important;
+    width: 22rem !important;
     display: block !important;
     font-size: 14.5px !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     color: hsl(0, 0%, 41%) !important;
-    padding: 12px !important;
-    background-color: #fff !important;
+    background-image: linear-gradient(rgb(162, 193, 229), #ffffffd8) !important;
+    border: none !important;
 }
 
 #BALOU:hover {
@@ -1010,7 +1013,6 @@ li a:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important;
-    box-shadow: 0 2px 1rem 1px rgba(66, 66, 66, 0.649) !important;
 }
 
 #Bloc {
