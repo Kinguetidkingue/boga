@@ -153,14 +153,14 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 .list-group-item{
-    border-left: 0.5rem solid #fff!important;
+    border-left: 0.4rem solid #fff!important;
 }
 .list-group-item:hover{
 color: var(--bs-red) ! important;
 transition: 0.3s background-color ease-in-out !important;
 background-color: #f2f2f2!important;
 font-weight: bold !important;
-border-left: 0.5rem solid #dc3545!important;
+border-left: 0.4rem solid var(--bs-blue)!important;
 }
 #demo {
     width: 100% !important;
@@ -190,7 +190,7 @@ border-left: 0.5rem solid #dc3545!important;
     top: 0 !important;
     padding: 3px !important;
     z-index: 1 !important;
-    background-color: rgba(0, 0, 0, 0.965) !important;
+    background-color: rgba(0, 0, 31, 0.972) !important;
 }
 
 #Logo {
@@ -872,7 +872,7 @@ li a:hover {
     border-top: 2px solid #fff !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(212, 225, 255, 0.855)!important;
+    background-color: rgba(216, 228, 255, 0.855)!important;
     margin-top: 10px !important;
     color: rgb(2, 2, 53) !important;
     max-width: 100% !important;
@@ -888,7 +888,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(212, 225, 255, 0.855) !important;
+    background-color: rgba(216, 228, 255, 0.855) !important;
     margin-bottom: 20px !important;
 }
 
@@ -921,7 +921,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(6, 27, 104, 0.966), #ffffffb7) !important;
+    background-image:linear-gradient(rgba(8, 26, 113, 0.976), #ffffffca) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -957,7 +957,7 @@ li a:hover {
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-     box-shadow: 0.5px 1px 0.25rem 3px orange !important;
+     box-shadow: 0 1px 0.2rem 3px orangered !important;
 }
 
 #Bootstrap h1 {
@@ -1010,13 +1010,13 @@ li a:hover {
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
     color: hsl(0, 0%, 15%) !important;
-    background-image: linear-gradient(rgb(185, 207, 232), #ffffffd8) !important;
+    background-image: linear-gradient(rgb(204, 214, 227), #ffffffd8) !important;
     border: none !important;
-    box-shadow: 0 1px 0.1rem 0.1px rgba(193, 193, 193, 0.536) !important;
+    box-shadow: 0 1px 0.1rem 0.1px rgba(176, 190, 215, 0.874) !important;
 }
 
 #BALOU:hover {
-    box-shadow: none !important;
+    box-shadow: 2px 2px 1rem 4px rgba(0, 4, 18, 0.94) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important;
