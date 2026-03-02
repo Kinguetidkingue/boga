@@ -641,15 +641,15 @@ li a:hover {
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-top: 0.15rem solid #2f9365 !important;
-    background-color: #fff !important;
+    border-top: 0.5px solid var(--bs-gray-300) !important;
+    background-color: #eef2ff !important;
 }
 .accordion-button{
     background-color: #fff !important;
     border: none !important;
 }
 .accordion-button:hover{
-    background-color: #c9e0ff !important;
+    background-color: var(--bs-gray-300) !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 #HEADER{
@@ -669,12 +669,12 @@ li a:hover {
 #KORDO{
     padding-top: 25px !important;
     padding-bottom: 25px !important;
-    background: #2f9365 !important;
+    background: var(--bs-gray-300) !important;
 }
 #HEADO{
     justify-content: center !important;
     align-items: center !important;
-    color:var(--bs-warning) !important;
+    color:var(--bs-success) !important;
     font-size: 35px !important;
     font-weight: bold !important;
     font-family: "Playwrite NZ Basic", cursive !important;
@@ -1066,6 +1066,7 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
 
 
