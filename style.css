@@ -188,7 +188,7 @@ border-left: 0.4rem solid var(--bs-blue)!important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    padding: 3px !important;
+    padding: 5px !important;
     z-index: 1 !important;
     background-color: rgba(0, 0, 31, 0.972) !important;
 }
@@ -202,8 +202,7 @@ border-left: 0.4rem solid var(--bs-blue)!important;
     background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.1px solid #fff !important;
-    border-right: 0.1px solid #fff !important;
+    border: 0.1px solid #fff !important;
 }
 
 #Logo:hover {
@@ -214,9 +213,7 @@ border-left: 0.4rem solid var(--bs-blue)!important;
     font-weight: bolder !important;
     background-color: darkblue!important;
     transition: 0.3s background-color ease-in-out !important;
-    border: none !important;
-    border-top: 0.1px solid #fff !important;
-    border-right: 0.1px solid #fff !important;
+    border: 0.1px solid #fff !important;
 }
 
 #B {
@@ -338,7 +335,7 @@ li a:hover {
 .footer {
     display: block !important;
     width: 100% !important;
-    height: 250px !important;
+    height: 260px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
@@ -1070,3 +1067,4 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
