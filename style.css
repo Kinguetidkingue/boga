@@ -152,11 +152,15 @@ body {
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
+.list-group-item{
+    border-left: 0.5rem solid #fff!important;
+}
 .list-group-item:hover{
-color: #ff0 ! important;
+color: var(--bs-red) ! important;
 transition: 0.3s background-color ease-in-out !important;
-background-color: var(--bs-success)!important;
+background-color: #f2f2f2!important;
 font-weight: bold !important;
+border-left: 0.5rem solid #dc3545!important;
 }
 #demo {
     width: 100% !important;
@@ -796,7 +800,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
-    padding: 20px !important;
+    padding-bottom: 40px !important;
 }
 
 #CANADA-CITIES {
@@ -868,9 +872,9 @@ li a:hover {
     border-top: 2px solid #fff !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(230, 238, 255, 0.829) !important;
+    background-color: rgba(233, 240, 255, 0.8) !important;
     margin-top: 10px !important;
-    color: #001 !important;
+    color: rgb(2, 2, 53) !important;
 }
 
 #Block-wrap {
@@ -882,7 +886,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(230, 238, 255, 0.829) !important;
+    background-color: rgba(233, 240, 255, 0.8) !important;
     margin-bottom: 20px !important;
 }
 
@@ -997,15 +1001,16 @@ li a:hover {
 }
 
 #BALOU {
-    width: 22rem !important;
+    width: 21.25rem !important;
     display: block !important;
     font-size: 14.5px !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    color: hsl(0, 0%, 41%) !important;
-    background-image: linear-gradient(rgb(162, 193, 229), #ffffffd8) !important;
+    color: hsl(0, 0%, 15%) !important;
+    background-image: linear-gradient(rgb(185, 207, 232), #ffffffd8) !important;
     border: none !important;
+    box-shadow: 0 1px 0.11rem 0.1px rgba(185, 185, 185, 0.536) !important;
 }
 
 #BALOU:hover {
