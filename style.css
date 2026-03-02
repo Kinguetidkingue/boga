@@ -126,14 +126,11 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#198754df!important;
+    background-color:#ff8244fb!important;
     width: 100%!important;
     height: 100% !important;
 }
-#TOPBANNER:hover{
-    background-color:#1851b4f3!important;
-    transition: 0.3s bacground-color ease-in-out !important;
-}
+
 #animDate{
     animation: bounce 3s infinite;
 }
@@ -171,7 +168,7 @@ border-left: 0.4rem solid var(--bs-blue)!important;
     font-size: 12.5px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
-    color: #ff0 !important;
+    color: #000 !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 #PADTOP{
@@ -190,7 +187,8 @@ border-left: 0.4rem solid var(--bs-blue)!important;
     top: 0 !important;
     padding: 5px !important;
     z-index: 1 !important;
-    background-color: rgba(0, 0, 31, 0.972) !important;
+    border-top: 0.15rem solid var(--bs-danger)!important;
+    background-color: #fff !important;
 }
 
 #Logo {
@@ -243,7 +241,7 @@ border-left: 0.4rem solid var(--bs-blue)!important;
 }
 
 #BASICS{
-    color: #fff! important;
+    color: #000! important;
     font-family: 'arial black' !important;
     font-weight: bold !important;
 }
@@ -1067,4 +1065,5 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
