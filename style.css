@@ -675,7 +675,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:var(--bs-success) !important;
-    font-size: 30px !important;
+    font-size: 22px !important;
     font-weight: bold !important;
     font-family: "Playwrite NZ Basic", cursive !important;
 }
