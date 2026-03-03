@@ -662,8 +662,8 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:#000 !important;
-    font-size: 26px !important;
-    line-height: 1.75 !important;
+    font-size: 23px !important;
+    line-height: 1.7 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
 }
 #KORDO{
@@ -675,7 +675,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:var(--bs-success) !important;
-    font-size: 35px !important;
+    font-size: 30px !important;
     font-weight: bold !important;
     font-family: "Playwrite NZ Basic", cursive !important;
 }
@@ -868,7 +868,7 @@ li a:hover {
     border-top: 2px solid #fff !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(216, 228, 255, 0.855)!important;
+    background-color: rgba(227, 236, 255, 0.855)!important;
     margin-top: 10px !important;
     color: rgb(2, 2, 53) !important;
     max-width: 100% !important;
@@ -884,7 +884,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(216, 228, 255, 0.855) !important;
+    background-color: rgba(227, 236, 255, 0.855) !important;
     margin-bottom: 20px !important;
 }
 
@@ -917,7 +917,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(13, 31, 117, 0.976), #ffffffca) !important;
+    background-image:linear-gradient(rgba(13, 39, 117, 0.976), #ffffffca) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -1066,6 +1066,7 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
 
 
