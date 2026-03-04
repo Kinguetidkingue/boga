@@ -153,9 +153,9 @@ body {
     border-left: 1.5rem solid #fff!important;
 }
 .list-group-item:hover{
-color: var(--bs-red) ! important;
+color: #fff ! important;
 transition: 0.3s background-color ease-in-out !important;
-background-color: #f2f2f2!important;
+background-color: var(--bs-primary)!important;
 font-weight: bold !important;
 border-left: 1.5rem solid darkblue!important;
 border-style:double !important;
