@@ -516,7 +516,7 @@ li a:hover {
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
+    box-shadow: none !important;
     border-top: 0.15rem solid var(--bs-success) !important;
 }
 
@@ -524,7 +524,7 @@ li a:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border: 0.15px solid #e8e8e8 !important;
-    box-shadow: none !important;
+    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
     border-top: 0.15rem solid var(--bs-danger) !important;
 }
 #BLOKE{
@@ -674,8 +674,8 @@ li a:hover {
 #HEADO{
     justify-content: center !important;
     align-items: center !important;
-    color:var(--bs-success) !important;
-    font-size: 22px !important;
+    color:var(--bs-dark) !important;
+    font-size: 21px !important;
     font-weight: bold !important;
     font-family: "Playwrite NZ Basic", cursive !important;
 }
@@ -1012,7 +1012,7 @@ li a:hover {
 }
 
 #BALOU:hover {
-    box-shadow: 2px 2px 1rem 4px rgba(0, 4, 18, 0.94) !important;
+    box-shadow: 2px 2px 1rem 2px rgba(0, 4, 18, 0.94) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important;
@@ -1066,4 +1066,5 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
