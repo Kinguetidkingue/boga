@@ -152,14 +152,16 @@ body {
 .list-group-item{
     border-left: 1.5rem solid #fff!important;
     border-right: 1.5rem solid #fff!important;
+    font-size: 16px !important;
 }
 .list-group-item:hover{
-color: #fff ! important;
+color: var(--bs-danger) ! important;
 transition: 0.3s background-color ease-in-out !important;
-background-color: var(--bs-primary)!important;
+background-color: #f2f2f2!important;
 font-weight: bold !important;
-border-left: 1.5rem solid darkblue!important;
-border-right: 1.5rem solid darkblue!important;
+font-size: 16.5px !important;
+border-left: 1.5rem solid var(--bs-primary)!important;
+border-right: 1.5rem solid var(--bs-primary)!important;
 border-style:double !important;
 }
 #OFFCAN{
@@ -861,15 +863,17 @@ li a:hover {
     padding: 5px !important;
     margin-bottom: 1.2px !important;
 }
-
+#CC-List{
+    border: none !important;
+    border-radius: 0.5rem !important;
+}
 #CC-List a:hover {
-    background-color: transparent !important;
+    background-color: #24c278ea !important;
     color: #fff !important;
     font-weight: bold !important;
     font-size: 20px !important;
     transition: background-color all 0.3s ease-in-out !important;
     border: none !important;
-    border-top: 2px solid #fff !important;
 }
 #EACH-PROVINCE{
     background-color: rgba(227, 236, 255, 0.855)!important;
@@ -921,7 +925,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(40, 80, 199, 0.976), rgba(220, 230, 255, 0.906)) !important;
+    background-image:linear-gradient(rgba(80, 140, 237, 0.973), rgba(220, 230, 255, 0.906)) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -956,8 +960,7 @@ li a:hover {
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    border-radius: 1rem !important;
-    box-shadow: 0 1px 0.2rem 3px #000 !important;
+    box-shadow: 0 1px 0.2rem 3px #fff !important;
 }
 
 #Bootstrap h1 {
@@ -1070,6 +1073,7 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
 
 
