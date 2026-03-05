@@ -126,7 +126,7 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#ff8244fb!important;
+    background-color:#ff8c53fb!important;
     width: 100%!important;
     height: 100% !important;
 }
@@ -191,7 +191,7 @@ border-style:double !important;
     top: 0 !important;
     padding: 5px !important;
     z-index: 1 !important;
-    border-top: 0.15rem solid var(--bs-danger)!important;
+    border-top: 0.25rem solid #fff!important;
     background-color: #fff !important;
 }
 
@@ -246,7 +246,7 @@ border-style:double !important;
 
 #BASICS{
     color: #000! important;
-    font-family: 'arial black' !important;
+    font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
 
