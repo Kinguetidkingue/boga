@@ -130,7 +130,9 @@ body {
     width: 100%!important;
     height: 100% !important;
 }
-
+#TOPBANNER:hover{
+    background-color: #ff7548fc !important;
+}
 #animDate{
     animation: bounce 3s infinite;
 }
@@ -205,7 +207,7 @@ border-style:double !important;
     height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
-    background-color: var(--bs-danger)!important;
+    background-color: var(--bs-success)!important;
     justify-content: center !important;
     align-items: center !important;
     border: 0.1px solid #fff !important;
@@ -249,11 +251,21 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: #000! important;
+    color: orangered! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
-
+#TOGGLICON{
+    justify-content: end !important;
+    width: auto !important;
+    height: 40px !important;
+    background-image: linear-gradient(orangered, #ffffffa9);
+    font-weight: bold !important;
+}
+#TOGGLICON:hover{
+    background-image: linear-gradient(orangered, #7f7f7f7a);
+    transition: 0.3s background-color ease-in-out;
+}
 #BOTON {
     background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
     color: #fff !important;
@@ -876,9 +888,9 @@ li a:hover {
     border: none !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(227, 236, 255, 0.855)!important;
+    background-color: rgba(234, 241, 255, 0.855)!important;
     margin-top: 10px !important;
-    color: rgb(2, 2, 53) !important;
+    color: var(--bs-success) !important;
     max-width: 100% !important;
     padding: auto!important;
 }
@@ -892,7 +904,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(227, 236, 255, 0.855) !important;
+    background-color: rgba(234, 241, 255, 0.855) !important;
     margin-bottom: 20px !important;
 }
 
@@ -925,7 +937,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(80, 140, 237, 0.973), rgba(220, 230, 255, 0.906)) !important;
+    background-image:linear-gradient(rgba(95, 151, 240, 0.987), rgba(220, 230, 255, 0.906)) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -960,7 +972,7 @@ li a:hover {
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    box-shadow: 0 1px 0.2rem 3px #fff !important;
+    box-shadow: 0 1px 0.2rem 3px var(--bs-orange) !important;
 }
 
 #Bootstrap h1 {
@@ -1073,6 +1085,7 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
 
 
