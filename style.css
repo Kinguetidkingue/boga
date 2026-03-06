@@ -129,7 +129,7 @@ body {
     background-color:#ff8c53fb!important;
     width: 100%!important;
     height: 100% !important;
-    border-top: 0.25rem solid #000!important;
+    border-top: 0.3rem solid #000!important;
     margin: 0!important;
 }
 #TOPBANNER:hover{
@@ -199,11 +199,11 @@ border-style:double !important;
     top: 0 !important;
     padding: 5px !important;
     z-index: 1 !important;
-    border-top: 0.2rem solid orangered!important;
+    border-top: 0.5rem solid orangered !important;
     background-color: #fff !important;
 }
 #Navbar:hover{
-    box-shadow: 0 1px 0.1px 0.5px var(--bs-gray-200) !important;
+    box-shadow: 0 1px 0.1.5px 0.5px var(--bs-gray-100) !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 
@@ -355,7 +355,7 @@ li a:hover {
 }
 
 #BOTTOBANNER {
-    background-color: orangered !important;
+    background-color: rgb(235, 63, 1) !important;
 }
 
 .footer {
