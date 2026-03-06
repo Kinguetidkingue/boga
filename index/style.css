@@ -982,13 +982,18 @@ li a:hover {
     color: #000 !important;
     box-shadow: 0 1px 0.2rem 3px var(--bs-orange) !important;
 }
+
+#Bootstrap h1 {
+    color: red !important;
+}
 #CARDBODY{
     border-bottom-left-radius: 1rem !important;
     border-bottom-right-radius: 1rem !important;
 }
 
-#Bootstrap h1 {
-    color: red !important;
+#IMAGE{
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
 }
 #KETO{
     width: 100% !important;
@@ -1039,6 +1044,7 @@ li a:hover {
     color: hsl(0, 0%, 15%) !important;
     background-image: linear-gradient(rgb(204, 214, 227), #ffffffd8) !important;
     border: none !important;
+    border-radius: 1rem !important;
     box-shadow: none !important;
 }
 
