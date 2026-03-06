@@ -129,6 +129,8 @@ body {
     background-color:#ff8c53fb!important;
     width: 100%!important;
     height: 100% !important;
+    border-top: 0.25rem solid #000!important;
+    margin: 0!important;
 }
 #TOPBANNER:hover{
     background-color: #ff7548fc !important;
@@ -197,8 +199,12 @@ border-style:double !important;
     top: 0 !important;
     padding: 5px !important;
     z-index: 1 !important;
-    border-top: 0.3rem solid orangered!important;
+    border-top: 0.2rem solid orangered!important;
     background-color: #fff !important;
+}
+#Navbar:hover{
+    box-shadow: 0 1px 0.1px 0.5px var(--bs-gray-200) !important;
+    transition: 0.3s background-color ease-in-out !important;
 }
 
 #Logo {
@@ -261,10 +267,12 @@ border-style:double !important;
     height: 40px !important;
     background-image: linear-gradient(orangered, #ffffffa9);
     font-weight: bold !important;
+    border-bottom: 0.25rem solid transparent!important;
 }
 #TOGGLICON:hover{
-    background-image: linear-gradient(orangered, #7f7f7f7a);
+    box-shadow: 0 0 1rem 1px var(--bs-gray-500)!important;
     transition: 0.3s background-color ease-in-out;
+     border-bottom: 0.25rem solid var(--bs-success)!important;
 }
 #BOTON {
     background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
@@ -974,6 +982,10 @@ li a:hover {
     color: #000 !important;
     box-shadow: 0 1px 0.2rem 3px var(--bs-orange) !important;
 }
+#CARDBODY{
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
 
 #Bootstrap h1 {
     color: red !important;
@@ -1085,6 +1097,7 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
+
 
 
 
