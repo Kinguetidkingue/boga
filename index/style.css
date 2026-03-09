@@ -126,14 +126,14 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#ff8c53fb!important;
+    background-color:#ff9059fb!important;
     width: 100%!important;
     height: 100% !important;
     border-top: 0.3rem solid #000!important;
     margin: 0!important;
 }
 #TOPBANNER:hover{
-    background-color: #ff7548fc !important;
+    background-color: #ff954ffc !important;
 }
 #animDate{
     animation: bounce 3s infinite;
@@ -257,9 +257,12 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: orangered! important;
+    color: #000! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
+}
+#BASICS:hover{
+    color: var(--bs-success)!important;
 }
 #TOGGLICON{
     justify-content: end !important;
@@ -946,7 +949,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(95, 151, 240, 0.987), rgba(220, 230, 255, 0.906)) !important;
+    background-image:linear-gradient(rgba(110, 163, 247, 0.987), rgba(224, 233, 255, 0.906)) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
