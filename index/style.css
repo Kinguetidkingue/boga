@@ -730,12 +730,13 @@ li a:hover {
 #WEBODEVO{
     display: block !important;
     width: 100% !important;
-    height: 70px !important;
+    height: auto !important;
     padding: 20px !important;
     background-color: var(--bs-success) !important;
     font-size: 25px !important;
     justify-content: center !important;
     align-items: center !important;
+    color: #ff0 !important;
 }
 
 #Welcome-Message {
