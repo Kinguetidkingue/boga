@@ -199,7 +199,7 @@ border-style:double !important;
     top: 0 !important;
     padding: 5px !important;
     z-index: 1 !important;
-    border-top: 0.5rem solid orangered !important;
+    border-top: 0.3rem solid orangered !important;
     box-shadow: 0 4px 0.8rem 0.5px rgba(218, 218, 218, 0.611) !important;
     background-color: #fff !important;
 }
