@@ -995,7 +995,7 @@ li a:hover {
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    box-shadow: 0 1px 0.2rem 3px var(--bs-orange) !important;
+    box-shadow: 0 1px 0.2rem 4px var(--bs-orange) !important;
 }
 
 #Bootstrap h1 {
