@@ -513,7 +513,7 @@ li a:hover {
 
 #Sunset-Image {
     width: 100% !important;
-    height: 635px !important;
+    height: auto !important;
     display: block !important;
     position: relative !important;
 }
