@@ -268,8 +268,8 @@ border-style:double !important;
 #TOGGLICON{
     justify-content: end !important;
     width: auto !important;
-    height: 40px !important;
-    background-image: linear-gradient(orangered, #ffffffa9);
+    height: 45px !important;
+    background-image: linear-gradient(orangered, #ffffffa9)!important;
     font-weight: bold !important;
     border-bottom: 0.25rem solid transparent!important;
 }
