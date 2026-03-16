@@ -156,14 +156,12 @@ body {
 .list-group-item{
     border-left: 1.5rem solid #fff!important;
     border-right: 1.5rem solid #fff!important;
-    font-size: 16px !important;
 }
 .list-group-item:hover{
 color: var(--bs-danger) ! important;
 transition: 0.3s background-color ease-in-out !important;
 background-color: #f2f2f2!important;
 font-weight: bold !important;
-font-size: 16.5px !important;
 border-left: 1.5rem solid var(--bs-primary)!important;
 border-right: 1.5rem solid var(--bs-primary)!important;
 border-style:double !important;
@@ -258,7 +256,7 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: #000! important;
+    color: #198754! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
@@ -770,7 +768,7 @@ li a:hover {
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 18.5px !important;
+    font-size: 20px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 20px !important;
@@ -1118,4 +1116,3 @@ li a:hover {
 }
 /*End of custom styles*/
 @import "../node_modules/bootstrap/scss/utilities";
-
