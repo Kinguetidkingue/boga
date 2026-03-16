@@ -126,14 +126,14 @@ body {
 }
 
 #TOPBANNER {
-    background-color:#ff9059fb!important;
+    background-color:#000!important;
     width: 100%!important;
     height: 100% !important;
     border-top: 0.2rem solid #000000!important;
     margin: 0!important;
 }
 #TOPBANNER:hover{
-    background-color: #ff954ffc !important;
+    background-color: #333 !important;
 }
 #animDate{
     animation: bounce 3s infinite;
@@ -180,7 +180,7 @@ border-style:double !important;
     font-size: 12.5px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
-    color: #000 !important;
+    color: #fff !important;
     font-family: "Ubuntu", sans-serif !important;
 }
 #PADTOP{
@@ -199,7 +199,7 @@ border-style:double !important;
     top: 0 !important;
     padding: 8px !important;
     z-index: 1 !important;
-    border-top: 0.15rem solid orangered !important;
+    border-top: 0.3rem solid rgb(255, 38, 38) !important;
     box-shadow: 0 4px 1rem 0.5px rgba(229, 229, 229, 0.491) !important;
     background-color: #fff !important;
 }
@@ -369,7 +369,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #19875490 !important;
+    background-color: #32d58990 !important;
 }
 
 #TOPO {
@@ -427,16 +427,17 @@ li a:hover {
 
 #Lin a {
     width: 100%!important;
-    color: darkblue !important;
-    font-size: 11.5px !important;
+    color:  #000!important;
+    font-size: 9.85px !important;
+    font-weight: bold !important;
     text-decoration: none !important;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #Lin a:hover {
-    color: #ff0 !important;
+    color: blue !important;
     transition: background-color 0.3s ease-in-out;
-    font-size: 11.52px !important;
+    font-size: 10.15px !important;
     font-weight: bold !important;
 }
 #Resources {
@@ -872,7 +873,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 50px !important;
+    top: -15px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
@@ -959,7 +960,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(110, 163, 247, 0.987), rgba(224, 233, 255, 0.906)) !important;
+    background-image:linear-gradient(rgba(147, 188, 255, 0.977), rgba(221, 231, 255, 0.906)) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
