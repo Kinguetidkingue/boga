@@ -276,7 +276,7 @@ border-style:double !important;
 #TOGGLICON:hover{
     box-shadow: 0 0 1rem 1px var(--bs-gray-500)!important;
     transition: 0.3s background-color ease-in-out;
-     border-bottom: 0.25rem solid var(--bs-success)!important;
+    border-bottom: 0.25rem solid var(--bs-success)!important;
 }
 #BOTON {
     background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
@@ -870,7 +870,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     font-family: helvetica !important;
-    background-color: var(--bs-success) !important;
+    background-color: #fff !important;
     position: sticky !important;
     top: 50px !important;
     font-size: 18px !important;
@@ -886,13 +886,12 @@ li a:hover {
     flex-direction: column !important;
     background-color: transparent !important;
     border: none !important;
-    border-top: 1px solid #ff0!important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
     font-size: 13.5px !important;
     font-weight: bold !important;
-    color: #ff0 !important;
+    color: #000 !important;
     font-family: helvetica !important;
     padding: 5px !important;
     margin-bottom: 1.2px !important;
@@ -902,8 +901,8 @@ li a:hover {
     border-radius: 0.5rem !important;
 }
 #CC-List a:hover {
-    background-color: #24c278ea !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: var(--bs-danger) !important;
     font-weight: bold !important;
     font-size: 20px !important;
     transition: background-color all 0.3s ease-in-out !important;
