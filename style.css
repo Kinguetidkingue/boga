@@ -195,10 +195,10 @@ border-style:double !important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
-    padding: 8px !important;
+    padding: auto !important;
     z-index: 1 !important;
     border-top: 0.3rem solid rgb(255, 38, 38) !important;
-    box-shadow: 0 4px 1rem 0.5px rgba(229, 229, 229, 0.491) !important;
+    box-shadow: 0 4px 1rem 0.5px rgba(227, 227, 227, 0.602) !important;
     background-color: #fff !important;
 }
 #Navbar:hover{
@@ -768,10 +768,10 @@ li a:hover {
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 20px !important;
+    padding: 25px !important;
     text-align: start !important;
     line-height: 1.85 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
