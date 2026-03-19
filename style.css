@@ -766,12 +766,12 @@ li a:hover {
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 21px !important;
+    font-size: 20.5px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 20px !important;
+    padding: 18px !important;
     text-align: start !important;
-    line-height: 1.65 !important;
+    line-height: 1.5 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
     color: #fff !important;
 }
@@ -1043,6 +1043,18 @@ li a:hover {
 }
 #LAND{
     border: none !important;
+}
+#GISGeography{
+    display: block !important;
+    width: 100% !important;
+    padding-bottom: 0.25rem !important;
+}
+
+#GISGeography:hover{
+text-decoration: underline!important;
+text-decoration-color: var(--bs-danger)!important;
+padding-bottom: 0.25rem !important;
+transition: 0.3s background-color ease-in-out !important;
 }
 
 #BALOU {
