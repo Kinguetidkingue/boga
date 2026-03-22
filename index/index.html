@@ -40,41 +40,43 @@
     <!--The top of the page-->
     <a id="TOP"></a>
 </head>
-<!--The topbanner of the page containing the date object-->
+<!--The navigation bar starts here-->
+
+    <div class="container-fluid d-flex flex-row flex-wrap fixed-top g-0 justify-content-center align-items-center" id="Navbar">
+   <!--The topbanner of the page containing the date object-->
 <a class="ROVER" href="https://calendar.google.com/calendar/u/0/r?pli=1" target="_blank">
-<div class="d-grid">
-    <button type="button" class="btn rounded-0 text-center" id="TOPBANNER">
+<div class="container" id="TOPBANNER">
         <div class="date" id="animDate">
-            <p id="demo"></p>
+            <p id="demo">
+                
+            </p>
             <script>
                 //This is a javascript code snippet for the date
                 const d = new Date();
                 document.getElementById("demo").innerHTML = d;
             </script>
         </div>
-    </button>
 </div>
 </a>
-<!--The navigation bar starts here-->
-
-    <div class="container-fluid d-flex flex-row g-0 justify-content-center align-items-center" id="Navbar">
-    <div class="col-md-1 m-1"  id="Logo">
+<div class="container d-flex flex-row justify-content-center align-items-center">
+        <div class="col-md-1 m-1"  id="Logo">
         <a class="navbar-brand text-center" href="https://www.learnbasictech.org/"
             target="_blank"><b class="card-title fw-bolder" id="B">GaB & TecH <br>
                 <h6 class="card-title fw-bolder" id="H6">Get the Basics</h6>
             </b>  
         </a>
          </div>
-        <div class="col-md-4 ms-1 me-1 fw-bold fs-3 lh-sm" id="BASICS">BASICS OF WEB TECHNOLOGIES
+        <div class="col-md-7 ms-1 me-1 fw-bold fs-3 lh-sm" id="BASICS">BASICS OF WEB TECHNOLOGIES
 
         </div>
             
-     <div class="col-md-7 text-end me-auto">
+     <div class="col-md-4 text-end me-auto">
         
             <button class="btn m-1" id="TOGGLICON" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                 <a class="ROVER text-dark">EXPLORE
                 </a>
             </button>
+            </div>
             </div>
             </div>
 
