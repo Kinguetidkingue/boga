@@ -192,13 +192,13 @@ border-style:double !important;
     height: auto !important;
     justify-content: center !important;
     align-items: center !important;
-    position: fixed!important;
+    position: sticky!important;
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
     border-top: 0.15px solid var(--bs-danger);
     background-color: var(--bs-body) !important;
-    box-shadow: 0 4px 1rem 1px rgba(158, 158, 158, 0.663) !important;
+    box-shadow: 0 4px 2.5rem 1px rgba(147, 147, 147, 0.556) !important;
 }
 
 #Logo {
