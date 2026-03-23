@@ -198,7 +198,7 @@ border-style:double !important;
     z-index: 1 !important;
     border-top: 0.15px solid var(--bs-danger);
     background-color: var(--bs-body) !important;
-    box-shadow: 0 4px 2.5rem 1px rgba(166, 166, 166, 0.556) !important;
+    box-shadow: 0 4px 2.5rem 1px rgba(173, 173, 173, 0.597) !important;
 }
 
 #Logo {
@@ -709,6 +709,9 @@ li a:hover {
     font-size: 16px !important;
     background-color: #fff !important;
     padding: 10px !important;
+}
+#LEARNING{
+   font-size: 16px !important; 
 }
 
 #LearninG:first-letter {
