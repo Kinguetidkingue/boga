@@ -196,9 +196,8 @@ border-style:double !important;
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.15px solid var(--bs-danger);
     background-color: var(--bs-body) !important;
-    box-shadow: 0 4px 2.5rem 1px rgba(182, 182, 182, 0.514) !important;
+    border-bottom: 2px solid var(--bs-gray-400) !important;
 }
 
 #Logo {
@@ -251,7 +250,7 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: #1350b1! important;
+    color: #dc3545! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
