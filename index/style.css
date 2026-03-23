@@ -126,9 +126,9 @@ body {
 }
 
 #TOPBANNER {
-    display: block !important;
+    display: flex !important;
     flex-direction: row !important;
-    background-color:#fff!important;
+    background-color: #103e88!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
@@ -157,7 +157,7 @@ body {
     border-right: 1.5rem solid #fff!important;
 }
 .list-group-item:hover{
-color: var(--bs-danger) ! important;
+color: var(--bs-primary) ! important;
 transition: 0.3s background-color ease-in-out !important;
 background-color: #f2f2f2!important;
 font-weight: bold !important;
@@ -174,10 +174,10 @@ border-style:double !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 10px !important;
+    font-size: 12px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
-    color: red !important;
+    color: var(--bs-white) !important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
 #PADTOP{
@@ -198,7 +198,7 @@ border-style:double !important;
     z-index: 1 !important;
     border-top: 0.15px solid var(--bs-danger);
     background-color: var(--bs-body) !important;
-    box-shadow: 0 4px 2.5rem 1px rgba(147, 147, 147, 0.556) !important;
+    box-shadow: 0 4px 2.5rem 1px rgba(166, 166, 166, 0.556) !important;
 }
 
 #Logo {
@@ -251,7 +251,7 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: #198754! important;
+    color: #103e88! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
@@ -865,7 +865,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: -15px !important;
+    top: 15px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
