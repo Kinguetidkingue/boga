@@ -198,7 +198,7 @@ border-style:double !important;
     z-index: 1 !important;
     border-top: 0.15px solid var(--bs-danger);
     background-color: var(--bs-body) !important;
-    box-shadow: 0 4px 2.5rem 1px rgba(173, 173, 173, 0.597) !important;
+    box-shadow: 0 4px 2.5rem 1px rgba(182, 182, 182, 0.514) !important;
 }
 
 #Logo {
@@ -251,7 +251,7 @@ border-style:double !important;
 }
 
 #BASICS{
-    color: #103e88! important;
+    color: #1350b1! important;
     font-family: "Oswald", sans-serif;
     font-weight: bold !important;
 }
@@ -486,7 +486,6 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 28px !important;
     font-family: "Playwrite NZ Basic", cursive !important;
     font-weight: bold !important;
     padding: 10px !important;
