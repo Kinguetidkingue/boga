@@ -196,8 +196,8 @@ border-style:double !important;
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    background-color: var(--bs-body) !important;
-    border-bottom: 2px solid var(--bs-gray-400) !important;
+    background-color: #fff !important;
+    border-bottom: 2px solid #f2f2f2 !important;
 }
 
 #Logo {
@@ -903,7 +903,7 @@ li a:hover {
     border: none !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(234, 241, 255, 0.855)!important;
+    background-color: rgba(233, 233, 233, 0.76)!important;
     margin-top: 10px !important;
     color: var(--bs-success) !important;
     max-width: 100% !important;
@@ -920,7 +920,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(234, 241, 255, 0.855) !important;
+    background-color: rgba(233, 233, 233, 0.76)!important;
     margin-bottom: 20px !important;
 }
 
