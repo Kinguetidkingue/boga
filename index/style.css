@@ -236,7 +236,7 @@ border-style:double !important;
 
 #BASICS{
     color: #dc3545! important;
-    font-size: 21px !important;
+    font-size: 20px !important;
     font-family: "Iosevka Charon", monospace !important;
     font-weight: bold !important;
 }
@@ -679,12 +679,12 @@ li a:hover {
 #KORDO{
     padding-top: 25px !important;
     padding-bottom: 25px !important;
-    background: rgba(225, 225, 225, 0.94) !important;
+    background: #103e88b8 !important;
 }
 #HEADO{
     justify-content: center !important;
     align-items: center !important;
-    color:var(--bs-dark) !important;
+    color: #fff !important;
     font-size: 21px !important;
     font-weight: bold !important;
     font-family: "Playwrite NZ Basic", cursive !important;
@@ -692,14 +692,16 @@ li a:hover {
 #LearninG {
     width: 100% !important;
     font-family: "Iosevka Charon", monospace !important;
-    font-size: 18px !important;
+    font-size: 17.5px !important;
     background-color: #fff !important;
     padding: 10px !important;
+    line-height: 1.65 !important;
 }
 #LEARNING{
-   font-size: 18px !important; 
+   font-size: 17.5px !important; 
    font-family: "Iosevka Charon", monospace !important;
    padding: 10px !important;
+   line-height: 1.65 !important;
 }
 
 #LearninG:first-letter {
@@ -1037,6 +1039,7 @@ li a:hover {
 #WEST-AFRICA{
     background-color: #103e88d3 !important;
     color: #fff !important;
+    font-size: 20px !important;
 }
 #GISGeography{
     display: flex !important;
