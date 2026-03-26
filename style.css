@@ -159,7 +159,7 @@ border-style:double !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 12px !important;
+    font-size: 11px !important;
     font-weight: bolder !important;
     margin-top: 10px !important;
     color: var(--bs-white) !important;
@@ -236,6 +236,7 @@ border-style:double !important;
 
 #BASICS{
     color: #dc3545! important;
+    font-size: 21px !important;
     font-family: "Iosevka Charon", monospace !important;
     font-weight: bold !important;
 }
@@ -690,13 +691,15 @@ li a:hover {
 }
 #LearninG {
     width: 100% !important;
-    font-family: "Playwrite NZ Basic", cursive !important;
-    font-size: 16px !important;
+    font-family: "Iosevka Charon", monospace !important;
+    font-size: 18px !important;
     background-color: #fff !important;
     padding: 10px !important;
 }
 #LEARNING{
-   font-size: 16px !important; 
+   font-size: 18px !important; 
+   font-family: "Iosevka Charon", monospace !important;
+   padding: 10px !important;
 }
 
 #LearninG:first-letter {
@@ -711,12 +714,13 @@ li a:hover {
 #WEBODEVO{
     display: flex !important;
     width: 100% !important;
-    height: 200px !important;
+    height: auto !important;
     padding: 20px !important;
-    background-color: #103e88a1 !important;
+    background-color: #103e88d3!important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff !important;
+    margin-bottom: 1rem !important;
 }
 
 #Welcome-Message {
@@ -750,13 +754,13 @@ li a:hover {
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 20.5px !important;
+    font-size: 19px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 18px !important;
+    padding: 20px !important;
     text-align: start !important;
     line-height: 1.6 !important;
-    font-family: "Playwrite NZ Basic", cursive !important;
+    font-family: "Iosevka Charon", monospace !important;
     color: #fff !important;
 }
 
@@ -890,11 +894,12 @@ li a:hover {
     border: none !important;
 }
 #EACH-PROVINCE{
-    background-color: rgba(225, 225, 225, 0.866)!important;
+    background-color: #103e88d3!important;
     margin-top: 10px !important;
-    color: var(--bs-success) !important;
+    color: var(--bs-white) !important;
     max-width: 100% !important;
-    padding: auto!important;
+    
+    padding: 20px!important;
     margin-top: 2rem!important;
 }
 
@@ -1028,6 +1033,10 @@ li a:hover {
 }
 #LAND{
     border: none !important;
+}
+#WEST-AFRICA{
+    background-color: #103e88d3 !important;
+    color: #fff !important;
 }
 #GISGeography{
     display: flex !important;
