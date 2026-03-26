@@ -128,7 +128,7 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    background-color: #103e88!important;
+    background-color: #103e88d3!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
@@ -191,10 +191,10 @@ border-style:double !important;
     height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
-    background-color: var(--bs-success)!important;
+    background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.1px solid #fff !important;
+    border-right: 2px solid #103e88 !important;
 }
 
 #Logo:hover {
@@ -203,19 +203,19 @@ border-style:double !important;
     height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
-    background-color: darkblue!important;
+    background-color: #fff!important;
     transition: 0.3s background-color ease-in-out !important;
-    border: 0.1px solid #fff !important;
+    border-right: 2px solid #fff !important;
 }
 
 #B {
     font-size: 14.5px !important;
-    color: #ff0 !important;
+    color: #103e88d3 !important;
 }
 
 #H6 {
     font-size: 11.75px !important;
-    color: #fff !important;
+    color: #000 !important;
     word-spacing: 1px !important;
 }
 #DO{
@@ -669,9 +669,10 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     color:#000 !important;
-    font-size: 23px !important;
+    font-size: 20px !important;
     line-height: 1.7 !important;
     font-family: "Playwrite NZ Basic", cursive !important;
+    border-radius: 0.5rem !important;
 }
 #KORDO{
     padding-top: 25px !important;
