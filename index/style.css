@@ -346,7 +346,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #32d58990 !important;
+    background-color: rgba(186, 186, 186, 0.874) !important;
 }
 
 #TOPO {
@@ -373,29 +373,29 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #198754 !important;
+    background-color: #103e88d3 !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
-    background-color: #198754 !important;
+    background-color: transparent !important;
     font-family: 'Courier New', Courier, monospace; 
     justify-content: center !important;
     align-items: center !important;
     font-weight: bolder !important;
     font-size: 8px !important;
     padding-top: 55px !important;
-    color: #ff0 !important;
+    color: #fff !important;
     margin-bottom: 1rem !important;
     border-bottom: 0.1px solid #fff !important;
 }
 #Space-to-Footer:hover{
-    color: #fff !important;
+    color: #ff0 !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 #Universities {
-    background-color: #198754 !important;
+    background-color: #103e88a2 !important;
     color: #fff !important;
     font-size: 18px !important;
     padding: 15px !important;
@@ -707,14 +707,14 @@ li a:hover {
     transition: background-color all 0.3s ease-in-out;
 }
 #WEBODEVO{
-    display: block !important;
+    display: flex !important;
     width: 100% !important;
-    height: auto !important;
+    height: 200px !important;
     padding: 20px !important;
-    background-color: var(--bs-success) !important;
+    background-color: #103e88a1 !important;
     justify-content: center !important;
     align-items: center !important;
-    color: #ff0 !important;
+    color: #fff !important;
 }
 
 #Welcome-Message {
@@ -725,7 +725,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #198754 !important;
+    background-color: #103e88d3 !important;
 }
 
 #HeadeR {
@@ -938,7 +938,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-image:linear-gradient(rgba(186, 212, 255, 0.977), rgba(229, 239, 255, 0.951)) !important;
+    background-color: rgba(215, 215, 215, 0.934) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -993,6 +993,7 @@ li a:hover {
     height: auto !important;
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
+    background-color: #103e88c6 !important;
 }
 #SEP{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
