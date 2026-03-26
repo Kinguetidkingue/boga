@@ -914,7 +914,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(225, 225, 225, 0.866)!important;
+    background-color: rgba(237, 237, 237, 0.934)!important;
     margin-bottom: 20px !important;
 }
 
@@ -947,7 +947,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: rgba(215, 215, 215, 0.934) !important;
+    background-color: rgba(237, 237, 237, 0.934) !important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
