@@ -516,7 +516,7 @@ li a:hover {
 }
 
 .card-body {
-    background-color: #fff !important;
+    background-color: #f2f2f2 !important;
 }
 
 #BLOK {
@@ -997,6 +997,9 @@ color: #fff !important;
 #IMAGE{
     border-top-left-radius: 1rem !important;
     border-top-right-radius: 1rem !important;
+    background-color: #f2f2f2 !important;
+    width: 100% !important; 
+    height: 220px !important;
 }
 #KETO{
     width: 100% !important;
@@ -1065,8 +1068,8 @@ transition: 0.3s background-color ease-in-out !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: "Ubuntu", sans-serif !important;
-    color: hsl(0, 0%, 15%) !important;
-    background-image: linear-gradient(rgb(204, 214, 227), #ffffffd8) !important;
+    color: hsl(0, 0%, 28%) !important;
+    background-color:  #fff !important;
     border: none !important;
     border-radius: 1rem !important;
     box-shadow: none !important;
