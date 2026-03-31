@@ -137,19 +137,6 @@ body {
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
-.list-group-item{
-    border-left: 1.5rem solid #fff!important;
-    border-right: 1.5rem solid #fff!important;
-}
-.list-group-item:hover{
-color: var(--bs-primary) ! important;
-transition: 0.3s background-color ease-in-out !important;
-background-color: #f2f2f2!important;
-font-weight: bold !important;
-border-left: 1.5rem solid var(--bs-primary)!important;
-border-right: 1.5rem solid var(--bs-primary)!important;
-border-style:double !important;
-}
 #OFFCAN{
     width: 100% !important;
 }
@@ -516,7 +503,7 @@ li a:hover {
 }
 
 .card-body {
-    background-color: #f2f2f2 !important;
+    background-color: #fff !important;
 }
 
 #BLOK {
@@ -553,8 +540,8 @@ li a:hover {
     box-shadow: 0 1px 1rem 1px #666 !important;
 }
 #KROP{
-    background-color: var(--bs-gray-200)!important;
-    color: #757575!important;
+    background-color: #fff!important;
+    color: #7b7b7b!important;
 }
 
 #READ-MORE {
@@ -952,8 +939,8 @@ li a:hover {
 }
 
 #PROGRAMLANGUAGE{
-background-color: #103e88d3! important;
-color: #fff !important;
+background-color: transparent! important;
+color: darkblue !important;
 }
 #Technology {
     width: 100% !important;
@@ -992,6 +979,7 @@ color: #fff !important;
 #CARDBODY{
     border-bottom-left-radius: 1rem !important;
     border-bottom-right-radius: 1rem !important;
+    background-color: #f2f2f2 !important;
 }
 
 #IMAGE{
@@ -1039,6 +1027,7 @@ color: #fff !important;
 }
 #LAND{
     border: none !important;
+    padding: 50px !important;
 }
 #WEST-AFRICA{
     background-color: #103e88d3 !important;
