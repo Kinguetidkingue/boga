@@ -46,22 +46,7 @@
 <!--The navigation bar starts here-->
 
     <div class="container-fluid d-flex flex-row flex-wrap g-0 justify-content-center align-items-center" id="Navbar">
-   <!--The topbanner of the page containing the date object-->
-
-<div class="container-fluid" id="TOPBANNER">
-        <div class="container date" id="animDate">
-            <p id="demo">
-                
-            </p>
-            <script>
-                //This is a javascript code snippet for the date
-                const d = new Date();
-                document.getElementById("demo").innerHTML = d;
-            </script>
-        </div>
-</div>
-
-<div class="container d-flex flex-row p-1 justify-content-center align-items-center">
+   <div class="container d-flex flex-row p-1 justify-content-center align-items-center">
         <div class="col-md-1 m-1"  id="Logo">
         <a class="navbar-brand text-center" href="https://www.learnbasictech.org/"
             target="_blank"><b class="card-title fw-bolder" id="B">GaB & TecH <br>
@@ -81,6 +66,21 @@
             </button>
             </div>
             </div>
+        <!--The topbanner of the page containing the date object-->
+
+<div class="container-fluid" id="TOPBANNER">
+        <div class="container date" id="animDate">
+            <p id="demo">
+                
+            </p>
+            <script>
+                //This is a javascript code snippet for the date
+                const d = new Date();
+                document.getElementById("demo").innerHTML = d;
+            </script>
+        </div>
+</div>
+
             </div>
 
 <div class="offcanvas offcanvas-end bg-success" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
