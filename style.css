@@ -168,8 +168,8 @@ body {
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
+    border-top: 0.15rem solid var(--bs-danger) !important;
     background-color: #fff !important;
-    border-bottom: 2px solid #f2f2f2 !important;
 }
 
 #Logo {
