@@ -169,7 +169,6 @@ body {
     padding: auto !important;
     z-index: 1 !important;
     border-top: 0.2rem solid var(--bs-danger) !important;
-    border-bottom: 0.1px solid #f2f2f2!important;
     background-color: #fff !important;
 }
 
