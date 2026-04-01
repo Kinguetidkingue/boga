@@ -168,7 +168,7 @@ body {
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-top: 0.5rem solid rgb(235, 63, 1) !important;
     background-color: #fff !important;
 }
 
@@ -677,16 +677,18 @@ li a:hover {
 #LearninG {
     width: 100% !important;
     font-family: helvetica !important;
-    font-size: 17.5px !important;
+    font-size: 19px !important;
     background-color: #fff !important;
     padding: 10px !important;
-    line-height: 1.65 !important;
+    line-height: 1.68 !important;
+    font-weight: lighter !important;
 }
 #LEARNING{
-   font-size: 17.5px !important; 
+   font-weight: lighter !important;
+   font-size: 20px !important;
    font-family: helvetica !important;
    padding: 10px !important;
-   line-height: 1.65 !important;
+   line-height: 1.68 !important;
 }
 
 #LearninG:first-letter {
@@ -747,7 +749,7 @@ li a:hover {
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.6 !important;
-    font-family: "Iosevka Charon", monospace !important;
+    font-family: helvetica !important;
     color: #fff !important;
 }
 
