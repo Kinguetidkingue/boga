@@ -128,7 +128,7 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    background-color: #103e88d3!important;
+    background-color: #103e88b8!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
@@ -724,7 +724,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #103e88d3 !important;
+    background-color: #103e88b8 !important;
 }
 
 #HeadeR {
@@ -999,7 +999,7 @@ color: darkblue !important;
     height: auto !important;
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
-    background-color: #103e88c6 !important;
+    background-color: #103e88b8 !important;
 }
 #SEP{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
