@@ -128,7 +128,7 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    background-color: #103e88b8!important;
+    background-color: rgba(21, 64, 149, 0.9) !important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
@@ -153,7 +153,7 @@ body {
     align-items: center !important;
     font-size: 11px !important;
     margin-top: 10px !important;
-    color: var(--bs-white) !important;
+    color: #fff !important;
     font-family: "Inter", sans-serif !important;
 }
 #PADTOP{
@@ -172,7 +172,7 @@ body {
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.5rem solid rgb(235, 63, 1) !important;
+    border-top: 0.45rem solid rgb(235, 63, 1) !important;
     background-color: #fff !important;
 }
 
@@ -366,32 +366,32 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #103e88b8 !important;
+    background-color: rgba(21, 64, 149, 0.9) !important;
 }
 
 #Space-to-Footer {
     width: 100% !important;
     height: 300px !important;
     background-color: transparent !important;
-   font-family: "Inter", sans-serif !important; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; 
     justify-content: center !important;
     align-items: center !important;
-    font-size: 8px !important;
     padding-top: 55px !important;
-    color: #fff !important;
+    color: #ff0 !important;
     margin-bottom: 1rem !important;
-    border-bottom: 0.1px solid #fff !important;
+    border-bottom: 2px solid #ff0 !important;
 }
 #Space-to-Footer:hover{
-    color: #ff0 !important;
+    color: #ffc6e0 !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 #Universities {
-    background-color: #103e88a2 !important;
+    background-color: #276bd8c9 !important;
     color: #fff !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     padding: 15px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Inter", sans-serif !important;
+    font-weight: bold !important;
 }
 
 #Lin a {
@@ -662,13 +662,13 @@ li a:hover {
     color:#000 !important;
     font-size: 20px !important;
     line-height: 1.7 !important;
-    font-family: "Playwrite NZ Basic", cursive !important;
+    font-family: "Inter", sans-serif !important;
     border-radius: 0.5rem !important;
 }
 #KORDO{
     padding-top: 25px !important;
     padding-bottom: 25px !important;
-    background: #103e88b8 !important;
+    background: rgba(21, 64, 149, 0.9)!important;
 }
 #HEADO{
     justify-content: center !important;
@@ -709,7 +709,7 @@ li a:hover {
     width: 100% !important;
     height: auto !important;
     padding: 20px !important;
-    background-color: #103e88d3!important;
+    background-color: rgba(21, 64, 149, 0.9)!important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff !important;
@@ -724,7 +724,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #103e88b8 !important;
+    background-color: rgba(21, 64, 149, 0.9) !important;
 }
 
 #HeadeR {
@@ -886,7 +886,7 @@ li a:hover {
     border: none !important;
 }
 #EACH-PROVINCE{
-    background-color: #103e88d3!important;
+    background-color: rgba(21, 64, 149, 0.9)!important;
     margin-top: 10px !important;
     color: var(--bs-white) !important;
     max-width: 100% !important;
@@ -984,13 +984,11 @@ color: darkblue !important;
 #CARDBODY{
     border-bottom-left-radius: 1rem !important;
     border-bottom-right-radius: 1rem !important;
-    background-color: #f2f2f2 !important;
 }
 
 #IMAGE{
     border-top-left-radius: 1rem !important;
     border-top-right-radius: 1rem !important;
-    background-color: #f2f2f2 !important;
     width: 100% !important; 
     height: 220px !important;
 }
@@ -999,7 +997,7 @@ color: darkblue !important;
     height: auto !important;
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
-    background-color: #103e88b8 !important;
+    background-color: rgba(21, 64, 149, 0.9) !important;
 }
 #SEP{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
@@ -1035,7 +1033,7 @@ color: darkblue !important;
     padding: 30px !important;
 }
 #WEST-AFRICA{
-    background-color: #103e88d3 !important;
+    background-color: rgba(21, 64, 149, 0.9)!important;
     color: #fff !important;
     font-size: 18px !important;
 }
@@ -1063,18 +1061,17 @@ transition: 0.3s background-color ease-in-out !important;
     font-family: "Inter", sans-serif !important;
     font-size: 15.25px !important;
     line-height: 1.5 !important;
-    color: #194cbbfb !important;
+    color: #091f4ee0 !important;
     background-color:  #fff !important;
-    border: none !important;
     border-radius: 1rem !important;
-    box-shadow: none !important;
+    box-shadow: 0 1px 0.5rem 2px rgba(227, 227, 227, 0.883) !important;
 }
 
 #BALOU:hover {
-    box-shadow: 0 0 0.75rem 1px rgba(165, 165, 165, 0.883) !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     background-color: #fff !important;
+    box-shadow: 0 2px 1.25rem 1px rgba(140, 140, 140, 0.883) !important;
 }
 
 #Bloc {
