@@ -133,7 +133,7 @@ body {
     align-items: center !important;
     width: 100%!important;
     height: auto !important;
-    border-top: 0.4rem solid #0b175b ! important; 
+    border-top: 0.4rem solid #0e1a66 ! important; 
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -179,25 +179,26 @@ body {
 
 #Logo {
     display: flex !important;
-    width: 105px !important;
+    width: 150px !important;
     height: auto !important;
     padding: 6px !important;
-    font-weight: bolder !important;
+     font-family: "Rye", serif;
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 2px solid #103e88 !important;
+    border-right: 0.4rem solid rgb(235, 63, 1) !important;
 }
 
 #Logo:hover {
     display: flex !important;
-    width: 105px !important;
+    width: 150px !important;
     height: auto !important;
     padding: 6px !important;
     font-weight: bolder !important;
     background-color: #fff!important;
     transition: 0.3s background-color ease-in-out !important;
-    border-right: 2px solid #fff !important;
+    border-right: 0.4rem solid blue !important;
+    color: red !important;
 }
 
 #B {
@@ -227,9 +228,9 @@ body {
 }
 
 #BASICS{
-    color: #dc3545! important;
-    font-size: 20px !important;
-    font-family: "Iosevka Charon", monospace !important;
+    color: #0c1b6e! important;
+    font-size: 25px !important;
+    font-family: 'arial black'!important;
     font-weight: bold !important;
 }
 #BASICS:hover{
