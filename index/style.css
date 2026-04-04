@@ -179,10 +179,10 @@ body {
 
 #Logo {
     display: flex !important;
-    width: 120px !important;
+    width: 150px !important;
     height: auto !important;
-    padding: 2px !important;
-     font-family: "Freeman", sans-serif;
+    padding: 1px !important;
+     font-family: "Ewert", serif;
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
@@ -192,7 +192,7 @@ body {
 #Logo:hover {
     display: flex !important;
     height: auto !important;
-    padding: 2px !important;
+    padding: 1px !important;
     background-color: #fff!important;
     transition: 0.3s background-color ease-in-out !important;
     border-right: 0.15rem solid blue !important;
