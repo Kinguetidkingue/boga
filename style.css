@@ -133,7 +133,7 @@ body {
     align-items: center !important;
     width: 100%!important;
     height: auto !important;
-    border-top: 0.4rem solid #0e1a66 ! important; 
+    border-top: 0.3rem solid #0b144e ! important; 
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -173,16 +173,16 @@ body {
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.4rem solid rgb(235, 63, 1) !important;
+    border-top: 0.3rem solid rgb(235, 63, 1) !important;
     background-color: #fff !important;
 }
 
 #Logo {
     display: flex !important;
-    width: 150px !important;
+    width: 130px !important;
     height: auto !important;
-    padding: 6px !important;
-    font-family: "Rye", serif;
+    padding: 3px !important;
+     font-family: "Freeman", sans-serif;
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
@@ -192,7 +192,7 @@ body {
 #Logo:hover {
     display: flex !important;
     height: auto !important;
-    padding: 6px !important;
+    padding: 3px !important;
     font-weight: bolder !important;
     background-color: #fff!important;
     transition: 0.3s background-color ease-in-out !important;
@@ -216,13 +216,13 @@ body {
 }
 
 #BASICS{
-    color: #0c1b6e! important;
-    font-size: 21px !important;
+    color: var(--bs-danger)!important;
+    font-size: 20px !important;
     font-family: 'arial black'!important;
     font-weight: bold !important;
 }
 #BASICS:hover{
-    color: var(--bs-danger)!important;
+    color: #0c1b6e! important;
 }
 #TOGGLICON{
     justify-content: end !important;
@@ -741,6 +741,7 @@ li a:hover {
     font-size: 20px !important;
     justify-content: center !important;
     align-items: center !important;
+    font-weight: normal !important;
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.68 !important;
@@ -840,7 +841,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 27px !important;
+    top: 30px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
