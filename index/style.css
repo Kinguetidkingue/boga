@@ -186,7 +186,7 @@ body {
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 0.4rem solid rgb(235, 63, 1) !important;
+    border-right: 0.15rem solid rgb(235, 63, 1) !important;
 }
 
 #Logo:hover {
@@ -196,8 +196,7 @@ body {
     font-weight: bolder !important;
     background-color: #fff!important;
     transition: 0.3s background-color ease-in-out !important;
-    border-right: 0.4rem solid blue !important;
-    color: red !important;
+    border-right: 0.15rem solid blue !important;
 }
 
 #DO{
@@ -218,7 +217,7 @@ body {
 
 #BASICS{
     color: #0c1b6e! important;
-    font-size: 20px !important;
+    font-size: 21px !important;
     font-family: 'arial black'!important;
     font-weight: bold !important;
 }
