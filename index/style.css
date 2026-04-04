@@ -133,7 +133,7 @@ body {
     align-items: center !important;
     width: 100%!important;
     height: auto !important;
-    border-top: 0.4rem solid rgb(67, 142, 255) ! important; 
+    border-top: 0.4rem solid #0b175b ! important; 
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -173,7 +173,7 @@ body {
     top: 0 !important;
     padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.45rem solid rgb(235, 63, 1) !important;
+    border-top: 0.4rem solid rgb(235, 63, 1) !important;
     background-color: #fff !important;
 }
 
