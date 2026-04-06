@@ -133,7 +133,7 @@ body {
     align-items: center !important;
     width: 100%!important;
     height: auto !important;
-    border-top: 0.3rem solid #0b144e ! important; 
+    border-top: 0.5rem solid #0b1974 ! important; 
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -182,7 +182,7 @@ body {
     width: 150px !important;
     height: auto !important;
     padding: 1px !important;
-     font-family: "Ewert", serif;
+    font-family: "Ewert", serif;
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
@@ -989,10 +989,12 @@ color: darkblue !important;
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
     background-color: rgba(21, 64, 149, 0.9) !important;
+    border-radius: none !important;
 }
 #SEP{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
     line-height: 1.8px !important;
+    border-radius: none !important;
 }
 #LearnMoreButton {
     background-color: #ff5a1e !important;
