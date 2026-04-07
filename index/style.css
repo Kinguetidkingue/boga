@@ -214,8 +214,8 @@ body {
 }
 
 #BASICS{
-    color: #050f3eaf!important;
-    font-size: 24px !important;
+    color: hsla(229, 85%, 13%, 0.686)!important;
+    font-size: 20px !important;
     font-family: helvetica !important;
     font-weight: bold !important;
     line-height: 1.25 ! important;
