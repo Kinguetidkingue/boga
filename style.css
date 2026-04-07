@@ -114,7 +114,7 @@ html {
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-family: helvetica !important;
     max-width: 100% !important;
     height: auto !important;
     overflow-x: hidden !important;
@@ -133,7 +133,7 @@ body {
     align-items: center !important;
     width: 100%!important;
     height: auto !important;
-    border-top: 0.5rem solid #0b1974 ! important; 
+    border-top: 0.5rem solid #1d2b81 ! important; 
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -171,9 +171,8 @@ body {
     align-items: center !important;
     position: sticky!important;
     top: 0 !important;
-    padding: auto !important;
     z-index: 1 !important;
-    border-top: 0.2rem solid rgb(235, 63, 1) !important;
+    border-top: 0.3rem solid rgb(235, 63, 1) !important;
     background-color: #fff !important;
 }
 
@@ -186,7 +185,7 @@ body {
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 0.15rem solid rgb(235, 63, 1) !important;
+    border-right: 0.13rem solid #050f3eaf !important;
 }
 
 #Logo:hover {
@@ -215,13 +214,14 @@ body {
 }
 
 #BASICS{
-    color: var(--bs-danger)!important;
-    font-size: 18px !important;
-    font-family: 'arial black'!important;
+    color: #050f3eaf!important;
+    font-size: 24px !important;
+    font-family: helvetica !important;
     font-weight: bold !important;
+    line-height: 1.25 ! important;
 }
 #BASICS:hover{
-    color: #0c1b6e! important;
+    color: rgb(235, 63, 1)! important;
 }
 #TOGGLICON{
     justify-content: end !important;
@@ -994,8 +994,9 @@ color: darkblue !important;
     border-radius: none !important;
 }
 #SEP{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
-    line-height: 1.8px !important;
+    font-size: 25px !important;
+    font-family: helvetica !important;
+    line-height: 1.4 !important;
     border-radius: none !important;
 }
 #LearnMoreButton {
