@@ -171,6 +171,7 @@ body {
     position: sticky!important;
     top: 0 !important;
     z-index: 1 !important;
+    border-top: 0.3rem solid rgba(235, 14, 77, 0.988);
     background-color: #fff !important;
 }
 
@@ -184,7 +185,7 @@ body {
     background-color: transparent!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 2px solid #000 !important;
+    border-right: 2px solid rgba(235, 14, 77, 0.988) !important;
 }
 
 #DO{
@@ -343,7 +344,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: rgba(21, 64, 149, 0.9) !important;
+    background-color: rgba(235, 14, 77, 0.988) !important;
 }
 
 #Space-to-Footer {
@@ -355,7 +356,7 @@ li a:hover {
     align-items: center !important;
     font-size: 18px !important;
     padding-top: 55px !important;
-    color: #ff0 !important;
+    color: #fff !important;
     margin-bottom: 1rem !important;
     border-bottom: 2px solid #fff !important;
 }
