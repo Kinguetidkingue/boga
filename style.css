@@ -172,6 +172,7 @@ body {
     position: sticky!important;
     top: 0 !important;
     z-index: 1 !important;
+     border-top: 2px solid rgba(235, 14, 77, 0.988)! important;
     background-color: #fff !important;
 }
 
