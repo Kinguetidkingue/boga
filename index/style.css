@@ -128,7 +128,8 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    background-color: rgba(235, 14, 77, 0.988)!important;
+    border-top: 0.5rem solid rgba(235, 14, 77, 0.988);
+    background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
@@ -153,7 +154,7 @@ body {
     align-items: center !important;
     font-size: 11px !important;
     margin-top: 10px !important;
-    color: #fff!important;
+    color: #000!important;
     font-family: "Inter", sans-serif !important;
 }
 #PADTOP{
@@ -171,7 +172,6 @@ body {
     position: sticky!important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 0.3rem solid rgba(235, 14, 77, 0.988);
     background-color: #fff !important;
 }
 
