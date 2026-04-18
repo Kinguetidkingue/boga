@@ -128,11 +128,13 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    border-top: 0.5rem solid rgba(235, 14, 77, 0.988);
+    border-top: 0.5rem solid rgba(235, 14, 77, 0.988)!important;
     background-color: #fff!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
+    padding-top: 5px;
+    padding-bottom: 5px !important;
     height: auto !important;
 }
 #OFFCANVAS{
@@ -172,8 +174,7 @@ body {
     position: sticky!important;
     top: 0 !important;
     z-index: 1 !important;
-     border-top: 2px solid rgba(235, 14, 77, 0.988)! important;
-    background-color: #fff !important;
+    background-image:linear-gradient(rgba(135, 207, 235, 0.988), rgba(253, 255, 255, 0.995)) !important;
 }
 
 #Logo {
