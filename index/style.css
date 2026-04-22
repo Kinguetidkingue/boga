@@ -171,9 +171,6 @@ body {
     height: auto !important;
     justify-content: center !important;
     align-items: center !important;
-    position: sticky!important;
-    top: 0 !important;
-    z-index: 1 !important;
     background-image:linear-gradient(rgba(135, 207, 235, 0.98), rgba(255, 255, 255, 0.988)) !important;
 }
 
