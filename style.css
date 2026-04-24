@@ -164,7 +164,7 @@ body {
     padding-bottom: 60px !important;
     position: relative !important;
 }
-#Navbar {
+#navbar {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
@@ -770,7 +770,7 @@ li a:hover {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #f1f1f1!important;
+    background-color: #dcdcdce7!important;
     margin: none !important;
     padding: none !important;
 }
@@ -885,7 +885,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #f1f1f1!important;
+    background-color: #dcdcdce7!important;
     margin-bottom: 20px !important;
 }
 
@@ -918,7 +918,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-     background-color: #f1f1f1!important;
+    background-color: #dcdcdce7!important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
@@ -957,6 +957,7 @@ color: darkblue !important;
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     box-shadow: 0 1px 0.2rem 4px var(--bs-orange) !important;
+    border: none !important;
 }
 
 #Bootstrap h1 {
