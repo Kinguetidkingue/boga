@@ -183,7 +183,7 @@ body {
     background-color: transparent!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 2px solid rgba(235, 14, 77, 0.988) !important;
+    border-right: 2px solid #fff !important;
 }
 
 #DO{
@@ -829,7 +829,7 @@ li a:hover {
     font-family: helvetica !important;
     background-color: #fff !important;
     position: sticky !important;
-    top: 30px !important;
+    top: 5px !important;
     font-size: 18px !important;
     padding: 25px !important;
     border: none !important;
