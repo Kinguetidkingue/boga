@@ -170,7 +170,7 @@ body {
     height: auto !important;
     justify-content: center !important;
     align-items: center !important;
-    position: sticky !important;
+    position: fixed !important;
     top: 0 !important;
     z-index: 1 !important;
     }
