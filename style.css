@@ -128,12 +128,13 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    border-top: 0.5rem solid var(--bs-bb-warning)!important;
+    border-top: 0.5rem solid var(--bs-warning)!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
     padding: auto !important;
     height: auto !important;
+    background-color: #198754 !important;
 }
 #OFFCANVAS{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -162,16 +163,16 @@ body {
     padding-bottom: 60px !important;
     position: relative !important;
 }
-#navbar {
+#Navbar {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
     height: auto !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.15px solid rgba(235, 14, 77, 0.988) !important;
-    background-image:linear-gradient(rgba(135, 207, 235, 0.98), rgba(255, 255, 255, 0.988)) !important;
-}
+    position: sticky !important;
+    top: 0 !important;
+    }
 
 #Logo {
     display: flex !important;
@@ -183,7 +184,7 @@ body {
     background-color: transparent!important;
     justify-content: center !important;
     align-items: center !important;
-    border-right: 2px solid #fff !important;
+    border-right: 5px solid var(--bs-warning) !important;
 }
 
 #DO{
