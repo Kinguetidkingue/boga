@@ -1,3 +1,4 @@
+
 /*Functions first*/
 @import "../node_modules/bootstrap/scss/functions";
 /* Some required and optional imports*/
@@ -123,7 +124,6 @@ body {
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
-    border-top: 0.5rem solid rgba(21, 64, 149, 0.9)!!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
