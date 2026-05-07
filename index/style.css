@@ -345,7 +345,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: var(--bs-danger) !important;
+    background-color: var(--bs-success) !important;
 }
 
 #Space-to-Footer {
@@ -367,7 +367,7 @@ li a:hover {
 }
 #Universities {
     background-color: #f2f2f2 !important;
-    color: #000 !important;
+    color: darkblue !important;
     font-size: 16px !important;
     padding: 15px !important;
     font-family: "Inter", sans-serif !important;
@@ -376,7 +376,7 @@ li a:hover {
 
 #Lin a {
     width: 100%!important;
-    color:  #000!important;
+    color:  darkblue!important;
     font-size: 9.85px !important;
     font-weight: bold !important;
     text-decoration: none !important;
@@ -384,9 +384,9 @@ li a:hover {
 }
 
 #Lin a:hover {
-    color: blue !important;
+    color: var(--bs-danger) !important;
     transition: background-color 0.3s ease-in-out;
-    font-size: 10.15px !important;
+    font-size: 10px !important;
     font-weight: bold !important;
 }
 #Resources {
@@ -890,7 +890,7 @@ li a:hover {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #dcdcdce7!important;
+    background-color: #f2f2f2!important;
     margin-bottom: 20px !important;
 }
 
@@ -923,7 +923,7 @@ li a:hover {
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #dcdcdce7!important;
+    background-color: #f2f2f2!important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
