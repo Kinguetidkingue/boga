@@ -308,7 +308,8 @@ li a:hover {
 }
 
 #BOTTOBANNER {
-    background-color: rgba(21, 64, 149, 0.9) !important;
+    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
+    color: #fff !important;
     padding: auto !important;
 }
 
