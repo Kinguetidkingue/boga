@@ -149,7 +149,7 @@ body {
     align-items: center !important;
     font-size: 11px !important;
     margin-top: 10px !important;
-    color: var(--bs-primary)!important;
+    color: var(--bs-dark)!important;
     font-family: "Inter", sans-serif !important;
 }
 #PADTOP{
@@ -167,6 +167,7 @@ body {
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
+    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
     }
 
 #Logo {
@@ -522,12 +523,16 @@ li a:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     box-shadow: 0 1px 1rem 1px #666 !important;
+    color: #000 !important;
 }
 #KROP{
     background-color: #fff!important;
     color: #7b7b7b!important;
 }
-
+#KROP:hover{
+    color: #000 !important;
+    transition: 0.3s background-color ease-in-out! important;
+}
 #READ-MORE {
     width: 100% !important;
     height: auto !important;
