@@ -218,13 +218,13 @@ font-weight: bold !important;
     justify-content: end !important;
     width: auto !important;
     height: 45px !important;
-    background-color: #fff!important;
+    background-color: #000!important;
+    color: #fff! important;
     font-weight: bold !important;
     font-family: "Iosevka Charon", monospace !important;
-    border-bottom: 0.25rem solid transparent!important;
 }
 #TOGGLICON:hover{
-    background-color: rgba(212, 212, 212, 0.963)!important;
+    background-color: var(--bs-warning) !important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #BOTON {
@@ -448,6 +448,20 @@ li a:hover {
     font-weight: bold !important;
     padding: 10px !important;
 
+}
+#BTON{
+    background-color: var(--bs-warning)! important;
+    color: #000 !important;
+    border: 0.16rem solid #000 !important;
+}
+#BTON:hover{
+background-color: var(--bs-white)! important;
+transition: 0.3s background-color ease-in-out;
+font-weight: bold !important;
+box-shadow: 2px 2px 2rem 2px #fff !important;
+}
+#TITLE{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 #IMGSet {
