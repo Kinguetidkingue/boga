@@ -517,7 +517,7 @@ color: var(--bs-primary)!important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: 0 2px 1.5rem 2px rgba(55, 55, 55, 0.626) !important;
+    box-shadow: 0 2px 1rem 2px rgba(70, 70, 70, 0.626) !important;
     border-top: 0.5rem solid var(--bs-danger) !important;
     border-radius: 0.5rem !important;
 }
@@ -525,7 +525,7 @@ color: var(--bs-primary)!important;
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    box-shadow: 0 2px 1.5rem 2px rgba(55, 55, 55, 0.626) !important;
+    box-shadow: 0 2px 1.5rem 2px #000 !important;
     border-top: 0.5rem solid var(--bs-success) !important;
 }
 #BLOKE{
