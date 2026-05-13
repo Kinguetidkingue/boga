@@ -512,20 +512,21 @@ color: var(--bs-primary)!important;
 #BLOK {
     width: 25rem !important;
     height: auto !important;
-    color: #343434 !important;
+    color: #000 !important;
     border: none !important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: 0 1px 0.5rem 0.1px rgba(94, 94, 94, 0.399) !important;
-    border-top: 0.2rem solid transparent !important;
+    box-shadow: 0 2px 1.5rem 2px rgba(55, 55, 55, 0.626) !important;
+    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-radius: 0.5rem !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     box-shadow: 0 2px 1.5rem 2px rgba(55, 55, 55, 0.626) !important;
-    border-top: 0.2rem solid var(--bs-danger) !important;
+    border-top: 0.5rem solid var(--bs-success) !important;
 }
 #BLOKE{
     width: 19rem !important;
