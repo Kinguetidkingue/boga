@@ -510,7 +510,7 @@ color: var(--bs-primary)!important;
 }
 
 #BLOK {
-    width: 23rem !important;
+    width: 24rem !important;
     height: auto !important;
     color: #000 !important;
     border: none !important;
@@ -846,7 +846,7 @@ color: var(--bs-primary)!important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-    padding: 70px !important;
+    padding: 50px !important;
 }
 
 #EACH-PROVINCE{
