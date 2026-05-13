@@ -660,8 +660,11 @@ color: var(--bs-primary)!important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     font-weight: bold !important;
 }
+#SEP{
+    background-color: rgba(21, 64, 149, 0.9) !important;
+}
 #DD{
-     background: rgba(21, 64, 149, 0.9)!important;
+     background: transparent!important;
 }
 #HEAD{
     justify-content: center !important;
