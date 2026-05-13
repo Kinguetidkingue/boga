@@ -449,16 +449,20 @@ li a:hover {
     padding: 10px !important;
 
 }
+#HYPERTEXT{
+    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.804)) !important;
+}
 #BTON{
     background-color: var(--bs-warning)! important;
     color: #000 !important;
-    border: 0.16rem solid #000 !important;
+    border: 0.1rem solid #000 !important;
 }
 #BTON:hover{
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-box-shadow: 2px 2px 2rem 2px #fff !important;
+box-shadow: 1px 0.5px 0.5rem 1.5px #000000e4 !important;
+color: var(--bs-primary)!important;
 }
 #TITLE{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
@@ -513,16 +517,15 @@ box-shadow: 2px 2px 2rem 2px #fff !important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: none !important;
-    border-top: 0.15rem solid transparent !important;
+    box-shadow: 0 1px 0.5rem 0.1px rgba(94, 94, 94, 0.399) !important;
+    border-top: 0.2rem solid transparent !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    border: 0.15px solid #e8e8e8 !important;
-    box-shadow: 0 2px 1rem 0.1px rgba(94, 94, 94, 0.626) !important;
-    border-top: 0.15rem solid var(--bs-danger) !important;
+    box-shadow: 0 2px 1.5rem 2px rgba(55, 55, 55, 0.626) !important;
+    border-top: 0.2rem solid var(--bs-danger) !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -666,7 +669,7 @@ box-shadow: 2px 2px 2rem 2px #fff !important;
     font-size: 24px !important;
     line-height: 1.7 !important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    background-color: transparent !important;
+    
 }
 #KORDO{
     padding-top: 25px !important;
@@ -838,65 +841,18 @@ box-shadow: 2px 2px 2rem 2px #fff !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 69.7% !important;
+    width: 70% !important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-    padding-right: 25px !important;
+    padding: 50px !important;
 }
 
-#RightContainer {
-    width: 30.3% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    font-family: helvetica !important;
-    background-color: #fff !important;
-    position: sticky !important;
-    top: 28px !important;
-    font-size: 18px !important;
-    padding: 25px !important;
-    border: none !important;
-    margin-top: -27rem !important;
-}
-
-.CC {
-    width: 100% !important;
-    height: 45px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    background-color: transparent !important;
-    border: none !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-    font-size: 13.5px !important;
-    font-weight: bold !important;
-    color: #000 !important;
-    font-family: helvetica !important;
-    padding: 5px !important;
-    margin-bottom: 1.2px !important;
-}
-#CC-List{
-    border: none !important;
-    border-radius: 0.5rem !important;
-}
-#CC-List a:hover {
-    background-color: #fff !important;
-    color: var(--bs-danger) !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
-    transition: background-color all 0.3s ease-in-out !important;
-    border: none !important;
-}
 #EACH-PROVINCE{
     background-color: rgba(21, 64, 149, 0.9)!important;
     margin-top: 10px !important;
     color: var(--bs-white) !important;
     max-width: 100% !important;
-    
     padding: 20px!important;
     margin-top: 2rem!important;
 }
