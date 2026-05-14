@@ -968,12 +968,6 @@ color: darkblue !important;
     background-color: rgba(21, 64, 149, 0.9) !important;
     border-radius: none !important;
 }
-#SEP{
-    font-size: 21px !important;
-    font-family: helvetica !important;
-    line-height: 1.7 !important;
-    border-radius: none !important;
-}
 #LearnMoreButton {
     background-color: #ff5a1e !important;
     color: #fff !important;
