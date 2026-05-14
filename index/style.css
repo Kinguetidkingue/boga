@@ -357,7 +357,7 @@ li a:hover {
     font-family:'Times New Roman', Times, serif !important; 
     justify-content: center !important;
     align-items: center !important;
-    font-size: 18px !important;
+    font-size: 17px !important;
     padding-top: 55px !important;
     color: #ff0 !important;
     margin-bottom: 1rem !important;
@@ -510,7 +510,7 @@ color: var(--bs-primary)!important;
 }
 
 #BLOK {
-    width: 23rem !important;
+    width: 21rem !important;
     height: auto !important;
     color: #000 !important;
     border: none !important;
@@ -850,7 +850,8 @@ color: var(--bs-primary)!important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-    padding: 20px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 #EACH-PROVINCE{
