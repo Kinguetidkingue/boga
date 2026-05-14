@@ -661,7 +661,8 @@ color: var(--bs-primary)!important;
     font-weight: bold !important;
 }
 #SEP{
-    background-color: rgba(21, 64, 149, 0.9) !important;
+    background-color: transparent !important;
+    border: none !important;
 }
 #DD{
      background: transparent!important;
@@ -669,7 +670,7 @@ color: var(--bs-primary)!important;
 #HEAD{
     justify-content: center !important;
     align-items: center !important;
-    color:#fff !important;
+   color: #ff0!important;
     font-size: 24px !important;
     line-height: 1.7 !important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
