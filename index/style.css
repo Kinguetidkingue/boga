@@ -510,14 +510,14 @@ color: var(--bs-primary)!important;
 }
 
 #BLOK {
-    width: 24rem !important;
+    width: 23rem !important;
     height: auto !important;
     color: #000 !important;
     border: none !important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: 0 2px 1rem 2px rgba(70, 70, 70, 0.626) !important;
+    box-shadow: 0 2px 1rem 1px rgba(70, 70, 70, 0.626) !important;
     border-top: 0.5rem solid var(--bs-danger) !important;
     border-radius: 0.5rem !important;
 }
