@@ -461,7 +461,7 @@ li a:hover {
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-box-shadow: 1px 0.5px 0.5rem 1.5px #000000e4 !important;
+box-shadow: 0.5px 1px 0.5rem 2px #000 !important;
 color: var(--bs-primary)!important;
 }
 #TITLE{
@@ -518,15 +518,15 @@ color: var(--bs-primary)!important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
     box-shadow: 0 2px 1rem 1px rgba(70, 70, 70, 0.626) !important;
-    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-top: 1rem solid var(--bs-danger) !important;
     border-radius: 0.5rem !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    box-shadow: 0 2px 1.5rem 2px #000 !important;
-    border-top: 0.5rem solid var(--bs-success) !important;
+    box-shadow: 0 1.7px 1.35rem 1.25px #000 !important;
+    border-top: 1rem solid var(--bs-dark) !important;
 }
 #BLOKE{
     width: 19rem !important;
