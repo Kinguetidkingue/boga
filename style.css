@@ -710,7 +710,8 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: rgba(21, 64, 149, 0.9) !important;
+    border-top: 0.15rem solid rgba(21, 64, 149, 0.9) !important;
+    border-bottom: 0.15rem solid rgba(21, 64, 149, 0.9) !important;
 }
 
 #HeadeR {
@@ -725,7 +726,7 @@ color: var(--bs-primary)!important;
     align-items: center !important;
     padding: 40px !important;
     padding-bottom: none !important;
-    color: #fff !important;
+    color: rgba(21, 64, 149, 0.9) !important;
 }
 
 #BEGINNER {
@@ -741,7 +742,7 @@ color: var(--bs-primary)!important;
     text-align: start !important;
     line-height: 1.68 !important;
     font-family: "Inter", sans-serif !important;
-    color: #fff !important;
+    color: rgba(21, 64, 149, 0.9) !important;
 }
 #YOUPI{
     display: flex !important;
@@ -753,6 +754,9 @@ color: var(--bs-primary)!important;
     padding-bottom: 40px !important;
     position: relative !important;
     background-color: var(--bs-white) !important;
+}
+#TOBA{
+    border: 0.15rem solid rgba(21, 64, 149, 0.9) !important;
 }
 #KONTAINER{
     width: 100% !important;
