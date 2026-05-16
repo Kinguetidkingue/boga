@@ -207,19 +207,19 @@ body {
     font-size: 18px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-weight: bold !important;
-    line-height: 1.25 ! important;
+    line-height: auto! important;
 }
 #TOGGLICON{
     justify-content: end !important;
-    width: auto !important;
+    min-width: auto !important;
     height: 45px !important;
-    background-color: var(--bs-warning)!important;
+    background-color: var(--bs-primary)!important;
     color: #fff! important;
     font-weight: bold !important;
     font-family: "Iosevka Charon", monospace !important;
 }
 #TOGGLICON:hover{
-    background-color: #000 !important;
+    background-color: var(--bs-dannger) !important;
     transition: 0.3s background-color ease-in-out!important;
 }
 #BOTON {
