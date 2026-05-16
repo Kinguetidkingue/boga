@@ -114,7 +114,7 @@ html {
 }
 
 body {
-    font-family: helvetica !important;
+    font-family:'Times New Roman', Times, serif !important;
     max-width: 100% !important;
     height: auto !important;
     overflow-x: hidden !important;
@@ -762,6 +762,17 @@ color: var(--bs-primary)!important;
     line-height: 1.68 !important;
     font-family: "Inter", sans-serif !important;
     color: #fff !important;
+}
+#YOUPI{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    background-color: var(--bs-white) !important;
+}
+#KONTAINER{
+    width: 100% !important;
 }
 
 #RES {
