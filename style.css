@@ -652,10 +652,10 @@ color: var(--bs-primary)!important;
 #HEAD{
     justify-content: center !important;
     align-items: center !important;
-   color: #ff0!important;
-    font-size: 24px !important;
+   color: #fff!important;
+    font-size: 25px !important;
     line-height: 1.7 !important;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-family:'Times New Roman', Times, serif!important;
     
 }
 #KORDO{
@@ -724,7 +724,7 @@ color: var(--bs-primary)!important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 40px !important;
+    padding: 20px !important;
     padding-bottom: none !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
@@ -734,14 +734,14 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     height: 385px !important;
     width: 100% !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: normal !important;
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.68 !important;
-    font-family: "Inter", sans-serif !important;
+    font-family: 'Times New Roman', Times, serif !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
 #YOUPI{
@@ -848,7 +848,7 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #f2f2f2!important;
+    background-color: #f1f1f1!important;
     margin-bottom: 20px !important;
 }
 
@@ -881,7 +881,7 @@ color: var(--bs-primary)!important;
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #f2f2f2!important;
+    background-color: #f1f1f1!important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
