@@ -653,7 +653,7 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
    color: #fff!important;
-    font-size: 25px !important;
+    font-size: 22px !important;
     line-height: 1.7 !important;
     font-family:'Times New Roman', Times, serif!important;
     
@@ -667,9 +667,9 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff !important;
-    font-size: 21px !important;
+    
     font-weight: bold !important;
-    font-family: "Playwrite NZ Basic", cursive !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 #LearninG {
     width: 100% !important;
@@ -732,7 +732,7 @@ color: var(--bs-primary)!important;
 #BEGINNER {
     display: flex !important;
     flex-direction: row !important;
-    height: auto!important;
+    height: auto !important;
     width: 100% !important;
     font-size: 22px !important;
     justify-content: center !important;
@@ -913,7 +913,6 @@ color: darkblue !important;
     font-family: Arial, Helvetica, sans-serif !important;
     background-image: linear-gradient(#0e3079fe, #d3dffff5) !important;
     border: none !important;
-    border-radius: 1rem !important;
 }
 
 #Bootstrap:hover {
@@ -927,8 +926,7 @@ color: darkblue !important;
     color: red !important;
 }
 #CARDBODY{
-    border-bottom-left-radius: 1rem !important;
-    border-bottom-right-radius: 1rem !important;
+    border: none !important;
 }
 
 #IMAGE{
