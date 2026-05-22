@@ -343,7 +343,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: darkslateblue !important;
+    background-color: rgba(21, 64, 149, 0.95) !important;
 }
 
 #Space-to-Footer {
@@ -355,7 +355,7 @@ li a:hover {
     align-items: center !important;
     font-size: 17px !important;
     padding-top: 55px !important;
-    color: #ff0 !important;
+    color: #fff !important;
     margin-bottom: 1rem !important;
     font-weight: bold !important;
 }
