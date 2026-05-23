@@ -135,6 +135,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 #OFFCAN{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100% !important;
     background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
 }
