@@ -498,14 +498,14 @@ color: var(--bs-primary)!important;
 }
 
 #BLOK {
-    width: 21rem !important;
+    width: 20rem !important;
     height: auto !important;
     color: #000 !important;
     border: none !important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    box-shadow: 0 2px 1rem 1px rgba(70, 70, 70, 0.626) !important;
+    box-shadow: 0 1px 0.5rem 1px rgba(144, 144, 144, 0.626) !important;
     border-top: 1rem solid var(--bs-danger) !important;
     border-radius: 0.5rem !important;
 }
@@ -591,7 +591,7 @@ color: var(--bs-primary)!important;
     color: #000!important;
     border: 0.2rem solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
-    background-color: #cdcdcd !important;
+    background-color: #f1f1f1 !important;
 }
 
 #Learnmore:hover {
@@ -886,7 +886,7 @@ color: var(--bs-primary)!important;
     height: auto !important;
     display: block !important;
     flex-direction: column !important;
-    background-color: #f1f1f1!important;
+    background-color: light!important;
     padding-top: 30px !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
