@@ -912,18 +912,18 @@ color: darkblue !important;
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
-    color: #000!important;
+    color: gray!important;
     justify-content: center !important;
     align-items: center !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    background-image: linear-gradient(#0e3079, #fff) !important;
-    border: none !important;
+    background-color: #fff !important;
+    border: 0.15px solid #0e3079 !important;
 }
 
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
-    color: orangered !important;
-    box-shadow: 0 1px 0.2rem 4px var(--bs-orange) !important;
+    color: #000 !important;
+    box-shadow: 0 1px 0.2rem 4px var(--bs-dark) !important;
     border: none !important;
 }
 
