@@ -505,15 +505,14 @@ color: var(--bs-primary)!important;
     background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    border-top: 0.5rem solid var(--bs-danger) !important;
-    border-radius: 0.5rem !important;
+    border-top: 2px solid var(--bs-danger) !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    box-shadow: 0 1.7px 1rem 1px #000000db !important;
-    border-top: 0.5rem solid var(--bs-dark) !important;
+    box-shadow: 0 1.7px 1rem 1px #b2b2b2db !important;
+    border-top: 2px solid var(--bs-dark) !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -565,13 +564,13 @@ color: var(--bs-primary)!important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     padding: 10px !important;
-    border: 0.15px solid orangered!important; 
+    border: 0.15px solid #091f4e!important; 
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
     font-weight: bold !important;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #LEARNMORE:hover {
@@ -579,6 +578,7 @@ color: var(--bs-primary)!important;
     color: #fff !important;
     font-weight: bold ! important;
 }
+
 #Learnmore {
     width: 100% !important;
     height: auto !important;
@@ -698,10 +698,10 @@ color: var(--bs-primary)!important;
     width: 100% !important;
     height: auto !important;
     padding: 20px !important;
-    background-color: rgba(21, 64, 149, 0.9)!important;
+    color: rgba(21, 64, 149, 0.9)!important;
     justify-content: center !important;
     align-items: center !important;
-    color: #fff !important;
+    background-color: #fff !important;
     margin-bottom: 0.1rem !important;
 }
 
@@ -893,7 +893,7 @@ color: var(--bs-primary)!important;
 
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
-color: darkblue !important;
+color: rgba(21, 64, 149, 0.9) !important;
 }
 #Technology {
     width: 100% !important;
@@ -1004,7 +1004,7 @@ transition: 0.3s background-color ease-in-out !important;
     font-family: "Inter", sans-serif !important;
     font-size: 15.25px !important;
     line-height: 1.5 !important;
-    color: #091f4ee0 !important;
+    color: #091f4e !important;
     background-color:  #fff !important;
     border: none !important;
 }
