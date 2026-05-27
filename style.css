@@ -757,15 +757,14 @@ color: var(--bs-primary)!important;
     padding-bottom: 40px !important;
     position: relative !important;
     background-color: var(--bs-white) !important;
-}
-#TOBA{
+}#TOBA{
     border: 0.15px solid rgba(21, 64, 149, 0.9) !important;
-    color: rgba(21, 64, 149, 0.9) !important;
+    color: #fff !important;
 }
 #TOBA:hover{
     background-color: rgba(21, 64, 149, 0.9) !important;
     transition: 0.3s background-color ease-in-out !important;
-    color: #fff !important;
+    color: #ff0 !important;
 }
 #KONTAINER{
     width: 100% !important;
