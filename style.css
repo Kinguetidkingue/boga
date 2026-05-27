@@ -567,7 +567,7 @@ color: var(--bs-primary)!important;
     align-items: center !important;
     font-size: 16px !important;
     padding: 10px !important;
-    background-color: #e6e6e6!important; 
+    border: 0.15px solid orangered!important; 
     transition: background-color 0.3s ease-in-out;
     color: #000 !important;
     font-weight: bold !important;
@@ -579,7 +579,6 @@ color: var(--bs-primary)!important;
     color: #fff !important;
     font-weight: bold ! important;
 }
-
 #Learnmore {
     width: 100% !important;
     height: auto !important;
