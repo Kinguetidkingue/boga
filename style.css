@@ -587,16 +587,16 @@ color: var(--bs-primary)!important;
     align-items: center !important;
     font-size: 18px !important;
     color: #000!important;
-    border: 0.2rem solid transparent !important;
+    border: 0.15rem solid transparent !important;
     font-family: "Ubuntu", sans-serif !important;
-    background-color: #f1f1f1 !important;
+    background-color: #f0f0f0 !important;
 }
 
 #Learnmore:hover {
     background-color: #fff !important;
     font-size: 18px !important;
     font-weight: bold !important;
-    border: 0.2rem #222 solid !important;
+    border: 0.15rem #000 solid !important;
     transition: background-color 0.3s ease-in-out;
     color: #dc3545 !important;
 }
@@ -757,7 +757,8 @@ color: var(--bs-primary)!important;
     padding-bottom: 40px !important;
     position: relative !important;
     background-color: var(--bs-white) !important;
-}#TOBA{
+}
+#TOBA{
     border: 0.15px solid rgba(21, 64, 149, 0.9) !important;
     color: #fff !important;
 }
@@ -923,7 +924,7 @@ color: rgba(21, 64, 149, 0.9) !important;
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
-    box-shadow: 0 1px 0.2rem 4px var(--bs-dark) !important;
+    box-shadow: 0 0.5px 0.2rem 4px var(--bs-dark) !important;
     border: none !important;
 }
 
