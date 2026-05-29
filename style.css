@@ -545,17 +545,17 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 16px !important;
-    color: #797979 !important;
+    color: #333 !important;
     border: 0.15rem solid transparent !important;
     font-family: Arial, Helvetica, sans-serif !important;
-     background-color: #e6e6e6!important;
+    background-color: #f1f1f1!important;
 }
 
 #READ-MORE:hover {
-    background-color: #fff !important;
+    background-color: var(--bs-success) !important;
     border: 0.15rem solid #000 !important;
-    transition: background-color 0.3s ease-in-out;
-    color: #dc3545 !important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: #ff0 !important;
 }
 
 #LEARNMORE {
