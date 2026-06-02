@@ -373,9 +373,9 @@ li a:hover {
 #Universities {
     background-color: #fff !important;
     font-size: 16px !important;
-    color: #000 !important;
+    color: blue !important;
     padding: 15px !important;
-    font-family: 'Times New Roman', Times, serif!important;
+    font-family: helvetica !important;
     font-weight: bold !important;
 }
 
@@ -385,12 +385,13 @@ li a:hover {
     color:  blue!important;
     text-decoration: none !important;
     font-family: helvetica !important;
+    font-weight: bold !important;
 }
 
 #Lin a:hover {
     color: var(--bs-danger) !important;
     transition: background-color 0.3s ease-in-out;
-    font-size: 14px !important;
+    font-size: 13.25px !important;
 }
 #Resources {
     width: 100% !important;
