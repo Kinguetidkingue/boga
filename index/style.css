@@ -309,9 +309,10 @@ li a:hover {
 }
 
 #BOTTOBANNER {
-    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: var(--bs-gray-600) !important;
     padding: auto !important;
+    border-top: 0.15px solid var(--bs-gray-500)!important;
 }
 
 .footer {
@@ -321,7 +322,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    background-color: #f2f2f2 !important;
+    background-color: #fff !important;
 }
 
 #TOPO {
@@ -369,8 +370,8 @@ li a:hover {
     transition: 0.3s background-color ease-in-out !important
 }
 #Universities {
-    background-color: #f2f2f2 !important;
-    color: darkblue !important;
+    background-color: #fff !important;
+    color: blue !important;
     font-size: 16px !important;
     padding: 15px !important;
     font-family: "Inter", sans-serif !important;
@@ -379,7 +380,7 @@ li a:hover {
 
 #Lin a {
     width: 100%!important;
-    color:  darkblue!important;
+    color:  blue!important;
     font-size: 9.85px !important;
     font-weight: bold !important;
     text-decoration: none !important;
@@ -493,26 +494,21 @@ color: var(--bs-primary)!important;
     transition: color 0.3s ease-in-out;
 }
 
-.card-body {
-    background-color: #fff !important;
-}
-
 #BLOK {
     width: 20rem !important;
     height: auto !important;
     color: #000 !important;
     border: none !important;
-    background-color: #fff !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    border-top: 2px solid var(--bs-danger) !important;
+    border-top: 1px solid var(--bs-danger) !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     box-shadow: 0 1.7px 1rem 1px #b2b2b2db !important;
-    border-top: 2px solid var(--bs-dark) !important;
+    border-top: 1px solid var(--bs-dark) !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -565,7 +561,6 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 18px !important;
-    padding: 10px !important;
     border: 0.15px solid #091f4e!important; 
     transition: background-color 0.3s ease-in-out;
     color: #091f4e !important;
@@ -974,10 +969,7 @@ color: rgba(21, 64, 149, 0.9) !important;
 #BURKINA-FASO{
     border: none !important;
 }
-#LAND{
-    border: none !important;
-    padding: 30px !important;
-}
+
 #WEST-AFRICA{
     border-top: 0.15px solid rgba(21, 64, 149, 0.9)!important;
     border-bottom: 0.15px solid rgba(21, 64, 149, 0.9)!important;
