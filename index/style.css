@@ -748,13 +748,13 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    padding-top: 50px !important;
+    padding-top: 40px !important;
     padding-bottom: 40px !important;
     position: relative !important;
     background-color: var(--bs-white) !important;
 }
 #TOBA{
-    border: 0.15px solid rgba(21, 64, 149, 0.9) !important;
+    border: 0.15rem solid rgba(21, 64, 149, 0.9) !important;
     color: #fff !important;
 }
 #TOBA:hover{
@@ -764,6 +764,7 @@ color: var(--bs-primary)!important;
 }
 #KONTAINER{
     width: 100% !important;
+    border: none !important;
 }
 
 #RES {
@@ -833,10 +834,9 @@ color: var(--bs-primary)!important;
 
 #EACH-PROVINCE{
     border-top: 0.15px solid rgba(21, 64, 149, 0.9)!important;
-    border-bottom: 0.15px solid rgba(21, 64, 149, 0.9)!important;
     margin-top: 10px !important;
     color: rgba(21, 64, 149, 0.9)!important;
-    max-width: 100% !important;
+    width: 100% !important;
     padding: 20px!important;
 }
 
@@ -972,7 +972,6 @@ color: rgba(21, 64, 149, 0.9) !important;
 
 #WEST-AFRICA{
     border-top: 0.15px solid rgba(21, 64, 149, 0.9)!important;
-    border-bottom: 0.15px solid rgba(21, 64, 149, 0.9)!important;
     color: rgba(21, 64, 149, 0.9) !important;
     font-size: 18px !important;
 }
