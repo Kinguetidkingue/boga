@@ -501,7 +501,7 @@ color: var(--bs-primary)!important;
     border: none !important;
     font-size: 16px !important;
     font-family: Helvetica, sans-serif !important;
-    border-top: 1px solid var(--bs-danger) !important;
+    border: 0.15px solid #0e3079 !important;
 }
 
 #BLOK:hover {
