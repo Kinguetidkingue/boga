@@ -712,7 +712,7 @@ color: var(--bs-primary)!important;
 }
 
 #HeadeR {
-    font-family: helvetica!important;
+    font-family: 'Times New Roman', Times, serif!important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
@@ -730,17 +730,16 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     height: auto !important;
     width: 100% !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: normal !important;
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.6 !important;
-    font-family: helvetica !important;
+    font-family: 'Times New Roman', Times, serif !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
-
 #TOBA{
     background-color: rgba(24, 76, 180, 0.9) !important;
     color: #ff0 !important;
