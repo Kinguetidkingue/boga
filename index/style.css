@@ -745,6 +745,7 @@ color: var(--bs-primary)!important;
     background-color: rgba(24, 76, 180, 0.9) !important;
     color: #ff0 !important;
     font-family: helvetica !important;
+    border: 0.5rem solid rgb(157, 203, 255) !important;
 }
 #TOBA:hover{
     background-color: rgba(25, 80, 190, 0.9) !important;
