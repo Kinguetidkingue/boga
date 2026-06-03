@@ -709,7 +709,6 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     border-top: 0.15px solid rgba(21, 64, 149, 0.9) !important;
-    border-bottom: 0.15px solid rgba(21, 64, 149, 0.9) !important;
 }
 
 #HeadeR {
@@ -722,8 +721,7 @@ color: var(--bs-primary)!important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 20px !important;
-    padding-bottom: none !important;
+    padding-top: 20px !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
 
@@ -742,29 +740,22 @@ color: var(--bs-primary)!important;
     font-family: 'Times New Roman', Times, serif !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
-#YOUPI{
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-    position: relative !important;
-    background-color: var(--bs-white) !important;
-}
+
 #TOBA{
-    border: 0.15rem solid rgba(21, 64, 149, 0.9) !important;
-    color: #fff !important;
-}
-#TOBA:hover{
-    background-color: rgba(21, 64, 149, 0.9) !important;
-    transition: 0.3s background-color ease-in-out !important;
+    background-color: rgba(24, 76, 180, 0.9) !important;
     color: #ff0 !important;
 }
+#TOBA:hover{
+    background-color: rgba(25, 80, 190, 0.9) !important;
+    transition: 0.3s background-color ease-in-out !important;
+    color: #fff !important;
+}
 #KONTAINER{
+    display: flex!important;
+    flex-direction: column !important;
     width: 100% !important;
     border: none !important;
+    margin-top: 20px !important;
 }
 
 #RES {
