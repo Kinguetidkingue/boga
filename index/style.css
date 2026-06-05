@@ -906,11 +906,10 @@ color: rgba(21, 64, 149, 0.9) !important;
     height: auto !important;
     display: block !important;
     font-size: 16px !important;
+    font-family: Helvetica, sans-serif !important;
     color: rgb(73, 73, 73)!important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #fff !important;
     border: 0.15px solid #0e3079 !important;
 }
 
