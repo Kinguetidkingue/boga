@@ -309,9 +309,9 @@ li a:hover {
 }
 
 #BOTTOBANNER {
-    height: 56.4px !important;
+    height: 58px !important;
     background-color: #fff !important;
-    color: var(--bs-gray-600) !important;
+    color: var(--bs-danger) !important;
     padding: auto !important;
     border-top: 0.5rem solid rgba(21, 64, 149, 0.95)!important;
 }
@@ -373,7 +373,7 @@ li a:hover {
 #Universities {
     background-color: #fff !important;
     font-size: 16px !important;
-    color: blue !important;
+    color: rgba(21, 64, 149, 0.95) !important;
     padding: 15px !important;
     font-family: helvetica !important;
     font-weight: bold !important;
@@ -382,7 +382,7 @@ li a:hover {
 #Lin a {
     width: 100%!important;
     font-size: 13px !important;
-    color:  blue!important;
+    color:  #000!important;
     text-decoration: none !important;
     font-family: helvetica !important;
     font-weight: bold !important;
@@ -609,18 +609,15 @@ color: var(--bs-primary)!important;
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-top: 0.25rem solid #cee9ff !important;
     background-color: #fff !important;
 }
 #ARKO{
     display: block !important;
     position: relative !important;
     font-size: 22px !important;
-    border-top: 0.15rem solid #cee9ff !important;
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-bottom: 0.15rem solid #cee9ff !important;
     background-color: #fff !important;
 }
 #ARC{
@@ -630,13 +627,13 @@ color: var(--bs-primary)!important;
     width: 100% !important;
     height: auto !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    background-color: #ffffff !important;
+    background-color: #fff !important;
 }
 .accordion-button{
     background-color: #fff !important;
 }
 .accordion-button:hover{
-    background-color: var(--bs-bb-warning) !important;
+    background-color: var(--bs-gray-100) !important;
     transition: 0.3s background-color ease-in-out !important;
 }
 #HEADER{
@@ -716,7 +713,7 @@ color: var(--bs-primary)!important;
 }
 
 #HeadeR {
-    font-family: 'Times New Roman', Times, serif!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
@@ -734,14 +731,14 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     height: auto !important;
     width: 100% !important;
-    font-size: 1.25rem !important;
+    font-size: 1.16rem !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: normal !important;
     padding: 20px !important;
     text-align: start !important;
     line-height: 1.5 !important;
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
 
