@@ -717,12 +717,12 @@ color: var(--bs-primary)!important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 200px !important;
+    height: auto !important;
     font-weight: bold !important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding-top: 20px !important;
+    padding: 20px !important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
 
