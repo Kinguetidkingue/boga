@@ -439,12 +439,14 @@ li a:hover {
     font-size: 14px !important;
 }
 #HYPERTEXT{
+    display: flex !important;
+    width: 100% !important;
     background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.804)) !important;
 }
 #BTON{
     background-color: var(--bs-warning)! important;
     color: #000 !important;
-    border: 0.1rem solid #fff !important;
+    border: 0.15rem solid #fff !important;
 }
 #BTON:hover{
 background-color: var(--bs-white)! important;
