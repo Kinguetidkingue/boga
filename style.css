@@ -818,8 +818,8 @@ color: var(--bs-primary)!important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+   padding-top: 20px !important;
+    padding-bottom: 10px !important;
 }
 
 #EACH-PROVINCE{
