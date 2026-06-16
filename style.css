@@ -690,7 +690,7 @@ color: var(--bs-primary)!important;
     width: 100% !important;
     height: auto !important;
     padding: 20px !important;
-    color: #000!important;
+    color: var(--bs-gray-600)!important;
     justify-content: center !important;
     align-items: center !important;
     background-color: #fff !important;
@@ -709,7 +709,7 @@ color: var(--bs-primary)!important;
 }
 
 #HeadeR {
-    font-family: Arial, Helvetica, sans-serif!important;
+    font-family:  'Times New Roman', Times, serif !important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
@@ -720,6 +720,7 @@ color: var(--bs-primary)!important;
     align-items: center !important;
     padding: 20px !important;
     color: #000 !important;
+    border-bottom: 0.12rem solid var(--bs-gray-600) !important;
 }
 
 #BEGINNER {
@@ -727,21 +728,21 @@ color: var(--bs-primary)!important;
     flex-direction: row !important;
     height: auto !important;
     width: 100% !important;
-    font-size: 1.15rem !important;
+    font-size: 1.14rem !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: normal !important;
     padding: 20px !important;
     text-align: start !important;
-    line-height: 1.7 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    color: #000 !important;
+    line-height: 1.5 !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    color: var(--bs-gray-700) !important;
 }
 
 #TOBA{
     background-color: rgba(24, 76, 180, 0.9) !important;
     color: #ff0 !important;
-    font-family: helvetica !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     border: 0.5rem solid rgb(157, 203, 255) !important;
 }
 #TOBA:hover{
@@ -818,7 +819,7 @@ color: var(--bs-primary)!important;
     height: auto !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
-   padding-top: 20px !important;
+    padding-top: 20px !important;
     padding-bottom: 10px !important;
 }
 
