@@ -442,13 +442,15 @@ li a:hover {
 #BTON{
     background-color: var(--bs-warning)! important;
     color: #000 !important;
-    border: 0.15rem solid #fff !important;
+    border: 0.1rem solid #fff !important;
+    padding: 7px !important;
 }
 #BTON:hover{
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-box-shadow: 0.5px 1px 0.5rem 2px #000 !important;
+border: 0.1rem solid transparent !important;
+box-shadow: 0.5px 1px 1rem 2px #000 !important;
 color: var(--bs-primary)!important;
 }
 #TITLE{
@@ -718,7 +720,7 @@ color: var(--bs-primary)!important;
     font-size: 40px !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 20px !important;
+    padding: 22px !important;
     color: #000 !important;
     border-bottom: 0.12rem solid var(--bs-gray-600) !important;
 }
@@ -740,15 +742,15 @@ color: var(--bs-primary)!important;
 }
 
 #TOBA{
-    background-color: rgba(24, 76, 180, 0.9) !important;
-    color: #ff0 !important;
+    background-color: rgba(25, 55, 190, 0.9) !important;
+    color: #fff !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     border: 0.5rem solid rgb(157, 203, 255) !important;
 }
 #TOBA:hover{
-    background-color: rgba(25, 80, 190, 0.9) !important;
+    background-color: rgba(25, 55, 190, 0.9) !important;
     transition: 0.3s background-color ease-in-out !important;
-    color: #fff !important;
+    color: #ff0 !important;
 }
 #KONTAINER{
     display: flex!important;
