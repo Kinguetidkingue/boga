@@ -727,7 +727,7 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     padding: 30px !important;
-    border-bottom: 0.12rem solid var(--bs-gray-400) !important;
+    border-bottom: 0.11rem solid var(--bs-gray-300) !important;
 }
 
 #BEGINNER {
