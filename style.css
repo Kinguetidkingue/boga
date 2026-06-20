@@ -153,7 +153,7 @@ body {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 10.5px !important;
+    font-size: 10px !important;
     margin-top: 10px !important;
     color: var(--bs-dark)!important;
     font-family: "Space Mono", monospace!important;
@@ -207,7 +207,7 @@ body {
     align-items: left !important;
     color: var(--bs-cyan)!important;
     font-size: 18px !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: 'Times New Roman', Times, serif!important;
     font-weight: bold !important;
     line-height: auto! important;
 }
@@ -512,17 +512,17 @@ color: var(--bs-primary)!important;
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    box-shadow: 0 2px 1rem 1px #b5b5b5db !important;
+    box-shadow: 0 5px 1rem 1px #b5b5b5db !important;
     border-top: 1px solid var(--bs-dark) !important;
 }
 #BLOKE{
     width: 19rem !important;
     height: auto !important;
-    color: #343434 !important;
-    border: 1px solid var(--bs-gray-200) !important;
+    color: #000 !important;
+    border: 1px solid var(--bs-gray-400) !important;
     background-color: #fff !important;
     font-size: 15.25px !important;
-    line-height: 1.5 !important;
+    line-height: 1.65 !important;
     font-family: "Space Mono", monospace!important;
 }
 #BLOKE:hover{
@@ -566,7 +566,7 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 18px !important;
-    border: 0.15px solid var(--bs-gray-500)!important; 
+    border: 0.15px solid var(--bs-gray-600)!important; 
     transition: background-color 0.3s ease-in-out;
     color: #091f4e !important;
     font-weight: bold !important;
@@ -910,7 +910,7 @@ font-family: "Space Mono", monospace !important;
     display: block !important;
     font-size: 16px !important;
     font-family: "Space Mono", monospace!important;
-    color: var(--bs-gray-700)!important;
+    color: var(--bs-gray-800)!important;
     justify-content: center !important;
     align-items: center !important;
     border: 0.15px solid #f0f0f0 !important;
@@ -1006,7 +1006,7 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: 1.5 !important;
     color: #091f4e !important;
     background-color:  #fff !important;
-    border: 1px solid var(--bs-gray-200) !important;
+    border: 1px solid var(--bs-gray-300) !important;
 }
 
 #BALOU:hover {
