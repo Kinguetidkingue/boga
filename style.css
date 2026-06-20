@@ -626,16 +626,16 @@ color: var(--bs-primary)!important;
 #ARK{
     display: block !important;
     position: relative !important;
-    font-size: 22px !important;
+    font-size: 19px !important;
     width: 100% !important;
     height: auto !important;
-     font-family: "Space Mono", monospace!important;
+    font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
 #ARKO{
     display: block !important;
     position: relative !important;
-    font-size: 22px !important;
+    font-size: 19px !important;
     width: 100% !important;
     height: auto !important;
      font-family: "Space Mono", monospace!important;
@@ -644,7 +644,7 @@ color: var(--bs-primary)!important;
 #ARC{
     display: block !important;
     position: relative !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     width: 100% !important;
     height: auto !important;
     font-family: "Space Mono", monospace!important;
@@ -652,6 +652,10 @@ color: var(--bs-primary)!important;
 }
 .accordion-button{
     background-color: #fff !important;
+    display: flex !important;
+    position: relative !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .accordion-button:hover{
     background-color: var(--bs-gray-100) !important;
