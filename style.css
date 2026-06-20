@@ -116,7 +116,7 @@ html {
 
 body {
     font-family: "Space Mono", monospace!important;
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
     overflow-x: hidden !important;
     /* 1. Remove the default Bootstrap arrow icon */
@@ -128,17 +128,17 @@ body {
   display: flex!important;
   align-items: center!important;
   justify-content: center!important;
-  transform: none !important; /* Stop the icon from spinning */
+  transform: none !important;
+  animation: 0.3s background-color ease-in-out !important; /* Stop the icon from spinning */
 }
-
 /* 2. Change the symbol to a minus sign when the accordion expands */
 .accordion-button:not(.collapsed)::after {
   content: "-"!important;
   font-size: 2rem!important;
   background-image: none !important;
+  animation: 0.3s background-color ease-in-out !important;
 }
 }
-
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
@@ -638,7 +638,7 @@ color: var(--bs-primary)!important;
     font-size: 19px !important;
     width: 100% !important;
     height: auto !important;
-     font-family: "Space Mono", monospace!important;
+    font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
 #ARC{
@@ -649,17 +649,6 @@ color: var(--bs-primary)!important;
     height: auto !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
-}
-.accordion-button{
-    background-color: #fff !important;
-    display: flex !important;
-    position: relative !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-.accordion-button:hover{
-    background-color: var(--bs-gray-100) !important;
-    transition: 0.3s background-color ease-in-out !important;
 }
 #HEADER{
     color:var(--bs-danger) !important;
@@ -696,7 +685,7 @@ color: var(--bs-primary)!important;
 }
 #LearninG {
     width: 100% !important;
-     font-family: "Space Mono", monospace!important;
+    font-family: "Space Mono", monospace!important;
     font-size: 17.95px !important;
     background-color: #fff !important;
     padding: 10px !important;
@@ -788,7 +777,20 @@ color: var(--bs-primary)!important;
 }
 #MEANINGS{
     font-family: "Space Mono", monospace!important;
-    background-color: var(--bs-gray-200)! important;
+}
+#COLAS{
+    background-color: red !important;
+    font-weight: bold !important;
+    color: #ff0 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    border: 0.1px solid #000 !important;
+}
+#COLAS:hover{
+    background-color: #ff0 !important;
+    color: #000 !important;
+    transition: 0.3s background-color ease-in-out !important;
+    border: 0.1px solid transparent !important;
 }
 
 #RES {
