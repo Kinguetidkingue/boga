@@ -119,6 +119,24 @@ body {
     max-width: 100% !important;
     height: auto !important;
     overflow-x: hidden !important;
+    /* 1. Remove the default Bootstrap arrow icon */
+.accordion-button::after {
+  background-image: none !important;
+  content: "+"!important;
+  font-size: 2rem!important;
+  font-weight: bold;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  transform: none !important; /* Stop the icon from spinning */
+}
+
+/* 2. Change the symbol to a minus sign when the accordion expands */
+.accordion-button:not(.collapsed)::after {
+  content: "-"!important;
+  font-size: 2rem!important;
+  background-image: none !important;
+}
 }
 
 #TOPBANNER {
@@ -766,6 +784,7 @@ color: var(--bs-primary)!important;
 }
 #MEANINGS{
     font-family: "Space Mono", monospace!important;
+    background-color: var(--bs-gray-200)! important;
 }
 
 #RES {
