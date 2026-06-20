@@ -484,11 +484,12 @@ color: var(--bs-primary)!important;
     width: 100% !important;
     height: 100px !important;
     font-family: "Space Mono", monospace!important;
-    font-weight: bold !important;
     line-height: normal !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-top: 3.3rem !important;
+    margin-top: 2.5rem !important;
+    word-spacing: -1px !important;
+    color: cyan!important;
 }
 
 #SUN:hover {
