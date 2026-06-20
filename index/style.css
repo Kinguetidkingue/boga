@@ -485,10 +485,10 @@ color: var(--bs-primary)!important;
     height: 100px !important;
     font-family: "Space Mono", monospace!important;
     font-weight: bold !important;
-    line-height: 1.2 !important;
+    line-height: normal !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-top: 4rem !important;
+    margin-top: 3.3rem !important;
 }
 
 #SUN:hover {
