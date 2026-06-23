@@ -991,15 +991,16 @@ font-family: "Space Mono", monospace !important;
     border-radius: none !important;
 }
 #LearnMoreButton {
-    background-color: #ff5a1e !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: red !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
+    border: 2px solid #000!important;
 }
 
 #LearnMoreButton:hover {
-    background-color: #fff !important;
-    color: #000 !important;
+    background-color: #000 !important;
+    color: #fff !important;
     transition: background-color 0.3s ease-in-out !important;
 }
 
