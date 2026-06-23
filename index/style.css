@@ -139,6 +139,15 @@ body {
   animation: 0.3s background-color ease-in-out !important;
 }
 }
+.accordion-body{
+    font-size: 18px!important;
+    color: var(--bs-primary)! important;
+    border-top: 2px var(--bs-gray-300) solid !important;
+}
+.accordion-button:hover{
+     background-color: var(--bs-gray-200)! important;
+     transition: 0.3s background-color ease-in-out !important;
+}
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
@@ -624,9 +633,10 @@ color: var(--bs-primary)!important;
 #ARK{
     display: block !important;
     position: relative !important;
-    font-size: 19px !important;
+    font-size: 18px !important;
     width: 100% !important;
     height: auto !important;
+    padding: 5px !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
@@ -653,6 +663,11 @@ color: var(--bs-primary)!important;
     color:var(--bs-danger) !important;
     font-size: 22px !important;
      font-family: "Space Mono", monospace!important;
+}
+#SEPO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #SEP{
     background-color: transparent !important;
