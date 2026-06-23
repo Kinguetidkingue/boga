@@ -677,13 +677,14 @@ color: var(--bs-primary)!important;
      background: transparent!important;
 }
 #HEAD{
+    display: block !important;
+    width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff!important;
-    font-size: 22px !important;
-    line-height: 1.75 !important;
-     font-family: "Space Mono", monospace!important;
-    
+    font-size: 19px !important;
+    line-height: 1.7 !important;
+     font-family: "Space Mono", monospace!important;  
 }
 #KORDO{
     padding-top: 25px !important;
