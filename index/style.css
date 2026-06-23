@@ -126,6 +126,7 @@ body {
   font-size: 2rem!important;
   font-weight: bold;
   display: flex!important;
+  line-height: 1.7 !important;
   align-items: center!important;
   justify-content: center!important;
   transform: none !important;
@@ -141,7 +142,7 @@ body {
 }
 .accordion-body{
     font-size: 18px!important;
-    color: var(--bs-primary)! important;
+    color: darkblue! important;
     border-top: 2px var(--bs-gray-300) solid !important;
 }
 .accordion-button:hover{
@@ -684,7 +685,8 @@ color: var(--bs-primary)!important;
     color: #fff!important;
     font-size: 19px !important;
     line-height: 1.7 !important;
-     font-family: "Space Mono", monospace!important;  
+     font-family: "Space Mono", monospace!important;
+    
 }
 #KORDO{
     padding-top: 25px !important;
