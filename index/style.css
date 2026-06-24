@@ -127,7 +127,7 @@ body {
   font-weight: bold;
   display: flex!important;
   line-height: 1.8 !important;
-  color: #000! important;
+  color: darkblue! important;
   align-items: center!important;
   justify-content: center!important;
   transform: none !important;
@@ -142,10 +142,11 @@ body {
 }
 }
 .accordion-body{
-    font-size: 17px!important;
+    text-align: left !important;
+    font-size: 18px!important;
     line-height: 1.85 !important;
-    color: rgb(5, 127, 220)! important;
-    border-top: 5px rgb(5, 127, 220) solid !important;
+    color: rgb(9, 122, 209)! important;
+    border-top: 5px rgb(9, 122, 209) solid !important;
 }
 .accordion-button:hover{
      background-color: var(--bs-gray-200)! important;
@@ -518,7 +519,7 @@ color: var(--bs-primary)!important;
     line-height: normal !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-top: 2.5rem !important;
+    margin-top: 2.45rem !important;
     word-spacing: -1px !important;
     color: cyan!important;
 }
@@ -660,10 +661,10 @@ color: var(--bs-primary)!important;
     height: auto !important;
     line-height: 1.8!important;
     font-family: "Space Mono", monospace!important;
-    background-color: #fff !important;
+    background-color: blue !important;
 }
 #HEADER{
-    color:var(--bs-danger) !important;
+    color: red !important;
     font-size: 22px !important;
      font-family: "Space Mono", monospace!important;
 }
@@ -696,7 +697,7 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff!important;
-    font-size: 19px !important;
+    font-size: 23.6px !important;
     line-height: 1.7 !important;
      font-family: "Space Mono", monospace!important;
     
@@ -786,6 +787,7 @@ color: var(--bs-primary)!important;
     font-family: "Space Mono", monospace!important;
     color: var(--bs-gray-700) !important;
 }
+
 #TOBA{
     background-color: rgba(25, 55, 190, 0.9) !important;
     color: #fff !important;
