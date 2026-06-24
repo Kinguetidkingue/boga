@@ -126,7 +126,8 @@ body {
   font-size: 2rem!important;
   font-weight: bold;
   display: flex!important;
-  line-height: 1.7 !important;
+  line-height: 1.8 !important;
+  color: #000! important;
   align-items: center!important;
   justify-content: center!important;
   transform: none !important;
@@ -141,9 +142,9 @@ body {
 }
 }
 .accordion-body{
-    font-size: 18px!important;
-    color: darkblue! important;
-    border-top: 2px var(--bs-gray-300) solid !important;
+    font-size: 18.5px!important;
+    color: rgb(6, 6, 145)! important;
+    border-top: 5px var(--bs-gray-300) solid !important;
 }
 .accordion-button:hover{
      background-color: var(--bs-gray-200)! important;
@@ -197,7 +198,7 @@ body {
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
+    background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
     }
 
 #Logo {
@@ -338,7 +339,7 @@ li a:hover {
     background-color: #fff !important;
     color: var(--bs-danger) !important;
     padding: auto !important;
-    border-top: 0.5rem solid rgba(21, 64, 149, 0.95)!important;
+    border-top: 0.5rem solid var(--bs-primary)!important;
     font-family: "Space Mono", monospace!important;
 }
 
@@ -376,7 +377,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: rgba(21, 64, 149, 0.95) !important;
+    background-color: var(--bs-primary) !important;
 }
 
 #Space-to-Footer {
@@ -399,7 +400,7 @@ li a:hover {
 #Universities {
     background-color: #fff !important;
     font-size: 16px !important;
-    color: rgba(21, 64, 149, 0.95) !important;
+    color: var(--bs-primary) !important;
     padding: 15px !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
@@ -468,7 +469,7 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.804)) !important;
+    background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
 }
 #BTON{
     background-color: var(--bs-warning)! important;
@@ -665,12 +666,22 @@ color: var(--bs-primary)!important;
     font-size: 22px !important;
      font-family: "Space Mono", monospace!important;
 }
+#KETO{
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    background-color: var(--bs-primary) !important;
+    border-radius: none !important;
+}
 #SEPO{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #SEP{
+    display: flex !important;
+    width: 100% !important;
     background-color: transparent !important;
     border: none !important;
 }
@@ -678,7 +689,8 @@ color: var(--bs-primary)!important;
      background: transparent!important;
 }
 #HEAD{
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
     width: 100% !important;
     justify-content: center !important;
     align-items: center !important;
@@ -689,9 +701,9 @@ color: var(--bs-primary)!important;
     
 }
 #KORDO{
-    padding-top: 25px !important;
-    padding-bottom: 25px !important;
-    background: rgba(21, 64, 149, 0.9)!important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    background: var(--bs-primary)!important;
 }
 #HEADO{
     justify-content: center !important;
@@ -984,25 +996,17 @@ font-family: "Space Mono", monospace !important;
     width: 100% !important; 
     height: 220px !important;
 }
-#KETO{
-    width: 100% !important;
-    height: auto !important;
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-    background-color: rgba(21, 64, 149, 0.9) !important;
-    border-radius: none !important;
-}
 #LearnMoreButton {
-    background-color: #fff !important;
-    color: red !important;
+    background-color: #000 !important;
+    color: #fff !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
     border: 2px solid #000!important;
 }
 
 #LearnMoreButton:hover {
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: red !important;
     transition: background-color 0.3s ease-in-out !important;
 }
 
