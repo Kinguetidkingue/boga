@@ -142,9 +142,9 @@ body {
 }
 }
 .accordion-body{
-    font-size: 18.5px!important;
-    color: rgb(6, 6, 145)! important;
-    border-top: 5px var(--bs-gray-300) solid !important;
+    font-size: 17.5px!important;
+    color: rgb(5, 127, 220)! important;
+    border-top: 5px rgb(5, 127, 220) solid !important;
 }
 .accordion-button:hover{
      background-color: var(--bs-gray-200)! important;
