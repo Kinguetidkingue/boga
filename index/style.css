@@ -161,7 +161,7 @@ body {
     padding: auto !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-primary) !important;
+    border-top: 0.3rem solid var(--bs-primary) !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
@@ -535,17 +535,16 @@ color: var(--bs-primary)!important;
     width: 20rem !important;
     height: auto !important;
     color: #000 !important;
-    border: none !important;
+    box-shadow: 0 5px 0.5rem 1px #cfcfcfdb !important;
     font-size: 16px !important;
     font-family: "Space Mono", monospace!important;
     border: 0.15px solid var(--bs-gray-300) !important;
+    border-top: 5px solid var(--bs-dark) !important;
 }
 
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    box-shadow: 0 5px 1rem 1px #b5b5b5db !important;
-    border-top: 2px solid var(--bs-dark) !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -589,6 +588,23 @@ color: var(--bs-primary)!important;
     border: 0.1px solid #000 !important;
     transition: background-color 0.3s ease-in-out!important;
     color: #000 !important;
+}
+#READMORE{
+display: flex!important;
+width: 100% !important;
+justify-content: center! important;
+align-items: center! important;
+background-color: var(--bs-danger)! important;
+color: #fff!important;
+font: 17px !important;
+transition: 0.3s background-color ease-in-out!important; 
+border: 2px solid transparent!important;
+}
+#READMORE:hover{
+background-color: #fff! important;
+color: var(--bs-danger)!important;
+transition: 0.3s background-color ease-in-out!important; 
+border: 2px solid var(--bs-danger)!important;
 }
 
 #LEARNMORE {
