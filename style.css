@@ -698,10 +698,10 @@ color: var(--bs-primary)!important;
     justify-content: center !important;
     align-items: center !important;
     color: #fff!important;
-    font-size: 23.6px !important;
-    line-height: 1.7 !important;
-     font-family: "Space Mono", monospace!important;
-    
+    font-size: 24px !important;
+    line-height: 1.66 !important;
+    font-family: "Space Mono", monospace!important;
+    text-align: left! important; 
 }
 #KORDO{
     padding-top: 15px !important;
