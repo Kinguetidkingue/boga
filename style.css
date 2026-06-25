@@ -688,14 +688,16 @@ color: var(--bs-primary)!important;
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
+    height : auto !important;
     justify-content: center !important;
     align-items: center !important;
-    color: var(--bs-gray-600)!important;
-    font-size: 19px !important;
+    color: var(--bs-gray-700)!important;
+    font-size: 18px !important;
     line-height: 1.6 !important;
     font-family: "Space Mono", monospace!important;
     text-align: left! important;
-    
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 #KORDO{
     padding-top: 15px !important;
