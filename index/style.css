@@ -681,10 +681,14 @@ border: 2px solid var(--bs-danger)!important;
     font-family: "Space Mono", monospace!important;
     background-color: blue !important;
 }
+#DD:hover{
+color: var(--bs-danger)!important;
+transition: 0.3s background-color ease-in-out!important;
+} 
 #HEADER{
     color: red !important;
     font-size: 22px !important;
-     font-family: "Space Mono", monospace!important;
+    font-family: "Space Mono", monospace!important;
 }
 #KETO{
     width: 100% !important;
@@ -692,6 +696,10 @@ border: 2px solid var(--bs-danger)!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
+}
+#AI{
+color: rgba(21, 64, 149, 0.9) !important;
+font-family: "Space Mono", monospace !important;
 }
 #SEPO{
     display: flex!important;
