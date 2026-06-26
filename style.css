@@ -161,7 +161,7 @@ body {
     padding: auto !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.3rem solid var(--bs-primary) !important;
+    border-top: 0.5rem solid var(--bs-primary) !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
