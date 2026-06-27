@@ -394,12 +394,12 @@ li a:hover {
     align-items: center !important;
     font-size: 17px !important;
     padding-top: 55px !important;
-    color: purple !important;
+    color: #000!important;
     margin-bottom: 1rem !important;
     font-weight: bold !important;
 }
 #Space-to-Footer:hover{
-    color: #fff !important;
+    color: rgb(212, 71, 10) !important;
     transition: 0.3s background-color ease-in-out !important
 }
 #Universities {
@@ -708,7 +708,7 @@ transition: 0.3s background-color ease-in-out!important;
     text-decoration-color: var(--bs-danger) !important;
 }
 #AI{
-color: rgba(21, 64, 149, 0.9) !important;
+color: rgba(31, 83, 186, 0.9) !important;
 font-family: "Space Mono", monospace !important;
 }
 #SEPO{
