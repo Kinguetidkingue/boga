@@ -195,7 +195,7 @@ body {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: auto !important;
+    height: 70px !important;
     justify-content: center !important;
     align-items: center !important;
     position: sticky !important;
@@ -728,7 +728,7 @@ font-family: "Space Mono", monospace !important;
 #KORDO{
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    background: var(--bs-primary)!important;
+    background-image: linear-gradient(to bottom, #0d6efd, #fff)!important;
 }
 #HEADO{
     justify-content: center !important;
