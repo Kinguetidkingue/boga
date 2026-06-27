@@ -382,7 +382,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: var(--bs-primary) !important;
+    background-image: linear-gradient(to top, #fff, #0d6efd )!important;
 }
 
 #Space-to-Footer {
@@ -394,7 +394,7 @@ li a:hover {
     align-items: center !important;
     font-size: 17px !important;
     padding-top: 55px !important;
-    color: #fff !important;
+    color: purple !important;
     margin-bottom: 1rem !important;
     font-weight: bold !important;
 }
@@ -698,6 +698,14 @@ transition: 0.3s background-color ease-in-out!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
+}
+#Aha{
+    display: flex !important;
+    width: 100% !important;
+}
+#Aha:hover{
+    text-decoration: underline!important;
+    text-decoration-color: var(--bs-danger) !important;
 }
 #AI{
 color: rgba(21, 64, 149, 0.9) !important;
