@@ -207,13 +207,15 @@ body {
 #Logo {
     display: flex !important;
     flex-direction: row !important;
-    width: 150px !important;
+    width: 100px !important;
     height: auto !important;
     padding-top: 10px !important;
     font-family: "Ewert", serif;
     background-color: transparent!important;
     justify-content: left !important;
-    align-items: left !important;
+    align-items: center !important;
+    border-right: 0.15px solid yellow!important;
+    margin-top: -5px !important;
 }
 
 #DO{
