@@ -547,6 +547,7 @@ color: var(--bs-primary)!important;
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
+    border-top: 5px solid var(--bs-success) !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -930,7 +931,7 @@ font-family: "Space Mono", monospace !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
     font-family: "Space Mono", monospace!important;
-    background-color: #f5f5f5 !important;
+    background-color: #efefef !important;
 }
 
 #Block-wrap {
@@ -943,7 +944,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     margin-bottom: 20px !important;
-    background-image: linear-gradient(to bottom, #f5f5f5, #fffffff0)!important;
+    background-image: linear-gradient(to bottom, #efefef, #ffffffd5)!important;
 }
 
 #Block-W {
@@ -980,6 +981,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
+    background-color: #efefef!important;
 }
 
 #PROGRAMLANGUAGE{
