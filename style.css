@@ -195,7 +195,7 @@ body {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 70px !important;
+    height: 65px !important;
     justify-content: center !important;
     align-items: center !important;
     position: sticky !important;
@@ -203,7 +203,6 @@ body {
     z-index: 1 !important;
     background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
     }
-
 #Logo {
     display: flex !important;
     flex-direction: row !important;
