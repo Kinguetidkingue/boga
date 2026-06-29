@@ -828,10 +828,9 @@ font-family: "Space Mono", monospace !important;
 }
 
 #TOBA{
-    background-color: rgba(25, 55, 190, 0.9) !important;
+    background-color: var(--bs-primary) !important;
     color: #fff !important;
     font-family: "Space Mono", monospace!important;
-    border: 0.5rem solid rgb(157, 203, 255) !important;
 }
 #TOBA:hover{
     background-color: rgba(25, 55, 190, 0.9) !important;
