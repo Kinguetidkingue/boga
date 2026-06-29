@@ -203,6 +203,7 @@ body {
     z-index: 1 !important;
     background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
     }
+
 #Logo {
     display: flex !important;
     flex-direction: row !important;
@@ -413,14 +414,14 @@ li a:hover {
 #Lin a {
     width: 100%!important;
     font-size: 13px !important;
-    color:  #7f7f7f!important;
+    color:  #797979!important;
     text-decoration: none !important;
     font-family: 'Times New Roman', Times, serif!important;
     font-weight: bold !important;
 }
 
 #Lin a:hover {
-    color: var(--bs-danger) !important;
+    color: var(--bs-dark) !important;
     transition: background-color 0.3s ease-in-out;
     font-size: 13.10px !important;
     text-decoration: 2.5px solid underline!important;
@@ -536,11 +537,11 @@ color: var(--bs-primary)!important;
     width: 20rem !important;
     height: auto !important;
     color: #000 !important;
-    box-shadow: 0 5px 0.5rem 1px #cfcfcfdb !important;
+    box-shadow: 0 5px 1rem 1px #eaeaeadb !important;
     font-size: 16px !important;
     font-family: "Space Mono", monospace!important;
-    border: 0.15px solid var(--bs-gray-300) !important;
-    border-top: 5px solid var(--bs-dark) !important;
+    border: 0.15px solid var(--bs-gray-500) !important;
+    border-top: 4px solid var(--bs-secondary) !important;
 }
 
 #BLOK:hover {
@@ -787,7 +788,7 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.5rem solid var(--bs-primary) !important;
+    border-top: 0.5rem solid var(--bs-orange) !important;
 }
 
 #HeadeR {
@@ -927,8 +928,8 @@ font-family: "Space Mono", monospace !important;
     color: rgba(21, 64, 149, 0.9)!important;
     width: 100% !important;
     padding: 20px!important;
-    border-top-left-radius: 25px !important;
-    border-top-right-radius: 25px !important;
+    border-top-left-radius: 4rem!important;
+    border-top-right-radius: 4rem!important;
     font-family: "Space Mono", monospace!important;
     background-color: #efefef !important;
 }
