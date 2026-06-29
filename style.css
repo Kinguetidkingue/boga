@@ -127,7 +127,7 @@ body {
   font-weight: bold;
   display: flex!important;
   line-height: 1.8 !important;
-  color: var(--bs-primary)! important;
+  color: darkblue! important;
   align-items: center!important;
   justify-content: center!important;
   transform: none !important;
@@ -143,14 +143,19 @@ body {
 }
 .accordion-body{
     text-align: left !important;
-    font-size: 18px!important;
-    line-height: 1.85 !important;
-    color: rgb(9, 122, 209)! important;
-    border-top: 5px rgb(9, 122, 209) solid !important;
+    font-size: 16px!important;
+    line-height: 1.75 !important;
+    color: var(--bs-dark)! important;
+    border-top: 4px darkblue solid !important;
 }
 .accordion-button:hover{
-     background-color: var(--bs-gray-200)! important;
+     background-color: #f2f2f2! important;
      transition: 0.3s background-color ease-in-out !important;
+}
+.accordion-header{
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    color: darkblue !important;
 }
 #TOPBANNER {
     display: flex !important;
@@ -195,13 +200,12 @@ body {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 65px !important;
     justify-content: center !important;
     align-items: center !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
+    background-image: linear-gradient(var(--bs-danger), darkblue) !important;
     }
 
 #Logo {
@@ -414,7 +418,7 @@ li a:hover {
 #Lin a {
     width: 100%!important;
     font-size: 13px !important;
-    color:  #797979!important;
+    color:  #434343!important;
     text-decoration: none !important;
     font-family: 'Times New Roman', Times, serif!important;
     font-weight: bold !important;
@@ -474,7 +478,7 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(var(--bs-danger), rgb(1, 1, 155)) !important;
+    background-image: linear-gradient(var(--bs-danger), var(--bs-primary)) !important;
 }
 #BTON{
     background-color: var(--bs-warning)! important;
@@ -548,6 +552,8 @@ color: var(--bs-primary)!important;
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border-top: 5px solid var(--bs-success) !important;
+    border: none !important;
+    box-shadow: 0 -2px 0.5rem 2px #333 !important;
 }
 #BLOKE{
     width: 19rem !important;
@@ -727,7 +733,7 @@ font-family: "Space Mono", monospace !important;
     height : auto !important;
     justify-content: left !important;
     align-items: center !important;
-    color: var(--bs-gray-600)!important;
+    color: var(--bs-gray-700)!important;
     font-size: 16px !important;
     line-height: 1.6 !important;
     font-family: "Space Mono", monospace!important;
@@ -822,10 +828,9 @@ font-family: "Space Mono", monospace !important;
 }
 
 #TOBA{
-    background-color: rgba(25, 55, 190, 0.9) !important;
+    background-color: var(--bs-primary) !important;
     color: #fff !important;
     font-family: "Space Mono", monospace!important;
-    border: 0.5rem solid rgb(157, 203, 255) !important;
 }
 #TOBA:hover{
     background-color: rgba(25, 55, 190, 0.9) !important;
@@ -1009,7 +1014,7 @@ font-family: "Space Mono", monospace !important;
     color: var(--bs-gray-800)!important;
     justify-content: center !important;
     align-items: center !important;
-    border: 0.15px solid var(--bs-gray-400) !important;
+    border: none !important;
 }
 
 #Bootstrap:hover {
@@ -1037,16 +1042,16 @@ font-family: "Space Mono", monospace !important;
     height: 220px !important;
 }
 #LearnMoreButton {
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: red !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
-    border: 2px solid #000!important;
+    border: 0.5rem solid #000!important;
 }
 
 #LearnMoreButton:hover {
-    background-color: #fff !important;
-    color: red !important;
+    background-color: #000 !important;
+    color: #fff !important;
     transition: background-color 0.3s ease-in-out !important;
 }
 
