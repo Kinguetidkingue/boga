@@ -143,8 +143,8 @@ body {
 }
 .accordion-body{
     text-align: left !important;
-    font-size: 16px!important;
-    line-height: 1.75 !important;
+    font-size: 15px!important;
+    line-height: 1.5 !important;
     color: var(--bs-dark)! important;
     border-top: 4px darkblue solid !important;
 }
@@ -154,7 +154,7 @@ body {
 }
 .accordion-header{
     font-size: 16px !important;
-    line-height: 1.7 !important;
+    line-height: 1.6 !important;
     color: darkblue !important;
 }
 #TOPBANNER {
@@ -560,10 +560,6 @@ color: var(--bs-primary)!important;
     height: auto !important;
     color: #000 !important;
     border: 1px solid var(--bs-gray-500) !important;
-    background-color: #fff !important;
-    font-size: 15.25px !important;
-    line-height: 1.65 !important;
-    font-family: "Space Mono", monospace!important;
 }
 #BLOKE:hover{
     background-color: transparent !important;
@@ -572,7 +568,10 @@ color: var(--bs-primary)!important;
     color: #000 !important;
 }
 #KROP{
-    background-color: #fff!important;
+    background-color: #fff !important;
+    font-size: 15.25px !important;
+    line-height: 1.5 !important;
+    font-family: "Space Mono", monospace!important;
     color: #7b7b7b!important;
 }
 #KROP:hover{
