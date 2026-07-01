@@ -1076,14 +1076,11 @@ font-family: "Space Mono", monospace !important;
     background-color: #f4f2e9 !important;
     border-top-left-radius: 5rem !important;
     border-top-right-radius: 5rem !important;
-    border: 0.5rem solid var(--bs-orange) !important;
-    border-bottom: none !important;
 }
 #BURKINDI{
     background-color: #f4f2e9 !important;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    border-top: 0.5rem solid var(--bs-orange) !important;
     border-bottom: 0.5rem solid var(--bs-orange) !important;
 }
 #WorldAtlas{
