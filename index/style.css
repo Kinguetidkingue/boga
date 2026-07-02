@@ -828,6 +828,7 @@ font-family: "Space Mono", monospace !important;
 }
 #MEANINGS{
     font-family: "Space Mono", monospace!important;
+    line-height: 1.6!important;
 }
 #COLAS{
     background-color: red !important;
