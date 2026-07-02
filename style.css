@@ -124,12 +124,12 @@ body {
   background-image: none !important;
   content: "+"!important;
   font-size: 2rem!important;
-  font-weight: bold;
   display: flex!important;
   line-height: 1.8 !important;
   color: var(--bs-primary)! important;
   align-items: center!important;
   justify-content: center!important;
+  font-weight: bold !important;
   transform: none !important;
   animation: 0.3s background-color ease-in-out !important; /* Stop the icon from spinning */
 }
@@ -155,8 +155,9 @@ body {
 }
 .accordion-header{
     font-size: 16px !important;
-    line-height: 1.6 !important;
+    line-height: 1.5 !important;
     color: darkblue !important;
+    border: none !important;
 }
 #TOPBANNER {
     display: flex !important;
@@ -743,7 +744,7 @@ font-family: "Space Mono", monospace !important;
 }
 #KORDO{
     padding-top: 15px !important;
-    padding-bottom: 15px !important;
+    padding-bottom: 5px !important;
     background-image: linear-gradient(to bottom, #0d6efd, #fff)!important;
 }
 #HEADO{
