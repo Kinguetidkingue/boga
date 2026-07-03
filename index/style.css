@@ -350,7 +350,7 @@ li a:hover {
     background-color: #fff !important;
     color: var(--bs-danger) !important;
     padding: 5px !important;
-    border-top: 2px solid #848484!important;
+    border-top: 2px dashed #767676!important;
     font-family: 'Times New Roman', Times, serif!important;
 }
 
@@ -480,7 +480,7 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(var(--bs-danger), var(--bs-primary)) !important;
+    background-image: linear-gradient(to bottom, #0d6efd, #fff)!important;
 }
 #BTON{
     background-color: var(--bs-warning)! important;
@@ -705,7 +705,7 @@ transition: 0.3s background-color ease-in-out!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
-    background-image: linear-gradient(to bottom, #e1e1e1, #ffffffe0)!important;
+    background-image: linear-gradient(to bottom, #e3e3e3, #ffffffe0)!important;
 }
 #Aha{
     display: flex !important;
@@ -724,6 +724,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
+    background-image: linear-gradient(to bottom, #0d6dfdd3, #fff)!important;
 }
 
 #HEAD{
@@ -745,12 +746,12 @@ font-family: "Space Mono", monospace !important;
 #KORDO{
     padding-top: 15px !important;
     padding-bottom: 5px !important;
-    background-image: linear-gradient(to bottom, #0d6efd, #fff)!important;
+    background-image: linear-gradient(to bottom, #e3e3e3, #ffffffe0)!important;
+    
 }
 #HEADO{
     justify-content: center !important;
     align-items: center !important;
-    color: #fff !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
 }
@@ -776,7 +777,7 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.5rem solid var(--bs-orange) !important;
+    border-top: 0.5rem dashed var(--bs-orange) !important;
 }
 
 #HeadeR {
@@ -790,7 +791,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 50px !important;
-    border-bottom: 0.11rem solid var(--bs-gray-300) !important;
+    border-bottom: 0.11rem dashed var(--bs-orange) !important;
 }
 
 #BEGINNER {
@@ -883,8 +884,10 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 40px !important;
 }
 #coastToCoast{
+    width: 84% !important;
     color: rgba(21, 64, 149, 0.9)!important;
     font-family: "Space Mono", monospace !important;
+    border-top: 2px dashed rgba(21, 64, 149, 0.9) !important;
 }
 
 #CANADA-CITIES {
@@ -1013,6 +1016,7 @@ font-family: "Space Mono", monospace !important;
 }
 #CARDBODY{
     border: none !important;
+    line-height: 1.5!important;
 }
 #CiTies{
 font-family: "Space Mono", monospace !important;
