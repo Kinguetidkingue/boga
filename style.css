@@ -168,7 +168,7 @@ body {
     padding: auto !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-orange) !important;
+    border-top: 0.5rem solid var(--bs-warning) !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
@@ -777,7 +777,7 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.5rem dashed var(--bs-orange) !important;
+    border-top: 0.25rem dashed var(--bs-dark) !important;
 }
 
 #HeadeR {
@@ -791,7 +791,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 50px !important;
-    border-bottom: 0.11rem dashed var(--bs-orange) !important;
+    border-bottom: 0.1rem dashed var(--bs-dark) !important;
 }
 
 #BEGINNER {
