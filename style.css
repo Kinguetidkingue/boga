@@ -168,7 +168,7 @@ body {
     padding: auto !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-warning) !important;
+    border-top: 0.5rem solid #3a88fd !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
@@ -388,7 +388,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-image: linear-gradient(to bottom, #3a88fdce, #fff)!important;
+    background-image: linear-gradient(to bottom, #3a88fd, #fff)!important;
 }
 
 #Space-to-Footer {
@@ -480,21 +480,21 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-   background-image: linear-gradient(to bottom, #3a88fdce, #fff)!important;
+    background-image: linear-gradient(to bottom, #3a88fd, #fff)!important;
 }
 #BTON{
-    background-color: var(--bs-warning)! important;
+    background-color: #fff! important;
     color: #000 !important;
-    border: 0.1rem solid #fff !important;
-    padding: 7px !important;
+    padding: 12px !important;
+    font-size: 18px !important;
+    border: 1px solid #000! important;
     font-family: "Space Mono", monospace!important;
 }
 #BTON:hover{
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-border: 0.1rem solid transparent !important;
-box-shadow: 0.5px 1px 1rem 2px #000 !important;
+box-shadow: 0 1px 1rem 2px #000 !important;
 color: var(--bs-primary)!important;
 }
 #TITLE{
@@ -746,7 +746,7 @@ font-family: "Space Mono", monospace !important;
 #KORDO{
     padding-top: 15px !important;
     padding-bottom: 5px !important;
-    background-image: linear-gradient(to bottom, #3a88fdce, #fff)!important;
+    background-image: linear-gradient(to bottom, #3a88fd, #fff)!important;
     
 }
 #HEADO{
@@ -935,7 +935,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     margin-bottom: 20px !important;
-    background-image: linear-gradient(to bottom, #efefef, #ffffffd5)!important;
+    background-image: linear-gradient(to bottom, #f1f1f1, #ffffffea)!important;
 }
 
 #Block-W {
@@ -997,7 +997,7 @@ font-family: "Space Mono", monospace !important;
     box-shadow: 0 0.5px 0.2rem 5px transparent !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 1px solid var(--bs-danger) !important;
+    border: 2px solid var(--bs-gray-400) !important;
 }
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
