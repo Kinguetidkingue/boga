@@ -812,14 +812,14 @@ font-family: "Space Mono", monospace !important;
 }
 
 #TOBA{
-    background-color: var(--bs-primary) !important;
-    color: #fff !important;
+    background-image: linear-gradient(to bottom, var(--bs-primary), #fff)!important;
+    color: #000 !important;
     font-family: "Space Mono", monospace!important;
 }
 #TOBA:hover{
     background-color: rgba(25, 55, 190, 0.9) !important;
     transition: 0.3s background-color ease-in-out !important;
-    color: #ff0 !important;
+    color: #fff !important;
 }
 #KONTAINER{
     display: flex!important;
