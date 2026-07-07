@@ -705,6 +705,7 @@ transition: 0.3s background-color ease-in-out!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
+     border-bottom: 2px dashed #3a88fd !important;
     background-image: linear-gradient(to bottom, #fffffff8,#ebebeb)!important;
 }
 #Aha{
