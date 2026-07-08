@@ -247,7 +247,7 @@ body {
     align-items: left !important;
     color: var(--bs-cyan)!important;
     font-size: 18px !important;
-    font-family: 'Times New Roman', Times, serif!important;
+   font-family: "Black Ops One", system-ui!important;
     font-weight: bold !important;
     line-height: auto! important;
 }
@@ -783,12 +783,13 @@ font-family: "Space Mono", monospace !important;
 }
 
 #HeadeR {
-    font-family: 'Times New Roman', Times, serif!important;
+    font-family: "Black Ops One", system-ui!important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
     height: auto !important;
     font-weight: bold !important;
+    color: var(--bs-primary)!important;
     font-size: 44px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -813,14 +814,14 @@ font-family: "Space Mono", monospace !important;
 }
 
 #TOBA{
-    background-image: linear-gradient(to bottom, #3a88fd, #fff)!important;
+    background-image: linear-gradient(to bottom, var(--bs-primary), #fff)!important;
     color: #000 !important;
     font-family: "Space Mono", monospace!important;
 }
 #TOBA:hover{
-    background-color: rgba(25, 55, 190, 0.9) !important;
+    background-image: linear-gradient(to bottom, darkblue, #fff)!important;
     transition: 0.3s background-color ease-in-out !important;
-    color: orangered !important;
+    color: #fff !important;
 }
 #KONTAINER{
     display: flex!important;
