@@ -672,6 +672,9 @@ border: 2px solid var(--bs-danger)!important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
+#BOUTTE{
+    color: purple !important;
+}
 #ARKO{
     display: block !important;
     position: relative !important;
