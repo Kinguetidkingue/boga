@@ -1068,7 +1068,7 @@ font-family: "Space Mono", monospace !important;
     background-color: #f4f2e9 !important;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    border-bottom: 0.5rem solid var(--bs-orange) !important;
+    border-bottom: 0.15rem solid var(--bs-gray-500) !important;
 }
 #WorldAtlas{
     display: flex !important;
