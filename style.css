@@ -194,7 +194,7 @@ body {
     align-items: center !important;
     font-size: 10px !important;
     margin-top: 10px !important;
-    color: var(--bs-dark)!important;
+    color: var(--bs-danger)!important;
     font-family: "Space Mono", monospace!important;
 }
 
@@ -247,8 +247,7 @@ body {
     align-items: left !important;
     color: var(--bs-cyan)!important;
     font-size: 18px !important;
-   font-family: "Black Ops One", system-ui!important;
-    font-weight: bold !important;
+    font-family: "Black Ops One", system-ui!important;
     line-height: auto! important;
 }
 #TOGGLICON{
@@ -258,7 +257,9 @@ body {
     height: 45px !important;
     color: var(--bs-cyan)! important;
     font-weight: bold !important;
+    background-color: transparent !important;
     font-family: "Space Mono", monospace!important;
+    border: 1px dashed #ff0 !important;
 }
 #TOGGLICON:hover{
     background-color: var(--bs-warning) !important;
@@ -791,7 +792,6 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     width: 100% !important;
     height: auto !important;
-    font-weight: bold !important;
     color: var(--bs-primary)!important;
     font-size: 44px !important;
     justify-content: center !important;
