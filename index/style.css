@@ -126,7 +126,7 @@ body {
   font-size: 2rem!important;
   display: flex!important;
   line-height: 1.8 !important;
-  color: var(--bs-primary)! important;
+  color: coral important;
   align-items: center!important;
   justify-content: center!important;
   font-weight: bold !important;
@@ -259,12 +259,13 @@ body {
     font-weight: bold !important;
     background-color: transparent !important;
     font-family: "Space Mono", monospace!important;
-    border: 1px dashed #ff0 !important;
+    border: 2px dashed #ff0 !important;
 }
 #TOGGLICON:hover{
     background-color: var(--bs-warning) !important;
     transition: 0.3s background-color ease-in-out!important;
     color: #000 !important;
+    border: none !important;
 }
 #BOTON {
     background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
@@ -576,7 +577,7 @@ color: var(--bs-primary)!important;
     font-size: 15.25px !important;
     line-height: 1.5 !important;
     font-family: "Space Mono", monospace!important;
-    color: #7b7b7b!important;
+    color: #3b3b3b!important;
 }
 #KROP:hover{
     color: #000 !important;
@@ -621,7 +622,7 @@ border: 2px solid var(--bs-danger)!important;
 
 #LEARNMORE {
     width: 100% !important;
-    height: auto !important;
+    height: auto !important;       
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -674,7 +675,7 @@ border: 2px solid var(--bs-danger)!important;
     background-color: #fff !important;
 }
 #BOUTTE{
-    color: purple !important;
+    color: coral!important;
 }
 #ARKO{
     display: block !important;
