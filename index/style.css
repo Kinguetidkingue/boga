@@ -259,7 +259,7 @@ body {
     font-weight: bold !important;
     background-color: transparent !important;
     font-family: "Space Mono", monospace!important;
-    border: 2px dashed #ff0 !important;
+    border: 2px dotted #ff0 !important;
 }
 #TOGGLICON:hover{
     background-color: var(--bs-warning) !important;
@@ -577,7 +577,7 @@ color: var(--bs-primary)!important;
     font-size: 15.25px !important;
     line-height: 1.5 !important;
     font-family: "Space Mono", monospace!important;
-    color: #3b3b3b!important;
+    color: #545454!important;
 }
 #KROP:hover{
     color: #000 !important;
@@ -677,7 +677,8 @@ border: 2px solid var(--bs-danger)!important;
 #BOUTTE{
     color: var(--bs-primary)!important;
     font-size: 18px !important;
-    font-weight: bold !important;
+    font-weight: light !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #ARKO{
     display: block !important;
@@ -713,7 +714,7 @@ transition: 0.3s background-color ease-in-out!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
-     border-bottom: 2px dashed #3a88fd !important;
+     border-bottom: 0.25rem dashed #3a88fd !important;
     background-image: linear-gradient(to bottom, #fffffff8,#ebebeb)!important;
 }
 #Aha{
