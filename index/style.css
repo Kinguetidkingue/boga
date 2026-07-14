@@ -190,7 +190,7 @@ body {
     width: 100% !important;
     height: auto !important;
     display: flex !important;
-    justify-content: center !important;
+    justify-content: center !important; 
     align-items: center !important;
     font-size: 10px !important;
     margin-top: 10px !important;
@@ -249,6 +249,11 @@ body {
     font-size: 18px !important;
     font-family: "Black Ops One", system-ui!important;
     line-height: auto! important;
+}
+#AGELESS{
+    font-size: 18px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: yellow !important;
 }
 #TOGGLICON{
     font-size: 11px !important;
@@ -765,7 +770,7 @@ font-family: "Space Mono", monospace !important;
 #KORDO{
     padding-top: 15px !important;
     padding-bottom: 5px !important;
-    background-image: linear-gradient(to bottom, #3a88fd, #fff)!important;
+    background-image: linear-gradient(to bottom, #3a88fd, #95befc65)!important;
     
 }
 #HEADO{
@@ -906,7 +911,6 @@ font-family: "Space Mono", monospace !important;
     width: 84% !important;
     color: rgba(21, 64, 149, 0.9)!important;
     font-family: "Space Mono", monospace !important;
-    border-top: 2px dashed rgba(21, 64, 149, 0.9) !important;
 }
 
 #CANADA-CITIES {
