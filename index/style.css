@@ -244,11 +244,6 @@ body {
     font-family: "Black Ops One", system-ui!important;
     line-height: auto! important;
 }
-#AGELESS{
-    font-size: 18px !important;
-    font-family: 'Times New Roman', Times, serif !important;
-    color: yellow !important;
-}
 #TOGGLICON{
     font-size: 11px !important;
     justify-content: end !important;
@@ -1102,7 +1097,7 @@ transition: 0.3s background-color ease-in-out !important;
     align-items: center !important;
     font-family: "Space Mono", monospace!important;
     font-size: 15.25px !important;
-    line-height: 1.25 !important;
+    line-height: 1.23 !important;
     color: #0b2660 !important;
     background-color:  #fff !important;
     border: 1px solid var(--bs-gray-500) !important;
