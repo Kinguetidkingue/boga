@@ -126,7 +126,7 @@ body {
   font-size: 2rem!important;
   display: flex!important;
   line-height: 1.8 !important;
-  color: var(--bs-primary) !important;
+  color: var(--bs-dark) !important;
   align-items: center!important;
   justify-content: center!important;
   font-weight: bold !important;
@@ -684,7 +684,12 @@ border: 2px solid var(--bs-danger)!important;
     color: #000!important;
     font-size: 20px !important;
     font-weight: light !important;
+    background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+#BOUTTE:hover{
+    background-image: linear-gradient(to bottom, #fff, #fff)!important;
+    transition: 0.3s background-color ease-in-out!important;
 }
 #ARKO{
     display: block !important;
@@ -713,6 +718,11 @@ transition: 0.3s background-color ease-in-out!important;
     color: red !important;
     font-size: 22px !important;
     font-family: "Space Mono", monospace!important;
+   background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
+}
+#HEADER:hover{
+    background-image: linear-gradient(to bottom,#fff, #fff)!important;
+    transition: 0.3s background-image ease-in-out! important;
 }
 #KETO{
     width: 100% !important;
@@ -720,7 +730,7 @@ transition: 0.3s background-color ease-in-out!important;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
     border-radius: none !important;
-    background-image: linear-gradient(to bottom, #fffffff8,#ebebeb)!important;
+    background-image: linear-gradient(to bottom, #fff,#fefefef4)!important;
 }
 #Aha{
     display: flex !important;
@@ -1043,6 +1053,7 @@ font-family: "Space Mono", monospace !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
     border: 0.5rem solid #000!important;
+    margin-left: 10px !important;
 }
 #LearnMoreButton:hover {
     background-color: #000 !important;
