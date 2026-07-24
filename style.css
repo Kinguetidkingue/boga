@@ -681,7 +681,7 @@ border: 2px solid var(--bs-danger)!important;
     background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
 }
 #BOUTTE{
-    color: #000!important;
+    color: #fff!important;
     font-size: 18px !important;
     font-weight: light !important;
     background-image: linear-gradient(to right,#3a88fd, #83b5ff66)!important;
