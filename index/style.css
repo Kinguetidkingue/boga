@@ -123,7 +123,7 @@ body {
 .accordion-button::after {
   background-image: none !important;
   content: "+"!important;
-  font-size: 2rem!important;
+  font-size: 20px!important;
   display: flex!important;
   line-height: 1.8 !important;
   color: purple !important;
@@ -136,15 +136,15 @@ body {
 /* 2. Change the symbol to a minus sign when the accordion expands */
 .accordion-button:not(.collapsed)::after {
   content: "-"!important;
-  font-size: 2rem!important;
+  font-size: 20px!important;
   background-image: none !important;
   animation: 0.3s background-color ease-in-out !important;
 }
 }
 .accordion-body{
     text-align: left !important;
-    font-size: 17.45px!important;
-    line-height: 1.5 !important;
+    font-size: 18px!important;
+    line-height: 1.6 !important;
     color: var(--bs-dark)! important;
     border-top: 5px var(--bs-primary) dotted !important;
     font-family: Helvetica, sans-serif!important;
@@ -682,14 +682,15 @@ border: 2px solid var(--bs-danger)!important;
 }
 #BOUTTE{
     color: #000!important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: light !important;
-    background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
+    background-image: linear-gradient(to right,#3a88fd, #83b5ff66)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
     background-image: linear-gradient(to bottom, #fff, #fff)!important;
     transition: 0.3s background-color ease-in-out!important;
+    color: var(--bs-danger)!important;
 }
 #ARKO{
     display: block !important;
@@ -718,7 +719,7 @@ transition: 0.3s background-color ease-in-out!important;
     color: red !important;
     font-size: 22px !important;
     font-family: "Space Mono", monospace!important;
-   background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
+    background-image: linear-gradient(to right,#83b5ff66, #3a88fd)!important;
 }
 #HEADER:hover{
     background-image: linear-gradient(to bottom,#fff, #fff)!important;
@@ -728,9 +729,8 @@ transition: 0.3s background-color ease-in-out!important;
     width: 100% !important;
     height: auto !important;
     padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
     border-radius: none !important;
-    background-image: linear-gradient(to bottom, #fff,#fefefef4)!important;
+    background-image: linear-gradient(to bottom,#fefefef4, #fff)!important;
 }
 #Aha{
     display: flex !important;
@@ -760,8 +760,8 @@ font-family: "Space Mono", monospace !important;
     justify-content: left !important;
     align-items: center !important;
     color: var(--bs-gray-800)!important;
-    font-size: 16px !important;
-    line-height: 1.6 !important;
+    font-size: 16.5px !important;
+    line-height: 1.55 !important;
     font-family: "Space Mono", monospace!important;
     text-align: left! important;
     padding-left: 20px !important;
@@ -770,7 +770,6 @@ font-family: "Space Mono", monospace !important;
 }
 #KORDO{
     padding-top: 15px !important;
-    padding-bottom: 5px !important;
     background-image: linear-gradient(to bottom, #3a88fd, #83b5ff66)!important;
     
 }
