@@ -678,13 +678,17 @@ border: 2px solid var(--bs-danger)!important;
     background-color: #fff !important;
 }
 #PADTOP{
-    background-image: linear-gradient(to bottom,#83b5ff66, #3a88fd)!important;
+    background-image: linear-gradient(to bottom,#83b5ff66, #4791ff)!important;
+    border-top : 0.12rem solid #4791ff !important;
+}
+#TOPI{
+    margin-top: 2rem !important;
 }
 #BOUTTE{
     color: #fff!important;
     font-size: 18px !important;
     font-weight: light !important;
-    background-image: linear-gradient(to right,#3a88fd, #83b5ff66)!important;
+    background-image: linear-gradient(to right,#4791ff, #83b5ff66)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
@@ -719,7 +723,7 @@ transition: 0.3s background-color ease-in-out!important;
     color: red !important;
     font-size: 22px !important;
     font-family: "Space Mono", monospace!important;
-    background-image: linear-gradient(to right,#83b5ff66, #3a88fd)!important;
+    background-image: linear-gradient(to right,#83b5ff66, #4791ff)!important;
 }
 #HEADER:hover{
     background-image: linear-gradient(to bottom,#fff, #fff)!important;
@@ -769,8 +773,10 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: none !important;
 }
 #KORDO{
+    margin-bottom: 2rem !important;
+    border-top : 0.12rem solid #4791ff !important;
     padding-top: 15px !important;
-    background-image: linear-gradient(to bottom, #3a88fd, #83b5ff66)!important;
+    background-image: linear-gradient(to bottom, #4791ff, #83b5ff66)!important;
     
 }
 #HEADO{
