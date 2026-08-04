@@ -149,7 +149,7 @@ body {
     color: rgba(2, 8, 31, 0.839)! important;
     border-top: 3.5px var(--bs-primary) dashed !important;
     font-family: "BJCree", serif!important;
-    background-color: light !important;
+    background-color: #fff !important;
 }
 .accordion-button:hover{
      background-color: #f2f2f2! important;
@@ -478,7 +478,7 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(to bottom,rgba(255, 127, 80, 0.52), #fff)!important;
+    background-image: linear-gradient(to bottom,#f7f8f9, #fffffff6)!important;
 }
 #BTON{
     background-color: #fff! important;
@@ -1000,7 +1000,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #efefef!important;
+    background-image: linear-gradient(to bottom, #e7e7e7f9, #fff)!important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
@@ -1078,6 +1078,9 @@ font-family: "Space Mono", monospace !important;
 #BURKINA-FASO{
     border: none !important;
 }
+#BFFLAG{
+    background-color: transparent !important;
+}
 #WEST-AFRICA{
     color: rgba(21, 64, 149, 0.9) !important;
     font-size: 18px !important;
@@ -1119,63 +1122,6 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: 1.23 !important;
     color: #0b2660 !important;
     background-color:  #fff !important;
-    border: 1px solid var(--bs-gray-500) !important;
-}
-#BALOU:hover {
-    transition: 0.3s box-shadow ease-in-out !important;
-    color: #000 !important;
-    background-color: #fff !important;
-    box-shadow: 0 6px 0.6rem 6px rgba(156, 156, 156, 0.748) !important;
-}
-
-#Bloc {
-    width: 50% !important;
-    height: auto !important;
-    display: block !important;
-    font-size: 22px !important;
-    justify-content: center !important;
-    align-items: center !important;
-    line-height: 1.65 !important;
-    padding: 5px !important;
-    color: #000 !important;
-    border-right: 0.5rem solid var(--bs-dark) !important;
-    border-radius: 20px !important;
-    background-color: #fff !important;
-    box-shadow: 1px 0.5px 2px 1px rgba(0, 0, 0, 0.406) !important;
-}
-#Static {
-    display: block !important;
-    justify-content: center;
-    align-items: center;
-}
-#Pate {
-    display: block !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block !important;
-    color: #fff !important;
-    font-size: 22px !important;
-    font-family: "Space Mono", monospace!important;
-    line-height: 1.85 !important;
-    padding: 20px !important;
-}
-
-.sisi {
-    width: 100% !important;
-    height: auto !important;
-    font-size: 22px !important;
-    padding: 20px !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    display: flex !important;
-    background-color: var(--bs-white) !important;
-    color: #000 !important;
-    line-height: 1.65 !important;
-    border-radius: 20px !important;
-}
-/*End of custom styles*/
-@import "../node_modules/bootstrap/scss/utilities";
     border: 1px solid var(--bs-gray-500) !important;
 }
 #BALOU:hover {
