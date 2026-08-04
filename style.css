@@ -149,7 +149,7 @@ body {
     color: rgba(2, 8, 31, 0.839)! important;
     border-top: 3.5px var(--bs-primary) dashed !important;
     font-family: "BJCree", serif!important;
-    background-color: light !important;
+    background-color: #fff !important;
 }
 .accordion-button:hover{
      background-color: #f2f2f2! important;
@@ -478,7 +478,7 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(to bottom,rgba(255, 127, 80, 0.52), #fff)!important;
+    background-image: linear-gradient(to bottom,#f7f8f9, #fffffff6)!important;
 }
 #BTON{
     background-color: #fff! important;
@@ -1000,7 +1000,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: #efefef!important;
+    background-image: linear-gradient(to bottom, #e7e7e7f9, #fff)!important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
@@ -1077,6 +1077,9 @@ font-family: "Space Mono", monospace !important;
 }
 #BURKINA-FASO{
     border: none !important;
+}
+#BFFLAG{
+    background-color: transparent !important;
 }
 #WEST-AFRICA{
     color: rgba(21, 64, 149, 0.9) !important;
