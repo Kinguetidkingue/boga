@@ -242,10 +242,10 @@ body {
     flex-direction: row !important;
     justify-content: left !important;
     align-items: left !important;
-    color: #000!important;
-    font-size: 18px !important;
+    color: #000000c7!important;
+    font-family: "Bebas Neue", sans-serif!important;
+    font-size: 25px !important;
     font-weight: light !important;
-    font-family: Arial, Helvetica, sans-serif!important;
     line-height: auto! important;
 }
 #TOGGLICON{
