@@ -998,6 +998,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
+    border-top: 1px solid #000 !important;
     background-color:#e8e8e8f9 !important;
 }
 #PROGRAMLANGUAGE{
