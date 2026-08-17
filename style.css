@@ -998,7 +998,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    background-image: linear-gradient(to bottom, #e7e7e7f9, #fff)!important;
+    background-color:#e8e8e8f9 !important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
