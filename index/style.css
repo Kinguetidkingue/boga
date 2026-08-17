@@ -211,14 +211,16 @@ body {
 #Logo {
     display: flex !important;
     flex-direction: row !important;
-    width: 90px !important;
-    height: 68px !important;
+    width: 88px !important;
+    height: 70px !important;
     padding: 10px !important;
-    font-family: "Ewert", serif;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
-    margin: 5px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 2px 4px 4px 1px #000 !important;
 }
 
 #DO{
@@ -236,7 +238,6 @@ body {
     transition: 0.3s background-color ease-in-out !important;
     border-bottom: 0.12rem solid #dc3545 !important;
 }
-
 #BASICS{
     display: flex !important;
     flex-direction: row !important;
@@ -270,13 +271,11 @@ body {
     color: #fff !important;
     border: none !important;
 }
-
 #BOTON:hover {
     background-color: #fff !important;
     transition: background-color 0.3s ease-in-out !important;
     color: #000 !important;
 }
-
 #SERVICES {
     background-color: #fff !important;
     display: flex !important;
@@ -289,17 +288,14 @@ body {
     font-weight: lighter !important;
     color: #000 !important;
 }
-
 #SERVICES:hover {
     background-color: #000 !important;
     transition: background-color 0.31s ease-in-out !important;
     color: #fff !important;
 }
-
 .navbar-toggler-icon {
     background-color: transparent !important;
 }
-
 .navbar-brand {
     font-family: "Space Mono", monospace!important;
     font-weight: bolder !important;
