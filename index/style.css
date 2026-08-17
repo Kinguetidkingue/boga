@@ -1025,13 +1025,14 @@ font-family: "Space Mono", monospace !important;
     box-shadow: 0 0.5px 0.2rem 5px transparent !important;
     justify-content: center !important;
     align-items: center !important;
-    border: 2px solid var(--bs-gray-400) !important;
+    border: 2px solid var(--bs-gray-500) !important;
+    background-color: transparent !important;
 }
 #Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     box-shadow: 0 0.5px 0.2rem 5px var(--bs-dark) !important;
-    border: 1px solid transparent !important;
+    border: 2px solid transparent !important;
 }
 #Bootstrap h1 {
     color: red !important;
