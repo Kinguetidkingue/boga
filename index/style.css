@@ -241,6 +241,17 @@ body {
     transition: 0.3s background-color ease-in-out !important;
     border-bottom: 0.12rem solid #dc3545 !important;
 }
+#BASICS{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: left !important;
+    align-items: left !important;
+    color: #000000c7!important;
+    font-family: "Bebas Neue", sans-serif!important;
+    font-size: 25px !important;
+    font-weight: light !important;
+    line-height: auto! important;
+}
 #BASICS, h1{
 font-size: 4rem;
 background: linear-gradient(to right, rgb(115, 13, 183), rgb(231, 44, 44), rgb(241, 199, 9));
