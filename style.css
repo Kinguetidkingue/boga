@@ -208,7 +208,7 @@ body {
     background-color: #fff !important;
     }
     #Navbar:hover{
-        background-color: rgba(0, 170, 255, 0.965) !important;
+        background-color: rgb(17, 176, 255) !important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
@@ -253,6 +253,11 @@ body {
     line-height: auto! important;
 }
 #BASICS, h1{
+background: linear-gradient(to right, rgb(115, 13, 183), rgb(231, 44, 44), rgb(241, 199, 9));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+h1{
 font-size: 4rem;
 background: linear-gradient(to right, rgb(115, 13, 183), rgb(231, 44, 44), rgb(241, 199, 9));
 -webkit-background-clip: text;
