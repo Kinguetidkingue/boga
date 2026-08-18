@@ -252,6 +252,12 @@ body {
     font-weight: light !important;
     line-height: auto! important;
 }
+#BASICS, h1{
+font-size: 4rem;
+background: linear-gradient(to right, rgb(115, 13, 183), rgb(231, 44, 44), rgb(241, 199, 9));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 #TOGGLICON{
     font-size: 11px !important;
     justify-content: end !important;
