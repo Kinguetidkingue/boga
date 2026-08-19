@@ -257,13 +257,13 @@ body {
     line-height: auto! important;
 }
 #BASICS, h1{
-background: linear-gradient(to right, rgb(131, 15, 209), var(--bs-danger), rgb(241, 199, 9));
+background: linear-gradient(to right, rgb(106, 5, 173), var(--bs-danger), rgb(253, 209, 11));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h1{
 font-size: 4rem;
-background: linear-gradient(to right, rgb(131, 15, 209), var(--bs-danger), rgb(241, 199, 9));
+background: linear-gradient(to right, rgb(106, 5, 173), var(--bs-danger), rgb(253, 209, 11));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
