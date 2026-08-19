@@ -207,7 +207,7 @@ body {
     background-color: #fff !important;
     }
     #Navbar:hover{
-        background-color: rgb(17, 176, 255) !important;
+        background-color: rgb(31, 180, 255) !important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
@@ -285,7 +285,7 @@ background: linear-gradient(to right, rgb(131, 15, 209), var(--bs-danger), rgb(2
     border: none !important;
 }
 #BOTON {
-    background-image: linear-gradient(rgb(34, 89, 208), #ffffff3c) !important;
+    background-image: linear-gradient(rgb(34, 76, 214), #ffffff3c) !important;
     color: #fff !important;
     border: none !important;
 }
@@ -696,13 +696,13 @@ border: 2px solid var(--bs-danger)!important;
     background-color: #fff !important;
 }
 #PADTOP{
-    background-image: linear-gradient(to bottom,#83b5ff66, #4784ff)!important;
+    background-image: linear-gradient(to bottom,#83b5ff66, rgb(31, 180, 255))!important;
 }
 #BOUTTE{
     color: #fff!important;
     font-size: 18px !important;
     font-weight: light !important;
-    background-image: linear-gradient(to right,#4784ff, #83b5ff66)!important;
+    background-image: linear-gradient(to right,#2c4efa, #83b5ff66)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
@@ -737,7 +737,7 @@ transition: 0.3s background-color ease-in-out!important;
     color: red !important;
     font-size: 22px !important;
     font-family: "Space Mono", monospace!important;
-    background-image: linear-gradient(to right,#83b5ff66, #4784ff)!important;
+    background-image: linear-gradient(to right,#83b5ff66, #2c4efa)!important;
 }
 #HEADER:hover{
     background-image: linear-gradient(to bottom,#fff, #fff)!important;
@@ -787,9 +787,8 @@ font-family: "Space Mono", monospace !important;
 }
 #KORDO{
     margin-bottom: 2rem !important;
-    border-top : 0.12rem solid #4791ff !important;
     padding-top: 15px !important;
-    background-image: linear-gradient(to bottom, #4784ff, #83b5ff66)!important;
+    background-image: linear-gradient(to bottom, rgb(31, 180, 255), #83b5ff66)!important;
     
 }
 #HEADO{
