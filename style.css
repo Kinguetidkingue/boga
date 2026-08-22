@@ -213,16 +213,16 @@ body {
 #Logo {
     display: flex !important;
     flex-direction: row !important;
-    width: 88px !important;
-    height: 70px !important;
+    width: 85px !important;
+    height: 67px !important;
     padding: 10px !important;
     font-weight: bold !important;
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
-    margin-bottom: 10px !important;
-    box-shadow: 2px 4px 4px 1px #000 !important;
+    margin-top: 5px !important;
+    margin-bottom: 8px !important;
 }
 #Logo:hover {
     background-color: #000 !important;
@@ -275,8 +275,7 @@ background: linear-gradient(to right, rgb(106, 5, 173), var(--bs-danger), rgb(25
     color: #fff! important;
     font-weight: bold !important;
     background-color: var(--bs-danger) !important;
-    font-family: Arial, Helvetica, sans-serif!important;
-    box-shadow: 2px 4px 4px 1px #000 !important;   
+    font-family: Arial, Helvetica, sans-serif!important;   
 }
 #TOGGLICON:hover{
     background-color: var(--bs-warning) !important;
