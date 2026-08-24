@@ -155,6 +155,14 @@ body {
      background-color: #f2f2f2! important;
      transition: 0.3s background-color ease-in-out !important;
 }
+#ThisIsYours{
+    background-color: var(--bs-danger) !important;
+    color: #ff0 !important;
+}
+#ThisIsYours:hover {
+background-color: var(--bs-dark)!important;
+transition: 0.3s background-color ease-in-out !important;
+}
 #TOPBANNER {
     display: flex !important;
     flex-direction: row !important;
@@ -257,13 +265,13 @@ body {
     line-height: auto! important;
 }
 #BASICS, h1{
-background: linear-gradient(to right, rgb(106, 5, 173), var(--bs-danger), rgb(253, 209, 11));
+background: linear-gradient(to right, rgb(104, 11, 166), var(--bs-danger), rgb(218, 180, 8));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h1{
 font-size: 4rem;
-background: linear-gradient(to right, rgb(106, 5, 173), var(--bs-danger), rgb(253, 209, 11));
+background: linear-gradient(to right, rgb(104, 11, 166), var(--bs-danger), rgb(218, 180, 8));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
