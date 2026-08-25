@@ -501,7 +501,9 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(to bottom,#f7f8f9, #fffffff6)!important;
+    background-image: linear-gradient(to bottom,#f4f4f4, #fffffff6)!important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
 }
 #BTON{
     background-color: #fff! important;
@@ -826,7 +828,7 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.15rem dashed var(--bs-dark) !important;
+    border-bottom: 1px solid var(--bs-dark) !important;
 }
 
 #HeadeR {
@@ -840,7 +842,6 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 40px !important;
-    border-bottom: 0.1rem dashed var(--bs-secondary) !important;
 }
 
 #BEGINNER {
