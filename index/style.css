@@ -502,8 +502,8 @@ li a:hover {
     display: flex !important;
     width: 100% !important;
     background-image: linear-gradient(to bottom,#f4f4f4, #fffffff6)!important;
-    border-top-left-radius: 1rem !important;
-    border-top-right-radius: 1rem !important;
+    border-top-left-radius: 3rem !important;
+    border-top-right-radius: 3rem !important;
 }
 #BTON{
     background-color: #fff! important;
@@ -517,7 +517,7 @@ li a:hover {
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-box-shadow: 0 1px 1rem 2px #000000c7 !important;
+box-shadow: 0 1px 1rem 1px #1d1d1d65 !important;
 color: var(--bs-primary)!important;
 }
 #TITLE{
@@ -861,7 +861,7 @@ font-family: "Space Mono", monospace !important;
 }
 
 #TOBA{
-    background-image: linear-gradient(to bottom, rgb(17, 176, 255), #fff)!important;
+    background-image: linear-gradient(to bottom, rgb(31, 199, 255), #fff)!important;
     color: #000 !important;
     font-family: "Space Mono", monospace!important;
 }
