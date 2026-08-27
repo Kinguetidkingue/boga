@@ -507,7 +507,8 @@ li a:hover {
 }
 #BTON{
     background-color: #fff! important;
-    color: #000 !important;
+    box-shadow: 0 1px 0.8rem 0.8px #49494946 !important;
+    color: darkblue!important;
     padding: 12px !important;
     font-size: 18px !important;
     border: none !important;
@@ -517,8 +518,8 @@ li a:hover {
 background-color: var(--bs-white)! important;
 transition: 0.3s background-color ease-in-out;
 font-weight: bold !important;
-box-shadow: 0 1px 1rem 1px #1d1d1d65 !important;
-color: var(--bs-primary)!important;
+color: var(--bs-dark)!important;
+box-shadow: none !important;
 }
 #TITLE{
      font-family: "Space Mono", monospace!important;
