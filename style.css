@@ -291,15 +291,21 @@ background: linear-gradient(to right, rgb(104, 11, 166), var(--bs-danger), rgb(2
     color: #000 !important;
     border: none !important;
 }
-#BOTON {
-    background-image: linear-gradient(rgb(34, 76, 214), #ffffff3c) !important;
-    color: #fff !important;
+#BTON{
+    background-color: #fff! important;
+    box-shadow: 0 1px 0.8rem 0.8px #49494946 !important;
+    color: darkblue!important;
+    padding: 12px !important;
+    font-size: 18px !important;
     border: none !important;
+    font-family: "Space Mono", monospace!important;
 }
-#BOTON:hover {
-    background-color: #fff !important;
-    transition: background-color 0.3s ease-in-out !important;
-    color: #000 !important;
+#BTON:hover{
+background-color: var(--bs-white)! important;
+transition: 0.3s background-color ease-in-out;
+font-weight: bold !important;
+color: var(--bs-dark)!important;
+box-shadow: none !important;
 }
 #SERVICES {
     background-color: #fff !important;
