@@ -221,8 +221,8 @@ transition: 0.3s background-color ease-in-out !important;
 #Logo {
     display: flex !important;
     flex-direction: row !important;
-    width: 85px !important;
-    height: 67px !important;
+    width: 70px !important;
+    height: 58px !important;
     padding: 10px !important;
     font-weight: bold !important;
     font-family: "Instrument Serif", serif!important;
