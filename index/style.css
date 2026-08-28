@@ -172,8 +172,8 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.55rem solid var(--bs-danger) !important;
-    border-bottom: 1px solid var(--bs-dark) !important;
+    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-bottom: 1.5px solid var(--bs-dark) !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
@@ -225,7 +225,7 @@ transition: 0.3s background-color ease-in-out !important;
     height: 67px !important;
     padding: 10px !important;
     font-weight: bold !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Instrument Serif", serif!important;
     background-color: var(--bs-danger)!important;
     justify-content: center !important;
     align-items: center !important;
