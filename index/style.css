@@ -172,7 +172,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-top: 0.5rem solid var(--bs-primary) !important;
     border-bottom: 1.5px solid var(--bs-dark) !important;
 }
 #OFFCANVAS{
@@ -265,13 +265,13 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: auto! important;
 }
 #BASICS, h1{
-background: linear-gradient(to right, rgb(104, 11, 166), var(--bs-danger), rgb(218, 180, 8));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(218, 180, 8));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h1{
 font-size: 4rem;
-background: linear-gradient(to right, rgb(104, 11, 166), var(--bs-danger), rgb(218, 180, 8));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(218, 180, 8));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
