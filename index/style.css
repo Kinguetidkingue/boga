@@ -172,8 +172,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-primary) !important;
-    border-bottom: 1.5px solid var(--bs-dark) !important;
+    border-top: 0.55rem solid var(--bs-primary) !important;
 }
 #OFFCANVAS{
     font-family: "Space Mono", monospace!important;
