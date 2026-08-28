@@ -181,7 +181,7 @@ transition: 0.3s background-color ease-in-out !important;
 #OFFCAN{
     font-family: "Space Mono", monospace!important;
     width: 100% !important;
-    background-image: linear-gradient(var(--bs-danger), rgb(17, 176, 255)) !important;
+    background-image: linear-gradient(var(--bs-danger), rgb(31, 199, 255)) !important;
 }
 #offcanvasWithBothOptions{
     background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
