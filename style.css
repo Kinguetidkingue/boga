@@ -107,13 +107,11 @@
     --bs-highlight-bg: #fff3cd;
     --bs-darkred: #c42434;
 }
-
 html {
     display: block !important;
     scroll-behavior: smooth !important;
     font-family: "Space Mono", monospace!important;
 }
-
 body {
     font-family: "Space Mono", monospace!important;
     width: 100% !important;
@@ -172,7 +170,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.55rem solid var(--bs-primary) !important;
+    border-top: 0.55rem solid rgb(31, 199, 255) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -236,7 +234,6 @@ transition: 0.3s background-color ease-in-out !important;
     color: #fff !important;
     transition: 0.3s background-color ease-in-out !important;
 }
-
 #DO{
     color: #198754 !important;
     display: block !important;
@@ -344,14 +341,12 @@ li {
     color: #fff !important;
     padding: 18px !important;
 }
-
 li a:hover {
     color: rgba(255, 0, 0, 0.823) !important;
     text-decoration: none !important;
     transition: 0.3s background-color ease-in-out !important;
     font-weight: bold !important;
 }
-
 .HOVER {
     color: rgb(1, 1, 155) !important;
     text-decoration: none !important;
@@ -364,7 +359,6 @@ li a:hover {
 .ROVER {
     text-decoration: none;
 }
-
 #BOTTOBANNER {
     height: 60px !important;
     background-color: #fff !important;
@@ -373,7 +367,6 @@ li a:hover {
     border-top: 1px solid var(--bs-dark) !important;
     font-family: 'Times New Roman', Times, serif!important;
 }
-
 .footer {
     display: block !important;
     width: 100% !important;
@@ -383,7 +376,6 @@ li a:hover {
     padding: 20px !important;
     background-color: #fff !important;
 }
-
 #TOPO {
     align-items: center !important;
     width: 109px !important;
@@ -397,20 +389,17 @@ li a:hover {
     border: 1.5px solid #fff !important;
     background-color: #ececec !important;
 }
-
 #TOPO:hover {
     background-color: #fff !important;
     border: 1.5px solid #000 !important;
     color: #000 !important;
     transition: background-color 0.3s ease-in-out;
 }
-
 #Footer-space {
     width: 100% !important;
     height: auto !important;
     background-image: linear-gradient(to bottom, rgb(255, 127, 80), #fff)!important;
 }
-
 #Space-to-Footer {
     width: 100% !important;
     height: 305px !important;
@@ -428,15 +417,6 @@ li a:hover {
     color: rgb(212, 71, 10) !important;
     transition: 0.3s background-color ease-in-out !important
 }
-#Universities {
-    background-color: #fff !important;
-    font-size: 18px !important;
-    color: var(--bs-primary) !important;
-    padding: 15px !important;
-    font-weight: bold !important;
-    font-family: Arial, Helvetica, sans-serif!important;
-}
-
 #Lin a {
     width: 100%!important;
     font-size: 13px !important;
@@ -445,7 +425,6 @@ li a:hover {
     font-family: Arial, Helvetica, sans-serif!important;
     font-weight: bold !important;
 }
-
 #Lin a:hover {
     color: var(--bs-danger) !important;
     transition: background-color 0.3s ease-in-out;
@@ -465,7 +444,6 @@ li a:hover {
     border-top: 0.15px solid rgba(192, 192, 192, 0.884) !important;
     border-bottom: 0.15px solid rgba(192, 192, 192, 0.884) !important;
 }
-
 #Begin {
     display: block !important;
     font-family: "Space Mono", monospace!important;
@@ -488,12 +466,10 @@ li a:hover {
     background-color: #fff !important;
     margin-bottom: 3rem !important;
 }
-
 #Wel:hover {
     background-color: #4effac78 !important;
     transition: 0.31s background-color ease-in-out !important;
 }
-
 #LuL {
     font-size: 14px !important;
 }
@@ -524,19 +500,16 @@ border: 1px solid #000 !important;
 #TITLE{
      font-family: "Space Mono", monospace!important;
 }
-
 #IMGSet {
     width: 100%;
     height: auto !important;
     display: block !important;
     opacity: 0.8 !important;
 }
-
 #IMGSet:hover {
     opacity: 1 !important;
     transition: opacity 0.3s ease-in-out;
 }
-
 #Sunset-Image {
     width: 100% !important;
     height: auto !important;
@@ -552,7 +525,6 @@ border: 1px solid #000 !important;
     justify-content: left !important;
     align-items: center !important;
 }
-
 #SUN {
     display: block !important;
     width: 100% !important;
@@ -565,13 +537,11 @@ border: 1px solid #000 !important;
     word-spacing: -1px !important;
     color: cyan!important;
 }
-
 #SUN:hover {
     visibility: initial !important;
     color: #f0f0f0 !important;
     transition: color 0.3s ease-in-out;
 }
-
 #BLOK {
     width: 20rem !important;
     height: auto !important;
@@ -583,7 +553,6 @@ border: 1px solid #000 !important;
     line-height: 1.4!important;
     border-top: 4px solid var(--bs-secondary) !important;
 }
-
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
@@ -626,7 +595,6 @@ border: 1px solid #000 !important;
     font-family: "Space Mono", monospace!important;
     background-color: #f4f4f4!important;
 }
-
 #READ-MORE:hover {
     background-color: rgb(255, 191, 0) !important;
     border: 0.1px solid #000 !important;
@@ -650,7 +618,6 @@ color: var(--bs-danger)!important;
 transition: 0.3s background-color ease-in-out!important; 
 border: 2px solid var(--bs-danger)!important;
 }
-
 #LEARNMORE {
     width: 100% !important;
     height: auto !important;       
@@ -664,13 +631,11 @@ border: 2px solid var(--bs-danger)!important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
 }
-
 #LEARNMORE:hover {
     background-color: orangered !important;
     color: #fff !important;
     font-weight: bold ! important;
 }
-
 #Learnmore {
     width: 100% !important;
     height: auto !important;
@@ -684,7 +649,6 @@ border: 2px solid var(--bs-danger)!important;
     font-family: "Space Mono", monospace!important;
     background-color: #f0f0f0!important;
 }
-
 #Learnmore:hover {
     background-color: #fff !important;
     font-size: 18px !important;
@@ -706,13 +670,14 @@ border: 2px solid var(--bs-danger)!important;
     background-color: #fff !important;
 }
 #PADTOP{
-    background-image: linear-gradient(to bottom,#83b5ff66, rgb(31, 180, 255))!important;
+    background-color: #83b5ff66!important;
 }
 #BOUTTE{
-    color: #fff!important;
+    color: #000!important;
     font-size: 18px !important;
     font-weight: light !important;
-    background-image: linear-gradient(to right,#2c4efa, #83b5ff66)!important;
+    margin-bottom: 2px !important;
+    background-color: rgb(31, 199, 255)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
@@ -736,6 +701,7 @@ border: 2px solid var(--bs-danger)!important;
     width: 100% !important;
     height: auto !important;
     line-height: 1.8!important;
+    margin-bottom: 2px !important;
     font-family: "Space Mono", monospace!important;
     background-color: blue !important;
 }
@@ -747,7 +713,7 @@ transition: 0.3s background-color ease-in-out!important;
     color: red !important;
     font-size: 22px !important;
     font-family: "Space Mono", monospace!important;
-    background-image: linear-gradient(to right,#83b5ff66, #2c4efa)!important;
+    background-color: rgb(31, 199, 255)!important;
 }
 #HEADER:hover{
     background-image: linear-gradient(to bottom,#fff, #fff)!important;
@@ -798,7 +764,7 @@ font-family: "Space Mono", monospace !important;
 #KORDO{
     margin-bottom: 2rem !important;
     padding-top: 15px !important;
-    background-image: linear-gradient(to bottom, rgb(31, 180, 255), #83b5ff66)!important;
+    background-color: #83b5ff66 !important;
     
 }
 #HEADO{
@@ -820,7 +786,6 @@ font-family: "Space Mono", monospace !important;
     font-family: "Space Mono", monospace!important;
     color: rgba(21, 64, 149, 0.9) !important;
 }
-
 #Welcome-Message {
     width: 100% !important;
     height: auto !important;
@@ -831,7 +796,6 @@ font-family: "Space Mono", monospace !important;
     align-items: center !important;
     border-bottom: 1px solid var(--bs-dark) !important;
 }
-
 #HeadeR {
     font-family: "Black Ops One", system-ui!important;
     display: flex !important;
@@ -844,7 +808,6 @@ font-family: "Space Mono", monospace !important;
     align-items: center !important;
     padding: 40px !important;
 }
-
 #BEGINNER {
     display: flex !important;
     flex-direction: row !important;
@@ -860,7 +823,6 @@ font-family: "Space Mono", monospace !important;
     font-family: "Space Mono", monospace!important;
     color: var(--bs-gray-700) !important;
 }
-
 #TOBA{
     background-image: linear-gradient(to bottom, rgb(31, 199, 255), #fff)!important;
     color: #000 !important;
@@ -896,7 +858,6 @@ font-family: "Space Mono", monospace !important;
     transition: 0.3s background-color ease-in-out !important;
     border: 0.1px solid transparent !important;
 }
-
 #RES {
     color: #ed8b0cf7 !important;
 }
@@ -912,7 +873,6 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
 
 }
-
 #Blockos2 {
     width: 100% !important;
     height: auto !important;
@@ -939,7 +899,6 @@ font-family: "Space Mono", monospace !important;
     color: rgba(21, 64, 149, 0.9)!important;
     font-family: "Space Mono", monospace !important;
 }
-
 #CANADA-CITIES {
     width: 100% !important;
     height: auto !important;
@@ -950,7 +909,6 @@ font-family: "Space Mono", monospace !important;
     background-color: #fff !important;
     flex-wrap: wrap !important;
 }
-
 #ALL_TOGETHER {
     display: flex !important;
     flex-direction: row !important;
@@ -963,7 +921,6 @@ font-family: "Space Mono", monospace !important;
     padding-top: 30px !important;
     padding-bottom: 30px !important;
 }
-
 #EACH-PROVINCE{
     margin-top: 20px !important;
     color: rgba(21, 64, 149, 0.9)!important;
@@ -974,7 +931,6 @@ font-family: "Space Mono", monospace !important;
     font-family: "Space Mono", monospace!important;
     background-color: rgba(255, 127, 80, 0.52) !important;
 }
-
 #Block-wrap {
     width: 100% !important;
     height: auto !important;     
@@ -987,7 +943,6 @@ font-family: "Space Mono", monospace !important;
     margin-bottom: 20px !important;
     background-image: linear-gradient(to bottom, rgba(255, 127, 80, 0.52), #fff)!important;
 }
-
 #Block-W {
     width: 100% !important;
     height: auto !important;
@@ -1037,7 +992,6 @@ font-family: "Space Mono", monospace !important;
     font-family: "Space Mono", monospace!important;
     padding-bottom: 10px !important;
 }
-
 #Bootstrap {
     width: 20rem !important;
     height: auto !important;
@@ -1069,7 +1023,6 @@ font-family: "Space Mono", monospace !important;
 font-family: "Space Mono", monospace !important;
 
 }
-
 #IMAGE{
     border-top-left-radius: 1rem !important;
     border-top-right-radius: 1rem !important;
@@ -1153,7 +1106,6 @@ transition: 0.3s background-color ease-in-out !important;
     background-color: #fff !important;
     box-shadow: 0 3px 0.3rem 0.5px rgba(11, 11, 11, 0.173) !important;
 }
-
 #Bloc {
     width: 50% !important;
     height: auto !important;
@@ -1187,7 +1139,6 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: 1.85 !important;
     padding: 20px !important;
 }
-
 .sisi {
     width: 100% !important;
     height: auto !important;
