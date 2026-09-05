@@ -170,7 +170,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.55rem solid var(--bs-danger) !important;
+    border-top: 0.5rem solid var(--bs-danger) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -218,8 +218,8 @@ transition: 0.3s background-color ease-in-out !important;
 #Logo {
     display: flex !important;
     flex-direction: row !important;
-    width: 70px !important;
-    height: 58px !important;
+    width: 68px !important;
+    height: 57px !important;
     padding: 10px !important;
     font-weight: bold !important;
     font-family: "Instrument Serif", serif!important;
@@ -261,19 +261,19 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: auto! important;
 }
 #BASICS, h1{
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(218, 180, 8));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h1{
 font-size: 4rem;
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(196, 131, 0));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h2{
 font-size: 4rem;
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(196, 131, 0));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
