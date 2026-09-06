@@ -511,15 +511,8 @@ border: 1px solid #000 !important;
 #TITLE{
      font-family: "Space Mono", monospace!important;
 }
-#IMGSet {
-    width: 100%;
-    height: auto !important;
-    display: block !important;
-    opacity: 0.8 !important;
-}
-#IMGSet:hover {
-    opacity: 1 !important;
-    transition: opacity 0.3s ease-in-out;
+#SunSet{
+    height: 362px !important;
 }
 #Sunset-Image {
     width: 100% !important;
