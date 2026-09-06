@@ -170,7 +170,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.5rem solid var(--bs-danger) !important;
+    border-top: 0.5rem solid var(--bs-dark) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
