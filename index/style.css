@@ -512,7 +512,7 @@ border: 1px solid #000 !important;
      font-family: "Space Mono", monospace!important;
 }
 #SunSet{
-    height: 362px !important;
+    height: 361.25px !important;
 }
 #Sunset-Image {
     width: 100% !important;
@@ -810,9 +810,9 @@ font-family: "Space Mono", monospace !important;
     width: 100% !important;
     height: auto !important;
     color: var(--bs-primary)!important;
-    font-size: 40px !important;
-    justify-content: center !important;
-    align-items: center !important;
+    font-size: 38.5px !important;
+    justify-content: right !important;
+    align-items: right  !important;
     padding: 40px !important;
 }
 #BEGINNER {
