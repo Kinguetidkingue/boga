@@ -711,6 +711,19 @@ border: 2px solid var(--bs-danger)!important;
     font-family: "Space Mono", monospace!important;
     background-color: blue !important;
 }
+#TOUBE{
+    color: #000!important;
+    font-size: 18px !important;
+    font-weight: light !important;
+    margin-bottom: 2px !important;
+    background-color: rgb(31, 199, 255)!important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+#TOUBE:hover{
+    background-image: linear-gradient(to bottom, #fff, #fff)!important;
+    transition: 0.3s background-color ease-in-out!important;
+    color: var(--bs-danger)!important;
+}
 #A-body{
     line-height: 1.7 !important;
     font-size: 14px !important;
