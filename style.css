@@ -373,11 +373,10 @@ li a:hover {
     text-decoration: none;
 }
 #BOTTOBANNER {
-    height: 60px !important;
+    height: auto !important;
     background-color: #fff !important;
-    color: var(--bs-danger) !important;
-    padding: 5px !important;
-    font-family: 'Times New Roman', Times, serif!important;
+    color: var(--bs-dark) !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
 .footer {
     display: flex !important;
@@ -491,14 +490,14 @@ li a:hover {
 #HYPERTEXT{
     display: flex !important;
     width: 100% !important;
-    background-image: linear-gradient(to bottom,#f7f7f7, #ffffffd7)!important;
+    background-image: linear-gradient(to bottom,#f4f4f4, #ffffffd7)!important;
     border-top-left-radius: 3rem !important;
     border-top-right-radius: 3rem !important;
 }
 #BTON{
     background-color: #fff! important;
-    box-shadow: 0 1px 1rem 0.8px #87878765 !important;
-    color: darkblue!important;
+    box-shadow: 0 2px 1rem 0.9px #a0a0a073 !important;
+    color: rgb(12, 86, 129)!important;
     padding: 12px !important;
     font-size: 18px !important;
     border: 1px solid transparent !important;
