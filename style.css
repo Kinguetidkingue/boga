@@ -272,12 +272,6 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(-
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-h2{
-font-size: 4rem;
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
 h4{
 font-size: 4rem;
 background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(196, 131, 0));
@@ -706,9 +700,9 @@ border: 2px solid var(--bs-danger)!important;
     width: 100% !important;
     height: auto !important;
     line-height: 1.8!important;
-    margin-bottom: 2px !important;
+    margin-bottom: 1px !important;
     font-family: "Space Mono", monospace!important;
-    background-color: blue !important;
+    background-color: #fff !important;
 }
 #TOUBE{
     color: #000!important;
