@@ -818,10 +818,10 @@ font-family: "Space Mono", monospace !important;
     width: 100% !important;
     height: auto !important;
     color: var(--bs-primary)!important;
-    font-size: 38.5px !important;
+    font-size: 40px !important;
     justify-content: right !important;
     align-items: right  !important;
-    padding: 40px !important;
+    padding: 45px !important;
 }
 #BEGINNER {
     display: flex !important;
