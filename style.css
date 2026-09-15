@@ -741,7 +741,7 @@ transition: 0.3s background-color ease-in-out!important;
     height: auto !important;
     padding-top: 2rem !important;
     border-radius: none !important;
-    background-image: linear-gradient(to bottom,#fefefef4, #fff)!important;
+    background-image: linear-gradient(to bottom,#fdfdfdf4, #fff)!important;
 }
 #Aha{
     display: flex !important;
@@ -760,7 +760,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
-    background-image: linear-gradient(to bottom, rgba(255, 127, 80, 0.52), #fff)!important;
+    background-image: linear-gradient(to bottom, rgba(255, 193, 170, 0.546), #fff)!important;
 }
 #HEAD{
     display: flex !important;
