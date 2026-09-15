@@ -676,13 +676,13 @@ border: 2px solid var(--bs-danger)!important;
     font-size: 18px !important;
     font-weight: light !important;
     margin-bottom: 2px !important;
-    background-color: rgb(31, 199, 255)!important;
+    background-color: transparent!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
-    background-image: linear-gradient(to bottom, #fff, #fff)!important;
+    background-color: #000!important;
     transition: 0.3s background-color ease-in-out!important;
-    color: var(--bs-danger)!important;
+    color: #fff!important;
 }
 #ARKO{
     display: block !important;
@@ -709,13 +709,13 @@ border: 2px solid var(--bs-danger)!important;
     font-size: 18px !important;
     font-weight: light !important;
     margin-bottom: 2px !important;
-    background-color: rgb(31, 199, 255)!important;
+    background-color: transparent!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #TOUBE:hover{
-    background-image: linear-gradient(to bottom, #fff, #fff)!important;
+    background-color: #000!important;
     transition: 0.3s background-color ease-in-out!important;
-    color: var(--bs-danger)!important;
+    color: #fff!important;
 }
 #A-body{
     line-height: 1.7 !important;
