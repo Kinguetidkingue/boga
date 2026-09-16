@@ -489,7 +489,7 @@ li a:hover {
     border-top-right-radius: 3rem !important;
 }
 #BTON{
-    background-color: #0586ad! important;
+    background-color: #098ab1! important;
     box-shadow: 0 1px 1rem 1px #8b8b8b76 !important;
     color: #fff!important;
     padding: 12px !important;
@@ -547,17 +547,16 @@ border: 1.5px solid #000 !important;
     width: 20rem !important;
     height: auto !important;
     color: #000 !important;
-    box-shadow: 1px 2px 1rem 3px #bdbdbdee !important;
+    box-shadow: 1px 2px 0.7rem 2px #b9b9b9f5 !important;
     font-size: 16px !important;
     font-family: "Space Mono", monospace!important;
     line-height: 1.4!important;
-    border-top: 4px solid var(--bs-success) !important;
+    border-top: 4px solid #098ab1 !important;
 }
 #BLOK:hover {
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    border-top: 5px solid var(--bs-success) !important;
-    border: none !important;
+    border-top: 4px solid #000 !important;
     box-shadow: 0 -2px 0.85rem 3px #454545 !important;
 }
 #BLOKE{
