@@ -557,12 +557,13 @@ border: 1.5px solid #000 !important;
     background-color: transparent !important;
     transition: box-shadow 0.3s ease-in-out !important;
     border-top: 4px solid #000 !important;
-    box-shadow: 0 -2px 0.85rem 3px #454545 !important;
+    box-shadow: 0 4px 0.9rem 3px #575757 !important;
 }
 #BLOKE{
     width: 19rem !important;
     height: auto !important;
     color: #000 !important;
+    border: 1px solid gray !important;
 }
 #BLOKE:hover{
     background-color: transparent !important;
@@ -990,7 +991,8 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border-top: 0.8px solid var(--bs-gray-500)!important;
-    background-color:#eeeeee !important;
+    border-bottom: 0.8px solid var(--bs-gray-500)!important;
+    background-color:#f2f2f2 !important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
@@ -1017,7 +1019,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border-radius: 10px !important;
-    border: 0.8px solid var(--bs-gray-500)!important;
+    border: 1px solid gray !important;
     background-color: transparent !important;
 }
 #Bootstrap:hover {
@@ -1110,6 +1112,7 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: 1.23 !important;
     color: #0b2660 !important;
     background-color:  #fff !important;
+    border: 1px solid gray !important;
 }
 #BALOU:hover {
     transition: 0.3s box-shadow ease-in-out !important;
