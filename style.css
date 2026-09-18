@@ -125,7 +125,7 @@ body {
   font-size: 20px!important;
   display: flex!important;
   line-height: 1.8 !important;
-  color: purple !important;
+  color: #000 !important;
   align-items: center!important;
   justify-content: center!important;
   font-weight: bold !important;
@@ -680,7 +680,7 @@ border: 2px solid var(--bs-danger)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
-    background-color: #000!important;
+    background-color: #3bdb94!important;
     transition: 0.3s background-color ease-in-out!important;
     color: #fff!important;
 }
@@ -713,7 +713,7 @@ border: 2px solid var(--bs-danger)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #TOUBE:hover{
-    background-color: #000!important;
+    background-color: #3bdb94!important;
     transition: 0.3s background-color ease-in-out!important;
     color: #fff!important;
 }
