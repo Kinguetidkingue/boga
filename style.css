@@ -156,6 +156,7 @@ body {
 #ThisIsYours{
     background-color: var(--bs-danger) !important;
     color: #ff0 !important;
+    font-size: 15px !important;
 }
 #ThisIsYours:hover {
 background-color: var(--bs-dark)!important;
@@ -563,7 +564,7 @@ border: 1.5px solid #000 !important;
     width: 19rem !important;
     height: auto !important;
     color: #000 !important;
-    border: 1px solid gray !important;
+    border: none !important;
 }
 #BLOKE:hover{
     background-color: transparent !important;
@@ -590,15 +591,13 @@ border: 1.5px solid #000 !important;
     align-items: center !important;
     font-size: 16px !important;
     color: #333 !important;
-    border: 0.15px solid transparent !important;
     font-family: "Space Mono", monospace!important;
     background-color: #f4f4f4!important;
 }
 #READ-MORE:hover {
-    background-color: rgb(255, 191, 0) !important;
-    border: 0.1px solid #000 !important;
+    background-color: var(--bs-success) !important;
     transition: background-color 0.3s ease-in-out!important;
-    color: #000 !important;
+    color: #fff !important;
 }
 #READMORE{
 display: flex!important;
