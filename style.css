@@ -279,7 +279,7 @@ transition: 0.3s background-color ease-in-out !important;
     line-height: auto! important;
 }
 #BASICS, h1{
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
+background: linear-gradient(to right, darkblue, var(--bs-danger), var(--bs-success));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -386,8 +386,9 @@ li a:hover {
 #BOTTOBANNER {
     height: auto !important;
     background-color: #fff !important;
-    color: var(--bs-dark) !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    color: var(--bs-secondary) !important;
+    font-family: helvetica!important;
+    font-size: 11.8px !important;
 }
 .footer {
     display: flex !important;
@@ -432,7 +433,6 @@ li a:hover {
     font-size: 18px !important;
     padding-top: 55px !important;
     color: cyan!important;
-    margin-bottom: 1rem !important;
     font-weight: bold !important;
 }
 #Space-to-Footer:hover{
