@@ -184,13 +184,17 @@ transition: 0.3s background-color ease-in-out !important;
 }
 #PROUG{
     background-color: transparent !important;
-    border: 2px solid transparent!important;
+    border: 0.5px solid transparent!important;
     text-align: center !important;
 }
 #PROUG:hover{
-    background-color: #fff !important;
-    border-radius: 1rem !important;
-    border: 2px solid #000 !important;
+    background-color: darkblue !important;
+    color: #fff !important;
+    border-radius: none !important;
+    border: 0.5px solid #fff !important;
+}
+#CLOSER-HEADER{
+    background-color: #0b2660 !important;
 }
 #offcanvasWithBothOptions{
     background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
