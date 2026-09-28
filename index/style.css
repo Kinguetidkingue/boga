@@ -180,7 +180,17 @@ transition: 0.3s background-color ease-in-out !important;
 #OFFCAN{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
     width: 100% !important;
-    background-image: linear-gradient(var(--bs-danger), rgb(31, 199, 255)) !important;
+    background-image: linear-gradient(var(--bs-danger), rgba(31, 199, 255, 0.189)) !important;
+}
+#PROUG{
+    background-color: transparent !important;
+    border: 2px solid transparent!important;
+    text-align: center !important;
+}
+#PROUG:hover{
+    background-color: #fff !important;
+    border-radius: 1rem !important;
+    border: 2px solid #000 !important;
 }
 #offcanvasWithBothOptions{
     background-image: linear-gradient(var(--bs-danger), rgba(21, 64, 149, 0.95)) !important;
