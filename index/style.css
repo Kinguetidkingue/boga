@@ -432,32 +432,33 @@ li a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
     justify-content: center !important;
     align-items: center !important;
-    font-size: 18px !important;
-    padding-top: 55px !important;
-    color: cyan!important;
-    font-weight: bold !important;
+    font-size: 16px !important;
+    padding-top: 50px !important;
+    color: #fff!important;
+    font-weight: light !important;
 }
 #Space-to-Footer:hover{
-    color: #ff0 !important;
+    color: var(--bs-cyan) !important;
     transition: 0.3s background-color ease-in-out !important
 }
 #Universities{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
-  color: #fff !important; 
-  background-color: var(--bs-danger) !important;
+  font-weight: bold !important;
+  color: #000 !important; 
+  background-color: #fff !important;
 }
 #Lin a {
     width: 100%!important;
     font-size: 13px !important;
-    color:  yellow!important;
+    color:  rgb(32, 255, 255)!important;
     text-decoration: none !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-    font-weight: bold !important;
+    font-weight: light !important;
 }
 #Lin a:hover {
     color: #fff !important;
     transition: background-color 0.3s ease-in-out;
-    font-size: 13.10px !important;
+    font-weight: bold !important;
     text-decoration: 2.5px solid underline!important;
 }
 #Resources {
