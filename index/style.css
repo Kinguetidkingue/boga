@@ -21,7 +21,6 @@
 ::before {
     box-sizing: border-box;
 }
-
 :root {
     --bs-bb-yellow: rgb(254, 254, 1);
     --bs-blue: #0d6efd;
@@ -780,7 +779,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
-    background-image: linear-gradient(to bottom, rgba(255, 193, 170, 0.546), #fff)!important;
+    background-image: linear-gradient(to bottom, rgba(255, 219, 204, 0.546), #fff)!important;
 }
 #HEAD{
     display: flex !important;
