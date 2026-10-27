@@ -686,6 +686,8 @@ border: 2px solid var(--bs-danger)!important;
     height: auto !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
+    margin-bottom: 0.5rem !important;
+    border-radius: 1rem !important;
 }
 #PADTOP{
     background-color: #83b5ff66!important;
@@ -694,12 +696,11 @@ border: 2px solid var(--bs-danger)!important;
     color: #000!important;
     font-size: 18px !important;
     font-weight: light !important;
-    margin-bottom: 2px !important;
     background-color: transparent!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
-    background-color: #3bdb94!important;
+    background-color: #3b9bdb!important;
     transition: 0.3s background-color ease-in-out!important;
     color: #fff!important;
 }
@@ -719,7 +720,8 @@ border: 2px solid var(--bs-danger)!important;
     width: 100% !important;
     height: auto !important;
     line-height: 1.8!important;
-    margin-bottom: 1px !important;
+    margin-bottom: 0.5rem !important;
+    border-radius: 1rem !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
@@ -732,7 +734,7 @@ border: 2px solid var(--bs-danger)!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #TOUBE:hover{
-    background-color: #3bdb94!important;
+    background-color: #3b9bdb!important;
     transition: 0.3s background-color ease-in-out!important;
     color: #fff!important;
 }
