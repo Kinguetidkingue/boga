@@ -226,10 +226,11 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    background-color: #fff !important;
+    border-top: 0.5rem solid darkblue !important;
+    background-color: rgb(31, 199, 255) !important;
     }
     #Navbar:hover{
-        background-color: rgb(31, 199, 255) !important;
+        background-color: #fff !important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
