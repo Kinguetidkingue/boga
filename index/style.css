@@ -329,7 +329,7 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     align-items: center !important;
     transition: background-color 0.3s ease-in-out !important;
     padding: 4px !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     font-size: 12px !important;
     font-weight: lighter !important;
     color: #000 !important;
@@ -428,10 +428,10 @@ li a:hover {
     width: 100% !important;
     height: 305px !important;
     background-color: transparent !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
+    font-family: Arial, Helvetica, sans-serif !important;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     padding-top: 50px !important;
     color: #fff!important;
     font-weight: light !important;
@@ -441,7 +441,7 @@ li a:hover {
     transition: 0.3s background-color ease-in-out !important
 }
 #Universities{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
+  font-family: Arial, Helvetica, sans-serif!important;  
   font-weight: bold !important;
   color: #000 !important; 
   background-color: #fff !important;
@@ -451,7 +451,7 @@ li a:hover {
     font-size: 13px !important;
     color:  rgb(32, 255, 255)!important;
     text-decoration: none !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    font-family: Arial, Helvetica, sans-serif!important;    
     font-weight: light !important;
 }
 #Lin a:hover {
@@ -551,7 +551,7 @@ border: 1.5px solid #000 !important;
     display: block !important;
     width: 100% !important;
     height: 100px !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     line-height: normal !important;
     justify-content: center !important;
     align-items: center !important;
@@ -612,7 +612,7 @@ border: 1.5px solid #000 !important;
     align-items: center !important;
     font-size: 16px !important;
     color: #333 !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     background-color: #f4f4f4!important;
 }
 #READ-MORE:hover {
@@ -648,7 +648,7 @@ border: 2px solid var(--bs-danger)!important;
     transition: background-color 0.3s ease-in-out;
     color: #091f4e !important;
     font-weight: bold !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
 }
 #LEARNMORE:hover {
     background-color: orangered !important;
@@ -665,7 +665,7 @@ border: 2px solid var(--bs-danger)!important;
     color: #000!important;
     border: 0.15rem solid transparent !important;
     border-radius: 1rem !important;
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     background-color: #fff!important;
 }
 #Learnmore:hover {
@@ -677,7 +677,7 @@ border: 2px solid var(--bs-danger)!important;
     color: #dc3545 !important;
 }
 #TEK{
-     font-family: "Space Mono", monospace!important;
+     font-family: Arial, Helvetica, sans-serif!important;
 }
 #ARK{
     display: block !important;
@@ -850,7 +850,7 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     height: auto !important;
     width: 100% !important;
-    font-size: 1.1rem !important;
+    font-size: 17px !important;
     justify-content: center !important;
     align-items: center !important;
     font-weight: normal !important;
@@ -1093,6 +1093,7 @@ font-family: Arial, Helvetica, sans-serif!important;
     border: none !important;
 }
 #BFFLAG{
+    font-family: Arial, Helvetica, sans-serif!important;
     background-color: transparent !important;
 }
 #WEST-AFRICA{
