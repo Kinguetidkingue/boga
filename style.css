@@ -156,7 +156,7 @@ body {
     font-family: Arial, Helvetica, sans-serif !important;
     background-color: #2047a6 !important;
     color: #fff !important;
-    font-size: 15px !important;
+    font-size: 12px !important;
     font-style: italic;
 }
 #ThisIsYours:hover {
@@ -695,7 +695,7 @@ border: 2px solid var(--bs-danger)!important;
 }
 #BOUTTE{
     color: #000!important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: light !important;
     background-color: transparent!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
@@ -728,7 +728,7 @@ border: 2px solid var(--bs-danger)!important;
 }
 #TOUBE{
     color: #000!important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: light !important;
     margin-bottom: 2px !important;
     background-color: transparent!important;
