@@ -172,7 +172,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.35rem double var(--bs-danger) !important;
+    border-top: 5px double var(--bs-danger) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -226,7 +226,7 @@ transition: 0.3s background-color ease-in-out !important;
     top: 0 !important;
     z-index: 1 !important;
     border-top: 0.5rem solid #2047a6 !important;
-    border-top: 0.35rem double #2047a6 !important;
+    border-top: 5px double #2047a6 !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
@@ -302,7 +302,7 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     height: 50px !important;
     color: var(--bs-danger)! important;
     font-weight: bold !important;
-    border: 4px double #2047a6 !important;
+    border: 5px double #2047a6 !important;
     font-family: Arial, Helvetica, sans-serif!important;   
     border-top-left-radius: 2rem !important;
     border-bottom-right-radius: 2rem !important;
