@@ -173,7 +173,6 @@ transition: 0.3s background-color ease-in-out !important;
     height: auto !important;
     background-color: #fff !important;
     border-top: 0.35rem double var(--bs-danger) !important;
-    border-bottom: 2px solid #2047a6 !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -227,10 +226,11 @@ transition: 0.3s background-color ease-in-out !important;
     top: 0 !important;
     z-index: 1 !important;
     border-top: 0.5rem solid #2047a6 !important;
+    border-top: 0.35rem double #2047a6 !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
-        background-color: #0bbef0 !important;
+        background-color: #55e0ff !important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
@@ -278,14 +278,14 @@ transition: 0.3s background-color ease-in-out !important;
     font-weight: light !important;
     line-height: auto! important;
 }
-#BASICS, h1{
-background: linear-gradient(to right, darkblue, var(--bs-danger), var(--bs-success));
+#BASICS, h4{
+background: linear-gradient(to right, darkblue, var(--bs-danger), var(--bs-dark));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 h1{
 font-size: 4rem;
-background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-success));
+background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), var(--bs-dark));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -300,18 +300,18 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     justify-content: end !important;
     min-width: auto !important;
     height: 50px !important;
-    color: #fff! important;
+    color: var(--bs-danger)! important;
     font-weight: bold !important;
-    background-color: #2047a6 !important;
+    border: 4px double #2047a6 !important;
     font-family: Arial, Helvetica, sans-serif!important;   
-    border-top-left-radius: 3rem !important;
-    border-bottom-right-radius: 3rem !important;
+    border-top-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
 }
 #TOGGLICON:hover{
-    background-color: var(--bs-warning) !important;
+    background-color: var(--bs-white) !important;
     transition: 0.3s background-color ease-in-out!important;
     color: #000 !important;
-    border: none !important;
+    border: 4px double #2047a6 !important;
 }
 #BOTON {
     background-image: linear-gradient(rgb(34, 109, 214), #ffffff3c) !important;
