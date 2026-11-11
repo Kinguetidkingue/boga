@@ -302,6 +302,8 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     color: var(--bs-danger)! important;
     font-weight: bold !important;
     border: 5px double #2047a6 !important;
+    border-top: 5px double var(--bs-danger)!important;
+    border-left: 5px double var(--bs-danger)!important;
     font-family: Arial, Helvetica, sans-serif!important;   
     border-top-left-radius: 2rem !important;
     border-bottom-right-radius: 2rem !important;
