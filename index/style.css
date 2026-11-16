@@ -229,7 +229,7 @@ transition: 0.3s background-color ease-in-out !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
-        background-color: #55e0ff !important;
+        background-color: #90e5ff !important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
@@ -272,9 +272,9 @@ transition: 0.3s background-color ease-in-out !important;
     justify-content: left !important;
     align-items: left !important;
     color: #000000c7!important;
-    font-family: "Bebas Neue", sans-serif!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     font-size: 25px !important;
-    font-weight: light !important;
+    font-weight: bold !important;
     line-height: auto! important;
 }
 #BASICS, h4{
