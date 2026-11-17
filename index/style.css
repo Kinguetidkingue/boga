@@ -153,11 +153,11 @@ body {
      transition: 0.3s background-color ease-in-out !important;
 }
 #ThisIsYours{
-    font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #2047a6 !important;
-    color: #fff !important;
-    font-size: 12px !important;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    background-color: #000 !important;
+    font-size: 13.5px !important;
+    color: #48e4ff !important;
+    padding: 1px !important;
 }
 #ThisIsYours:hover {
 background-color: var(--bs-dark)!important;
@@ -225,7 +225,7 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 5px double #2047a6 !important;
+    border-top: 5px double #000 !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
