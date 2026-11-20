@@ -171,7 +171,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 5px double var(--bs-danger) !important;
+    border-top: 0.5rem double var(--bs-danger) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -224,7 +224,7 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 5px double #000 !important;
+    border-top: 0.5rem double #000 !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
@@ -793,9 +793,9 @@ font-family: "Space Mono", monospace !important;
     justify-content: left !important;
     align-items: center !important;
     color: var(--bs-gray-900)!important;
-    font-size: 16.5px !important;
-    line-height: 1.7 !important;
-    font-family: Arial, Helvetica, sans-serif!important;
+    font-size: 19px !important;
+    line-height: 1.6 !important;
+    font-family: Helvetica !important;
     text-align: left! important;
     padding: 5px !important;
 }
@@ -854,11 +854,11 @@ font-family: "Space Mono", monospace !important;
     font-size: 18px !important;
     justify-content: center !important;
     align-items: center !important;
-    font-weight: bold !important;
     padding: 20px !important;
     text-align: start !important;
-    line-height: 1.6 !important;
-    font-family: "Agrave Pro", cursive !important;
+    font-family: helvetica !important;
+    font-size: 19px !important;
+    line-height: 1.5 !important;
     color: #000 !important;
 }
 #TOBA{
