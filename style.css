@@ -224,7 +224,7 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 0.5rem double #000 !important;
+    border-top: 0.5rem double rgb(6, 117, 132) !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
@@ -399,7 +399,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 20px !important;
-    background-color: #2047a6!important;
+    background-color: rgb(6, 117, 132)!important;
 }
 #TOPO {
     align-items: center !important;
@@ -423,7 +423,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: #2047a6!important;
+    background-color: rgb(6, 117, 132)!important;
 }
 #Space-to-Footer {
     width: 100% !important;
@@ -783,7 +783,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
-    background-image: linear-gradient(to bottom, rgb(5, 100, 126), #fff)!important;
+    background-image: linear-gradient(to bottom, rgb(9, 107, 118), #fff)!important;
 }
 #HEAD{
     display: flex !important;
