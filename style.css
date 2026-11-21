@@ -112,7 +112,7 @@ html {
     font-family: "Space Mono", monospace!important;
 }
 body {
-    font-family: "Space Mono", monospace!important;
+    font-family: Arial, Helvetica, sans-serif!important;
     width: 100% !important;
     height: auto !important;
     overflow-x: hidden !important;
@@ -224,7 +224,7 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 0.5rem double rgb(6, 117, 132) !important;
+    border-top: 0.5rem solid rgb(6, 117, 132) !important;
     background-color: #fff !important;
     }
     #Navbar:hover{
@@ -388,9 +388,10 @@ li a:hover {
 #BOTTOBANNER {
     height: auto !important;
     background-color: #fff !important;
-    color: var(--bs-secondary) !important;
+    color: var(--bs-danger) !important;
     font-family: helvetica!important;
-    font-size: 11.8px !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
 }
 .footer {
     display: flex !important;
@@ -444,7 +445,7 @@ li a:hover {
 #Universities{
   font-family: Arial, Helvetica, sans-serif!important;  
   font-weight: bold !important;
-  color: #000 !important; 
+  color: var(--bs-danger) !important; 
   background-color: #fff !important;
 }
 #Lin a {
@@ -794,7 +795,7 @@ font-family: "Space Mono", monospace !important;
     align-items: center !important;
     color: var(--bs-gray-900)!important;
     font-size: 19px !important;
-    line-height: 1.6 !important;
+    line-height: 1.5 !important;
     font-family: Helvetica !important;
     text-align: left! important;
     padding: 5px !important;
