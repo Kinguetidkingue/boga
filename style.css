@@ -235,7 +235,7 @@ transition: 0.3s background-color ease-in-out !important;
     display: flex !important;
     flex-direction: row !important;
     width: 68px !important;
-    height: 57px !important;
+    height: 45px !important;
     padding: 10px !important;
     font-weight: bold !important;
     font-family: "Instrument Serif", serif!important;
@@ -794,7 +794,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: left !important;
     align-items: center !important;
     color: var(--bs-gray-900)!important;
-    font-size: 19px !important;
+    font-size: 18px !important;
     line-height: 1.5 !important;
     font-family: Helvetica !important;
     text-align: left! important;
@@ -853,18 +853,17 @@ font-family: "Space Mono", monospace !important;
     flex-direction: row !important;
     height: auto !important;
     width: 100% !important;
-    font-size: 18px !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 20px !important;
     text-align: start !important;
     font-family: helvetica !important;
-    font-size: 19px !important;
+    font-size: 18px !important;
     line-height: 1.5 !important;
     color: #000 !important;
 }
 #TOBA{
-    background-image: linear-gradient(to bottom, rgb(31, 199, 255), #fff)!important;
+    background-image: linear-gradient(to bottom, rgb(180, 217, 252), #fff)!important;
     color: #000 !important;
     font-family: Arial, Helvetica, sans-serif!important;
 }
