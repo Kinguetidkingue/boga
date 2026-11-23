@@ -224,11 +224,11 @@ transition: 0.3s background-color ease-in-out !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1 !important;
-    border-top: 0.4rem solid rgb(12, 132, 146) !important;
-    background-color: rgba(241, 253, 255, 0.966) !important;
+    border-top: 0.45rem solid rgb(12, 139, 153) !important;
+    background-color: #fff !important;
     }
     #Navbar:hover{
-        background-color: #fff !important;
+        background-color:rgb(237, 253, 255)!important;
         transition: 0.3s background-color ease-in-out;
     }
 #Logo {
@@ -297,21 +297,21 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     font-size: 12px !important;
     justify-content: end !important;
     min-width: auto !important;
-    height: 50px !important;
+    height: 45px !important;
     color: var(--bs-danger)! important;
     font-weight: bold !important;
-    border: 4px double rgb(12, 132, 146) !important;
-    border-top: 4px double var(--bs-danger)!important;
-    border-left: 4px double var(--bs-danger)!important;
+    border: 2px solid rgb(12, 132, 146) !important;
+    border-top: 2px solid var(--bs-danger)!important;
+    border-left: 2px solid var(--bs-danger)!important;
     font-family: Arial, Helvetica, sans-serif!important;   
-    border-top-left-radius: 2rem !important;
-    border-bottom-right-radius: 2rem !important;
+    border-top-left-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
 }
 #TOGGLICON:hover{
-    background-color: var(--bs-white) !important;
+    background-color: var(--bs-dark) !important;
     transition: 0.3s background-color ease-in-out!important;
-    color: #000 !important;
-    border: 4px double #2047a6 !important;
+    color: #fff !important;
+    border: 2px solid #000 !important;
 }
 #BOTON {
     background-image: linear-gradient(rgb(34, 109, 214), #ffffff3c) !important;
@@ -795,8 +795,8 @@ font-family: "Space Mono", monospace !important;
     align-items: center !important;
     color: var(--bs-gray-900)!important;
     font-size: 18px !important;
-    line-height: 1.5 !important;
-    font-family: Helvetica !important;
+    line-height: 1.6 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     text-align: left! important;
     padding: 5px !important;
 }
