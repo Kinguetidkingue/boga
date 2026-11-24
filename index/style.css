@@ -569,11 +569,11 @@ border: 1.5px solid #000 !important;
 #BLOK {
     width: 20rem !important;
     height: auto !important;
-    color: #000 !important;
+    color: #727272!important;
     box-shadow: 1px 2px 0.7rem 2px #b9b9b9f5 !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     font-family: Arial, Helvetica, sans-serif!important;
-    line-height: 1.4!important;
+    line-height: 1.45!important;
     border-top: 4px solid #098ab1 !important;
 }
 #BLOK:hover {
@@ -586,7 +586,7 @@ border: 1.5px solid #000 !important;
     font-family: Arial, Helvetica, sans-serif!important;
     width: 19rem !important;
     height: auto !important;
-    color: #000 !important;
+    color: #727272!important;
     border: none !important;
 }
 #BLOKE:hover{
@@ -600,7 +600,7 @@ border: 1.5px solid #000 !important;
     font-size: 15.25px !important;
     line-height: 1.5 !important;
     font-family: Arial, Helvetica, sans-serif!important;
-    color: #545454!important;
+    color: #727272!important;
 }
 #KROP:hover{
     color: #000 !important;
@@ -793,7 +793,7 @@ font-family: "Space Mono", monospace !important;
     height : auto !important;
     justify-content: left !important;
     align-items: center !important;
-    color: var(--bs-gray-900)!important;
+    color: #727272!important;
     font-size: 18px !important;
     line-height: 1.6 !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -860,7 +860,7 @@ font-family: "Space Mono", monospace !important;
     font-family: helvetica !important;
     font-size: 18px !important;
     line-height: 1.5 !important;
-    color: #000 !important;
+    color: #727272!important;
 }
 #TOBA{
     background-image: linear-gradient(to bottom, rgb(180, 217, 252), #fff)!important;
@@ -1003,7 +1003,8 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-}#Block-wrappe {
+}
+#Block-wrappe {
     width: 100% !important;
     height: auto !important;
     display: block !important;
@@ -1013,7 +1014,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color:#f1f1f1 !important;
+    background-color:#f2f2f2ef !important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
@@ -1033,11 +1034,12 @@ font-family: "Space Mono", monospace !important;
     width: 20rem !important;
     height: auto !important;
     display: block !important;
-    font-size: 16px !important;
-    font-family: Arial, Helvetica, sans-serif!important;
-    color: #000!important;
+    font-size: 15px !important;
+    font-family: Helvetica, sans-serif!important;
+    color: #727272!important;
     box-shadow: 0 0.5px 0.2rem 5px transparent !important;
     justify-content: center !important;
+    border-radius : 0.5rem !important;
     align-items: center !important;
     background-color: transparent !important;
 }
@@ -1129,9 +1131,9 @@ transition: 0.3s background-color ease-in-out !important;
     justify-content: center !important;
     align-items: center !important;
     font-family: Arial, Helvetica, sans-serif!important;
-    font-size: 15.25px !important;
+    font-size: 15px !important;
     line-height: 1.23 !important;
-    color: #0b2660 !important;
+    color: #727272 !important;
     background-color:  #fff !important;
     border: 1px solid gray !important;
 }
