@@ -171,7 +171,7 @@ transition: 0.3s background-color ease-in-out !important;
     padding: 2px !important;
     height: auto !important;
     background-color: #fff !important;
-    border-top: 0.3rem double var(--bs-danger) !important;
+    border-top: 4px double var(--bs-danger) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -300,7 +300,7 @@ background: linear-gradient(to right, var(--bs-primary), var(--bs-danger), rgb(1
     height: 45px !important;
     color: var(--bs-danger)! important;
     font-weight: bold !important;
-    border: 2px solid rgb(12, 132, 146) !important;
+    border: 2px solid rgb(12, 139, 153) !important;
     border-top: 2px solid var(--bs-danger)!important;
     border-left: 2px solid var(--bs-danger)!important;
     font-family: Arial, Helvetica, sans-serif!important;   
@@ -1014,7 +1014,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color:#f2f2f2ef !important;
+    background-color:#f5f5f5 !important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
