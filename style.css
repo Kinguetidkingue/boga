@@ -1014,9 +1014,7 @@ font-family: "Space Mono", monospace !important;
     padding-bottom: 20px !important;
     justify-content: center !important;
     align-items: center !important;
-    border-top: 0.8px solid var(--bs-gray-500)!important;
-    border-bottom: 0.8px solid var(--bs-gray-500)!important;
-    background-color:#f2f2f2 !important;
+    background-color:#f1f1f1 !important;
 }
 #PROGRAMLANGUAGE{
 background-color: transparent! important;
@@ -1042,11 +1040,8 @@ font-family: "Space Mono", monospace !important;
     box-shadow: 0 0.5px 0.2rem 5px transparent !important;
     justify-content: center !important;
     align-items: center !important;
-    border-radius: 10px !important;
-    border: 1px solid gray !important;
     background-color: transparent !important;
-}
-#Bootstrap:hover {
+}#Bootstrap:hover {
     transition: 0.3s box-shadow ease-in-out !important;
     color: #000 !important;
     box-shadow: 0 0.5px 0.2rem 5px var(--bs-dark) !important;
