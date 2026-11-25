@@ -156,7 +156,7 @@ body {
     font-family: "Agrave Pro", cursive !important;
     background-color: #000 !important;
     font-size: 15px !important;
-    color: #48e4ff !important;
+    color: rgb(255, 229, 80) !important;
 }
 #ThisIsYours:hover {
 background-color: var(--bs-dark)!important;
