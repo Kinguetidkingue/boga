@@ -187,7 +187,7 @@ transition: 0.3s background-color ease-in-out !important;
 }
 #PROUG:hover{
     background-color: rgb(8, 89, 98) !important;
-    color: rgb(20, 230, 254) !important;
+    color: rgb(80, 238, 255) !important;
     border-radius: 3rem !important;
     transition: 0.3s ease-in-out !important;
 }
@@ -196,6 +196,9 @@ transition: 0.3s background-color ease-in-out !important;
 }
 #offcanvasWithBothOptions{
     background-image: linear-gradient(var(--bs-danger), rgb(12, 139, 153)) !important;
+}
+.list-group-item{
+ border: none !important;
 }
 .list-group-item:hover{
  font-weight: bolder !important;
