@@ -788,7 +788,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
-    background-image: linear-gradient(to bottom, rgb(9, 107, 118), #fff)!important;
+    background-image: linear-gradient(to bottom, rgb(10, 133, 147), #fff)!important;
 }
 #HEAD{
     display: flex !important;
