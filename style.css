@@ -727,8 +727,7 @@ border: 2px solid var(--bs-danger)!important;
     width: 100% !important;
     height: auto !important;
     line-height: 1.8!important;
-    margin-bottom: 0.5rem !important;
-    border-radius: 1rem !important;
+    margin-bottom: 5px !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
 }
