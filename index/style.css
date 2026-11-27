@@ -144,7 +144,7 @@ body {
     font-size: 16px!important;
     line-height: 1.5 !important;
     color: rgb(2, 8, 31)! important;
-    border-top: 3.5px var(--bs-primary) dashed !important;
+    border: none !important;
     font-family: Arial, Helvetica, sans-serif!important;
     background-color: #fff !important;
 }
@@ -692,8 +692,8 @@ border: 2px solid var(--bs-danger)!important;
     height: auto !important;
     font-family: "Space Mono", monospace!important;
     background-color: #fff !important;
-    margin-bottom: 0.5rem !important;
-    border-radius: 1rem !important;
+    margin-bottom: 5px !important;
+    border: none !important;
 }
 #PADTOP{
     background-image: linear-gradient(to bottom, #fff,rgb(5, 100, 126))!important;
@@ -702,7 +702,8 @@ border: 2px solid var(--bs-danger)!important;
     color: #000!important;
     font-size: 16px !important;
     font-weight: light !important;
-    background-color: transparent!important;
+    border: none !important;
+    background-color: #fff!important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 #BOUTTE:hover{
@@ -814,6 +815,7 @@ font-family: "Space Mono", monospace !important;
     align-items: center !important;
     font-weight: bold !important;
     font-family: "Space Mono", monospace!important;
+    color: rgba(31, 83, 186, 0.9)!important;
 }
 #WEBODEVO{
     display: flex !important;
