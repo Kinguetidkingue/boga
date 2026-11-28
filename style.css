@@ -168,9 +168,9 @@ transition: 0.3s background-color ease-in-out !important;
     justify-content: center !important;
     align-items: center !important;
     width: 100%!important;
-    padding: 1px !important;
-    height: auto !important;
-    background-color: rgb(6, 117, 132) !important;
+    padding: auto !important;
+    height: 34px !important;
+    background-color: rgb(9, 145, 161) !important;
 }
 #OFFCANVAS{
     font-family: 'Times New Roman', Times, serif!important;
@@ -206,7 +206,7 @@ transition: 0.3s background-color ease-in-out !important;
 }
 #demo {
     width: 100% !important;
-    height: auto !important;
+    height: 35px !important;
     display: flex !important;
     justify-content: center !important; 
     align-items: center !important;
@@ -401,7 +401,7 @@ li a:hover {
     justify-content: center !important;
     align-items: center !important;
     padding: 20px !important;
-    background-color: rgb(6, 117, 132)!important;
+    background-color: rgb(9, 145, 161)!important;
 }
 #TOPO {
     align-items: center !important;
@@ -425,7 +425,7 @@ li a:hover {
 #Footer-space {
     width: 100% !important;
     height: auto !important;
-    background-color: rgb(6, 117, 132)!important;
+    background-color: rgb(9, 145, 161)!important;
 }
 #Space-to-Footer {
     width: 100% !important;
@@ -695,7 +695,7 @@ border: 2px solid var(--bs-danger)!important;
     border: none !important;
 }
 #PADTOP{
-    background-image: linear-gradient(to bottom, #fff,rgb(5, 100, 126))!important;
+    background-image: linear-gradient(to bottom, #fff,rgb(9, 145, 161))!important;
 }
 #BOUTTE{
     color: #000!important;
@@ -786,7 +786,7 @@ font-family: "Space Mono", monospace !important;
     justify-content: center !important;
     align-items: center !important;
     border: none !important;
-    background-image: linear-gradient(to bottom, rgb(10, 133, 147), #fff)!important;
+    background-image: linear-gradient(to bottom, rgb(9, 145, 161), #fff)!important;
 }
 #HEAD{
     display: flex !important;
