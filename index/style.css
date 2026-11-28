@@ -843,12 +843,13 @@ font-family: "Space Mono", monospace !important;
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: auto !important;
+    height: 50px !important;
     color: var(--bs-primary)!important;
     font-weight: bold !important;
     font-size: 40px !important;
     justify-content: right !important;
     align-items: right  !important;
+    line-height: normal !important;
     padding: 40px !important;
 }
 #BEGINNER {
